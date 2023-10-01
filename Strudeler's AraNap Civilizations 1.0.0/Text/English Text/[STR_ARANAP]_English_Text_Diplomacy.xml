@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [STR_ARANAP]_English_Text_Diplomacy -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 5/9/2022 3:16:19 PM -->
+<GameData>
+
+<!-- DIPLO TEXT -->
+	<LocalizedText>
+	<!-- FIRST MEET -->
+		<!-- First AI line -->
+		<Row	Tag="LOC_DIPLO_FIRST_MEET_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>You have arrived at the shores of Crown of Aragon. I am Alfonso, the Consulate of the Sea.</Text>
+		</Row>
+		<!-- AI Invitation to Visit nearby City -->
+		<Row	Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>The many ports of Aragon bid you welcome.</Text>
+		</Row>
+		<!-- AI Accepts Human Invitation -->
+		<Row	Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>A royal welcome.</Text>
+		</Row>
+		<!-- AI Invitation to Exchange Capital Information -->
+		<Row	Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>The Crown of Aragon has many great capitals, choose one, and witness true productivity.</Text>
+		</Row>
+	<!-- GREETINGS -->
+		<!-- Greetings -->
+		<Row	Tag="LOC_DIPLO_GREETING_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>Tell me, do you speak Latin?</Text>
+		</Row>
+	<!-- DELEGATION -->
+		<!-- AI Accepts -->
+		<Row	Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>As long as the delegation does not host any foreign pretenders.</Text>
+		</Row>
+		<!-- AI Rejects -->
+		<Row	Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>The seas grow too violent to approve of such an envoy.</Text>
+		</Row>
+		<!-- AI Requests -->
+		<Row	Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>I send a delegation of respected poets that speak in the Latin language. Perhaps they can aid your court in the complexities of rhetoric?</Text>
+		</Row>
+	<!-- OPEN BORDERS -->
+		<!-- AI Accepts from Human -->
+		<Row	Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>You may enter when ready.</Text>
+		</Row>
+		<!-- AI Rejects from Human -->
+		<Row	Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>You will have to find a different port.</Text>
+		</Row>
+		<!-- AI Requests from Human -->
+		<Row	Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>In these dire times of war and rumours of war, I ask for entry through your realm.</Text>
+		</Row>
+	<!-- DECLARE FRIENDSHIP -->
+		<!-- AI Accepts from Human -->
+		<Row	Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>A sculptor shall immortalize us together, and this day, forever.</Text>
+		</Row>
+		<!-- AI Rejects from Human -->
+		<Row	Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>I can not commit to such an agreement.</Text>
+		</Row>
+		<!-- AI Requests Friendship from Human -->
+		<Row	Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>You are deft in the art of rhetoric. Please, join Aragon in friendship.</Text>
+		</Row>
+		<!-- Human Accepts AI Requests, AI Responds -->
+		<Row	Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>The occasion calls for a celebration.</Text>
+		</Row>
+		<!-- Human Rejects AI Requests, AI Responds -->
+		<Row	Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>Perhaps, my rhetoric is inferior then.</Text>
+		</Row>
+	<!-- ALLIANCE -->
+		<!-- AI Requests an alliance from human -->
+		<Row	Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>Your apptitude for diplomacy has shown me one thing: an alliance would be invaluable.</Text>
+		</Row>
+	<!-- KUDOS AND WARNINGS -->
+		<!-- AI Kudos -->
+		<Row	Tag="LOC_DIPLO_KUDO_EXIT_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>You are adept in speech; I know have gathered much knowledge in your diplomacy.</Text>
+		</Row>
+		<!-- AI Warnings -->
+		<Row	Tag="LOC_DIPLO_WARNING_EXIT_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>Speech is essential for the governance of the state; do you know how much knowledge you will lose out on?</Text>
+		</Row>
+		<!-- AI Warns Player for Border Troops -->
+		<Row	Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>Your actions are being monitored.</Text>
+		</Row>
+	<!-- TRADE -->
+		<!-- AI Accepts Deal -->
+		<Row	Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>The merchants shall enjoy the security established by the Book of the Consulate of the Sea.</Text>
+		</Row>
+		<!-- AI Rejects Deal -->
+		<Row	Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>It cannot be done.</Text>
+		</Row>
+	<!-- DENOUNCE -->
+		<!-- From Human -->
+		<Row	Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>...You call that rhetoric?</Text>
+		</Row>
+		<!-- From AI -->
+		<Row	Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>...And further more, your governance is a blight upon God's green Earth. (Denounces You)</Text>
+		</Row>
+		<!-- Rationale -->
+		<Row	Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA"
+				Language="en_US">
+			<Text>(Your lack of rhetoric, or lack of gossip, is an insult to him.)</Text>
+		</Row>
+	<!-- DECLARE WAR -->
+		<!-- Human Declares War -->
+		<Row	Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>At last! When the tongue fails, all that is left is the sword!</Text>
+		</Row>
+		<!-- AI Declares War -->
+		<Row	Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>The pen is backed by the sword!</Text>
+		</Row>
+	<!-- MAKE PEACE -->
+		<!-- AI Accepts from Human -->
+		<Row	Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>Let us return to normality.</Text>
+		</Row>
+		<!-- AI Refuses Human -->
+		<Row	Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>Blood and iron are the most honest of muses.</Text>
+		</Row>
+		<!-- AI Requests from Human -->
+		<Row	Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>Give thanks to God fo it is all done.</Text>
+		</Row>
+	<!-- DEFEAT -->
+		<!-- AI is Defeated -->
+		<Row	Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>All the titles under Aragon: shattered. Sent to deep to serve the devil Neptune.</Text>
+		</Row>
+		<!-- Human is Defeated (Visible in Hot Seat) -->
+		<Row	Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>All the titles under Aragon: shattered. Sent to deep to serve the devil Neptune.</Text>
+		</Row>
+	<!-- FIRST MEET -->
+		<!-- First AI line -->
+		<Row	Tag="LOC_DIPLO_FIRST_MEET_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>You have arrived at the shores of Crown of Aragon. I am Alfonso, the Consulate of the Sea.</Text>
+		</Row>
+		<!-- AI Invitation to Visit nearby City -->
+		<Row	Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>The many ports of Naples bid you welcome.</Text>
+		</Row>
+		<!-- AI Accepts Human Invitation -->
+		<Row	Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>A royal welcome.</Text>
+		</Row>
+		<!-- AI Invitation to Exchange Capital Information -->
+		<Row	Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>The Crown of Aragon has many great capitals, choose one, and witness true productivity.</Text>
+		</Row>
+	<!-- GREETINGS -->
+		<!-- Greetings -->
+		<Row	Tag="LOC_DIPLO_GREETING_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>Tell me, do you speak Latin?</Text>
+		</Row>
+	<!-- DELEGATION -->
+		<!-- AI Accepts -->
+		<Row	Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>As long as the delegation does not host any foreign pretenders.</Text>
+		</Row>
+		<!-- AI Rejects -->
+		<Row	Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>The seas grow too violent to approve of such an envoy.</Text>
+		</Row>
+		<!-- AI Requests -->
+		<Row	Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>I send a delegation of respected poets that speak in the Latin language. Perhaps they can aid your court in the complexities of rhetoric?</Text>
+		</Row>
+	<!-- OPEN BORDERS -->
+		<!-- AI Accepts from Human -->
+		<Row	Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>You may enter when ready.</Text>
+		</Row>
+		<!-- AI Rejects from Human -->
+		<Row	Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>You will have to find a different port.</Text>
+		</Row>
+		<!-- AI Requests from Human -->
+		<Row	Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>In these dire times of war and rumours of war, I ask for entry through your realm.</Text>
+		</Row>
+	<!-- DECLARE FRIENDSHIP -->
+		<!-- AI Accepts from Human -->
+		<Row	Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>A sculptor shall immortalize us together, and this day, forever.</Text>
+		</Row>
+		<!-- AI Rejects from Human -->
+		<Row	Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>I can not commit to such an agreement.</Text>
+		</Row>
+		<!-- AI Requests Friendship from Human -->
+		<Row	Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>You are deft in the art of rhetoric. Please, join Naples in friendship.</Text>
+		</Row>
+		<!-- Human Accepts AI Requests, AI Responds -->
+		<Row	Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>The occasion calls for a celebration.</Text>
+		</Row>
+		<!-- Human Rejects AI Requests, AI Responds -->
+		<Row	Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>Perhaps, my rhetoric is inferior then.</Text>
+		</Row>
+	<!-- ALLIANCE -->
+		<!-- AI Requests an alliance from human -->
+		<Row	Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>Your apptitude for diplomacy has shown me one thing: an alliance would be invaluable.</Text>
+		</Row>
+	<!-- KUDOS AND WARNINGS -->
+		<!-- AI Kudos -->
+		<Row	Tag="LOC_DIPLO_KUDO_EXIT_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>You are adept in speech; I know have gathered much knowledge in your diplomacy.</Text>
+		</Row>
+		<!-- AI Warnings -->
+		<Row	Tag="LOC_DIPLO_WARNING_EXIT_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>Speech is essential for the governance of the state; do you know how much knowledge you will lose out on?</Text>
+		</Row>
+		<!-- AI Warns Player for Border Troops -->
+		<Row	Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>Your actions are being monitored.</Text>
+		</Row>
+	<!-- TRADE -->
+		<!-- AI Accepts Deal -->
+		<Row	Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>The merchants shall enjoy the security established by the Book of the Consulate of the Sea.</Text>
+		</Row>
+		<!-- AI Rejects Deal -->
+		<Row	Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>It cannot be done.</Text>
+		</Row>
+	<!-- DENOUNCE -->
+		<!-- From Human -->
+		<Row	Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>...You call that rhetoric?</Text>
+		</Row>
+		<!-- From AI -->
+		<Row	Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>...And further more, your governance is a blight upon God's green Earth. (Denounces You)</Text>
+		</Row>
+		<!-- Rationale -->
+		<Row	Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA"
+				Language="en_US">
+			<Text>(Your lack of rhetoric, or lack of gossip, is an insult to him.)</Text>
+		</Row>
+	<!-- DECLARE WAR -->
+		<!-- Human Declares War -->
+		<Row	Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>At last! When the tongue fails, all that is left is the sword!</Text>
+		</Row>
+		<!-- AI Declares War -->
+		<Row	Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>The pen is backed by the sword!</Text>
+		</Row>
+	<!-- MAKE PEACE -->
+		<!-- AI Accepts from Human -->
+		<Row	Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>Let us return to normality.</Text>
+		</Row>
+		<!-- AI Refuses Human -->
+		<Row	Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>Blood and iron are the most honest of muses.</Text>
+		</Row>
+		<!-- AI Requests from Human -->
+		<Row	Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>Give thanks to God fo it is all done.</Text>
+		</Row>
+	<!-- DEFEAT -->
+		<!-- AI is Defeated -->
+		<Row	Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>All the titles under Aragon: shattered. Sent to deep to serve the devil Neptune.</Text>
+		</Row>
+		<!-- Human is Defeated (Visible in Hot Seat) -->
+		<Row	Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_ANY"
+				Language="en_US">
+			<Text>All the titles under Aragon: shattered. Sent to deep to serve the devil Neptune.</Text>
+		</Row>
+	</LocalizedText>
+
+</GameData>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<Delete Type="PROJECT_ENHANCE_DISTRICT_HOLY_SITE"/>
+		<Row Type="PROJECT_ENHANCE_DISTRICT_HOLY_SITE" Kind="KIND_PROJECT"/>
+	</Types>
+	<Projects>
+		<Row ProjectType="PROJECT_ENHANCE_DISTRICT_HOLY_SITE" Name="LOC_PROJECT_ENHANCE_DISTRICT_HOLY_SITE_NAME" ShortName="LOC_PROJECT_ENHANCE_DISTRICT_HOLY_SITE_SHORT_NAME" Description="LOC_PROJECT_ENHANCE_DISTRICT_HOLY_SITE_DESCRIPTION" PrereqDistrict="DISTRICT_HOLY_SITE" Cost="25" AdvisorType="ADVISOR_RELIGIOUS" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="1500"/>
+	</Projects>
+	<Project_GreatPersonPoints>
+		<Row ProjectType="PROJECT_ENHANCE_DISTRICT_HOLY_SITE" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" Points="10" PointProgressionModel="COST_PROGRESSION_GAME_PROGRESS" PointProgressionParam1="800"/>
+	</Project_GreatPersonPoints>
+	<Projects_XP2>
+		<Row ProjectType="PROJECT_ENHANCE_DISTRICT_HOLY_SITE" ReligiousPressureModifier="200"/>
+	</Projects_XP2>
+	<Project_YieldConversions>
+		<Row ProjectType="PROJECT_ENHANCE_DISTRICT_HOLY_SITE" YieldType="YIELD_FAITH" PercentOfProductionRate="50"/>
+	</Project_YieldConversions>	
+</GameInfo>

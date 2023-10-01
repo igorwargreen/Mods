@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+	<ModifierArguments>
+		<Delete ModifierId="JUST_WAR_COMBAT_BONUS_MODIFIER"/>
+		<Row>
+			<ModifierId>JUST_WAR_COMBAT_BONUS_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+	</ModifierArguments>
+	</Modifiers>
+		<Row>
+			<ModifierId>JUST_WAR_COMBAT_BONUS_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+	<Modifiers>
+	<ModifierStrings>
+		<Row ModifierId="JUST_WAR_COMBAT_BONUS_MODIFIER" Context="Preview" Text="LOC_PROMOTION_JUST_WAR_DESCRIPTION"/>
+	</ModifierStrings>
+</GameInfo>

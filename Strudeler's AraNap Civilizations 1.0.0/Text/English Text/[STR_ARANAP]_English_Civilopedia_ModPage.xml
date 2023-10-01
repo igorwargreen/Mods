@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [STR_ARANAP]_English_Civlopedia_ModPage -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 5/9/2022 3:15:34 PM -->
+<GameData>
+
+	<LocalizedText>
+		<!-- GROUP NAME -->
+		<Row	Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_STRUDELERS_ARAGON_NAPLES_MOD_NAME"
+				Language="en_US">
+			<Text>Aragon and Naples</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_STRUDELERS_ARAGON_NAPLES_MOD_NAME"
+				Language="ru_RU">
+			<Text>Арагон и Неаполь</Text>
+		</Row>
+		<!-- INTRODUCTION -->
+		<Row	Tag="LOC_PEDIA_CONCEPTS_PAGE_STRUDELERS_ARAGON_NAPLES_MOD_01_TITLE"
+				Language="en_US">
+			<Text>Summary</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_CONCEPTS_PAGE_STRUDELERS_ARAGON_NAPLES_MOD_01_TITLE"
+				Language="ru_RU">
+			<Text>Краткое содержание</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_CONCEPTS_PAGE_STRUDELERS_ARAGON_NAPLES_MOD_01_CHAPTER_CONTENT_PARA_1"
+				Language="en_US">
+			<Text>
+				-Adds Aragon and Naples led by Alfonso V/I the Magnanimous.
+				[NEWLINE]-Compatible with Strudeler's Civilization VI Deluxe, and (maybe) other leaders and civilizations created by Strudeler.
+				[NEWLINE][NEWLINE]-Alfonso V/I Trait/Renaissance King: +30% [ICON_Production] Production towards the Aqueduct, Entertainment Complex, and Water Park. +10% [ICON_GreatPerson] Great People points for every Aqueduct, Entertainment Complex, and Water Park built in the city. Aqueducts, Entertainment Complexes, and Water Parks gain +1 of all yields, doubled after entering the Renaissance era.
+				[NEWLINE]-Alfonso V/I Agenda/Latin Rhetoric: Likes civilizations that gossip. Dislikes civilizations that do not gossip.
+				[NEWLINE][NEWLINE]-Aragon Trait/Forum of the Crown of Aragon: Capturing a city grants a [ICON_Governor] Governor title, up to 7 [ICON_Governor] Governor titles can be claimed through conquest. Cities with a [ICON_Governor] Governor gain +1 [ICON_Amenities] Amenity and +2 Loyalty, doubled if the city was not founded.
+				[NEWLINE]-Aragon Unit/Almugávares: Replaces the Pikeman. Costs 1 [ICON_Citizen] Population to produce. Ignores [ICON_Movement] Movement penalties from embarking and disembarking. +10 [ICON_Strength] Combat Strength with Gunpowder.
+				[NEWLINE]-Aragon Building/Cortz: Replaces the Arena. +1 Loyalty and +2 [ICON_Amenities] Amenities, additional +2 Loyalty if the city was not founded. +2 [ICON_Culture] Culture and [ICON_Tourism] Tourism, doubled if the city was not founded. +0.5 [ICON_Culture] Culture for every coast or lake tile in the city.
+				[NEWLINE][NEWLINE]-Naples Trait/Between the Two Faros: Land specialty districts gain standard [ICON_Gold] Gold adjacency from coast or lake tiles; coastal specialty districts gain minor [ICON_Gold] Gold adjacency from coast or lake tiles. Cities founded adjacent to a coast or lake tile gain +1 Appeal on all tiles.
+				[NEWLINE]-Naples Unit/Schermagliatore: Replaces the Caravel. Available at Naval Tradition. Weak when not on coast tiles; +1 Sight, +2 [ICON_Movement] Movement, and +7 [ICON_Strength] Combat Strength when on coast tiles. +10 [ICON_Strength] Combat Strength with Cartogtaphy.
+				[NEWLINE]-Naples Building/Villa: Replaces the Zoo. Available at Buttress. High maintenance. +2 [ICON_Housing] Housing and +3 [ICON_Amenities] Amenities. The Entertainment Complex gains +1 [ICON_Culture] Culture if the tile has Charming Appeal, tripled if the tile has Breathtaking Appeal. Has 2 [ICON_GreatWork_Landscape] Great Work of Art slots that are automatically themed when full.
+				[NEWLINE][NEWLINE]-This mod uses in-game assets remixed for the Almugávares and Schermagliatore.
+				[NEWLINE]-Aragon uses Spanish, Aragonese, or Catalonian names (cities, geographic landmarks, citizens).
+				[NEWLINE]-Naples uses Italian, Neapolitan, or Sicilian names (cities, geographic landmarks, citizens).
+				[NEWLINE]-TSL support for Firaxis Standard Earth, YnAMP: Giant Earth, and YnAMP: Greatest Earth Map.
+				[NEWLINE]-Historic information can be found on Wikipedia.
+			</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_CONCEPTS_PAGE_STRUDELERS_ARAGON_NAPLES_MOD_01_CHAPTER_CONTENT_PARA_2"
+				Language="en_US">
+			<Text>
+				[COLOR:Red]VERSION 1.0.0 (CURRENT)[ENDCOLOR]
+				[NEWLINE]-Welcome to the launch!
+			</Text>
+		</Row>
+	</LocalizedText>
+
+</GameData>

@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [STR_ARANAP]_Civilizations -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 5/9/2022 2:45:46 PM -->
+<GameData>
+
+	<!-- ARAGON | CIVILIZATION -->
+	<Types>
+		<Row	Type="CIVILIZATION_STR_ARAGON"
+				Kind="KIND_CIVILIZATION"/>
+		<Row	Type="TRAIT_CIVILIZATION_STR_ARAGON_FORUM_OF_THE_CROWN_OF_ARAGON"
+				Kind="KIND_TRAIT"/>
+		<Row	Type="TRAIT_CIVILIZATION_STR_ARAGON_ALMUGAVARES"
+				Kind="KIND_TRAIT"/>
+		<Row	Type="TRAIT_CIVILIZATION_STR_ARAGON_CORTZ"
+				Kind="KIND_TRAIT"/>
+	</Types>
+	<Civilizations>
+		<Row	CivilizationType="CIVILIZATION_STR_ARAGON"
+				Name="LOC_CIVILIZATION_STR_ARAGON_NAME"
+				Description="LOC_CIVILIZATION_STR_ARAGON_DESCRIPTION"
+				Adjective="LOC_CIVILIZATION_STR_ARAGON_ADJECTIVE"
+				StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV"
+				RandomCityNameDepth="10"
+				Ethnicity="ETHNICITY_MEDIT"/>
+	</Civilizations>
+	<CivilizationInfo>
+		<Row	CivilizationType="CIVILIZATION_STR_ARAGON"
+				Header="LOC_CIVINFO_LOCATION"
+				Caption="LOC_CIVINFO_STR_ARAGON_LOCATION"
+				SortIndex="10"/>
+		<Row	CivilizationType="CIVILIZATION_STR_ARAGON"
+				Header="LOC_CIVINFO_SIZE"
+				Caption="LOC_CIVINFO_STR_ARAGON_SIZE"
+				SortIndex="20"/>
+		<Row	CivilizationType="CIVILIZATION_STR_ARAGON"
+				Header="LOC_CIVINFO_POPULATION"
+				Caption="LOC_CIVINFO_STR_ARAGON_POPULATION"
+				SortIndex="30"/>
+		<Row	CivilizationType="CIVILIZATION_STR_ARAGON"
+				Header="LOC_CIVINFO_CAPITAL"
+				Caption="LOC_CIVINFO_STR_ARAGON_CAPITAL"
+				SortIndex="40"/>
+	</CivilizationInfo>
+	<CivilizationLeaders>
+		<Row	CivilizationType="CIVILIZATION_STR_ARAGON"
+				LeaderType="LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA"
+				CapitalName="LOC_CITY_NAME_STR_ARAGON_1"/>
+	</CivilizationLeaders>
+	<CivilizationTraits>
+		<Row	CivilizationType="CIVILIZATION_STR_ARAGON"
+				TraitType="TRAIT_CIVILIZATION_STR_ARAGON_FORUM_OF_THE_CROWN_OF_ARAGON"/>
+		<Row	CivilizationType="CIVILIZATION_STR_ARAGON"
+				TraitType="TRAIT_CIVILIZATION_STR_ARAGON_ALMUGAVARES"/>
+		<Row	CivilizationType="CIVILIZATION_STR_ARAGON"
+				TraitType="TRAIT_CIVILIZATION_STR_ARAGON_CORTZ"/>
+	</CivilizationTraits>
+	<Traits>
+		<Row	TraitType="TRAIT_CIVILIZATION_STR_ARAGON_FORUM_OF_THE_CROWN_OF_ARAGON"
+				Name="LOC_TRAIT_CIVILIZATION_STR_ARAGON_FORUM_OF_THE_CROWN_OF_ARAGON_NAME"
+				Description="LOC_TRAIT_CIVILIZATION_STR_ARAGON_FORUM_OF_THE_CROWN_OF_ARAGON_DESCRIPTION" />
+		<Row	TraitType="TRAIT_CIVILIZATION_STR_ARAGON_ALMUGAVARES"
+				Name="LOC_UNIT_STR_ARAGON_ALMUGAVARES_NAME"
+				Description="LOC_UNIT_STR_ARAGON_ALMUGAVARES_DESCRIPTION"/>
+		<Row	TraitType="TRAIT_CIVILIZATION_STR_ARAGON_CORTZ"
+				Name="LOC_BUILDING_STR_ARAGON_CORTZ_NAME"
+				Description="LOC_BUILDING_STR_ARAGON_CORTZ_DESCRIPTION"/>
+	</Traits>
+	<StartBiasTerrains>
+		<Row	CivilizationType="CIVILIZATION_STR_ARAGON"
+				TerrainType="TERRAIN_COAST"
+				Tier="3"/>
+	</StartBiasTerrains>
+
+	<!-- ARAGON | CIVILIZATION TRAIT -->
+	<Modifiers>
+		<!-- GOVERNOR TITLE FROM CITY CONQUEST -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_ARAGON_FORUM_OF_THE_CROWN_OF_ARAGON_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPTURED_CITY_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_ARAGON_FORUM_OF_THE_CROWN_OF_ARAGON_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GOVERNOR_POINTS</ModifierType>
+			<SubjectStackLimit>7</SubjectStackLimit>
+			<Permanent>true</Permanent>
+			<RunOnce>true</RunOnce>
+		</Row>
+		<!-- GOVERNOR BONUSES -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_ARAGON_FORUM_OF_THE_CROWN_OF_ARAGON_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IDENTITY_PER_TURN</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_ASSIGNED_GOVERNOR</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_ARAGON_FORUM_OF_THE_CROWN_OF_ARAGON_3</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_ASSIGNED_GOVERNOR</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_ARAGON_FORUM_OF_THE_CROWN_OF_ARAGON_4</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IDENTITY_PER_TURN</ModifierType>
+			<SubjectRequirementSetId>STR_ARAGON_CITY_WAS_NOT_FOUNDED_AND_HAS_GOVERNOR_REQUIREMENTS_1</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_ARAGON_FORUM_OF_THE_CROWN_OF_ARAGON_5</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
+			<SubjectRequirementSetId>STR_ARAGON_CITY_WAS_NOT_FOUNDED_AND_HAS_GOVERNOR_REQUIREMENTS_1</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- GOVERNOR TITLE FROM CITY CONQUEST -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_ARAGON_FORUM_OF_THE_CROWN_OF_ARAGON_1</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRAIT_CIVILIZATION_STR_ARAGON_FORUM_OF_THE_CROWN_OF_ARAGON_MOD_1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_ARAGON_FORUM_OF_THE_CROWN_OF_ARAGON_MOD_1</ModifierId>
+			<Name>Delta</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- GOVERNOR BONUSES -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_ARAGON_FORUM_OF_THE_CROWN_OF_ARAGON_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_ARAGON_FORUM_OF_THE_CROWN_OF_ARAGON_3</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_ARAGON_FORUM_OF_THE_CROWN_OF_ARAGON_4</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_ARAGON_FORUM_OF_THE_CROWN_OF_ARAGON_5</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<TraitModifiers>
+		<!-- GOVERNOR TITLE FROM CITY CONQUEST -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_STR_ARAGON_FORUM_OF_THE_CROWN_OF_ARAGON</TraitType>
+			<ModifierId>TRAIT_CIVILIZATION_STR_ARAGON_FORUM_OF_THE_CROWN_OF_ARAGON_1</ModifierId>
+		</Row>
+		<!-- GOVERNOR BONUSES -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_STR_ARAGON_FORUM_OF_THE_CROWN_OF_ARAGON</TraitType>
+			<ModifierId>TRAIT_CIVILIZATION_STR_ARAGON_FORUM_OF_THE_CROWN_OF_ARAGON_2</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_STR_ARAGON_FORUM_OF_THE_CROWN_OF_ARAGON</TraitType>
+			<ModifierId>TRAIT_CIVILIZATION_STR_ARAGON_FORUM_OF_THE_CROWN_OF_ARAGON_3</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_STR_ARAGON_FORUM_OF_THE_CROWN_OF_ARAGON</TraitType>
+			<ModifierId>TRAIT_CIVILIZATION_STR_ARAGON_FORUM_OF_THE_CROWN_OF_ARAGON_4</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_STR_ARAGON_FORUM_OF_THE_CROWN_OF_ARAGON</TraitType>
+			<ModifierId>TRAIT_CIVILIZATION_STR_ARAGON_FORUM_OF_THE_CROWN_OF_ARAGON_5</ModifierId>
+		</Row>
+	</TraitModifiers>
+
+	<!-- NAPLES | CIVILIZATION -->
+	<Types>
+		<Row	Type="CIVILIZATION_STR_NAPLES"
+				Kind="KIND_CIVILIZATION"/>
+		<Row	Type="TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS"
+				Kind="KIND_TRAIT"/>
+		<Row	Type="TRAIT_CIVILIZATION_STR_NAPLES_SCHERMAGLIATORE"
+				Kind="KIND_TRAIT"/>
+		<Row	Type="TRAIT_CIVILIZATION_STR_NAPLES_VILLA"
+				Kind="KIND_TRAIT"/>
+	</Types>
+	<Civilizations>
+		<Row	CivilizationType="CIVILIZATION_STR_NAPLES"
+				Name="LOC_CIVILIZATION_STR_NAPLES_NAME"
+				Description="LOC_CIVILIZATION_STR_NAPLES_DESCRIPTION"
+				Adjective="LOC_CIVILIZATION_STR_NAPLES_ADJECTIVE"
+				StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV"
+				RandomCityNameDepth="10"
+				Ethnicity="ETHNICITY_MEDIT"/>
+	</Civilizations>
+	<CivilizationInfo>
+		<Row	CivilizationType="CIVILIZATION_STR_NAPLES"
+				Header="LOC_CIVINFO_LOCATION"
+				Caption="LOC_CIVINFO_STR_NAPLES_LOCATION"
+				SortIndex="10"/>
+		<Row	CivilizationType="CIVILIZATION_STR_NAPLES"
+				Header="LOC_CIVINFO_SIZE"
+				Caption="LOC_CIVINFO_STR_NAPLES_SIZE"
+				SortIndex="20"/>
+		<Row	CivilizationType="CIVILIZATION_STR_NAPLES"
+				Header="LOC_CIVINFO_POPULATION"
+				Caption="LOC_CIVINFO_STR_NAPLES_POPULATION"
+				SortIndex="30"/>
+		<Row	CivilizationType="CIVILIZATION_STR_NAPLES"
+				Header="LOC_CIVINFO_CAPITAL"
+				Caption="LOC_CIVINFO_STR_NAPLES_CAPITAL"
+				SortIndex="40"/>
+	</CivilizationInfo>
+	<CivilizationLeaders>
+		<Row	CivilizationType="CIVILIZATION_STR_NAPLES"
+				LeaderType="LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA"
+				CapitalName="LOC_CITY_NAME_STR_NAPLES_1"/>
+	</CivilizationLeaders>
+	<CivilizationTraits>
+		<Row	CivilizationType="CIVILIZATION_STR_NAPLES"
+				TraitType="TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS"/>
+		<Row	CivilizationType="CIVILIZATION_STR_NAPLES"
+				TraitType="TRAIT_CIVILIZATION_STR_NAPLES_VILLA"/>
+	</CivilizationTraits>
+	<Traits>
+		<Row	TraitType="TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS"
+				Name="LOC_TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_NAME"
+				Description="LOC_TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_DESCRIPTION" />
+		<Row	TraitType="TRAIT_CIVILIZATION_STR_NAPLES_SCHERMAGLIATORE"
+				Name="LOC_UNIT_STR_NAPLES_SCHERMAGLIATORE_NAME"
+				Description="LOC_UNIT_STR_NAPLES_SCHERMAGLIATORE_DESCRIPTION"/>
+		<Row	TraitType="TRAIT_CIVILIZATION_STR_NAPLES_VILLA"
+				Name="LOC_BUILDING_STR_NAPLES_VILLA_NAME"
+				Description="LOC_BUILDING_STR_NAPLES_VILLA_DESCRIPTION"/>
+	</Traits>
+	<StartBiasTerrains>
+		<Row	CivilizationType="CIVILIZATION_STR_NAPLES"
+				TerrainType="TERRAIN_COAST"
+				Tier="3"/>
+	</StartBiasTerrains>
+
+	<!-- NAPLES | CIVILIZATION TRAIT -->
+	<Modifiers>
+		<!-- GOLD ADJACENCY IN CAMPUS -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<!-- GOLD ADJACENCY IN THEATER SQUARE -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<!-- GOLD ADJACENCY IN HOLY SITE -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_3</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<!-- GOLD ADJACENCY IN ENCAMPMENT -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_4</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<!-- GOLD ADJACENCY IN COMMERCIAL HUB -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_5</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<!-- GOLD ADJACENCY IN INDUSTRIAL ZONE -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_6</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<!-- GOLD ADJACENCY IN ENTERTAINMENT COMPLEX -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_7</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<!-- GOLD ADJACENCY IN WATER PARK -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_8</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<!-- GOLD ADJACENCY IN AERODROME -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_9</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<!-- GOLD ADJACENCY IN HARBOUR -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_10</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<!-- APPEAL IN CITY FROM ADJACENT COAST -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_11</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_APPEAL</ModifierType>
+			<SubjectRequirementSetId>STR_NAPLES_DISTRICT_IS_ADJACENT_TO_COAST_REQUIREMENTS_1</SubjectRequirementSetId>
+			<SubjectStackLimit>1</SubjectStackLimit>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- GOLD ADJACENCY IN CAMPUS -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_1</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CAMPUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_1</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_COAST</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_1</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_1</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_1</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_STR_NAPLES_DESCRIPTION_1</Value>
+		</Row>
+		<!-- GOLD ADJACENCY IN THEATER SQUARE -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_2</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_THEATER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_2</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_COAST</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_2</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_2</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_2</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_STR_NAPLES_DESCRIPTION_1</Value>
+		</Row>
+		<!-- GOLD ADJACENCY IN HOLY SITE -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_3</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_3</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_COAST</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_3</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_3</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_3</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_3</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_STR_NAPLES_DESCRIPTION_1</Value>
+		</Row>
+		<!-- GOLD ADJACENCY IN ENCAMPMENT -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_4</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_ENCAMPMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_4</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_COAST</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_4</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_4</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_4</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_4</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_STR_NAPLES_DESCRIPTION_1</Value>
+		</Row>
+		<!-- GOLD ADJACENCY IN COMMERCIAL HUB -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_5</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_COMMERCIAL_HUB</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_5</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_COAST</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_5</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_5</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_5</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_5</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_STR_NAPLES_DESCRIPTION_1</Value>
+		</Row>
+		<!-- GOLD ADJACENCY IN INDUSTRIAL ZONE -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_6</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_6</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_COAST</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_6</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_6</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_6</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_6</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_STR_NAPLES_DESCRIPTION_1</Value>
+		</Row>
+		<!-- GOLD ADJACENCY IN ENTERTAINMENT COMPLEX -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_7</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_ENTERTAINMENT_COMPLEX</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_7</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_COAST</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_7</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_7</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_7</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_7</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_STR_NAPLES_DESCRIPTION_1</Value>
+		</Row>
+		<!-- GOLD ADJACENCY IN WATER PARK -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_8</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_WATER_ENTERTAINMENT_COMPLEX</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_8</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_COAST</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_8</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_8</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_8</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_8</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_STR_NAPLES_DESCRIPTION_1</Value>
+		</Row>
+		<!-- GOLD ADJACENCY IN AERODROME -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_9</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_AERODROME</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_9</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_COAST</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_9</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_9</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_9</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_9</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_STR_NAPLES_DESCRIPTION_1</Value>
+		</Row>
+		<!-- GOLD ADJACENCY IN HARBOUR -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_10</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HARBOR</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_10</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_COAST</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_10</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_10</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_10</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_10</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_STR_NAPLES_DESCRIPTION_1</Value>
+		</Row>
+		<!-- APPEAL IN CITY FROM ADJACENT COAST -->
+		<Row>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_11</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<TraitModifiers>
+		<!-- GOLD ADJACENCY IN CAMPUS -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS</TraitType>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_1</ModifierId>
+		</Row>
+		<!-- GOLD ADJACENCY IN THEATER SQUARE -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS</TraitType>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_2</ModifierId>
+		</Row>
+		<!-- GOLD ADJACENCY IN HOLY SITE -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS</TraitType>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_3</ModifierId>
+		</Row>
+		<!-- GOLD ADJACENCY IN ENCAMPMENT -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS</TraitType>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_4</ModifierId>
+		</Row>
+		<!-- GOLD ADJACENCY IN COMMERCIAL HUB -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS</TraitType>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_5</ModifierId>
+		</Row>
+		<!-- GOLD ADJACENCY IN INDUSTRIAL ZONE -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS</TraitType>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_6</ModifierId>
+		</Row>
+		<!-- GOLD ADJACENCY IN ENTERTAINMENT COMPLEX -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS</TraitType>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_7</ModifierId>
+		</Row>
+		<!-- GOLD ADJACENCY IN WATER PARK -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS</TraitType>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_8</ModifierId>
+		</Row>
+		<!-- GOLD ADJACENCY IN AERODROME -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS</TraitType>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_9</ModifierId>
+		</Row>
+		<!-- GOLD ADJACENCY IN HARBOUR -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS</TraitType>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_10</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<DistrictModifiers>
+		<!-- APPEAL IN CITY FROM ADJACENT COAST -->
+		<Row>
+			<DistrictType>DISTRICT_CITY_CENTER</DistrictType>
+			<ModifierId>TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_11</ModifierId>
+		</Row>
+	</DistrictModifiers>
+
+	<!-- ARAGON/NAPLES | CIVILIZATION REQUIREMENTS -->
+	<RequirementSets>
+		<!-- CITY WAS NOT FOUNDED AND HAS GOVERNOR -->
+		<Row>
+			<RequirementSetId>STR_ARAGON_CITY_WAS_NOT_FOUNDED_AND_HAS_GOVERNOR_REQUIREMENTS_1</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!-- PLAYER IS NAPLES -->
+		<Row>
+			<RequirementSetId>STR_NAPLES_PLAYER_IS_NAPLES_REQUIREMENTS_1</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!-- ADJACENT TO COAST -->
+		<Row>
+			<RequirementSetId>STR_NAPLES_DISTRICT_IS_ADJACENT_TO_COAST_REQUIREMENTS_1</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<!-- CITY WAS NOT FOUNDED AND HAS GOVERNOR -->
+		<Row>
+			<RequirementSetId>STR_ARAGON_CITY_WAS_NOT_FOUNDED_AND_HAS_GOVERNOR_REQUIREMENTS_1</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_WITH_ASSIGNED_GOVERNOR</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>STR_ARAGON_CITY_WAS_NOT_FOUNDED_AND_HAS_GOVERNOR_REQUIREMENTS_1</RequirementSetId>
+			<RequirementId>CITY_IS_NOT_ORIGINAL_OWNER_REQUIREMENTS</RequirementId>
+		</Row>
+		<!-- PLAYER IS NAPLES -->
+		<Row>
+			<RequirementSetId>STR_NAPLES_PLAYER_IS_NAPLES_REQUIREMENTS_1</RequirementSetId>
+			<RequirementId>STR_NAPLES_REQUIRES_PLAYER_IS_NAPLES_1</RequirementId>
+		</Row>
+		<!-- ADJACENT TO COAST -->
+		<Row>
+			<RequirementSetId>STR_NAPLES_DISTRICT_IS_ADJACENT_TO_COAST_REQUIREMENTS_1</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_IS_ADJACENT_TO_COAST</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>STR_NAPLES_DISTRICT_IS_ADJACENT_TO_COAST_REQUIREMENTS_1</RequirementSetId>
+			<RequirementId>STR_NAPLES_REQUIRES_PLAYER_IS_NAPLES_1</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<!-- CITY WAS NOT FOUNDED AND HAS GOVERNOR -->
+			<!-- N/A -->
+		<!-- PLAYER IS NAPLES -->
+		<Row>
+			<RequirementId>STR_NAPLES_REQUIRES_PLAYER_IS_NAPLES_1</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_TYPE_MATCHES</RequirementType>
+		</Row>
+		<!-- ADJACENT TO COAST -->
+			<!-- N/A -->
+	</Requirements>
+	<RequirementArguments>
+		<!-- CITY WAS NOT FOUNDED AND HAS GOVERNOR -->
+			<!-- N/A -->
+		<!-- PLAYER IS NAPLES -->
+		<Row>
+			<RequirementId>STR_NAPLES_REQUIRES_PLAYER_IS_NAPLES_1</RequirementId>
+			<Name>CivilizationType</Name>
+			<Value>CIVILIZATION_STR_NAPLES</Value>
+		</Row>
+		<!-- ADJACENT TO COAST -->
+			<!-- N/A -->
+	</RequirementArguments>
+
+</GameData>

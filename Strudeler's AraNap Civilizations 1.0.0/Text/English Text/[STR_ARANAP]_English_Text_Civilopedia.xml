@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [STR_ARANAP]_English_Text_Civilopeda -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 5/9/2022 3:15:57 PM -->
+<GameData>
+
+	<!-- CIVILOPEDIA ENTRIES  -->
+	<LocalizedText>
+		<!-- ARAGON/NAPLES ALFONSO V/I THE MAGNANIMOUS DE TRASTAMARA LEADER -->
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_TITLE"
+				Language="en_US">
+			<Text>Alfonso V (Aragon)</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_SUBTITLE"
+				Language="en_US">
+			<Text>King of Aragon and Sicily as Alfonso V, King of Naples as Alfonso I, Overlord of Bosnia. Ally of the League of Lezhë (Albania). Founder of the University of Cantania. The Magnanimous.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_TITLE"
+				Language="en_US">
+			<Text>Alfonso I (Naples)</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_SUBTITLE"
+				Language="en_US">
+			<Text>King of Aragon and Sicily as Alfonso V, King of Naples as Alfonso I, Overlord of Bosnia. Ally of the League of Lezhë (Albania). Founder of the University of Cantania. The Magnanimous.</Text>
+		</Row>
+		<Row	Tag="LOC_LEADER_STR_ARAGON_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_QUOTE"
+				Language="en_US">
+			<Text>If you have come for debate, let it be Latin and as bawdy as plausible.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_HISTORY_PARA_1"
+				Language="en_US">
+			<Text>Alfonso wwas born in 1396 AD to parents Ferdinand de Trastámara and Eleanor de Alburquerque. His uncle was Henry III of Castile and the boy was betrothed to his cousin Maria in 1408 AD. His father was selected to become King of all territories within the Crown of Aragon in 1412 AD, with his deaht in 1416 AD, Alfonso would then be selected as monarch of Aragon (united with Catalonia), Valencia, and Majorca. During his early career, Alfonso would wage war agains the Genoese for Sardinia, seizing the island and moving up into Corsica.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_HISTORY_PARA_2"
+				Language="en_US">
+			<Text>In 1421 AD, Joanna II d'Anjou ould adopt Alfonso and him her heir. Alfonso assembled a mercenary army led by the Prince of Capua and condotierre Braccio da Montone. The army was raised to oppose pretenders of the House of Anjou (also known as the Angevin Dynasty in English). The pretender was Louis III d'Anjou, who hired the condotierre Muzio Attendolo Sforza to press the claim. Pope Martin V supported the mercenary leader Sforza, prompting Alfonso V to align ith the Aragonese Antipope Benedict XIII. But, Sforza would abandon the cause of Louis, thus elimination the religious contention.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_HISTORY_PARA_3"
+				Language="en_US">
+			<Text>Queen Joanna's relationship with Alfonso worsened, it soured after Alfonso had Gianni Caracciolo, Joanna's lover, arrested on the basis of conspiracy in 1423 AD. Joanna hired Sforza to repel the Aragonese she had invited. Sforza won a battle at Castel Capuano in Naples, forcing Alfonso to retreat to Castel Nuovo and to board the fleet of the Catalonian admiral John Ramon III de Cardona (or Giovanni da Cardona). Joanna and Sforza paid the ransom of Caracciolo and all of them would flee to Aversa. She would then disown Alfonso and adopt Louis III. An anti-Aragonese coalition formed in Italy, it was led by Filippo Maria Viconti of Milan. The Aragonese had to evacuate Italy due to a conflict in Castile, but he would take the the opportunity to sack Marseille in Provence to hinder his rival Louis III.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_HISTORY_PARA_4"
+				Language="en_US">
+			<Text>The Milanese contracted the Genoese navy to assail Naples, the force would siege Gaeta, Procida, Castellammare, and Sorrento. Frencesco Sforza led the siege of Naples against the Aragonese that maintained the city, it was under Alfonso's brother, Pedro de Aragon. Pedro would retreat to Sicily after the siege was lost in 1424 AD. Gianni Caracciolo would act as Joanna II's regent after retaking Naples. In 1428 AD, Ethiopians would attempt to contact the Christians of the Mediterranean after many centuries of isolation caused by the Muslims powers. The Ethiopians contacted Alfonso, who attempted to send a delegation. Due to the struggles of Europeans when entering the heart of Africa, this delegation would not survive the diseases found along the Nile.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_HISTORY_PARA_5"
+				Language="en_US">
+			<Text>Gianni Carracciolo would die in a conspiracy in 1432 AD, Louis III would die in 1434 AD, and Joanna II would die in 1335 AD. Alfonso failed to inherit the Kingdom, instead the realm passed into René 'the Good' d'Anjou. The new Pope, Eugene IV, disagreed, believing that Naples should not have passed to another d'Anjou dynasty member. René would invite the French to attack the Aragonese, resulting in Alfonso's capture at the hands of the Milanese and Genoese. While imprisoned, Alfonso would use his tact to align himself with the ruler, he became an ally and wwas released. After bribing the condotierre and Cardinal, Giovanni Vitelleschi, the Papal State army would halt their advance into Naples.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_HISTORY_PARA_6"
+				Language="en_US">
+			<Text>Alfonso easily took Aversa, Salerno, Benevento, Manfredonia, and Bitonto from René. The Provençal army staggered, René was left with his native Provence, Abruzzo, and Naples itself. Alfonso deftly signed peace with a Papal contingent of 10,000 soldiers before they could be of use to his enemies, and Giovanni Sforza could not supply a larger force for the conflict. Alfonso used fresh artillery to siege Naples itself, forcing the last d'Anjou to surrender and return to Provence. For the first time since 1282 AD, there was a single King of Sicily (Naples was always considered to be Sicily). With the Crown of Aragon united with Naples, Alfonso was free to pursue the arts and adept diplomacy. He would sponsor Stjepan Kosača in Bosnia, making him a vassal. In Albania, the general Skanderbeg would defect from the Ottoman Empire, making Aragon and the League of Lezhë nominal allies. Both Albanians and Bosnians would pay their taxes to Alfonso.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_HISTORY_PARA_7"
+				Language="en_US">
+			<Text>Alfonso would rule as the fifth in Aragon and as the first in Naples. Upon earning Naples, a triumphal arch was built at Castel Nuovo to serve as an entry to Naples. As decoration he would commision statues for the arch. The Academy of Naples would be founded and patronized by Alfonso, he employed the humanist Giovanni Pontano as the master there. The University of Catania would be the first Sicilian university, founded by Alfonso. The King was a lover of classical literature and read the works of Livy and Julius Caesar while on campaign. The poet Antonio Beccadelli claimed that Alfonso wwas cured of disease by reading Quintus Curtius Rufus' History of Alexander the Great. Alfonso would make scholars debate in his court for his amusement.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_HISTORY_PARA_8"
+				Language="en_US">
+			<Text>The capital of the Crown of Aragon would move to Naples during his rule, his wife and brother would act as regents in the Iberian Peninsula. Not only was the capital moved, byt a General Chancellorship for the entire country was established in Naples. In Sicily he would institute the restoration of Aqueducts, the draining of marshes, and the paving of streets. Alfonso managed to gain the favour of Pope Eugene IV late in his life, allowing his bastard son Ferdinand (Don Ferrante in Naples). Alfonso would die in 1458 AD while planning an invasion of Genoa, this resulted in his son inheriting Naples, and his hated brother John II ruling the Crown of Aragon. Naples and Sicily would be divided again.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_HISTORY_PARA_1"
+				Language="en_US">
+			<Text>Alfonso wwas born in 1396 AD to parents Ferdinand de Trastámara and Eleanor de Alburquerque. His uncle was Henry III of Castile and the boy was betrothed to his cousin Maria in 1408 AD. His father was selected to become King of all territories within the Crown of Aragon in 1412 AD, with his deaht in 1416 AD, Alfonso would then be selected as monarch of Aragon (united with Catalonia), Valencia, and Majorca. During his early career, Alfonso would wage war agains the Genoese for Sardinia, seizing the island and moving up into Corsica.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_HISTORY_PARA_2"
+				Language="en_US">
+			<Text>In 1421 AD, Joanna II d'Anjou ould adopt Alfonso and him her heir. Alfonso assembled a mercenary army led by the Prince of Capua and condotierre Braccio da Montone. The army was raised to oppose pretenders of the House of Anjou (also known as the Angevin Dynasty in English). The pretender was Louis III d'Anjou, who hired the condotierre Muzio Attendolo Sforza to press the claim. Pope Martin V supported the mercenary leader Sforza, prompting Alfonso V to align ith the Aragonese Antipope Benedict XIII. But, Sforza would abandon the cause of Louis, thus elimination the religious contention.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_HISTORY_PARA_3"
+				Language="en_US">
+			<Text>Queen Joanna's relationship with Alfonso worsened, it soured after Alfonso had Gianni Caracciolo, Joanna's lover, arrested on the basis of conspiracy in 1423 AD. Joanna hired Sforza to repel the Aragonese she had invited. Sforza won a battle at Castel Capuano in Naples, forcing Alfonso to retreat to Castel Nuovo and to board the fleet of the Catalonian admiral John Ramon III de Cardona (or Giovanni da Cardona). Joanna and Sforza paid the ransom of Caracciolo and all of them would flee to Aversa. She would then disown Alfonso and adopt Louis III. An anti-Aragonese coalition formed in Italy, it was led by Filippo Maria Viconti of Milan. The Aragonese had to evacuate Italy due to a conflict in Castile, but he would take the the opportunity to sack Marseille in Provence to hinder his rival Louis III.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_HISTORY_PARA_4"
+				Language="en_US">
+			<Text>The Milanese contracted the Genoese navy to assail Naples, the force would siege Gaeta, Procida, Castellammare, and Sorrento. Frencesco Sforza led the siege of Naples against the Aragonese that maintained the city, it was under Alfonso's brother, Pedro de Aragon. Pedro would retreat to Sicily after the siege was lost in 1424 AD. Gianni Caracciolo would act as Joanna II's regent after retaking Naples. In 1428 AD, Ethiopians would attempt to contact the Christians of the Mediterranean after many centuries of isolation caused by the Muslims powers. The Ethiopians contacted Alfonso, who attempted to send a delegation. Due to the struggles of Europeans when entering the heart of Africa, this delegation would not survive the diseases found along the Nile.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_HISTORY_PARA_5"
+				Language="en_US">
+			<Text>Gianni Carracciolo would die in a conspiracy in 1432 AD, Louis III would die in 1434 AD, and Joanna II would die in 1335 AD. Alfonso failed to inherit the Kingdom, instead the realm passed into René 'the Good' d'Anjou. The new Pope, Eugene IV, disagreed, believing that Naples should not have passed to another d'Anjou dynasty member. René would invite the French to attack the Aragonese, resulting in Alfonso's capture at the hands of the Milanese and Genoese. While imprisoned, Alfonso would use his tact to align himself with the ruler, he became an ally and wwas released. After bribing the condotierre and Cardinal, Giovanni Vitelleschi, the Papal State army would halt their advance into Naples.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_HISTORY_PARA_6"
+				Language="en_US">
+			<Text>Alfonso easily took Aversa, Salerno, Benevento, Manfredonia, and Bitonto from René. The Provençal army staggered, René was left with his native Provence, Abruzzo, and Naples itself. Alfonso deftly signed peace with a Papal contingent of 10,000 soldiers before they could be of use to his enemies, and Giovanni Sforza could not supply a larger force for the conflict. Alfonso used fresh artillery to siege Naples itself, forcing the last d'Anjou to surrender and return to Provence. For the first time since 1282 AD, there was a single King of Sicily (Naples was always considered to be Sicily). With the Crown of Aragon united with Naples, Alfonso was free to pursue the arts and adept diplomacy. He would sponsor Stjepan Kosača in Bosnia, making him a vassal. In Albania, the general Skanderbeg would defect from the Ottoman Empire, making Aragon and the League of Lezhë nominal allies. Both Albanians and Bosnians would pay their taxes to Alfonso.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_HISTORY_PARA_7"
+				Language="en_US">
+			<Text>Alfonso would rule as the fifth in Aragon and as the first in Naples. Upon earning Naples, a triumphal arch was built at Castel Nuovo to serve as an entry to Naples. As decoration he would commision statues for the arch. The Academy of Naples would be founded and patronized by Alfonso, he employed the humanist Giovanni Pontano as the master there. The University of Catania would be the first Sicilian university, founded by Alfonso. The King was a lover of classical literature and read the works of Livy and Julius Caesar while on campaign. The poet Antonio Beccadelli claimed that Alfonso wwas cured of disease by reading Quintus Curtius Rufus' History of Alexander the Great. Alfonso would make scholars debate in his court for his amusement.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_HISTORY_PARA_8"
+				Language="en_US">
+			<Text>The capital of the Crown of Aragon would move to Naples during his rule, his wife and brother would act as regents in the Iberian Peninsula. Not only was the capital moved, byt a General Chancellorship for the entire country was established in Naples. In Sicily he would institute the restoration of Aqueducts, the draining of marshes, and the paving of streets. Alfonso managed to gain the favour of Pope Eugene IV late in his life, allowing his bastard son Ferdinand (Don Ferrante in Naples). Alfonso would die in 1458 AD while planning an invasion of Genoa, this resulted in his son inheriting Naples, and his hated brother John II ruling the Crown of Aragon. Naples and Sicily would be divided again.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_CAPSULE_BODY"
+				Language="en_US">
+			<Text>Alfonso V spent a lifetime battling for his royal domains, hence his Renaissance architecture is best to rennovate cities in preparation for war.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_DETAILED_BODY"
+				Language="en_US">
+			<Text>Aragon is a militant civilization that focuses on good governance, in fact, it has more passive buffs to happiness than it has active effects for warfare. Capturing cities grants [ICON_Governor] Governor titles, allowing Aragon to focus on technologies and civics that benefit combat directly. Having an overflow of [ICON_Governor] Governor titles is excellent for securing loyalty. Alfonso V strengthens the effects of Aqueducts, Entertainment Complexes, and Water Parks, allowing an excess amount of [ICON_Housing] Housing and [ICON_Amenities] Amenities in all cities. It is best to build as many Aqueducts and happiness districts as possible. The Almugávares is potent as an Anti-Cavalry unit, it can seize coast quickly and fend off shock cavalry. The Cortz if the final tool in Aragon's arsenal of conquest, it will ensure a city will remain loyal and happy even without a [ICON_Governor] Governor thus allowing conquest to continue without domestic issues.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_CAPSULE_BODY"
+				Language="en_US">
+			<Text>Alfonso I spent a lifetime patronizing art for his royal domains, hence his Renaissance architecture best to rennovate cities for culture.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_DETAILED_BODY"
+				Language="en_US">
+			<Text>Naples is a docile civilization dedicated to building large cities. The civilization can accomplish its tall goals by building Entertainment Complexes which will benefit under Alfonso I. The Villa is optimal for a Cultural Victory as it opens space for themable [ICON_GreatWork_Landscape] Art or the opportunity to build Archaeoligical Museums without sacrificing space for Great Artists. Naples will also benefit from settling the coast, maritime cities will have increased Appeal which offers room for new National Parks, high Appeal can also grant the Villa additional [ICON_Culture] Culture. Specialty districts also grant [ICON_Gold] Gold from being adjacent to coasts, meaning that Naples can easily create an economy just by building districts. The Schermagliatore is one of the strongest naval units of the Medieval era, it can ravage coastlines that are not defended by siege weaponry. The Schermagliatore will sacrifice the usual exploration benefits of the Caravel, as it requires coastal tiles to maintain its powwerful abilities.</Text>
+		</Row>
+		<!-- ARAGON CIVILIZATION -->
+		<Row	Tag="LOC_CIVINFO_STR_ARAGON_LOCATION"
+				Language="en_US">
+			<Text>Europe</Text>
+		</Row>
+		<Row	Tag="LOC_CIVINFO_STR_ARAGON_SIZE"
+				Language="en_US">
+			<Text>120,000 Kilometers Squared in c. 1300 AD</Text>
+		</Row>
+		<Row	Tag="LOC_CIVINFO_STR_ARAGON_POPULATION"
+				Language="en_US">
+			<Text>1 Million in c. 1300 AD</Text>
+		</Row>
+		<Row	Tag="LOC_CIVINFO_STR_ARAGON_CAPITAL"
+				Language="en_US">
+			<Text>Jaca (1035 AD - 1096 AD), Huesca (1096 AD - 1118 AD), Zaragoza (1118 AD - 1833 AD), Monzón (Parliament of the Crown of Aragon), Fraga (Meeting Place), Calatayud (Meeting Place), Tarazona (Meeting Place), Barcelona (Catalan Capital), Naples (1443 AD - 1458 AD); often goverened from Cathedrals or Monasteries</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_STR_ARAGON_CHAPTER_HISTORY_PARA_1"
+				Language="en_US">
+			<Text>Aragon was founded as county by the Carolingian Franks to act as a buffer or march against the Muslims of Iberia, it began with the city of Jaca. In the ninth century Jaca would become subject to Pamplona (the Kingdom of the Basques before Navarre). Aragon is named after the Aragón River. After Sancho III of Navarre died in 1035 AD, the Basque country was divided into Pamplona, Castile, and Sobrarbe-Ribargorza-Aragon. Ramiro I inherited Aragon and would later inherit Sobrarbe and Ribargorza from his brother Gonzalo. Ramiro would become independent after defeating his brother García Sánchez III, King of Navarre. The son of Ramiro, Sancho Ramírez, would later inherit Navarre, he would create the title "King of the Aragonese and Pamplonese." After the death of the heirless Alfonso the Battler in 1335 AD, Aragon and Navarre would become separate kingdoms.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_STR_ARAGON_CHAPTER_HISTORY_PARA_2"
+				Language="en_US">
+			<Text>In 1150 AD, Aragon would enter a union with Barcelona (then the major Catalonian county). This union between Petronilla of Aragon and Ramon Berenguer IV resulted in their son Alfonso II becoming King and the establishment of the Crown of Aragon, the composite structure of several Kingdoms under a larger domain. The Crown of Aragon encompasses Aragon as the primary title, but the autonomous regions of Catalonia, Majorca, Valencia, Sardinia, Sicily, and Naples. The King would directly rule Aragon but could hold other titles that were conquered or inherited in a more direct fashion, as was the case with Provence, Barcelona (the county, not Catalonia), Montpellier, Athens, and Neopatras (Thessaly). Nobility would attempt to curtail the royal rights in the thirteenty century through the Union of Aragon movement.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_STR_ARAGON_CHAPTER_HISTORY_PARA_3"
+				Language="en_US">
+			<Text>Due to dynastic ties with Castile, a de facto union of Spain was attempted by the House of Barcelona until 1410 AD when the house went extinct. In 1412 AD, a Castilian prince, Ferdinand I of Antequera, would assend as King of the Crown of Aragon. The Catalans opposed the Castilian prince. John II of Aragon would arrange a marriage between Isabella of Castile (later Isabella the Catholic Monarch) and Henry IV of Castile, this betrothal would be countered by the maneuvers of Isabella and her to-be husband and co-monarch, Ferdinand II. Those two would lay the foundations for a united Spain. After entering a union with Castile, Aragon would retain its autonomous structures and court system until 1707 AD - 1715 AD when the Nueva Planta Decrees would absorb certain crowns into a united Spain. Some Aragonese civil rights survived the Nueva Planta Decrees in 1711 AD. With the Crown of Aragon abolished, the Kingdom of Aragon would endure as a title until 1833 AD. Aragon was reinstated as an autonomous region of Spain in 1982 AD, after the death of the Caudillo Francisco Franco.</Text>
+		</Row>
+		<!-- NAPLES CIVILIZATION -->
+		<Row	Tag="LOC_CIVINFO_STR_NAPLES_LOCATION"
+				Language="en_US">
+			<Text>Europe</Text>
+		</Row>
+		<Row	Tag="LOC_CIVINFO_STR_NAPLES_SIZE"
+				Language="en_US">
+			<Text>c. 75,000 Kilometers Squared</Text>
+		</Row>
+		<Row	Tag="LOC_CIVINFO_STR_NAPLES_POPULATION"
+				Language="en_US">
+			<Text>3 Million in c. 1600 AD</Text>
+		</Row>
+		<Row	Tag="LOC_CIVINFO_STR_NAPLES_CAPITAL"
+				Language="en_US">
+			<Text>Naples</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_STR_NAPLES_CHAPTER_HISTORY_PARA_1"
+				Language="en_US">
+			<Text>The Kingdom of Naples is the historical name for the Sicilian polity that existed in southern Italy; however, the House of d'Anjou (or the Angevin dynasty in English) maintained that the realm was still the Kingdom of Sicily. To differentiate the two Sicilies (not the later Two Sicilies) the realms would be related to which side of the Punta del Faro (Strait of Messinia) the realm in question was on. The peninsular Sicily (Naples) was known as "Citra Farum" or "Al di qua del Faro" or "On this Side of the Faro"; the island Sicily was known as "Ultra Farum" or "Di la del Faro" or "On the other side of the Faro." Alfonso the Magnanimous' reign established the name Naples for the peninsular Sicily; however, his heir Ferdinand (Don Ferrante) I used the title King of Sicily. Before ascending to a kingdom, Naples was an Eastern Roman duchy that was reduced in size by invasive Lombards. The Eastern Romans employed a "dux" (military commander) as governor. Naples is an Italicized version of the Greek "Neapolis" or "New City." In 763 AD, Naples swore fealty to the Papacy due to the Pope defending the city from Lombards at the time. Under Papal rule, the duchy swapped from Greek to Latin. Naples would ignore Eastern Roman calls for naval support against the Arabs, but Amalfi and Gaeta remained loyal in the 810s. By 850s, Naples was a militant duchy fending off Lombards and Arabs.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_STR_NAPLES_CHAPTER_HISTORY_PARA_2"
+				Language="en_US">
+			<Text>In 1027 AD, the Normans were offered Aversa, after that the Normans would proliferate in southern Italy. Roger II of Sicily would invade and conquer the first Kingdom of Sicily in 1137 AD, the realm belonged to Sergius VII. The Normans would build some defensive structures in their style of architecture. The Normans were the first to unite Sicily after centuries of independence from the Eastern Roman Empire. The Kingdom of Sicily was invented by Antipope Anacletus II in c. 1130 AD, in 1139 AD Pop Innocent II legitimized the state; however, later Popes would claim secular rights to the Kingdom of Sicily. The realm would be inherited by Frederick II of the Holy Roman Empire. The War of the Sicilian Vespers fron 1282 AD - 1302 AD forced Charles I d'Anjou to flee Sicily, he had support from Peter III of Aragon, Charles would remain in Naples (this is the first time Naples would be informally referred to as a Kingdom). The d'Anjou dynasty was known for patronizing sculpture in southern Italy. Joanna I of Naples would renounce her claims to the island of Sicily, this would inspire other d'Angevins to compete with the Aragonese for the island, in particular, Louis 'the Great' of Hungary would press d'Anjou claims on the island several times. Joanna would adopt Louis I Valois-Anjou as heir, this decision created competition between junior and senior d'Anjou dynasts. Charles III d'Anjou would murder Joanna over the crown in 1382 AD. Louis II of Anjou would seize the throne from Ladislas of Naples (he was from the Hungarian line). Charles III's daughter, Joanna II, would adopt Alfonso V of Aragon, that would fail, yet, Alfonso would secure the Kingdom over his lifetime.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_STR_NAPLES_CHAPTER_HISTORY_PARA_3"
+				Language="en_US">
+			<Text>Alfonso V of Aragon (Alfonso I of Naples) last wishes were that his bastard son inherit Naples. Alfonso V/I united both the Sicilies, but due to the War of Neapolitan Succession, the island of Sicily would remain with Aragon and the peninsular Naples would become independent. In 1494 AD, Charles VIII of France invaded Italy using the d'Anjou claims of René of Provence on Naples to seize the Kingdom. This sparked the Italian Wars, a competition between the Habsburgs and Valois dynasties between 1494 AD - 1559 AD to divide Italy between France and the Holy Roman Empire; Italian mercenaries would become a major commodity during this time. Louis XII took Naples in 1501 AD, Ferdinand II 'the Catholic Monarch' would renounce his claims and Sicily would be legally divided between the Faros. This failed. The French and Aragonese would wage war as early as 1502 AD. The result would be that Charles V of the Holy Roman Empire and Spain would inherit Naples; France and Spain would continue to press Neapolitan claims for decades until the French renounced their claims in 1559 AD with the Treaty of Cateau-Cambrésis, growing Naples by about five Tuscan cities. Neapolitan manpower was exhausted by the Spanish during the Eighty Years' War. Most of the taxes in Naples were dedicated to warfare. The Franco-Spanish War saw 53,000 Neapolitans and over 3 million scudi sent in support of Spain between 1531 AD and 1636 AD. Spain's wars brought Naples to the point of defaulting on loans.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_STR_NAPLES_CHAPTER_HISTORY_PARA_4"
+				Language="en_US">
+			<Text>The Treaty of Rastatt in 1714 AD saw Naples be given to Charles VI of the Holy Roman Empire, he ould also gain Sicily in 1720 AD. Naples and Sicily would be reconquered by Spain during the War of the Polish Succession in 1734 AD. The Bourbon dynasty being in control would see the personal union of Spain and Naples have two separate constitutions. The Bourbons of Spain were enemies of the French Revolution and the Bonapartes, the War of the Second Coalition would see France take Naples. First the revolutionaries formed the Parthenopaean Republic which was countered by clerical-peasant revolution that invited the King Ferdinand IV back to Naples. By 1801 AD, Naples had to give concessions to France. In 1806 AD, the Third Coalition saw Ferdinand removed and the Napoleonic client state of Naples formed, first under Joseph Bonaparte, then Caroline Bonaparte and her husband Marshal Joachim Murat who proclaimed himself King of the Two Sicilies. Ferdinand would return to Naples and Sicily after Napoleon (as in, after Napoleon's return), thus establishing the Kingdom of the Two Sicilies as the proper union of Sicilian peoples. The Two Sicilies would later be subsumed during the Risorgimento, two parts (many regions) of a greater Italian state.</Text>
+		</Row>
+		<!-- ARAGON ALMUGAVARES UNIT -->
+		<Row	Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STR_ARAGON_ALMUGAVARES_CHAPTER_HISTORY_PARA_1"
+				Language="en_US">
+			<Text>The term "al-mughā́wir" is Arabic for raider, messenger, or pilgrim. It is from Arabic that the term almogavars is derrived, in Spanish it is "almogávares," in Portuguese it is "almogávares," in Catalan it is "almogàvers," and in Aragonese it is "almugávares." All these post-Arabic terms invoke the image of a light foot-man, althougth the outfit of these soldiers could change drastically based on the time period. The one common factor is that they served the Christian Kingdoms of the Reconquista. The earliest of the almugávares were Castilian peasants reformed into a proper levy, later almugávares would be Aragonese or Catalan mercenaries that adventured in the Greece, Anatolia, and the Levant.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STR_ARAGON_ALMUGAVARES_CHAPTER_HISTORY_PARA_2"
+				Language="en_US">
+			<Text>Before being organized into a military force, the almogavars were shepherds forced into banditry due to the occupation of their hinterlands by Muslims of al-Andalus. The almogavars started as a new warrior class on the frontier due to the presence of Islamic invaders. Some almogavars would sell themselves as infantry to the Islamic states of Iberia. Almogavars were shock troops, they fought with hunting spears, two javelins, and a falchion. Before charging, they would sharpen their weapons to let sparks fly in an attempt to intimidate the enemy, then they wwould shout their battlecry "Awake iron! Let's kill, let's kills! For Saint George and [the Kingdom they were in service of twice]!" According to the Castilian Siete Partidas, almogavars were divided into adalids (band leader), almogavar a llom cavall (mounted almogavars), almocaden (captain), and hombres de camp (countrymen) or peones (pawns). Almogavars tactics were very effective against heavily armoured enemies at land and at sea.</Text>
+		</Row>
+		<!-- NAPLES SCHERMAGLIATORE UNIT -->
+		<Row	Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STR_NAPLES_SCHERMAGLIATORE_CHAPTER_HISTORY_PARA_1"
+				Language="en_US">
+			<Text>Schermagliatore in the Italian language will indicate a type of skirmisher unit, such as the almugávares of Aragon. Historically the Spanish almugávares were the most elite of the light infantry of the Iberian peninsula, so much so, that when the Reconquista would subside these skirmishers would take to the sea in galleys. These foot-soldiers and adventurers would go far, conquering Sardinia, both Sicilies, and Attica going into Sicily while under the Great Catalan Company. Amphibious almugávares, the oarsmen of galleys, would lay in ambush under the deck, pouncing on enemies that were heavily armoured once they crossed to the ship.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STR_NAPLES_SCHERMAGLIATORE_CHAPTER_HISTORY_PARA_2"
+				Language="en_US">
+			<Text>Aquatic almugávares likely reached their zenith under Roger di Lauria, a Neapolitan admiral that served the Crown of Aragon during the War of the Sicilian Vespers and encounters between the Aragonese and the French. Roger is considered to be one of the great Medieval admirals for his battles, including: the Battle of Malta in 1283 AD; the Battle of the Gulf of Naples in 1284 AD; the Battles of Formigues and Col de Panissars in 1285 AD; and the Battle of the Counts in 1287 AD when he was outnumbered 8-to-40. Roger would eventually be displaced, but later in his career he would serve the English against the French and later captured Frederick II of Sicily, freeing him in exchange for a pardon.</Text>
+		</Row>
+		<!-- ARAGON CORTZ BUILDING -->
+		<Row	Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_STR_ARAGON_CORTZ_CHAPTER_HISTORY_PARA_1"
+				Language="en_US">
+			<Text>Cortz is the Aragonese term for cortes or court. The Kingdom of Aragon, within the Crown of Aragon, would muster the court every five years, being reduced to annual meeting once Aragon entered union with Catalonia. The courts were judicial in nature, used to deal with grievances within towns or between certain people. The cortz would approve of legislation or tax issues. Cortz were divided into a hierarchy of social classes: the clergy, the high nobles, the knights (low nobles), and the bourgeoisie (town leader, merchants, specialized guild members, etc.). The estates were organized under a single leader that had to determine if their class was unanimous in voting. The cortz of Aragon became the model for parliaments in Sardinia and Sicily.</Text>
+		</Row>
+		<!-- NAPLES VILLA BUILDING -->
+		<Row	Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_STR_NAPLES_VILLA_CHAPTER_HISTORY_PARA_1"
+				Language="en_US">
+			<Text>Villas originated as luxury housing throughout the Roman Kingdom, Republic, and Empire(s). Villas started as housing, but the need for manorialism required agriculture to spread on villa property. Some villas would become monastic property under the Latin Church. Roman villas would be divided into the villa urbana (suburban house in two-days distance of the city), villa rustica (country homes that would form the basis of the manor and planatation), and otium villa used for retirees and pleasure trips. Medieval villas would resemble villages, but serfs of a villa would be known as villeins. Spanish would be of similar stature to the ciudad (city). Villas would proliferate across Italy during the Renaissance, in particular Tuscany and Venice. Southern Italy or Sicily would develop very modernized villas.</Text>
+		</Row>
+		
+		<!-- ARAGON/NAPLES ALFONSO V/I THE MAGNANIMOUS DE TRASTAMARA LEADER -->
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_TITLE"
+				Language="ru_RU">
+			<Text>Альфонсо V (Арагон)</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_SUBTITLE"
+				Language="ru_RU">
+			<Text>Король Арагона и Сицилии в роли Альфонсо V, король Неаполя в роли Альфонсо I, повелителя Боснии. Союзник Лежской лиги (Албания). Основатель Университета Кантании. Великодушный.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_TITLE"
+				Language="ru_RU">
+			<Text>Альфонсо I (Неаполь)</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_SUBTITLE"
+				Language="ru_RU">
+			<Text>Король Арагона и Сицилии в роли Альфонсо V, король Неаполя в роли Альфонсо I, повелителя Боснии. Союзник Лежской лиги (Албания). Основатель Университета Кантании. Великодушный.</Text>
+		</Row>
+		<Row	Tag="LOC_LEADER_STR_ARAGON_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_QUOTE"
+				Language="ru_RU">
+			<Text>Если вы пришли на дискуссию, пусть она будет на латыни и настолько непристойной, насколько это возможно.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_HISTORY_PARA_1"
+				Language="ru_RU">
+			<Text>Альфонсо родился в 1396 году нашей эры в семье Фердинанда де Трастамара и Элеоноры де Альбуркерке. Его дядей был Генрих III Кастильский, и в 1408 году мальчик был обручен со своей кузиной Марией. Его отец был избран королем всех территорий Арагонской короны в 1412 году нашей эры, а его смерть произошла в 1416 году нашей эры. Затем Альфонсо будет избран монархом Арагона (объединенного с Каталонией), Валенсии и Майорки. В начале своей карьеры Альфонсо вел войну против генуэзцев за Сардинию, захватив остров и двинулся на Корсику.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_HISTORY_PARA_2"
+				Language="ru_RU">
+			<Text>В 1421 году Иоанна II Анжуйская усыновила Альфонсо и сделала его своим наследником. Альфонсо собрал наемную армию во главе с принцем Капуанским и кондотьером Браччо да Монтоне. Армия была собрана, чтобы противостоять претендентам на Анжуйский дом (также известный как Анжуйская династия на английском языке). Претендентом был Людовик III Анжуйский, который нанял кондотьера Муцио Аттендоло Сфорца, чтобы тот предъявил иск. Папа Мартин V поддержал лидера наемников Сфорца, что побудило Альфонсо V присоединиться к арагонскому антипапе Бенедикту XIII. Но Сфорца отказался от дела Людовика, устранив тем самым религиозные раздоры.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_HISTORY_PARA_3"
+				Language="ru_RU">
+			<Text>Отношения королевы Джоанны с Альфонсо ухудшились, они испортились после того, как Альфонсо арестовал Джанни Караччоло, любовника Джоанны, на основании заговора в 1423 году нашей эры. Джоанна наняла Сфорца, чтобы дать отпор приглашенным ею арагонцам. Сфорца выиграл битву при Кастель-Капуано в Неаполе, вынудив Альфонсо отступить в Кастель-Нуово и подняться на борт флота каталонского адмирала Иоанна Рамона III де Кардоны (или Джованни да Кардона). Джоанна и Сфорца заплатили Караччоло выкуп, и все они бежали в Аверсу. Затем она отреклась бы от Альфонсо и усыновила бы Людовика III. В Италии сформировалась антиарагонская коалиция, её возглавил Филиппо Мария Виконти из Милана. Арагонцам пришлось покинуть Италию из-за конфликта в Кастилии, но он воспользовался возможностью и разграбил Марсель в Провансе, чтобы помешать своему сопернику Людовику III.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_HISTORY_PARA_4"
+				Language="ru_RU">
+			<Text>Миланцы наняли генуэзский флот для нападения на Неаполь, силы должны были осадить Гаэту, Прочиду, Кастелламмаре и Сорренто. Франческо Сфорца возглавил осаду Неаполя против арагонцев, которые поддерживали город. Это было под командованием брата Альфонсо, Педро де Арагона. Педро отступит на Сицилию после проигрыша осады в 1424 году нашей эры, Джанни Караччоло будет регентом Иоанны II после возвращения Неаполя. В 1428 году нашей эры эфиопы попытались связаться с христианами Средиземноморья после многих столетий изоляции, вызванной мусульманскими державами. Эфиопы связались с Альфонсо, который попытался отправить делегацию. Из-за борьбы европейцев при входе в сердце Африки эта делегация не смогла пережить болезни, обнаруженные вдоль Нила.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_HISTORY_PARA_5"
+				Language="ru_RU">
+			<Text>Джанни Карраччоло умрет в результате заговора в 1432 году нашей эры, Людовик III умрет в 1434 году нашей эры, а Иоанна II умрет в 1335 году нашей эры. Альфонсо не смог унаследовать королевство, вместо этого королевство перешло к Рене «Доброму» Анжуйскому. Новый Папа Евгений IV не согласился, полагая, что Неаполь не должен был перейти к другому члену династии Анжуйских. Рене предложил французам атаковать арагонцев, в результате чего Альфонсо был захвачен миланцами и генуэзцами. Находясь в тюрьме, Альфонсо использовал свой такт, чтобы присоединиться к правителю, он стал союзником и был освобожден. Подкупив кондотьера и кардинала Джованни Вителлески, армия Папского государства остановила бы их продвижение на Неаполь.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_HISTORY_PARA_6"
+				Language="ru_RU">
+			<Text>Альфонсо легко отобрал у Рене Аверсу, Салерно, Беневенто, Манфредонию и Битонто. Провансальская армия пошатнулась, Рене остался с родным Провансом, Абруццо и самим Неаполем. Альфонсо ловко подписал мир с папским контингентом в 10 000 солдат, прежде чем они смогли быть полезны его врагам, и Джованни Сфорца не мог предоставить более крупные силы для конфликта. Альфонсо использовал свежую артиллерию для осады самого Неаполя, вынудив последнего анжуйца сдаться и вернуться в Прованс. Впервые с 1282 года нашей эры на Сицилии стал один король (Неаполь всегда считался Сицилией). Когда Арагонская Корона объединилась с Неаполем, Альфонсо мог свободно заниматься искусством и искусной дипломатией. Он будет спонсировать Степана Косачу в Боснии, сделав его вассалом. В Албании генерал Скандербег дезертировал из Османской империи, сделав Арагон и Лежскую лигу номинальными союзниками. И албанцы, и боснийцы будут платить налоги Альфонсо.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_HISTORY_PARA_7"
+				Language="ru_RU">
+			<Text>Альфонсо будет править пятым в Арагоне и первым в Неаполе. После завоевания Неаполя в Кастель-Нуово была построена триумфальная арка, служившая входом в Неаполь. В качестве украшения он заказал статуи для арки. Альфонсо основал Неаполитанскую академию и покровительствовал ей. В качестве учителя он нанял там гуманиста Джованни Понтано. Университет Катании станет первым сицилийским университетом, основанным Альфонсо. Король был любителем классической литературы и во время похода читал произведения Ливия и Юлия Цезаря. Поэт Антонио Беккаделли утверждал, что Альфонсо излечился от болезни, прочитав «Историю Александра Великого» Квинта Курция Руфа. Альфонсо ради развлечения заставлял ученых дискутировать в своем дворе.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_HISTORY_PARA_8"
+				Language="ru_RU">
+			<Text>Во время его правления столица Арагонской короны переедет в Неаполь, а его жена и брат будут регентами на Пиренейском полуострове. Мало того, что столица была перенесена, в Неаполе была учреждена Генеральная канцлерство всей страны. На Сицилии он намеревался восстановить акведуки, осушить болота, и мощение улиц. Альфонсо в конце своей жизни сумел завоевать благосклонность Папы Евгения IV, позволив своему внебрачному сыну Фердинанду (Дон Ферранте в Неаполе). Альфонсо умер в 1458 году нашей эры, планируя вторжение в Геную, в результате чего его сын унаследовал Неаполь, а его ненавистный брат Иоанн II стал править Короной Арагона. Неаполь и Сицилия снова будут разделены.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_HISTORY_PARA_1"
+				Language="ru_RU">
+			<Text>Альфонсо родился в 1396 году нашей эры в семье Фердинанда де Трастамара и Элеоноры де Альбуркерке. Его дядей был Генрих III Кастильский, и в 1408 году мальчик был обручен со своей кузиной Марией. Его отец был избран королем всех территорий Арагонской короны в 1412 году нашей эры, а его смерть произошла в 1416 году нашей эры. Затем Альфонсо будет избран монархом Арагона (объединенного с Каталонией), Валенсии и Майорки. В начале своей карьеры Альфонсо вел войну против генуэзцев за Сардинию, захватив остров и двинулся на Корсику.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_HISTORY_PARA_2"
+				Language="ru_RU">
+			<Text>В 1421 году Иоанна II Анжуйская усыновила Альфонсо и сделала его своим наследником. Альфонсо собрал наемную армию во главе с принцем Капуанским и кондотьером Браччо да Монтоне. Армия была собрана, чтобы противостоять претендентам на Анжуйский дом (также известный как Анжуйская династия на английском языке). Претендентом был Людовик III Анжуйский, который нанял кондотьера Муцио Аттендоло Сфорца, чтобы тот предъявил иск. Папа Мартин V поддержал лидера наемников Сфорца, что побудило Альфонсо V присоединиться к арагонскому антипапе Бенедикту XIII. Но Сфорца отказался от дела Людовика, устранив тем самым религиозные раздоры.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_HISTORY_PARA_3"
+				Language="ru_RU">
+			<Text>Отношения королевы Джоанны с Альфонсо ухудшились, они испортились после того, как Альфонсо арестовал Джанни Караччоло, любовника Джоанны, на основании заговора в 1423 году нашей эры. Джоанна наняла Сфорца, чтобы дать отпор приглашенным ею арагонцам. Сфорца выиграл битву при Кастель-Капуано в Неаполе, вынудив Альфонсо отступить в Кастель-Нуово и подняться на борт флота каталонского адмирала Иоанна Рамона III де Кардоны (или Джованни да Кардона). Джоанна и Сфорца заплатили Караччоло выкуп, и все они бежали в Аверсу. Затем она отреклась бы от Альфонсо и усыновила бы Людовика III. В Италии сформировалась антиарагонская коалиция, её возглавил Филиппо Мария Виконти из Милана. Арагонцам пришлось покинуть Италию из-за конфликта в Кастилии, но он воспользовался возможностью и разграбил Марсель в Провансе, чтобы помешать своему сопернику Людовику III.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_HISTORY_PARA_4"
+				Language="ru_RU">
+			<Text>Миланцы наняли генуэзский флот для нападения на Неаполь, силы должны были осадить Гаэту, Прочиду, Кастелламмаре и Сорренто. Франческо Сфорца возглавил осаду Неаполя против арагонцев, которые поддерживали город. Это было под командованием брата Альфонсо, Педро де Арагона. Педро отступит на Сицилию после проигрыша осада в 1424 году нашей эры. Джанни Караччоло будет регентом Иоанны II после возвращения Неаполя. В 1428 году нашей эры эфиопы попытались связаться с христианами Средиземноморья после многих столетий изоляции, вызванной мусульманскими державами. Эфиопы связались с Альфонсо, который попытался отправить делегацию. Из-за борьбы европейцев при входе в сердце Африки эта делегация не смогла пережить болезни, обнаруженные вдоль Нила.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_HISTORY_PARA_5"
+				Language="ru_RU">
+			<Text>Джанни Карраччоло умрет в результате заговора в 1432 году нашей эры, Людовик III умрет в 1434 году нашей эры, а Иоанна II умрет в 1335 году нашей эры. Альфонсо не смог унаследовать королевство, вместо этого королевство перешло к Рене «Доброму» Анжуйскому. Новый Папа Евгений IV не согласился, полагая, что Неаполь не должен был перейти к другому члену династии Анжуйских. Рене предложил французам атаковать арагонцев, в результате чего Альфонсо был захвачен миланцами и генуэзцами. Находясь в тюрьме, Альфонсо использовал свой такт, чтобы присоединиться к правителю, он стал союзником и был освобожден. Подкупив кондотьера и кардинала Джованни Вителлески, армия Папского государства остановила бы их продвижение на Неаполь.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_HISTORY_PARA_6"
+				Language="ru_RU">
+			<Text>Альфонсо легко отобрал у Рене Аверсу, Салерно, Беневенто, Манфредонию и Битонто. Провансальская армия пошатнулась, Рене остался с родным Провансом, Абруццо и самим Неаполем. Альфонсо ловко подписал мир с папским контингентом в 10 000 солдат, прежде чем они смогли быть полезны его врагам, и Джованни Сфорца не мог предоставить более крупные силы для конфликта. Альфонсо использовал свежую артиллерию для осады самого Неаполя, вынудив последнего анжуйца сдаться и вернуться в Прованс. Впервые с 1282 года нашей эры на Сицилии стал один король (Неаполь всегда считался Сицилией). Когда Арагонская Корона объединилась с Неаполем, Альфонсо мог свободно заниматься искусством и искусной дипломатией. Он будет спонсировать Степана Косачу в Боснии, сделав его вассалом. В Албании генерал Скандербег дезертировал из Османской империи, сделав Арагон и Лежскую лигу номинальными союзниками. И албанцы, и боснийцы будут платить налоги Альфонсо.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_HISTORY_PARA_7"
+				Language="ru_RU">
+			<Text>Альфонсо будет править пятым в Арагоне и первым в Неаполе. После завоевания Неаполя в Кастель-Нуово была построена триумфальная арка, служившая входом в Неаполь. В качестве украшения он заказал статуи для арки. Альфонсо основал Неаполитанскую академию и покровительствовал ей. В качестве учителя он нанял там гуманиста Джованни Понтано. Университет Катании станет первым сицилийским университетом, основанным Альфонсо. Король был любителем классической литературы и во время похода читал произведения Ливия и Юлия Цезаря. Поэт Антонио Беккаделли утверждал, что Альфонсо излечился от болезни, прочитав «Историю Александра Великого» Квинта Курция Руфа. Альфонсо ради развлечения заставлял ученых дискутировать в своем дворе.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_HISTORY_PARA_8"
+				Language="ru_RU">
+			<Text>Во время его правления столица Арагонской короны переедет в Неаполь, а его жена и брат будут регентами на Пиренейском полуострове. Мало того, что столица была перенесена, в Неаполе была учреждена Генеральная канцлерство всей страны. На Сицилии он намеревался восстановить акведуки, осушить болота, и мощение улиц. Альфонсо в конце своей жизни сумел завоевать благосклонность Папы Евгения IV, позволив своему внебрачному сыну Фердинанду (Дон Ферранте в Неаполе). Альфонсо умер в 1458 году нашей эры, планируя вторжение в Геную, в результате чего его сын унаследовал Неаполь, а его ненавистный брат Иоанн II стал править Короной Арагона. Неаполь и Сицилия снова будут разделены.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_CAPSULE_BODY"
+				Language="ru_RU">
+			<Text>Альфонсо V всю жизнь сражался за свои королевские владения, поэтому его архитектура эпохи Возрождения лучше всего подходит для обновления городов в рамках подготовки к войне.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_DETAILED_BODY"
+				Language="ru_RU">
+			<Text>Арагон — воинственная цивилизация, которая фокусируется на хорошем управлении. Фактически, у нее больше пассивных положительных эффектов для счастья, чем активных эффектов для войны. Гранты на захват городов [ICON_Governor] титулы губернатора, позволяющие Арагону сосредоточиться на технологиях и гражданстве, которые напрямую приносят пользу бою. Имея переполнение [ICON_Governor] Титулы губернатора отлично подходят для обеспечения лояльности. Альфонсо V усиливает эффекты Акведуков, Развлекательных Комплексов и Аквапарков, позволяя избыточному количеству [ICON_Housing] Housing and [ICON_Amenities] Удобства во всех городах. Лучше всего построить как можно больше Акведуков и кварталов счастья. Альмугаварес — мощное противокавалерийское подразделение, оно может быстро захватить побережье и отразить ударную кавалерию. Корц — последний инструмент в арсенале завоеваний Арагона, он гарантирует, что город останется лояльным и счастливым даже без [ICON_Governor] Таким образом, губернатор позволил продолжить завоевание без внутренних проблем.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_CAPSULE_BODY"
+				Language="ru_RU">
+			<Text>Альфонсо I всю жизнь покровительствовал искусству своих королевских владений, поэтому его архитектура эпохи Возрождения лучше всего обновляла города ради культуры.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_CHAPTER_DETAILED_BODY"
+				Language="ru_RU">
+			<Text>Неаполь — послушная цивилизация, посвященная строительству больших городов. Цивилизация может достичь своих амбициозных целей, построив развлекательные комплексы, которые принесут пользу при Альфонсо I. Вилла оптимальна для культурной победы, поскольку открывает пространство для тематических мероприятий. [ICON_GreatWork_Landscape] Искусство или возможность строить археологические музеи, не жертвуя пространством для великих художников. Неаполь также выиграет от заселения побережья, морские города получат повышенную привлекательность, что даст место для новых национальных парков, высокая привлекательность также может предоставить вилле дополнительные [ICON_Culture] Культура. Специализированные округа также предоставляют [ICON_Gold] Золото от близости к побережью, а это означает, что Неаполь может легко создать экономику, просто застраивая районы. Шермальаторе — одно из сильнейших военно-морских подразделений средневековья. Оно может опустошать береговые линии, не защищенные осадными орудиями. «Шермальяторе» пожертвует обычными исследовательскими преимуществами «Каравеллы», поскольку для сохранения своих мощных способностей требуются прибрежные плитки.</Text>
+		</Row>
+		<!-- ARAGON CIVILIZATION -->
+		<Row	Tag="LOC_CIVINFO_STR_ARAGON_LOCATION"
+				Language="ru_RU">
+			<Text>Европа</Text>
+		</Row>
+		<Row	Tag="LOC_CIVINFO_STR_ARAGON_SIZE"
+				Language="ru_RU">
+			<Text>120 000 квадратных километров в ок. 1300 г. н.э.</Text>
+		</Row>
+		<Row	Tag="LOC_CIVINFO_STR_ARAGON_POPULATION"
+				Language="ru_RU">
+			<Text>1 миллион в гр. 1300 г. н.э.</Text>
+		</Row>
+		<Row	Tag="LOC_CIVINFO_STR_ARAGON_CAPITAL"
+				Language="ru_RU">
+			<Text>Хака (1035–1096 гг.), Уэска ​​(1096–1118 гг.), Сарагоса (1118–1833 гг.), Монсон (Парламент Короны Арагона), Фрага (Место встречи), Калатаюд (Место встречи), Тарасона (Место встречи), Барселона (столица Каталонии), Неаполь (1443–1458 гг.); часто управляется соборами или монастырями</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_STR_ARAGON_CHAPTER_HISTORY_PARA_1"
+				Language="ru_RU">
+			<Text>Арагон был основан как графство франками Каролингов, чтобы действовать в качестве буфера или марша против мусульман Иберии. Все началось с города Хака. В девятом веке Хака перешла в подчинение Памплоны (Королевства басков до Наварры). Арагон назван в честь реки Арагон. После смерти Санчо III Наваррского в 1035 году нашей эры, Страна Басков была разделена на Памплону, Кастилию и Собрарбе-Рибаргорса-Арагон. Рамиро I унаследовал Арагон, а позже унаследовал Собрарбе и Рибаргорсу от своего брата Гонсало. Рамиро стал независимым после победы над своим братом Гарсиа Санчесом III, королем Наварры. Сын Рамиро, Санчо Рамирес, позже унаследует Наварру, ему будет присвоен титул «Король арагонцев и памплонцев». После смерти Альфонсо Биттлера, оставшегося без наследника, в 1335 году нашей эры, Арагон и Наварра стали отдельными королевствами.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_STR_ARAGON_CHAPTER_HISTORY_PARA_2"
+				Language="ru_RU">
+			<Text>В 1150 году нашей эры Арагон вступит в союз с Барселоной (тогда крупнейшим каталонским графством). Этот союз между Петрониллой Арагонской и Рамоном Беренгером IV привел к тому, что их сын Альфонсо II стал королем и к созданию Короны Арагона, составной структуры нескольких королевств в рамках более крупного владения. Корона Арагона включает в себя Арагон в качестве основного титула, а также автономные регионы Каталония, Майорка, Валенсия, Сардиния, Сицилия и Неаполь. Король будет напрямую управлять Арагоном, но может владеть другими титулами, которые были завоеваны или унаследованы более прямым способом, как это было в случае с Провансом, Барселоной (графством, а не Каталонией), Монпелье, Афины и Неопатра (Фессалия). Дворянство попыталось ограничить королевские права в тринадцатом веке через движение Арагонского союза.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_STR_ARAGON_CHAPTER_HISTORY_PARA_3"
+				Language="ru_RU">
+			<Text>Из-за династических связей с Кастилией Дом Барселоны пытался де-факто объединить Испанию до 1410 года нашей эры, когда этот дом вымер. В 1412 году нашей эры кастильский принц Фердинанд I Антекерский стал королем Араганской короны. Каталонцы выступили против кастильского принца. Иоанн II Арагонский организовал брак между Изабеллой Кастильской (позже Изабеллой, католическим монархом) и Генрихом IV Кастильским. Этой помолвке будут противостоять маневры Изабеллы и ее будущего мужа и соправителя Фердинанда II. Эти двое заложат основы объединенной Испании. После заключения союза с Кастилией, Арагон сохранял свои автономные структуры и судебную систему до 1707–1715 годов нашей эры, когда указы Нуэва-Планта включили некоторые короны в объединенную Испанию. Некоторые гражданские права Арагона пережили указы Нуэва-Планта 1711 года нашей эры. После упразднения Арагонской короны Королевство Арагон сохраняло титул до 1833 года нашей эры. Арагон был восстановлен в качестве автономного региона Испании в 1982 году нашей эры, после смерти каудильо Франсиско Франко.</Text>
+		</Row>
+		<!-- NAPLES CIVILIZATION -->
+		<Row	Tag="LOC_CIVINFO_STR_NAPLES_LOCATION"
+				Language="ru_RU">
+			<Text>Европа</Text>
+		</Row>
+		<Row	Tag="LOC_CIVINFO_STR_NAPLES_SIZE"
+				Language="ru_RU">
+			<Text>в. 75 000 квадратных километров</Text>
+		</Row>
+		<Row	Tag="LOC_CIVINFO_STR_NAPLES_POPULATION"
+				Language="ru_RU">
+			<Text>3 миллиона в гр. 1600 г. н.э.</Text>
+		</Row>
+		<Row	Tag="LOC_CIVINFO_STR_NAPLES_CAPITAL"
+				Language="ru_RU">
+			<Text>Неаполь</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_STR_NAPLES_CHAPTER_HISTORY_PARA_1"
+				Language="ru_RU">
+			<Text>Неаполитанское королевство — историческое название сицилийского государства, существовавшего на юге Италии; однако Дом Анжуйский (или Анжуйская династия на английском языке) утверждал, что это королевство по-прежнему оставалось Королевством Сицилия. Чтобы различать две Сицилии (а не более поздние Две Сицилии), владения должны были быть связаны с тем, на какой стороне Пунта-дель-Фаро (Мессинский пролив) находилось рассматриваемое царство. Полуостров Сицилия (Неаполь) был известен как «Читра Фарум», «Аль-ди-ква-дель-Фаро» или «По эту сторону Фаро»; остров Сицилия был известен как «Ультра Фарум», «Ди ла дель Фаро» или «По ту сторону Фаро». Во время правления Альфонсо Великодушного полуостров Сицилия получил название Неаполь; однако его наследник Фердинанд (Дон Ферранте) I использовал титул короля Сицилии. Прежде чем подняться в царство, Неаполь был восточно-римским герцогством, размер которого был уменьшен в результате вторжения лангобардов. Восточные римляне нанимали «дукса» (военачальника) в качестве губернатора. Неаполь — это выделенная курсивом версия греческого «Неаполь» или «Новый город». В 763 году нашей эры Неаполь присягнул на верность папству, поскольку в то время Папа защищал город от лангобардов. Под папским правлением герцогство перешло с греческого на латынь. Неаполь игнорировал призывы Восточной Римской империи о морской поддержке против арабов, но Амальфи и Гаэта оставались верными в 810-х годах. К 850-м годам Неаполь был воинственным герцогством, отбивавшимся от лангобардов и арабов.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_STR_NAPLES_CHAPTER_HISTORY_PARA_2"
+				Language="ru_RU">
+			<Text>В 1027 году норманнам была предложена Аверса, после чего норманны распространились на юге Италии. Роджер II Сицилийский вторгнется и завоюет первое Сицилийское королевство в 1137 году нашей эры, царство принадлежало Сергию VII. Норманны построили несколько оборонительных сооружений в своем архитектурном стиле. Норманны были первыми, кто объединил Сицилию после столетий независимости от Восточной Римской империи. Королевство Сицилия было изобретено антипапой Анаклетом II в ок. 1130 г., в 1139 г. поп Иннокентий II узаконил государство; однако позже Папы претендовали на светские права на Сицилийское королевство. Царство будет унаследовано Фридрихом II Священной Римской империи. Война сицилийской вечерни в 1282 - 1302 гг. н. э. вынудила Карла I Анжуйского бежать из Сицилии. Его поддержал Петр III Арагонский, Карл остался в Неаполе (это первый раз, когда Неаполь неофициально называют Королевство). Династия д'Анжу была известна покровительством скульптуре на юге Италии. Иоанна I Неаполитанская откажется от своих притязаний на остров Сицилия, это вдохновит других анжуйцев конкурировать с арагонцами за остров, в частности, Людовик «Великий» Венгерский несколько раз будет настаивать на претензиях д'Анжуйского на остров. раз. Джоанна усыновила Людовика I Валуа-Анжуйского наследником, это решение создало конкуренцию между младшими и старшими династами Анжуйских. Карл III Анжуйский убьет Иоанну ради короны в 1382 году нашей эры. Людовик II Анжуйский захватит трон у Ладислава Неаполитанского (он был выходцем из венгерской линии). Дочь Карла III, Иоанна II, усыновит Альфонсо V Арагонского, это потерпит неудачу, но Альфонсо сохранит королевство на всю свою жизнь.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_STR_NAPLES_CHAPTER_HISTORY_PARA_3"
+				Language="ru_RU">
+			<Text>Последним желанием Альфонсо V Арагонского (Альфонсо I Неаполитанского) было, чтобы его внебрачный сын унаследовал Неаполь. Альфонсо V/I объединил обе Сицилии, но из-за войны за неаполитанское наследство остров Сицилия остался за Арагоном, а полуостров Неаполь стал независимым. В 1494 году нашей эры, Карл VIII Французский вторгся в Италию, используя притязания Рене Прованского на Неаполь, чтобы захватить Королевство. Это спровоцировало Итальянские войны, соревнование между династиями Габсбургов и Валуа между 1494 и 1559 годами нашей эры за раздел Италии между Францией и Священной Римской империей; В это время итальянские наемники станут основным товаром. Людовик XII взял Неаполь в 1501 году нашей эры, Фердинанд II, «католический монарх», откажется от своих притязаний, а Сицилия будет юридически разделена между Фаросскими островами. Это не удалось. Французы и арагонцы начали войну еще в 1502 году нашей эры. В результате Карл V из Священной Римской империи и Испании унаследует Неаполь; Франция и Испания продолжали настаивать на притязаниях Неаполя в течение десятилетий, пока французы не отказались от своих притязаний в 1559 году нашей эры, заключив договор Като-Камбрези, увеличив Неаполь примерно на пять тосканских городов. Неаполитанская рабочая сила была истощена испанцами во время Восьмидесятилетней войны. Большая часть налогов в Неаполе была посвящена войне. Во время франко-испанской войны между 1531 и 1636 годами нашей эры в поддержку Испании было отправлено 53 000 неаполитанцев и более 3 миллионов скуди. Войны Испании довели Неаполь до дефолта по кредитам.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_STR_NAPLES_CHAPTER_HISTORY_PARA_4"
+				Language="ru_RU">
+			<Text>По Раштаттскому договору 1714 года нашей эры Неаполь был передан Карлу VI Священной Римской империи, он также мог получить Сицилию в 1720 году нашей эры. Неаполь и Сицилия будут отвоеваны Испанией во время войны за польское наследство в 1734 году нашей эры. Династия Бурбонов, находящаяся у власти, увидит, что личный союз Испании и Неаполя будет иметь две отдельные конституции. Бурбоны Испании были врагами Французской революции и Бонапартов. Война Второй коалиции привела к тому, что Франция захватила Неаполь. Сначала революционеры сформировали Партенопейскую республику, которой противостояла клерикально-крестьянская революция, которая пригласила короля Фердинанда IV обратно в Неаполь. К 1801 году нашей эры, Неаполю пришлось пойти на уступки Франции. В 1806 году нашей эры Третья коалиция сместила Фердинанда и сформировала наполеоновское клиентское государство Неаполь, сначала под руководством Жозефа Бонапарта, затем Каролины Бонапарт и ее мужа маршала Иоахима Мюрата, который провозгласил себя королем Обеих Сицилий. Фердинанд вернется в Неаполь и Сицилию после Наполеона (например, после возвращения Наполеона), тем самым основав Королевство Обеих Сицилий как настоящий союз сицилийских народов. Обе Сицилии позже будут включены в состав Рисорджименто, двух частей (многих регионов) большого итальянского государства.</Text>
+		</Row>
+		<!-- ARAGON ALMUGAVARES UNIT -->
+		<Row	Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STR_ARAGON_ALMUGAVARES_CHAPTER_HISTORY_PARA_1"
+				Language="ru_RU">
+			<Text>Термин «аль-мугавир» по-арабски означает «рейдер, посланник или паломник». Термин «альмогаварс» произошел от арабского языка, по-испански «альмогаварес», по-португальски «альмогаварес», по-каталански «альмогаварс» и по-арагонски «альмугаварес». Все эти постарабские термины вызывают образ легкого лакея, хотя экипировка этих солдат могла сильно меняться в зависимости от периода времени. Общим фактором является то, что они служили христианским королевствам эпохи Реконкисты. Самыми ранними альмугаварами были кастильские крестьяне, преобразованные в настоящий отряд, позже альмугаваресы были арагонскими или каталонскими наемниками, приключившимися в Греции, Анатолии и Леванте.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STR_ARAGON_ALMUGAVARES_CHAPTER_HISTORY_PARA_2"
+				Language="ru_RU">
+			<Text>До того, как они были организованы в военную силу, альмогавары были пастухами, вынужденными заниматься бандитизмом из-за оккупации их внутренних районов мусульманами Аль-Андалуса. Альмогавары возникли как новый класс воинов на границе из-за присутствия исламских захватчиков. Некоторые альмогавары продали себя в качестве пехоты исламским государствам Иберии.. Альмогавары были ударными отрядами, сражались охотничьими копьями, двумя дротиками и фальшионом. Прежде чем атаковать, они затачивали свое оружие, чтобы летели искры, пытаясь запугать врага, а затем выкрикивали боевой клич: «Пробудись, железо! Давайте убивать!» давай убьем! Ради Святого Георгия и [Королевства они служили дважды]!» Согласно кастильскому Siete Partidas, альмогавары делились на адалидов (лидер отряда), альмогавар а лом кавалл (конные альмогавары), альмокаден (капитан) и хомбре де лагерь (земляки) или пеоны (пешки). Тактика Альмогаваров была очень эффективна против тяжелобронированных врагов на суше и на море.</Text>
+		</Row>
+		<!-- NAPLES SCHERMAGLIATORE UNIT -->
+		<Row	Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STR_NAPLES_SCHERMAGLIATORE_CHAPTER_HISTORY_PARA_1"
+				Language="ru_RU">
+			<Text>Шермальяторе на итальянском языке будет обозначать тип стрелкового отряда, например, альмугавареса в Арагоне. Исторически испанские альмугавары были самой элитной легкой пехотой Пиренейского полуострова, настолько, что, когда Реконкиста утихла, эти застрельщики выходили в море на галерах. Эти солдаты и искатели приключений пойдут далеко, завоевав Сардинию, обе Сицилии и Аттику, входя в Сицилию, находясь под командованием Великой Каталонской компании. Амфибии альмугаваресы, гребцы галер, устраивали засаду под палубой, набрасываясь на врагов, которые были в тяжелой броне, когда они подходили к кораблю.</Text>
+		</Row>
+		<Row	Tag="LOC_PEDIA_UNITS_PAGE_UNIT_STR_NAPLES_SCHERMAGLIATORE_CHAPTER_HISTORY_PARA_2"
+				Language="ru_RU">
+			<Text>Водные альмугавары, вероятно, достигли своего апогея при Роджере ди Лаурии, неаполитанском адмирале, служившем короне Арагона во время войны Сицилийской вечерни и столкновений между арагонцами и французами. Роджер считается одним из величайших средневековых адмиралов за свои сражения, в том числе: битву за Мальту в 1283 году нашей эры; битва в Неаполитанском заливе в 1284 году нашей эры; битвы при Формиге и Коль-де-Паниссар в 1285 году нашей эры; и Битва графов в 1287 году нашей эры, когда его численность составляла 8 к 40. В конечном итоге Роджер был смещен, но позже в своей карьере он служил англичанам против французов, а затем захватил Фридриха II Сицилийского, освободив его в обмен на помилование.</Text>
+		</Row>
+		<!-- ARAGON CORTZ BUILDING -->
+		<Row	Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_STR_ARAGON_CORTZ_CHAPTER_HISTORY_PARA_1"
+				Language="ru_RU">
+			<Text>Корц — это арагонский термин, обозначающий кортесы или суд. Королевство Арагон, входящее в состав Арагонской короны, собирало суд каждые пять лет, а после вступления Арагона в союз с Каталонией собрание было сокращено до ежегодного собрания. Суды носили судебный характер и использовались для рассмотрения жалоб внутри городов или между определенными людьми. Корц одобрял бы законодательство или налоговые вопросы. Корцы были разделены на иерархию социальных классов: духовенство, высшая знать, рыцари (низшие дворяне) и буржуазия (градоначальник, купцы, члены специализированных гильдий и т. д.). Сословия были организованы под руководством единого лидера, который должен был определить, единогласно ли голосует их класс. Корц Арагона стал образцом для парламентов Сардинии и Сицилии.</Text>
+		</Row>
+		<!-- NAPLES VILLA BUILDING -->
+		<Row	Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_STR_NAPLES_VILLA_CHAPTER_HISTORY_PARA_1"
+				Language="ru_RU">
+			<Text>Виллы возникли как роскошное жилье во всем Римском королевстве, республиках и империях. Виллы начинались как жилье, но необходимость манориализма потребовала распространения сельского хозяйства на территории вилл. Некоторые виллы станут монастырской собственностью при Латинской церкви. Римские виллы делились на городские виллы (загородные дома, состоящие из двух частей), вилла деревенская (загородные дома, которые составят основу поместья и плантации) и вилла otium, используемая для пенсионеров и увеселительных поездок. Средневековые виллы напоминали деревни, но крепостных на вилле называли вилланами. Испанский язык будет иметь такой же статус, как и Сьюдад (город). Виллы будут распространяться по всей Италии в эпоху Возрождения, особенно в Тоскане и Венеции. В Южной Италии или на Сицилии будут построены очень модернизированные виллы.</Text>
+		</Row>
+	</LocalizedText>
+
+</GameData>

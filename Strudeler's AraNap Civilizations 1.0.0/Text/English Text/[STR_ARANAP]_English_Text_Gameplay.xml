@@ -1,0 +1,2397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [STR_ARANAP]_English_Text_Gameplay -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 5/9/2022 3:16:39 PM -->
+<GameData>
+
+	<!-- MOD TEXT -->
+	<LocalizedText>
+		<Row	Tag="LOC_MOD_TEXT_MUSCOVY_CIVILIZATION"
+				Language="en_US">
+			<Text>
+				LEADER: Alfonso V/I (Aragon and Naples)
+				[NEWLINE]LEADER AGENDA: Latin Rhetoric
+				[NEWLINE]-Likes Civilizations that gossip.
+				[NEWLINE]-Dislikes Civilizations that do not gossip.
+				[NEWLINE]LEADER ABILITY: Renaissance King
+				[NEWLINE]- +30% [ICON_Production] Production towards the Aqueduct, Entertainment Complex, and Water Park.
+				[NEWLINE]- +10% [ICON_GreatPerson] Great People points for every Aqueduct, Entertainment Complex, and Water Park built in the City.
+				[NEWLINE]-Aqueducts, Entertainment Complexes, and Water Parks gain +1 of all yields, doubled after entering the Renaissance Era.
+				[NEWLINE][NEWLINE]CIVILIZATION: Aragon
+				[NEWLINE]CIVILZATION ABILITY: Forum of the Crown of Aragon
+				[NEWLINE]-Capturing a city grants a [ICON_Governor] Governor title, up to 7 [ICON_Governor] Governor titles can be claimed through conquest.
+				[NEWLINE]-Cities with a [ICON_Governor] Governor gain +1 [ICON_Amenities] Amenity and +2 Loyalty, doubled if the city was not founded.
+				[NEWLINE][NEWLINE]CIVILIZATION UNIT: Almugávares
+				[NEWLINE]-Replaces the Pikeman.
+				[NEWLINE]-Costs 1 [ICON_Citizen] Population to produce.
+				[NEWLINE]-Ignores [ICON_Movement] Movement penalties from embarking and disembarking.
+				[NEWLINE]- +10 [ICON_Strength] Combat Strength with Gunpowder.
+				[NEWLINE][NEWLINE]CIVILIZATION BUILDING: Cortz
+				[NEWLINE]- +1 Loyalty and +2 [ICON_Amenities] Amenities, additional +2 Loyalty if the City was not founded.
+				[NEWLINE]- +2 [ICON_Culture] Culture and [ICON_Tourism] Tourism, doubled if the city was not founded.
+				[NEWLINE]- +0.5 [ICON_Culture] Culture for every coast or lake tile in the City.
+				[NEWLINE][NEWLINE]CIVILIZATION: Naples
+				[NEWLINE]CIVILIZATION ABILITY: Between the Two Faros
+				[NEWLINE]-Land specialty districts gain standard [ICON_Gold] Gold adjacency from coast or lake tiles; coastal specialty districts gain minor [ICON_Gold] Gold adjacency from coast or lake tiles.
+				[NEWLINE]-Cities founded adjacent to a Coast or Lake tile gain +1 Appeal on all tiles.
+				[NEWLINE][NEWLINE]CIVILIZATION UNIT: Schermagliatore
+				[NEWLINE]-Replaces the Caravel.
+				[NEWLINE]-Available at Naval Tradition.
+				[NEWLINE]-Weak when not on coast tiles; +1 Sight, +2 [ICON_Movement] Movement, and +7 [ICON_Strength] Combat Strength when on Coast tiles.
+				[NEWLINE]- +10 [ICON_Strength] Combat Strength with Cartogtaphy.
+				[NEWLINE][NEWLINE]CIVILIZATION BUILDING: Villa
+				[NEWLINE]-Available at Pottery.
+				[NEWLINE]- +2 [ICON_Housing] Housing, +1 [ICON_Amenities] Amenities, +1 [ICON_Food] Food, +3 [ICON_Faith] Faith.
+			</Text>
+		</Row>
+		<Row	Tag="LOC_MOD_TEXT_MUSCOVY_CIVILIZATION"
+				Language="ru_RU">
+			<Text>
+				LEADER: Альфонсо V/I (Арагон и Неаполь)
+				[NEWLINE]LEADER AGENDA: Латинская Риторика
+				[NEWLINE]-Любит цивилизации, которые сплетничают.
+				[NEWLINE]-Не любит цивилизации, которые не сплетничают.
+				[NEWLINE]LEADER ABILITY: Король Возрождения
+				[NEWLINE]- +30% [ICON_Production] Производства для Акведука, Развлекательного комплекса и Аквапарка.
+				[NEWLINE]- +10% [ICON_GreatPerson] ОВЛ за каждый Акведук, Развлекательный комплекс и Аквапарк построенный в Городе.
+				[NEWLINE]-Акведуки, Центры развлечения и Аквапарки дают +1 of каждого yields, удваивается после вхождения в эпоху Возрождения.
+				[NEWLINE][NEWLINE]Цивилизация: Арагон
+				[NEWLINE]CIVILZATION ABILITY: Форум Короны Арагона
+				[NEWLINE]-Захват города даёт [ICON_Governor] Титул Губернатора, до 7 [ICON_Governor] Губернатор титулы можно получить путем завоевания.
+				[NEWLINE]-Города с [ICON_Governor] Губернатором дают +1 [ICON_Amenities] Довольства и +2 Лояльности, удваивается если Город не был основан.
+				[NEWLINE][NEWLINE]CIVILIZATION UNIT: Аль-мугавары
+				[NEWLINE]-Заменяет Копейщиков.
+				[NEWLINE]-Стоит 1 [ICON_Citizen] Населения для производства.
+				[NEWLINE]-Игнорирует [ICON_Movement] Штрафы за движение при посадке и высадке.
+				[NEWLINE]- +10 [ICON_Strength] Боевая сила с порохом.
+				[NEWLINE][NEWLINE]CIVILIZATION BUILDING: Корц
+				[NEWLINE]- +1 Лояльность и +2 [ICON_Amenities] Довольства, дополнительно +2 Лояльности, если Город не был основан.
+				[NEWLINE]- +2 [ICON_Culture] Культуры и [ICON_Tourism] Туризма, удваивается если Город не был основан.
+				[NEWLINE]- +0.5 [ICON_Culture] Культуры за каждую клетку побережья или озера в городе.
+				[NEWLINE][NEWLINE]CIVILIZATION: Неаполь
+				[NEWLINE]CIVILIZATION ABILITY: Между двумя Фаросами
+				[NEWLINE]-Земельные специализированные районы получают [ICON_Gold] Золото за соседство с плитками побережья или озера; прибрежные специализированные районы получают незначительное [ICON_Gold] Золото за соседство с плитками побережья или озера.
+				[NEWLINE]-Города, основанные рядом с плиткой побережья или озера, получают +1 привлекательность на всех плитках.
+				[NEWLINE][NEWLINE]CIVILIZATION UNIT: Schermagliatore
+				[NEWLINE]-Replaces the Caravel.
+				[NEWLINE]-Available at Naval Tradition.
+				[NEWLINE]-Weak when not on coast tiles; +1 Sight, +2 [ICON_Movement] Movement, and +7 [ICON_Strength] Combat Strength when on Coast tiles.
+				[NEWLINE]- +10 [ICON_Strength] Combat Strength with Cartogtaphy.
+				[NEWLINE][NEWLINE]CIVILIZATION BUILDING: Вилла
+				[NEWLINE]-Доступна в Гончарном Деле.
+				[NEWLINE]- +2 [ICON_Housing] Жилья, +1 [ICON_Amenities] Довольство, +1 [ICON_Food] Пища, +3 [ICON_Faith] Веры.
+			</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- ARAGON/NAPLES ALFONSO V/I THE MAGNANIMOUS DE TRASTAMARA LEADER TEXT -->
+	<LocalizedText>
+		<Row	Tag="LOC_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_NAME"
+				Language="en_US">
+			<Text>Alfonso V (Aragon)</Text>
+		</Row>
+		<Row	Tag="LOC_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_NAME"
+				Language="en_US">
+			<Text>Alfonso I (Naples)</Text>
+		</Row>
+		<Row	Tag="LOC_TRAIT_LEADER_STR_ARAGON_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_RENAISSANCE_KING_NAME"
+				Language="en_US">
+			<Text>Renaissance King</Text>
+		</Row>
+		<Row	Tag="LOC_TRAIT_LEADER_STR_ARAGON_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_RENAISSANCE_KING_DESCRIPTION"
+				Language="en_US">
+			<Text>+30% [ICON_Production] Production towards the Aqueduct, Entertainment Complex, and Water Park. +10% [ICON_GreatPerson] Great People points for every Aqueduct, Entertainment Complex, and Water Park built in the city. Aqueducts, Entertainment Complexes, and Water Parks gain +1 of all yields, doubled after entering the Renaissance era.</Text>
+		</Row>
+		<Row	Tag="LOC_LOADING_INFO_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA"
+				Language="en_US">
+			<Text>The Mediterranean bows before its King, good Alfonso, the bringer of the Renaissance. It is through you and the your domains that the old dream of Mare Nostrum is realized. The ruins of Rome have been waiting, good King, for an autocrat worthy of the Classical era. Take command of the Mediterranean, the world shall know that Aragon is more than Hispania, but the second Rome itself.</Text>
+		</Row>
+		<Row	Tag="LOC_LOADING_INFO_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA"
+				Language="en_US">
+			<Text>The Mediterranean bows before its King, good Alfonso, the bringer of the Renaissance. It is through you and the your domains that the old dream of Mare Nostrum is realized. The ruins of Rome have been waiting, good King, for an autocrat worthy of the Classical era. Take command of the Mediterranean, the world shall know that Aragon is more than Hispania, but the second Rome itself.</Text>
+		</Row>
+		<Row	Tag="LOC_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_NAME"
+				Language="ru_RU">
+			<Text>Альфонсо V (Арагон)</Text>
+		</Row>
+		<Row	Tag="LOC_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_NAME"
+				Language="ru_RU">
+			<Text>Альфонсо I (Неаполь)</Text>
+		</Row>
+		<Row	Tag="LOC_TRAIT_LEADER_STR_ARAGON_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_RENAISSANCE_KING_NAME"
+				Language="ru_RU">
+			<Text>Король Возрождения</Text>
+		</Row>
+		<Row	Tag="LOC_TRAIT_LEADER_STR_ARAGON_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_RENAISSANCE_KING_DESCRIPTION"
+				Language="ru_RU">
+			<Text>+30% [ICON_Production] Производства для Акведука, Развлекательного комплекса и Аквапарка. +10% [ICON_GreatPerson] ОВЛ за каждый Акведук, Развлекательный комплекс и Аквапарк построенный в Городе. Акведуки, Центры развлечения и Аквапарки дают +1 of каждого yields, удваивается после вхождения в эпоху Возрождения.</Text>
+		</Row>
+		<Row	Tag="LOC_LOADING_INFO_LEADER_STR_ARAGON_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA"
+				Language="ru_RU">
+			<Text>Средиземноморье склоняется перед своим королем, добрым Альфонсо, родоначальником Возрождения. Именно благодаря вам и вашим владениям реализуется давняя мечта Mare Nostrum. Руины Рима, добрый король, ждут самодержца, достойного классической эпохи. Возьми под свой контроль Средиземное море, мир узнает, что Арагон — это больше, чем Испания, это сам второй Рим.</Text>
+		</Row>
+		<Row	Tag="LOC_LOADING_INFO_LEADER_STR_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA"
+				Language="ru_RU">
+			<Text>Средиземноморье склоняется перед своим королем, добрым Альфонсо, родоначальником Возрождения. Именно благодаря вам и вашим владениям реализуется давняя мечта Mare Nostrum. Руины Рима, добрый король, ждут самодержца, достойного классической эпохи. Возьми под свой контроль Средиземное море, мир узнает, что Арагон — это больше, чем Испания, это сам второй Рим.</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- ARAGON/NAPLES ALFONSO V/I THE MAGNANIMOUS DE TRASTAMARA AGENDA TEXT -->
+	<LocalizedText>
+		<Row	Tag="LOC_TRAIT_AGENDA_STR_ARAGON_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_LATIN_RHETORIC_NAME"
+				Language="en_US">
+			<Text>Latin Rhetoric</Text>
+		</Row>
+		<Row	Tag="LOC_TRAIT_AGENDA_STR_ARAGON_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_LATIN_RHETORIC_DESCRIPTION"
+				Language="en_US">
+			<Text>Likes civilizations that gossip. Dislikes civilizations that do not gossip.</Text>
+		</Row>
+		<Row	Tag="LOC_DIPLO_MODIFIER_STR_ARAGON_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_LATIN_RHETORIC_POSITIVE"
+				Language="en_US">
+			<Text>The Magnanimous King of Aragon and Naples enjoys leaders that spar with their tongue.</Text>
+		</Row>
+		<Row	Tag="LOC_DIPLO_MODIFIER_STR_ARAGON_NAPLES_ALFONSO_V_I_THE_MAGNANIMOUS_DE_TRASTAMARA_LATIN_RHETORIC_NEGATIVE"
+				Language="en_US">
+			<Text>The Magnanimous King of Aragon and Naples dislikes leaders that do not engage in diplomacy.</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- ARAGON CIVILIZATION TEXT -->
+	<LocalizedText>
+		<Row	Tag="LOC_CIVILIZATION_STR_ARAGON_NAME"
+				Language="en_US">
+			<Text>Aragon</Text>
+		</Row>
+		<Row	Tag="LOC_CIVILIZATION_STR_ARAGON_DESCRIPTION"
+				Language="en_US">
+			<Text>Aragonese Empire</Text>
+		</Row>
+		<Row	Tag="LOC_CIVILIZATION_STR_ARAGON_ADJECTIVE"
+				Language="en_US">
+			<Text>Aragonese</Text>
+		</Row>
+		<Row	Tag="LOC_TRAIT_CIVILIZATION_STR_ARAGON_FORUM_OF_THE_CROWN_OF_ARAGON_NAME"
+				Language="en_US">
+			<Text>Forum of the Crown of Aragon</Text>
+		</Row>
+		<Row	Tag="LOC_TRAIT_CIVILIZATION_STR_ARAGON_FORUM_OF_THE_CROWN_OF_ARAGON_DESCRIPTION"
+				Language="en_US">
+			<Text>Capturing a city grants a [ICON_Governor] Governor title, up to 7 [ICON_Governor] Governor titles can be claimed through conquest. Cities with a [ICON_Governor] Governor gain +1 [ICON_Amenities] Amenity and +2 Loyalty, doubled if the city was not founded.</Text>
+		</Row>
+		<Row	Tag="LOC_CIVILIZATION_STR_ARAGON_NAME"
+				Language="ru_RU">
+			<Text>Арагон</Text>
+		</Row>
+		<Row	Tag="LOC_CIVILIZATION_STR_ARAGON_DESCRIPTION"
+				Language="ru_RU">
+			<Text>Арагонская империя</Text>
+		</Row>
+		<Row	Tag="LOC_CIVILIZATION_STR_ARAGON_ADJECTIVE"
+				Language="ru_RU">
+			<Text>Арагонский</Text>
+		</Row>
+		<Row	Tag="LOC_TRAIT_CIVILIZATION_STR_ARAGON_FORUM_OF_THE_CROWN_OF_ARAGON_NAME"
+				Language="ru_RU">
+			<Text>Форум Короны Арагона</Text>
+		</Row>
+		<Row	Tag="LOC_TRAIT_CIVILIZATION_STR_ARAGON_FORUM_OF_THE_CROWN_OF_ARAGON_DESCRIPTION"
+				Language="ru_RU">
+			<Text>Захват города даёт [ICON_Governor] Титул Губернатора, до 7 [ICON_Governor] Губернаторские титулы можно получить путем завоевания. Города с [ICON_Governor] Губернатором дают +1 [ICON_Amenities] Довольства и +2 Лояльности, удваивается если Город не был основан.</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- NAPLES CIVILIZATION TEXT -->
+	<LocalizedText>
+		<Row	Tag="LOC_CIVILIZATION_STR_NAPLES_NAME"
+				Language="en_US">
+			<Text>Naples</Text>
+		</Row>
+		<Row	Tag="LOC_CIVILIZATION_STR_NAPLES_DESCRIPTION"
+				Language="en_US">
+			<Text>Neapolitan Empire</Text>
+		</Row>
+		<Row	Tag="LOC_CIVILIZATION_STR_NAPLES_ADJECTIVE"
+				Language="en_US">
+			<Text>Neapolitan</Text>
+		</Row>
+		<Row	Tag="LOC_TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_NAME"
+				Language="en_US">
+			<Text>Between the Two Faros</Text>
+		</Row>
+		<Row	Tag="LOC_TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_DESCRIPTION"
+				Language="en_US">
+			<Text>Land specialty districts gain standard [ICON_Gold] Gold adjacency from coast or lake tiles; coastal specialty districts gain minor [ICON_Gold] Gold adjacency from coast or lake tiles. Cities founded adjacent to a coast or lake tile gain +1 Appeal on all tiles.</Text>
+		</Row>
+		<Row	Tag="LOC_DISTRICT_STR_NAPLES_DESCRIPTION_1"
+				Language="en_US">
+			<Text>+{1_Num} [ICON_Gold] Gold from adjacent Coast or Lake tiles. (Between the Two Faros)</Text>
+		</Row>
+		<Row	Tag="LOC_DISTRICT_STR_NAPLES_CHARMING_APPEAL"
+				Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] Culture from Charming Appeal.</Text>
+		</Row>
+		<Row	Tag="LOC_DISTRICT_STR_NAPLES_BREATHTAKING_APPEAL"
+				Language="en_US">
+			<Text>+{1_Num} [ICON_Culture] Culture from Breathtaking Appeal.</Text>
+		</Row>
+		<Row	Tag="LOC_CIVILIZATION_STR_NAPLES_NAME"
+				Language="ru_RU">
+			<Text>Неаполь</Text>
+		</Row>
+		<Row	Tag="LOC_CIVILIZATION_STR_NAPLES_DESCRIPTION"
+				Language="ru_RU">
+			<Text>Неаполитанское Королевство</Text>
+		</Row>
+		<Row	Tag="LOC_CIVILIZATION_STR_NAPLES_ADJECTIVE"
+				Language="ru_RU">
+			<Text>Неаполитанский</Text>
+		</Row>
+		<Row	Tag="LOC_TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_NAME"
+				Language="ru_RU">
+			<Text>Между двумя Фаросами</Text>
+		</Row>
+		<Row	Tag="LOC_TRAIT_CIVILIZATION_STR_NAPLES_BETWEEN_THE_TWO_FAROS_DESCRIPTION"
+				Language="ru_RU">
+			<Text>Земельные специализированные районы получают [ICON_Gold] Золото за соседство с плитками побережья или озера; прибрежные специализированные районы получают незначительное [ICON_Gold] Золото за соседство с плитками побережья или озера. Города, основанные рядом с плиткой побережья или озера, получают +1 привлекательность на всех плитках.</Text>
+		</Row>
+		<Row	Tag="LOC_DISTRICT_STR_NAPLES_DESCRIPTION_1"
+				Language="ru_RU">
+			<Text>+{1_Num} [ICON_Gold] Золота от соседних плиток побережья или озера. (Между двумя Фаросами)</Text>
+		</Row>
+		<Row	Tag="LOC_DISTRICT_STR_NAPLES_CHARMING_APPEAL"
+				Language="ru_RU">
+			<Text>+{1_Num} [ICON_Culture] Культура от очаровательного обращения.</Text>
+		</Row>
+		<Row	Tag="LOC_DISTRICT_STR_NAPLES_BREATHTAKING_APPEAL"
+				Language="ru_RU">
+			<Text>+{1_Num} [ICON_Culture] Культура из захватывающей дух привлекательности.</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- ARAGON ALMUGAVARES TEXT -->
+	<LocalizedText>
+		<Row	Tag="LOC_UNIT_STR_ARAGON_ALMUGAVARES_NAME"
+				Language="en_US">
+			<Text>Almugávares</Text>
+		</Row>
+		<Row	Tag="LOC_UNIT_STR_ARAGON_ALMUGAVARES_DESCRIPTION"
+				Language="en_US">
+			<Text>Aragonese unique Medieval era Melee class unit that replaces the Pikeman. Costs 1 [ICON_Citizen] Population to produce. Ignores [ICON_Movement] Movement penalties from embarking and disembarking. +10 [ICON_Strength] Combat Strength with Gunpowder.</Text>
+		</Row>
+		<Row	Tag="LOC_ABILITY_STR_ARAGON_ALMUGAVARES_EMBARK_1_NAME"
+				Language="en_US">
+			<Text>Haughty Pilgrims</Text>
+		</Row>
+		<Row	Tag="LOC_ABILITY_STR_ARAGON_ALMUGAVARES_EMBARK_1_DESCRIPTION"
+				Language="en_US">
+			<Text>No [ICON_Movement] Movement penalty to embark or disembark.</Text>
+		</Row>
+		<Row	Tag="LOC_ABILITY_STR_ARAGON_ALMUGAVARES_EMBARK_1_DESCRIPTION_BONUS"
+				Language="en_US">
+			<Text>No [ICON_Movement] Movement penalty to embark or disembark</Text>
+		</Row>
+		<Row	Tag="LOC_ABILITY_STR_ARAGON_ALMUGAVARES_STRENGTH_FROM_GUNPOWDER_1_NAME"
+				Language="en_US">
+			<Text>Haughty Raiders</Text>
+		</Row>
+		<Row	Tag="LOC_ABILITY_STR_ARAGON_ALMUGAVARES_STRENGTH_FROM_GUNPOWDER_1_DESCRIPTION"
+				Language="en_US">
+			<Text>+10 [ICON_Strength] Combat Strength with the Gunpowder technology.</Text>
+		</Row>
+		<Row	Tag="LOC_ABILITY_STR_ARAGON_ALMUGAVARES_STRENGTH_FROM_GUNPOWDER_1_DESCRIPTION_BONUS"
+				Language="en_US">
+			<Text>+{1_Amount} [ICON_Strength] Combat Strength with the Gunpowder technology</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- NAPLES SCHERMAGLIATORE TEXT -->
+	<LocalizedText>
+		<Row	Tag="LOC_UNIT_STR_NAPLES_SCHERMAGLIATORE_NAME"
+				Language="en_US">
+			<Text>Schermagliatore</Text>
+		</Row>
+		<Row	Tag="LOC_UNIT_STR_NAPLES_SCHERMAGLIATORE_DESCRIPTION"
+				Language="en_US">
+			<Text>Neapolitan unique Medieval era Naval Melee class unit that replaces the Caravel. Available at Naval Tradition. Weak when not on coast tiles; +1 Sight, +2 [ICON_Movement] Movement, and +7 [ICON_Strength] Combat Strength when on coast tiles. +10 [ICON_Strength] Combat Strength with Cartography.</Text>
+		</Row>
+		<Row	Tag="LOC_ABILITY_STR_NAPLES_SCHERMAGLIATORE_BONUS_ON_COAST_1_NAME"
+				Language="en_US">
+			<Text>Naval Skirmisher</Text>
+		</Row>
+		<Row	Tag="LOC_ABILITY_STR_NAPLES_SCHERMAGLIATORE_BONUS_ON_COAST_1_DESCRIPTION"
+				Language="en_US">
+			<Text>+1 Sight, +2 [ICON_Movement] Movement, and +7 [ICON_Strength] Combat Strength when on coast.</Text>
+		</Row>
+		<Row	Tag="LOC_ABILITY_STR_NAPLES_SCHERMAGLIATORE_BONUS_ON_COAST_1_DESCRIPTION_BONUS"
+				Language="en_US">
+			<Text>+1 Sight, +2 [ICON_Movement] Movement, and +{1_Amount} [ICON_Strength] Combat Strength when on coast</Text>
+		</Row>
+		<Row	Tag="LOC_ABILITY_STR_NAPLES_SCHERMAGLIATORE_STRENGTH_FROM_CARTOGRAPHY_1_NAME"
+				Language="en_US">
+			<Text>Spanish Imperialism</Text>
+		</Row>
+		<Row	Tag="LOC_ABILITY_STR_NAPLES_SCHERMAGLIATORE_STRENGTH_FROM_CARTOGRAPHY_1_DESCRIPTION"
+				Language="en_US">
+			<Text>+10 [ICON_Strength] Combat Strength with the Cartography technology.</Text>
+		</Row>
+		<Row	Tag="LOC_ABILITY_STR_NAPLES_SCHERMAGLIATORE_STRENGTH_FROM_CARTOGRAPHY_1_DESCRIPTION_BONUS"
+				Language="en_US">
+			<Text>+{1_Amount} [ICON_Strength] Combat Strength with the Cartography technology</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- ARAGON CORTZ TEXT -->
+	<LocalizedText>
+		<Row	Tag="LOC_BUILDING_STR_ARAGON_CORTZ_NAME"
+				Language="en_US">
+			<Text>Cortz</Text>
+		</Row>
+		<Row	Tag="LOC_BUILDING_STR_ARAGON_CORTZ_DESCRIPTION"
+				Language="en_US">
+			<Text>A building unique to Aragon that replaces the Arena. +1 Loyalty and +2 [ICON_Amenities] Amenities, additional +2 Loyalty if the city was not founded. +2 [ICON_Culture] Culture and [ICON_Tourism] Tourism, doubled if the city was not founded. +0.5 [ICON_Culture] Culture for every coast or lake tile in the city.</Text>
+		</Row>
+		<Row	Tag="LOC_BUILDING_STR_ARAGON_CORTZ_NAME"
+				Language="ru_RU">
+			<Text>Корц</Text>
+		</Row>
+		<Row	Tag="LOC_BUILDING_STR_ARAGON_CORTZ_DESCRIPTION"
+				Language="ru_RU">
+			<Text>Уникальное здание для Арагона заменяет Арену. +1 Лояльность и +2 [ICON_Amenities] Довольства, дополнительно +2 Лояльности, если Город не был основан. +2 [ICON_Culture] Культуры и [ICON_Tourism] Туризма, удваивается если Город не был основан. +0.5 [ICON_Culture] Культуры за каждую клетку побережья или озера в городе.</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- NAPLES VILLA TEXT -->
+	<LocalizedText>
+		<Row	Tag="LOC_BUILDING_STR_NAPLES_VILLA_NAME"
+				Language="en_US">
+			<Text>Villa</Text>
+		</Row>
+		<Row	Tag="LOC_BUILDING_STR_NAPLES_VILLA_DESCRIPTION"
+				Language="en_US">
+			<Text>A building unique to Naples that replaces the Zoo. Available at Buttress. High maintenance. +2 [ICON_Housing] Housing and +3 [ICON_Amenities] Amenities. The Entertainment Complex gains +1 [ICON_Culture] Culture if the tile has Charming Appeal, tripled if the tile has Breathtaking Appeal. Has 2 [ICON_GreatWork_Landscape] Great Work of Art slots that are automatically themed when full.</Text>
+		</Row>
+		<Row	Tag="LOC_BUILDING_STR_THEMINGBONUS_NAPLES_VILLA"
+				Language="en_US">
+			<Text>Theming bonus doubling [ICON_Tourism] Tourism when Villa is full.</Text>
+		</Row>
+		<Row	Tag="LOC_BUILDING_STR_NAPLES_VILLA_NAME"
+				Language="ru_RU">
+			<Text>Вилла</Text>
+		</Row>
+		<Row	Tag="LOC_BUILDING_STR_NAPLES_VILLA_DESCRIPTION"
+				Language="ru_RU">
+			<Text>Доступно в Гончарном Деле. +2 [ICON_Housing] Жилья, +1 [ICON_Amenities] Довольство, +1 [ICON_Food] Пища, +3 [ICON_Faith] Веры.</Text>
+		</Row>
+		<Row	Tag="LOC_BUILDING_STR_THEMINGBONUS_NAPLES_VILLA"
+				Language="ru_RU">
+			<Text>.</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- ARAGON CITY TEXT -->
+	<LocalizedText>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_1"
+				Language="en_US">
+			<Text>Zaragoza</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_2"
+				Language="en_US">
+			<Text>Sabiñánigo</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_3"
+				Language="en_US">
+			<Text>Loarre</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_4"
+				Language="en_US">
+			<Text>Sos del Rey Católico</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_5"
+				Language="en_US">
+			<Text>Petilla de Aragón</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_6"
+				Language="en_US">
+			<Text>Ejea de los Caballeros</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_7"
+				Language="en_US">
+			<Text>Tauste</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_8"
+				Language="en_US">
+			<Text>Gallur</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_9"
+				Language="en_US">
+			<Text>Sariñena</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_10"
+				Language="en_US">
+			<Text>Alcañiz</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_11"
+				Language="en_US">
+			<Text>Cuarte de Huerva</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_12"
+				Language="en_US">
+			<Text>Huesca</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_13"
+				Language="en_US">
+			<Text>Benasque</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_14"
+				Language="en_US">
+			<Text>Jaca</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_15"
+				Language="en_US">
+			<Text>Formigal</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_16"
+				Language="en_US">
+			<Text>Ainsa</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_17"
+				Language="en_US">
+			<Text>Monzón</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_18"
+				Language="en_US">
+			<Text>Lanaja</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_19"
+				Language="en_US">
+			<Text>Fraga</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_20"
+				Language="en_US">
+			<Text>Mequinenza</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_21"
+				Language="en_US">
+			<Text>Andorra</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_22"
+				Language="en_US">
+			<Text>Valdelinares</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_23"
+				Language="en_US">
+			<Text>Cantavieja</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_24"
+				Language="en_US">
+			<Text>Aliaga</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_25"
+				Language="en_US">
+			<Text>Utrillas</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_26"
+				Language="en_US">
+			<Text>Gargallo</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_27"
+				Language="en_US">
+			<Text>Calanda</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_28"
+				Language="en_US">
+			<Text>Hijar</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_29"
+				Language="en_US">
+			<Text>Escatrón</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_30"
+				Language="en_US">
+			<Text>Tamarite de Litera</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_31"
+				Language="en_US">
+			<Text>Estopiñán del Castillo</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_32"
+				Language="en_US">
+			<Text>Teruel</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_33"
+				Language="en_US">
+			<Text>Albarracín</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_34"
+				Language="en_US">
+			<Text>Guadalaviar</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_35"
+				Language="en_US">
+			<Text>Tramacastilla</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_36"
+				Language="en_US">
+			<Text>Tornos</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_37"
+				Language="en_US">
+			<Text>Jaraba</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_38"
+				Language="en_US">
+			<Text>Nuévalos</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_39"
+				Language="en_US">
+			<Text>Albalate del Arzobispo</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_40"
+				Language="en_US">
+			<Text>Belchite</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_41"
+				Language="en_US">
+			<Text>La Muela</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_42"
+				Language="en_US">
+			<Text>Muel</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_43"
+				Language="en_US">
+			<Text>Echo</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_44"
+				Language="en_US">
+			<Text>Aragüés del Puerto</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_45"
+				Language="en_US">
+			<Text>Urdués</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_46"
+				Language="en_US">
+			<Text>Panticosa</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_47"
+				Language="en_US">
+			<Text>Cariñena</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_48"
+				Language="en_US">
+			<Text>Almudévar</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_49"
+				Language="en_US">
+			<Text>Calatayud</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_ARAGON_50"
+				Language="en_US">
+			<Text>Illueca</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- ARAGON CITIZENS TEXT -->
+	<LocalizedText>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_MALE_1"
+				Language="en_US">
+			<Text>Arnal</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_MALE_2"
+				Language="en_US">
+			<Text>Berich</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_MALE_3"
+				Language="en_US">
+			<Text>Cerverí</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_MALE_4"
+				Language="en_US">
+			<Text>Ermenguer</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_MALE_5"
+				Language="en_US">
+			<Text>Gesaleic</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_MALE_6"
+				Language="en_US">
+			<Text>Noffre</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_MALE_7"
+				Language="en_US">
+			<Text>Texto</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_MALE_8"
+				Language="en_US">
+			<Text>Perdiguer</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_MALE_9"
+				Language="en_US">
+			<Text>Khindasvint</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_MALE_10"
+				Language="en_US">
+			<Text>Galceran</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_FEMALE_1"
+				Language="en_US">
+			<Text>Aguilona</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_FEMALE_2"
+				Language="en_US">
+			<Text>Bàrbara</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_FEMALE_3"
+				Language="en_US">
+			<Text>Esclaramunda</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_FEMALE_4"
+				Language="en_US">
+			<Text>Pelejana</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_FEMALE_5"
+				Language="en_US">
+			<Text>Ysabet</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_FEMALE_6"
+				Language="en_US">
+			<Text>Ofrecina</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_FEMALE_7"
+				Language="en_US">
+			<Text>Clemença</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_FEMALE_8"
+				Language="en_US">
+			<Text>Berenguera</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_FEMALE_9"
+				Language="en_US">
+			<Text>Arsendis</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_FEMALE_10"
+				Language="en_US">
+			<Text>Geralla</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_MODERN_MALE_1"
+				Language="en_US">
+			<Text>Ramiro</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_MODERN_MALE_2"
+				Language="en_US">
+			<Text>Peter</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_MODERN_MALE_3"
+				Language="en_US">
+			<Text>Sancho</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_MODERN_MALE_4"
+				Language="en_US">
+			<Text>Jaume</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_MODERN_MALE_5"
+				Language="en_US">
+			<Text>Ferdinand</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_MODERN_MALE_6"
+				Language="en_US">
+			<Text>Bitor</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_MODERN_MALE_7"
+				Language="en_US">
+			<Text>Remund</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_MODERN_MALE_8"
+				Language="en_US">
+			<Text>Solano</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_MODERN_MALE_9"
+				Language="en_US">
+			<Text>Alixandre</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_MODERN_MALE_10"
+				Language="en_US">
+			<Text>Salvador</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_MODERN_FEMALE_1"
+				Language="en_US">
+			<Text>Petronilla</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_MODERN_FEMALE_2"
+				Language="en_US">
+			<Text>Isperia</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_MODERN_FEMALE_3"
+				Language="en_US">
+			<Text>Joanna</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_MODERN_FEMALE_4"
+				Language="en_US">
+			<Text>Aizivella</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_MODERN_FEMALE_5"
+				Language="en_US">
+			<Text>Izarbe</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_MODERN_FEMALE_6"
+				Language="en_US">
+			<Text>Agnessona</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_MODERN_FEMALE_7"
+				Language="en_US">
+			<Text>Graziella</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_MODERN_FEMALE_8"
+				Language="en_US">
+			<Text>Rocio</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_MODERN_FEMALE_9"
+				Language="en_US">
+			<Text>Pilaria</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_ARAGON_MODERN_FEMALE_10"
+				Language="en_US">
+			<Text>Ixinia</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- ARAGON MOUNTAIN TEXT -->
+	<LocalizedText>
+		<Row	Tag="LOC_NAMED_MOUNTAIN_STR_ARAGON_1_NAME"
+				Language="en_US">
+			<Text>Pic de l'Espadas</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_MOUNTAIN_STR_ARAGON_2_NAME"
+				Language="en_US">
+			<Text>Collarada Montanyesa</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_MOUNTAIN_STR_ARAGON_3_NAME"
+				Language="en_US">
+			<Text>Pic de l'Escarra</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_MOUNTAIN_STR_ARAGON_4_NAME"
+				Language="en_US">
+			<Text>Penya Montanyesa</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_MOUNTAIN_STR_ARAGON_5_NAME"
+				Language="en_US">
+			<Text>Txamantxoia Montanyesa</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_MOUNTAIN_STR_ARAGON_6_NAME"
+				Language="en_US">
+			<Text>Tossal dels Tres Reis</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_MOUNTAIN_STR_ARAGON_7_NAME"
+				Language="en_US">
+			<Text>Penyagalera Montanyesa</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_MOUNTAIN_STR_ARAGON_8_NAME"
+				Language="en_US">
+			<Text>Lobo Montanyesa</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_MOUNTAIN_STR_ARAGON_9_NAME"
+				Language="en_US">
+			<Text>Cabezo de Altomira Montanyesa</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_MOUNTAIN_STR_ARAGON_10_NAME"
+				Language="en_US">
+			<Text>Las Dos Teticas</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- ARAGON RIVER TEXT -->
+	<LocalizedText>
+		<Row	Tag="LOC_NAMED_RIVER_STR_ARAGON_1_NAME"
+				Language="en_US">
+			<Text>Riu Aragón </Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_RIVER_STR_ARAGON_2_NAME"
+				Language="en_US">
+			<Text>Riu Ebre</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_RIVER_STR_ARAGON_3_NAME"
+				Language="en_US">
+			<Text>Riu Júcar</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_RIVER_STR_ARAGON_4_NAME"
+				Language="en_US">
+			<Text>Riu Oca</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_RIVER_STR_ARAGON_5_NAME"
+				Language="en_US">
+			<Text>Riu Zadorra</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_RIVER_STR_ARAGON_6_NAME"
+				Language="en_US">
+			<Text>Riu Huerva</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_RIVER_STR_ARAGON_7_NAME"
+				Language="en_US">
+			<Text>Riu Guadalope</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_RIVER_STR_ARAGON_8_NAME"
+				Language="en_US">
+			<Text>Riu Bergantes </Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_RIVER_STR_ARAGON_9_NAME"
+				Language="en_US">
+			<Text>Riu Jalón</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_RIVER_STR_ARAGON_10_NAME"
+				Language="en_US">
+			<Text>Riu Zadorra</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- ARAGON LAKES TEXT -->
+	<LocalizedText>
+		<Row	Tag="LOC_NAMED_LAKE_STR_ARAGON_1_NAME"
+				Language="en_US">
+			<Text>Ibones de Anayet</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_LAKE_STR_ARAGON_2_NAME"
+				Language="en_US">
+			<Text>Ibón de Bachimaña Alto</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_LAKE_STR_ARAGON_3_NAME"
+				Language="en_US">
+			<Text>Ibón de Bachimaña Bajo</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_LAKE_STR_ARAGON_4_NAME"
+				Language="en_US">
+			<Text>Ibón de Escalar</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_LAKE_STR_ARAGON_5_NAME"
+				Language="en_US">
+			<Text>Ibón de Estanés</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_LAKE_STR_ARAGON_6_NAME"
+				Language="en_US">
+			<Text>Laguna de Gallocanta</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_LAKE_STR_ARAGON_7_NAME"
+				Language="en_US">
+			<Text>Ibón de Plan</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_LAKE_STR_ARAGON_8_NAME"
+				Language="en_US">
+			<Text>Ibón de Sabocos</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_LAKE_STR_ARAGON_9_NAME"
+				Language="en_US">
+			<Text>Ibón de Tebarray</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_LAKE_STR_ARAGON_10_NAME"
+				Language="en_US">
+			<Text>Ibón de Truchas</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- ARAGON SEA TEXT -->
+	<LocalizedText>
+		<Row	Tag="LOC_NAMED_SEA_STR_ARAGON_1_NAME"
+				Language="en_US">
+			<Text>Mar Balear</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_SEA_STR_ARAGON_2_NAME"
+				Language="en_US">
+			<Text>Mar Mediterrani</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_SEA_STR_ARAGON_3_NAME"
+				Language="en_US">
+			<Text>Mar Tirrè</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_SEA_STR_ARAGON_4_NAME"
+				Language="en_US">
+			<Text>Mar de Ligúria</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_SEA_STR_ARAGON_5_NAME"
+				Language="en_US">
+			<Text>Mar d'Alborà</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_SEA_STR_ARAGON_6_NAME"
+				Language="en_US">
+			<Text>Estret de Gibraltar</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_SEA_STR_ARAGON_7_NAME"
+				Language="en_US">
+			<Text>Mar Adriàtic</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_SEA_STR_ARAGON_8_NAME"
+				Language="en_US">
+			<Text>Mar Jònic</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_SEA_STR_ARAGON_9_NAME"
+				Language="en_US">
+			<Text>Estret d'Otranto</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_SEA_STR_ARAGON_10_NAME"
+				Language="en_US">
+			<Text>Golf de Tàrent</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- ARAGON OCEAN TEXT -->
+	<LocalizedText>
+		<Row	Tag="LOC_NAMED_OCEAN_STR_ARAGON_1_NAME"
+				Language="en_US">
+			<Text>Oceà Atlantic</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_OCEAN_STR_ARAGON_2_NAME"
+				Language="en_US">
+			<Text>Oceà Pacífic</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_OCEAN_STR_ARAGON_3_NAME"
+				Language="en_US">
+			<Text>Oceà Austral</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_OCEAN_STR_ARAGON_4_NAME"
+				Language="en_US">
+			<Text>Oceà Nord</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_OCEAN_STR_ARAGON_5_NAME"
+				Language="en_US">
+			<Text>Oceà Índic</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_OCEAN_STR_ARAGON_6_NAME"
+				Language="en_US">
+			<Text>Oceà Àrtic</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_OCEAN_STR_ARAGON_7_NAME"
+				Language="en_US">
+			<Text>Oceà Antàrtic</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_OCEAN_STR_ARAGON_8_NAME"
+				Language="en_US">
+			<Text>Oceà Aragonès</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_OCEAN_STR_ARAGON_9_NAME"
+				Language="en_US">
+			<Text>Oceà Balear</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_OCEAN_STR_ARAGON_10_NAME"
+				Language="en_US">
+			<Text>Consolat Oceà</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- ARAGON DESERT TEXT -->
+	<LocalizedText>
+		<Row	Tag="LOC_NAMED_DESERT_STR_ARAGON_1_NAME"
+				Language="en_US">
+			<Text>Desert de la Meseta Central</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_DESERT_STR_ARAGON_2_NAME"
+				Language="en_US">
+			<Text>Desert Bètic</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_DESERT_STR_ARAGON_3_NAME"
+				Language="en_US">
+			<Text>Plana Andalusa</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_DESERT_STR_ARAGON_4_NAME"
+				Language="en_US">
+			<Text>Desert dels Pirineus</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_DESERT_STR_ARAGON_5_NAME"
+				Language="en_US">
+			<Text>Desert Cantàbric</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_DESERT_STR_ARAGON_6_NAME"
+				Language="en_US">
+			<Text>Desert Castellà</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_DESERT_STR_ARAGON_7_NAME"
+				Language="en_US">
+			<Text>Desert Balear</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_DESERT_STR_ARAGON_8_NAME"
+				Language="en_US">
+			<Text>Desert Valencià</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_DESERT_STR_ARAGON_9_NAME"
+				Language="en_US">
+			<Text>Desert Aragonès</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_DESERT_STR_ARAGON_10_NAME"
+				Language="en_US">
+			<Text>Desert Català</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- ARAGON VOLCANO TEXT -->
+	<LocalizedText>
+		<Row	Tag="LOC_NAMED_VOLCANO_STR_ARAGON_1_NAME"
+				Language="en_US">
+			<Text>Volcànica de la Cap de Gata</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_VOLCANO_STR_ARAGON_2_NAME"
+				Language="en_US">
+			<Text>Volcànica de la Cofrents</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_VOLCANO_STR_ARAGON_3_NAME"
+				Language="en_US">
+			<Text>Volcànica de la Columbretes</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_VOLCANO_STR_ARAGON_4_NAME"
+				Language="en_US">
+			<Text>Volcànica de la Garrotxa</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_VOLCANO_STR_ARAGON_5_NAME"
+				Language="en_US">
+			<Text>Volcànica de la Camp de Cartagena</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_VOLCANO_STR_ARAGON_6_NAME"
+				Language="en_US">
+			<Text>Volcà del Montsacopa</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_VOLCANO_STR_ARAGON_7_NAME"
+				Language="en_US">
+			<Text>Volcà del Croscat</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_VOLCANO_STR_ARAGON_8_NAME"
+				Language="en_US">
+			<Text>Volcà de Santa Margarida</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_VOLCANO_STR_ARAGON_9_NAME"
+				Language="en_US">
+			<Text>Volcà de la Crosa de Sant Dalmai</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_VOLCANO_STR_ARAGON_10_NAME"
+				Language="en_US">
+			<Text>Volcà del Puig d'Adri</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- NAPLES CITY TEXT -->
+	<LocalizedText>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_1"
+				Language="en_US">
+			<Text>Naples</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_2"
+				Language="en_US">
+			<Text>Caserta</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_3"
+				Language="en_US">
+			<Text>Salerno</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_4"
+				Language="en_US">
+			<Text>Benevento</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_5"
+				Language="en_US">
+			<Text>Isernia</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_6"
+				Language="en_US">
+			<Text>Roccaraso</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_7"
+				Language="en_US">
+			<Text>Sorrento</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_8"
+				Language="en_US">
+			<Text>Aversa</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_9"
+				Language="en_US">
+			<Text>Avellino</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_10"
+				Language="en_US">
+			<Text>Potenza</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_11"
+				Language="en_US">
+			<Text>Manfredonia</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_12"
+				Language="en_US">
+			<Text>Foggia</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_13"
+				Language="en_US">
+			<Text>San Severo</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_14"
+				Language="en_US">
+			<Text>Vasto</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_15"
+				Language="en_US">
+			<Text>Termoli</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_16"
+				Language="en_US">
+			<Text>Barletta</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_17"
+				Language="en_US">
+			<Text>Vieste</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_18"
+				Language="en_US">
+			<Text>Molfretta</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_19"
+				Language="en_US">
+			<Text>Bari</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_20"
+				Language="en_US">
+			<Text>Polignano a Mare</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_21"
+				Language="en_US">
+			<Text>Monopoli</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_22"
+				Language="en_US">
+			<Text>Ostuni</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_23"
+				Language="en_US">
+			<Text>Brindisi</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_24"
+				Language="en_US">
+			<Text>Lecce</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_25"
+				Language="en_US">
+			<Text>Taranto</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_26"
+				Language="en_US">
+			<Text>Santa Maria di Leuca</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_27"
+				Language="en_US">
+			<Text>Nardò</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_28"
+				Language="en_US">
+			<Text>Otranto</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_29"
+				Language="en_US">
+			<Text>Galatina</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_30"
+				Language="en_US">
+			<Text>Sapri</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_31"
+				Language="en_US">
+			<Text>Castrovillari</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_32"
+				Language="en_US">
+			<Text>Acri</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_33"
+				Language="en_US">
+			<Text>Paola</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_34"
+				Language="en_US">
+			<Text>Scalea</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_35"
+				Language="en_US">
+			<Text>Corigliano Calabro</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_36"
+				Language="en_US">
+			<Text>Cirò Marina</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_37"
+				Language="en_US">
+			<Text>Catanzaro</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_38"
+				Language="en_US">
+			<Text>Villa San Giovanni</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_39"
+				Language="en_US">
+			<Text>Reggio Calabria</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_40"
+				Language="en_US">
+			<Text>Crotone</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_41"
+				Language="en_US">
+			<Text>Cosenza</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_42"
+				Language="en_US">
+			<Text>Galliopoli</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_43"
+				Language="en_US">
+			<Text>Potenza</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_44"
+				Language="en_US">
+			<Text>Matera</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_45"
+				Language="en_US">
+			<Text>Paestum</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_46"
+				Language="en_US">
+			<Text>Padula</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_47"
+				Language="en_US">
+			<Text>Lagonegro</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_48"
+				Language="en_US">
+			<Text>Battipaglia</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_49"
+				Language="en_US">
+			<Text>Santa Maria di Castellabate</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_50"
+				Language="en_US">
+			<Text>Avigliano</Text>
+		</Row>
+		
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_1"
+				Language="ru_RU">
+			<Text>Неаполь</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_2"
+				Language="ru_RU">
+			<Text>Казерта</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_3"
+				Language="ru_RU">
+			<Text>Салерно</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_4"
+				Language="ru_RU">
+			<Text>Беневенто</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_5"
+				Language="ru_RU">
+			<Text>Изерния</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_6"
+				Language="ru_RU">
+			<Text>Роккаразо</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_7"
+				Language="ru_RU">
+			<Text>Сорренто</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_8"
+				Language="ru_RU">
+			<Text>Аверса</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_9"
+				Language="ru_RU">
+			<Text>Авеллино</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_10"
+				Language="ru_RU">
+			<Text>Власть</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_11"
+				Language="ru_RU">
+			<Text>Манфредония</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_12"
+				Language="ru_RU">
+			<Text>Фоджа</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_13"
+				Language="ru_RU">
+			<Text>Сан-Северо</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_14"
+				Language="ru_RU">
+			<Text>Огромный</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_15"
+				Language="ru_RU">
+			<Text>Термоли</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_16"
+				Language="ru_RU">
+			<Text>Барлетта</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_17"
+				Language="ru_RU">
+			<Text>Вьесте</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_18"
+				Language="ru_RU">
+			<Text>Мольфретта</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_19"
+				Language="ru_RU">
+			<Text>Бари</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_20"
+				Language="ru_RU">
+			<Text>Полиньяно-а-Маре</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_21"
+				Language="ru_RU">
+			<Text>Монополия</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_22"
+				Language="ru_RU">
+			<Text>Остуни</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_23"
+				Language="ru_RU">
+			<Text>Тосты</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_24"
+				Language="ru_RU">
+			<Text>Лечче</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_25"
+				Language="ru_RU">
+			<Text>Таранто</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_26"
+				Language="ru_RU">
+			<Text>Санта-Мария-ди-Леука</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_27"
+				Language="ru_RU">
+			<Text>Нардо</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_28"
+				Language="ru_RU">
+			<Text>Отранто</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_29"
+				Language="ru_RU">
+			<Text>Галатина</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_30"
+				Language="ru_RU">
+			<Text>Знать</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_31"
+				Language="ru_RU">
+			<Text>Кастровиллари</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_32"
+				Language="ru_RU">
+			<Text>Акко</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_33"
+				Language="ru_RU">
+			<Text>Паола</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_34"
+				Language="ru_RU">
+			<Text>Скалея</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_35"
+				Language="ru_RU">
+			<Text>Корильяно Калабро</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_36"
+				Language="ru_RU">
+			<Text>Чиро Марина</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_37"
+				Language="ru_RU">
+			<Text>Катандзаро</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_38"
+				Language="ru_RU">
+			<Text>Вилла Сан Джованни</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_39"
+				Language="ru_RU">
+			<Text>Реджо-ди-Калабрия</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_40"
+				Language="ru_RU">
+			<Text>Кротоне</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_41"
+				Language="ru_RU">
+			<Text>Козенца</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_42"
+				Language="ru_RU">
+			<Text>Галлиополи</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_43"
+				Language="ru_RU">
+			<Text>Власть</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_44"
+				Language="ru_RU">
+			<Text>Матера</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_45"
+				Language="ru_RU">
+			<Text>Бедный</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_46"
+				Language="ru_RU">
+			<Text>Падула</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_47"
+				Language="ru_RU">
+			<Text>Лагонегро</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_48"
+				Language="ru_RU">
+			<Text>Баттипалья</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_49"
+				Language="ru_RU">
+			<Text>Санта-Мария-ди-Кастеллабате</Text>
+		</Row>
+		<Row	Tag="LOC_CITY_NAME_STR_NAPLES_50"
+				Language="ru_RU">
+			<Text>Авильяно</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- NAPLES CITIZENS TEXT -->
+	<LocalizedText>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MALE_1"
+				Language="en_US">
+			<Text>Abramuccio</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MALE_2"
+				Language="en_US">
+			<Text>Balduccio</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MALE_3"
+				Language="en_US">
+			<Text>Drudo</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MALE_4"
+				Language="en_US">
+			<Text>Gilo</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MALE_5"
+				Language="en_US">
+			<Text>Gualfreduccio</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MALE_6"
+				Language="en_US">
+			<Text>Lambertuccio</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MALE_7"
+				Language="en_US">
+			<Text>Mazzeo</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MALE_8"
+				Language="en_US">
+			<Text>Nuccio</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MALE_9"
+				Language="en_US">
+			<Text>Pasqualuccio</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MALE_10"
+				Language="en_US">
+			<Text>Salvi</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_FEMALE_1"
+				Language="en_US">
+			<Text>Agnesia</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_FEMALE_2"
+				Language="en_US">
+			<Text>Belladonna</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_FEMALE_3"
+				Language="en_US">
+			<Text>Clarice</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_FEMALE_4"
+				Language="en_US">
+			<Text>Fenicia</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_FEMALE_5"
+				Language="en_US">
+			<Text>Gilia</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_FEMALE_6"
+				Language="en_US">
+			<Text>Isabelluccia</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_FEMALE_7"
+				Language="en_US">
+			<Text>Liona</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_FEMALE_8"
+				Language="en_US">
+			<Text>Martinuccia</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_FEMALE_9"
+				Language="en_US">
+			<Text>Ossana</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_FEMALE_10"
+				Language="en_US">
+			<Text>Ubaldesca</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_MALE_1"
+				Language="en_US">
+			<Text>Agostino</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_MALE_2"
+				Language="en_US">
+			<Text>Alfredo</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_MALE_3"
+				Language="en_US">
+			<Text>Benvenuto</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_MALE_4"
+				Language="en_US">
+			<Text>Cesare</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_MALE_5"
+				Language="en_US">
+			<Text>Giacomo</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_MALE_6"
+				Language="en_US">
+			<Text>Leonardo</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_MALE_7"
+				Language="en_US">
+			<Text>Prospero</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_MALE_8"
+				Language="en_US">
+			<Text>Tuomo</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_MALE_9"
+				Language="en_US">
+			<Text>Vincenzo</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_MALE_10"
+				Language="en_US">
+			<Text>Xanto</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_FEMALE_1"
+				Language="en_US">
+			<Text>Antonella</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_FEMALE_2"
+				Language="en_US">
+			<Text>Cosima</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_FEMALE_3"
+				Language="en_US">
+			<Text>Ginerva</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_FEMALE_4"
+				Language="en_US">
+			<Text>Loretta</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_FEMALE_5"
+				Language="en_US">
+			<Text>Messina</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_FEMALE_6"
+				Language="en_US">
+			<Text>Orabella</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_FEMALE_7"
+				Language="en_US">
+			<Text>Renata</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_FEMALE_8"
+				Language="en_US">
+			<Text>Speranza</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_FEMALE_9"
+				Language="en_US">
+			<Text>Tristessa</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_FEMALE_10"
+				Language="en_US">
+			<Text>Zerlina</Text>
+		</Row>
+		
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MALE_1"
+				Language="ru_RU">
+			<Text>Абрамуччо</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MALE_2"
+				Language="ru_RU">
+			<Text>Бальдуччо</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MALE_3"
+				Language="ru_RU">
+			<Text>Друдо</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MALE_4"
+				Language="ru_RU">
+			<Text>Сумасшедший</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MALE_5"
+				Language="ru_RU">
+			<Text>Офелия</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MALE_6"
+				Language="ru_RU">
+			<Text>Элизиус</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MALE_7"
+				Language="ru_RU">
+			<Text>Маццео</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MALE_8"
+				Language="ru_RU">
+			<Text>Алисия</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MALE_9"
+				Language="ru_RU">
+			<Text>Миния</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MALE_10"
+				Language="ru_RU">
+			<Text>Формоза</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_FEMALE_1"
+				Language="ru_RU">
+			<Text>Агрипина</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_FEMALE_2"
+				Language="ru_RU">
+			<Text>Иксион</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_FEMALE_3"
+				Language="ru_RU">
+			<Text>Ноктюрн</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_FEMALE_4"
+				Language="ru_RU">
+			<Text>Колхида</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_FEMALE_5"
+				Language="ru_RU">
+			<Text>Хтония</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_FEMALE_6"
+				Language="ru_RU">
+			<Text>Нуцерия</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_FEMALE_7"
+				Language="ru_RU">
+			<Text>Мудуза</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_FEMALE_8"
+				Language="ru_RU">
+			<Text>Нострамо</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_FEMALE_9"
+				Language="ru_RU">
+			<Text>Фенрис</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_FEMALE_10"
+				Language="ru_RU">
+			<Text>Калибан</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_MALE_1"
+				Language="ru_RU">
+			<Text>Олимпия</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_MALE_2"
+				Language="ru_RU">
+			<Text>Альфредо</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_MALE_3"
+				Language="ru_RU">
+			<Text>Беннито</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_MALE_4"
+				Language="ru_RU">
+			<Text>Чезаре</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_MALE_5"
+				Language="ru_RU">
+			<Text>Джакомо</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_MALE_6"
+				Language="ru_RU">
+			<Text>Леонардо</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_MALE_7"
+				Language="ru_RU">
+			<Text>Просперо</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_MALE_8"
+				Language="ru_RU">
+			<Text>Туомо</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_MALE_9"
+				Language="ru_RU">
+			<Text>Винченцо</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_MALE_10"
+				Language="ru_RU">
+			<Text>Ксанто</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_FEMALE_1"
+				Language="ru_RU">
+			<Text>Антонелла</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_FEMALE_2"
+				Language="ru_RU">
+			<Text>Козима</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_FEMALE_3"
+				Language="ru_RU">
+			<Text>Гинерва</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_FEMALE_4"
+				Language="ru_RU">
+			<Text>Лоретта</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_FEMALE_5"
+				Language="ru_RU">
+			<Text>Мессина</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_FEMALE_6"
+				Language="ru_RU">
+			<Text>Орабелла</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_FEMALE_7"
+				Language="ru_RU">
+			<Text>Рената</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_FEMALE_8"
+				Language="ru_RU">
+			<Text>Сперанца</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_FEMALE_9"
+				Language="ru_RU">
+			<Text>Тристесса</Text>
+		</Row>
+		<Row	Tag="LOC_CITIZEN_STR_NAPLES_MODERN_FEMALE_10"
+				Language="ru_RU">
+			<Text>Мундус</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- NAPLES MOUNTAIN TEXT -->
+	<LocalizedText>
+		<Row	Tag="LOC_NAMED_MOUNTAIN_STR_NAPLES_1_NAME"
+				Language="en_US">
+			<Text>Monte dei Porri</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_MOUNTAIN_STR_NAPLES_2_NAME"
+				Language="en_US">
+			<Text>Monte Epomeo</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_MOUNTAIN_STR_NAPLES_3_NAME"
+				Language="en_US">
+			<Text>Monte Solaro</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_MOUNTAIN_STR_NAPLES_4_NAME"
+				Language="en_US">
+			<Text>Monte Capanne</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_MOUNTAIN_STR_NAPLES_5_NAME"
+				Language="en_US">
+			<Text>Monte Corno Grande</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_MOUNTAIN_STR_NAPLES_6_NAME"
+				Language="en_US">
+			<Text>Massiccio del Pollino</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_MOUNTAIN_STR_NAPLES_7_NAME"
+				Language="en_US">
+			<Text>Massiccio del Sirino</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_MOUNTAIN_STR_NAPLES_8_NAME"
+				Language="en_US">
+			<Text>Aspromonte</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_MOUNTAIN_STR_NAPLES_9_NAME"
+				Language="en_US">
+			<Text>Monte Botte Donato</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_MOUNTAIN_STR_NAPLES_10_NAME"
+				Language="en_US">
+			<Text>Massiccio del Taburno Camposauro</Text>
+		</Row>
+		
+		<Row	Tag="LOC_NAMED_MOUNTAIN_STR_NAPLES_1_NAME"
+				Language="ru_RU">
+			<Text>Монте дей Порри</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_MOUNTAIN_STR_NAPLES_2_NAME"
+				Language="ru_RU">
+			<Text>Гора Эпомео</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_MOUNTAIN_STR_NAPLES_3_NAME"
+				Language="ru_RU">
+			<Text>Гора Соларо</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_MOUNTAIN_STR_NAPLES_4_NAME"
+				Language="ru_RU">
+			<Text>Монте-Капанн</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_MOUNTAIN_STR_NAPLES_5_NAME"
+				Language="ru_RU">
+			<Text>Гора Корно Гранде</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_MOUNTAIN_STR_NAPLES_6_NAME"
+				Language="ru_RU">
+			<Text>Массив Поллино</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_MOUNTAIN_STR_NAPLES_7_NAME"
+				Language="ru_RU">
+			<Text>Массив Сирино</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_MOUNTAIN_STR_NAPLES_8_NAME"
+				Language="ru_RU">
+			<Text>Аспромонте</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_MOUNTAIN_STR_NAPLES_9_NAME"
+				Language="ru_RU">
+			<Text>Монте Ботте Донато</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_MOUNTAIN_STR_NAPLES_10_NAME"
+				Language="ru_RU">
+			<Text>Массив Табурно Кампозауро</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- NAPLES RIVER TEXT -->
+	<LocalizedText>
+		<Row	Tag="LOC_NAMED_RIVER_STR_NAPLES_1_NAME"
+				Language="en_US">
+			<Text>Fiume Volturno</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_RIVER_STR_NAPLES_2_NAME"
+				Language="en_US">
+			<Text>Fiume Aterno</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_RIVER_STR_NAPLES_3_NAME"
+				Language="en_US">
+			<Text>Fiume Pescara</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_RIVER_STR_NAPLES_4_NAME"
+				Language="en_US">
+			<Text>Fiume Agri</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_RIVER_STR_NAPLES_5_NAME"
+				Language="en_US">
+			<Text>Torrente Cerreto</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_RIVER_STR_NAPLES_6_NAME"
+				Language="en_US">
+			<Text>Torrente Favaleto</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_RIVER_STR_NAPLES_7_NAME"
+				Language="en_US">
+			<Text>Torrente Camastra</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_RIVER_STR_NAPLES_8_NAME"
+				Language="en_US">
+			<Text>Torrente Serrapòtamo</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_RIVER_STR_NAPLES_9_NAME"
+				Language="en_US">
+			<Text>Fiume Fortore</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_RIVER_STR_NAPLES_10_NAME"
+				Language="en_US">
+			<Text>Torrente Titerno</Text>
+		</Row>
+		
+		<Row	Tag="LOC_NAMED_RIVER_STR_NAPLES_1_NAME"
+				Language="ru_RU">
+			<Text>Река Вольтурно</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_RIVER_STR_NAPLES_2_NAME"
+				Language="ru_RU">
+			<Text>Река Атерно</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_RIVER_STR_NAPLES_3_NAME"
+				Language="ru_RU">
+			<Text>Река Пескара</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_RIVER_STR_NAPLES_4_NAME"
+				Language="ru_RU">
+			<Text>Река Агри</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_RIVER_STR_NAPLES_5_NAME"
+				Language="ru_RU">
+			<Text>Серрето Торрент</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_RIVER_STR_NAPLES_6_NAME"
+				Language="ru_RU">
+			<Text>Фавалето Торрент</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_RIVER_STR_NAPLES_7_NAME"
+				Language="ru_RU">
+			<Text>Камастра Торрент</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_RIVER_STR_NAPLES_8_NAME"
+				Language="ru_RU">
+			<Text>Торрент Серрапотамо</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_RIVER_STR_NAPLES_9_NAME"
+				Language="ru_RU">
+			<Text>Река Форторе</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_RIVER_STR_NAPLES_10_NAME"
+				Language="ru_RU">
+			<Text>Титерно Торрент</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- NAPLES LAKES TEXT -->
+	<LocalizedText>
+		<Row	Tag="LOC_NAMED_LAKE_STR_NAPLES_1_NAME"
+				Language="en_US">
+			<Text>Diga di Monte Cotugno</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_LAKE_STR_NAPLES_2_NAME"
+				Language="en_US">
+			<Text>Lago di Acerenza</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_LAKE_STR_NAPLES_3_NAME"
+				Language="en_US">
+			<Text>Lago Cecita</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_LAKE_STR_NAPLES_4_NAME"
+				Language="en_US">
+			<Text>Lago di Tarsia</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_LAKE_STR_NAPLES_5_NAME"
+				Language="en_US">
+			<Text>Mar Piccolo</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_LAKE_STR_NAPLES_6_NAME"
+				Language="en_US">
+			<Text>Lago di Occhito</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_LAKE_STR_NAPLES_7_NAME"
+				Language="en_US">
+			<Text>Lago di Guardialfiera</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_LAKE_STR_NAPLES_8_NAME"
+				Language="en_US">
+			<Text>Lago di Campolattaro</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_LAKE_STR_NAPLES_9_NAME"
+				Language="en_US">
+			<Text>Lago di San Giuliano</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_LAKE_STR_NAPLES_10_NAME"
+				Language="en_US">
+			<Text>Lago di Patria</Text>
+		</Row>
+		
+		<Row	Tag="LOC_NAMED_LAKE_STR_NAPLES_1_NAME"
+				Language="ru_RU">
+			<Text>Плотина Монте-Котуньо</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_LAKE_STR_NAPLES_2_NAME"
+				Language="ru_RU">
+			<Text>Озеро Асеренца</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_LAKE_STR_NAPLES_3_NAME"
+				Language="ru_RU">
+			<Text>Озеро Сесита</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_LAKE_STR_NAPLES_4_NAME"
+				Language="ru_RU">
+			<Text>Озеро Тарсия</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_LAKE_STR_NAPLES_5_NAME"
+				Language="ru_RU">
+			<Text>Маленькое Море</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_LAKE_STR_NAPLES_6_NAME"
+				Language="ru_RU">
+			<Text>Озеро Окчито</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_LAKE_STR_NAPLES_7_NAME"
+				Language="ru_RU">
+			<Text>Озеро Гуардиалфьера</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_LAKE_STR_NAPLES_8_NAME"
+				Language="ru_RU">
+			<Text>Озеро Камполаттаро</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_LAKE_STR_NAPLES_9_NAME"
+				Language="ru_RU">
+			<Text>Озеро Сан-Джулиано</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_LAKE_STR_NAPLES_10_NAME"
+				Language="ru_RU">
+			<Text>Родное озеро</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- NAPLES SEA TEXT -->
+	<LocalizedText>
+		<Row	Tag="LOC_NAMED_SEA_STR_NAPLES_1_NAME"
+				Language="en_US">
+			<Text>Mar Mediterraneo</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_SEA_STR_NAPLES_2_NAME"
+				Language="en_US">
+			<Text>Mar Tirreno</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_SEA_STR_NAPLES_3_NAME"
+				Language="en_US">
+			<Text>Mar Ionio</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_SEA_STR_NAPLES_4_NAME"
+				Language="en_US">
+			<Text>Mar Adriatico</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_SEA_STR_NAPLES_5_NAME"
+				Language="en_US">
+			<Text>Golfo di Napoli</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_SEA_STR_NAPLES_6_NAME"
+				Language="en_US">
+			<Text>Golfo di Manfredonia</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_SEA_STR_NAPLES_7_NAME"
+				Language="en_US">
+			<Text>Strittu di Missina</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_SEA_STR_NAPLES_8_NAME"
+				Language="en_US">
+			<Text>Golfo di Taranto</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_SEA_STR_NAPLES_9_NAME"
+				Language="en_US">
+			<Text>Canale d'Otranto</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_SEA_STR_NAPLES_10_NAME"
+				Language="en_US">
+			<Text>Golfo di Salerno</Text>
+		</Row>
+		
+		<Row	Tag="LOC_NAMED_SEA_STR_NAPLES_1_NAME"
+				Language="ru_RU">
+			<Text>Средиземное море</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_SEA_STR_NAPLES_2_NAME"
+				Language="ru_RU">
+			<Text>Тирренское море</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_SEA_STR_NAPLES_3_NAME"
+				Language="ru_RU">
+			<Text>Ионическое море</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_SEA_STR_NAPLES_4_NAME"
+				Language="ru_RU">
+			<Text>Адриатическое море</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_SEA_STR_NAPLES_5_NAME"
+				Language="ru_RU">
+			<Text>Неаполитанский залив</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_SEA_STR_NAPLES_6_NAME"
+				Language="ru_RU">
+			<Text>Залив Манфредония</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_SEA_STR_NAPLES_7_NAME"
+				Language="ru_RU">
+			<Text>Пролив Миссина</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_SEA_STR_NAPLES_8_NAME"
+				Language="ru_RU">
+			<Text>Залив Таранто</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_SEA_STR_NAPLES_9_NAME"
+				Language="ru_RU">
+			<Text>Канал Отранто</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_SEA_STR_NAPLES_10_NAME"
+				Language="ru_RU">
+			<Text>Салернский залив</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- NAPLES OCEAN TEXT -->
+	<LocalizedText>
+		<Row	Tag="LOC_NAMED_OCEAN_STR_NAPLES_1_NAME"
+				Language="en_US">
+			<Text>Oceano Atlantico</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_OCEAN_STR_NAPLES_2_NAME"
+				Language="en_US">
+			<Text>Oceano Pacifico</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_OCEAN_STR_NAPLES_3_NAME"
+				Language="en_US">
+			<Text>Oceano Meridionale</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_OCEAN_STR_NAPLES_4_NAME"
+				Language="en_US">
+			<Text>Oceano Settentrionale</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_OCEAN_STR_NAPLES_5_NAME"
+				Language="en_US">
+			<Text>Oceano Artico</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_OCEAN_STR_NAPLES_6_NAME"
+				Language="en_US">
+			<Text>Oceano Antartico</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_OCEAN_STR_NAPLES_7_NAME"
+				Language="en_US">
+			<Text>Oceano Indiano</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_OCEAN_STR_NAPLES_8_NAME"
+				Language="en_US">
+			<Text>Oceano Campano</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_OCEAN_STR_NAPLES_9_NAME"
+				Language="en_US">
+			<Text>Oceano Calabrese</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_OCEAN_STR_NAPLES_10_NAME"
+				Language="en_US">
+			<Text>Oceano Pugliese</Text>
+		</Row>
+		
+		<Row	Tag="LOC_NAMED_OCEAN_STR_NAPLES_1_NAME"
+				Language="ru_RU">
+			<Text>Атлантический океан</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_OCEAN_STR_NAPLES_2_NAME"
+				Language="ru_RU">
+			<Text>Тихий океан</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_OCEAN_STR_NAPLES_3_NAME"
+				Language="ru_RU">
+			<Text>Южный океан</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_OCEAN_STR_NAPLES_4_NAME"
+				Language="ru_RU">
+			<Text>Северный океан</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_OCEAN_STR_NAPLES_5_NAME"
+				Language="ru_RU">
+			<Text>Арктический океан</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_OCEAN_STR_NAPLES_6_NAME"
+				Language="ru_RU">
+			<Text>Антарктический океан</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_OCEAN_STR_NAPLES_7_NAME"
+				Language="ru_RU">
+			<Text>Индийский океан</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_OCEAN_STR_NAPLES_8_NAME"
+				Language="ru_RU">
+			<Text>Кампанский океан</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_OCEAN_STR_NAPLES_9_NAME"
+				Language="ru_RU">
+			<Text>Калабрийский океан</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_OCEAN_STR_NAPLES_10_NAME"
+				Language="ru_RU">
+			<Text>Апулийский океан</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- NAPLES DESERT TEXT -->
+	<LocalizedText>
+		<Row	Tag="LOC_NAMED_DESERT_STR_NAPLES_1_NAME"
+				Language="en_US">
+			<Text>Deserto Terra dei Fuochi</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_DESERT_STR_NAPLES_2_NAME"
+				Language="en_US">
+			<Text>Deserto Triangolo della Morte</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_DESERT_STR_NAPLES_3_NAME"
+				Language="en_US">
+			<Text>Deserto Resit</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_DESERT_STR_NAPLES_4_NAME"
+				Language="en_US">
+			<Text>Deserto del Mafia</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_DESERT_STR_NAPLES_5_NAME"
+				Language="en_US">
+			<Text>Deserto Campano</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_DESERT_STR_NAPLES_6_NAME"
+				Language="en_US">
+			<Text>Deserto Siciliano</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_DESERT_STR_NAPLES_7_NAME"
+				Language="en_US">
+			<Text>Deserto Pugliese</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_DESERT_STR_NAPLES_8_NAME"
+				Language="en_US">
+			<Text>Deserto Calabrese</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_DESERT_STR_NAPLES_9_NAME"
+				Language="en_US">
+			<Text>Deserto Lucano</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_DESERT_STR_NAPLES_10_NAME"
+				Language="en_US">
+			<Text>Deserto Mulise</Text>
+		</Row>
+		
+		<Row	Tag="LOC_NAMED_DESERT_STR_NAPLES_1_NAME"
+				Language="ru_RU">
+			<Text>Пустынная земля огней</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_DESERT_STR_NAPLES_2_NAME"
+				Language="ru_RU">
+			<Text>Пустынный треугольник смерти</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_DESERT_STR_NAPLES_3_NAME"
+				Language="ru_RU">
+			<Text>Квитанция Дезерто</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_DESERT_STR_NAPLES_4_NAME"
+				Language="ru_RU">
+			<Text>Мафия Пустыня</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_DESERT_STR_NAPLES_5_NAME"
+				Language="ru_RU">
+			<Text>Кампанская пустыня</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_DESERT_STR_NAPLES_6_NAME"
+				Language="ru_RU">
+			<Text>Сицилийская пустыня</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_DESERT_STR_NAPLES_7_NAME"
+				Language="ru_RU">
+			<Text>Апулийская пустыня</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_DESERT_STR_NAPLES_8_NAME"
+				Language="ru_RU">
+			<Text>Калабрийская пустыня</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_DESERT_STR_NAPLES_9_NAME"
+				Language="ru_RU">
+			<Text>Луканская пустыня</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_DESERT_STR_NAPLES_10_NAME"
+				Language="ru_RU">
+			<Text>Дезерто Мулизе</Text>
+		</Row>
+	</LocalizedText>
+
+	<!-- NAPLES VOLCANO TEXT -->
+	<LocalizedText>
+		<Row	Tag="LOC_NAMED_VOLCANO_STR_NAPLES_1_NAME"
+				Language="en_US">
+			<Text>Vulcano Colli Albani</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_VOLCANO_STR_NAPLES_2_NAME"
+				Language="en_US">
+			<Text>Vulcano Campe Flegree</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_VOLCANO_STR_NAPLES_3_NAME"
+				Language="en_US">
+			<Text>Vulcano Campe Flegree del Mar di Sicilia</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_VOLCANO_STR_NAPLES_4_NAME"
+				Language="en_US">
+			<Text>Vulcano Ischia</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_VOLCANO_STR_NAPLES_5_NAME"
+				Language="en_US">
+			<Text>Vulcano Palinuro</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_VOLCANO_STR_NAPLES_6_NAME"
+				Language="en_US">
+			<Text>Vulcano Marsili</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_VOLCANO_STR_NAPLES_7_NAME"
+				Language="en_US">
+			<Text>Vulcano Struògnuli</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_VOLCANO_STR_NAPLES_8_NAME"
+				Language="en_US">
+			<Text>Vulcano Panarea</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_VOLCANO_STR_NAPLES_9_NAME"
+				Language="en_US">
+			<Text>Vulcano Lìpari</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_VOLCANO_STR_NAPLES_10_NAME"
+				Language="en_US">
+			<Text>Vulcano Muntagna</Text>
+		</Row>
+		
+		<Row	Tag="LOC_NAMED_VOLCANO_STR_NAPLES_1_NAME"
+				Language="ru_RU">
+			<Text>Вулкан Колли Альбани</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_VOLCANO_STR_NAPLES_2_NAME"
+				Language="ru_RU">
+			<Text>Вулкан Кампе Флегри</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_VOLCANO_STR_NAPLES_3_NAME"
+				Language="ru_RU">
+			<Text>Вулкан Кампе Флегри в Сицилийском море.</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_VOLCANO_STR_NAPLES_4_NAME"
+				Language="ru_RU">
+			<Text>Вулкан Искья</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_VOLCANO_STR_NAPLES_5_NAME"
+				Language="ru_RU">
+			<Text>Вулкан Палинуро</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_VOLCANO_STR_NAPLES_6_NAME"
+				Language="ru_RU">
+			<Text>Вулкан Марсили</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_VOLCANO_STR_NAPLES_7_NAME"
+				Language="ru_RU">
+			<Text>Вулкан Стругнули</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_VOLCANO_STR_NAPLES_8_NAME"
+				Language="ru_RU">
+			<Text>Вулкан Панарея</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_VOLCANO_STR_NAPLES_9_NAME"
+				Language="ru_RU">
+			<Text>Вулкан Липари</Text>
+		</Row>
+		<Row	Tag="LOC_NAMED_VOLCANO_STR_NAPLES_10_NAME"
+				Language="ru_RU">
+			<Text>Вулкан Гора</Text>
+		</Row>
+	</LocalizedText>
+	<LocalizedText>
+		<Replace Tag="LOC_BELIEF_JUST_WAR_DESCRIPTION" Language="ru_RU">
+			<Text>Военные юниты получают +5 к [ICON_Strength] боевой мощи в пределах иностранных городов, исповедующих эту религию.</Text>
+		</Replace>
+	</LocalizedText>
+
+</GameData>

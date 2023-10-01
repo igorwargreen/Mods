@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [STR_ARANAP]_Buildings -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 5/9/2022 2:45:27 PM -->
+<GameData>
+
+	<!-- ARAGON CORTZ | BUILDING -->
+	<Types>
+		<Row	Type="BUILDING_STR_ARAGON_CORTZ"
+				Kind="KIND_BUILDING"/>
+	</Types>
+	<Buildings>
+		<Row	BuildingType="BUILDING_STR_ARAGON_CORTZ"
+				Name="LOC_BUILDING_STR_ARAGON_CORTZ_NAME"
+				Description="LOC_BUILDING_STR_ARAGON_CORTZ_DESCRIPTION"
+				PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX"
+				PurchaseYield="YIELD_GOLD"
+				Cost="150"
+				AdvisorType="ADVISOR_GENERIC"
+				Maintenance="1"
+				PrereqCivic="CIVIC_GAMES_RECREATION"
+				Entertainment="3"
+				TraitType="TRAIT_CIVILIZATION_STR_ARAGON_CORTZ"/>
+	</Buildings>
+	<BuildingReplaces>
+		<Row	CivUniqueBuildingType="BUILDING_STR_ARAGON_CORTZ"
+				ReplacesBuildingType="BUILDING_ARENA"/>
+	</BuildingReplaces>
+	<Building_YieldChanges>
+		<Row	BuildingType="BUILDING_STR_ARAGON_CORTZ"
+				YieldType="YIELD_CULTURE"
+				YieldChange="2"/>
+	</Building_YieldChanges>
+	
+	<!-- ARAGON CORTZ | BUILDING ABILITY -->
+	<Modifiers>
+		<!-- BONUS LOYALTY -->
+		<Row>
+			<ModifierId>STR_ARAGON_CORTZ_MOD_1</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IDENTITY_PER_TURN</ModifierType>
+		</Row>
+		<!-- BONUS LOYALTY IN OCCUPIED CITY -->
+		<Row>
+			<ModifierId>STR_ARAGON_CORTZ_MOD_2</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IDENTITY_PER_TURN</ModifierType>
+			<SubjectRequirementSetId>CITY_NOT_FOUNDED</SubjectRequirementSetId>
+		</Row>
+		<!-- CULTURE IN OCCUPIED CITY -->
+		<Row>
+			<ModifierId>STR_ARAGON_CORTZ_MOD_3</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>CITY_NOT_FOUNDED</SubjectRequirementSetId>
+		</Row>
+		<!-- TOURISM IN ENTERTAINMENT COMPLEX -->
+		<Row>
+			<ModifierId>STR_ARAGON_CORTZ_MOD_4</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_TOURISM_CHANGE</ModifierType>
+		</Row>
+		<!-- TOURISM IN OCCUPIED ENTERTAINMENT COMPLEX -->
+		<Row>
+			<ModifierId>STR_ARAGON_CORTZ_MOD_5</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_TOURISM_CHANGE</ModifierType>
+			<SubjectRequirementSetId>CITY_NOT_FOUNDED</SubjectRequirementSetId>
+		</Row>
+		<!-- CULTURE FROM COASTAL TILES -->
+		<Row>
+			<ModifierId>STR_ARAGON_CORTZ_MOD_6</ModifierId>
+			<ModifierType>MODIFIER_CITY_ADJUST_CITY_YIELD_PER_TERRAIN_TYPE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- BONUS LOYALTY -->
+		<Row>
+			<ModifierId>STR_ARAGON_CORTZ_MOD_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- BONUS LOYALTY IN OCCUPIED CITY -->
+		<Row>
+			<ModifierId>STR_ARAGON_CORTZ_MOD_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!-- CULTURE IN OCCUPIED CITY -->
+		<Row>
+			<ModifierId>STR_ARAGON_CORTZ_MOD_3</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_ARAGON_CORTZ_MOD_3</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!-- TOURISM IN ENTERTAINMENT COMPLEX -->
+		<Row>
+			<ModifierId>STR_ARAGON_CORTZ_MOD_4</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!-- TOURISM IN OCCUPIED ENTERTAINMENT COMPLEX -->
+		<Row>
+			<ModifierId>STR_ARAGON_CORTZ_MOD_5</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!-- CULTURE FROM COASTAL TILES -->
+		<Row>
+			<ModifierId>STR_ARAGON_CORTZ_MOD_6</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_COAST</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_ARAGON_CORTZ_MOD_6</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_ARAGON_CORTZ_MOD_6</ModifierId>
+			<Name>Amount</Name>
+			<Value>0.5</Value>
+		</Row>
+	</ModifierArguments>
+	<BuildingModifiers>
+		<!-- BONUS LOYALTY -->
+		<Row>
+			<BuildingType>BUILDING_STR_ARAGON_CORTZ</BuildingType>
+			<ModifierId>STR_ARAGON_CORTZ_MOD_1</ModifierId>
+		</Row>
+		<!-- BONUS LOYALTY IN OCCUPIED CITY -->
+		<Row>
+			<BuildingType>BUILDING_STR_ARAGON_CORTZ</BuildingType>
+			<ModifierId>STR_ARAGON_CORTZ_MOD_2</ModifierId>
+		</Row>
+		<!-- CULTURE IN OCCUPIED CITY -->
+		<Row>
+			<BuildingType>BUILDING_STR_ARAGON_CORTZ</BuildingType>
+			<ModifierId>STR_ARAGON_CORTZ_MOD_3</ModifierId>
+		</Row>
+		<!-- TOURISM IN ENTERTAINMENT COMPLEX -->
+		<Row>
+			<BuildingType>BUILDING_STR_ARAGON_CORTZ</BuildingType>
+			<ModifierId>STR_ARAGON_CORTZ_MOD_4</ModifierId>
+		</Row>
+		<!-- TOURISM IN OCCUPIED ENTERTAINMENT COMPLEX -->
+		<Row>
+			<BuildingType>BUILDING_STR_ARAGON_CORTZ</BuildingType>
+			<ModifierId>STR_ARAGON_CORTZ_MOD_5</ModifierId>
+		</Row>
+		<!-- CULTURE FROM COASTAL TILES -->
+		<Row>
+			<BuildingType>BUILDING_STR_ARAGON_CORTZ</BuildingType>
+			<ModifierId>STR_ARAGON_CORTZ_MOD_6</ModifierId>
+		</Row>
+	</BuildingModifiers>
+
+	<!-- NAPLES VILLA | BUILDING -->
+	<Types>
+		<Row	Type="BUILDING_STR_NAPLES_VILLA"
+				Kind="KIND_BUILDING"/>
+	</Types>
+	<Buildings>
+		<Row	BuildingType="BUILDING_STR_NAPLES_VILLA"
+				Name="LOC_BUILDING_STR_NAPLES_VILLA_NAME"
+				Description="LOC_BUILDING_STR_NAPLES_VILLA_DESCRIPTION"
+				PrereqDistrict="DISTRICT_CITY_CENTER"
+				PurchaseYield="YIELD_GOLD"
+				Cost="25"
+				AdvisorType="ADVISOR_GENERIC"
+				PrereqTech="TECH_POTTERY"
+				Housing="2"
+				Entertainment="1"
+				TraitType="TRAIT_CIVILIZATION_STR_NAPLES_VILLA"/>
+	</Buildings>
+	<!-- NAPLES VILLA | BUILDING ABILITY -->
+	<Building_YieldChanges>
+		<Row	BuildingType="BUILDING_STR_NAPLES_VILLA"
+				YieldType="YIELD_FOOD"
+				YieldChange="1"/>
+		<Row	BuildingType="BUILDING_STR_NAPLES_VILLA"
+				YieldType="YIELD_FAITH"
+				YieldChange="3"/>
+	</Building_YieldChanges>
+	<Modifiers>
+		<Row>
+			<ModifierId>VILLA_ADDCULTUREYIELD</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>VILLA_ADDFAITHEYIELD</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>VILLA_ADDGROWTH</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_GROWTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>VILLA_CULTUREBORDER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_CULTURE_BORDER_EXPANSION</ModifierType>
+			<SubjectRequirementSetId>STR_NAPLES_VILLA_PLAYER_IS_NAPLES_AND_HAS_VILLA_REQUIREMENTS_1</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VILLA_SCIENCE_BUILDINGS</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>STR_NAPLES_VILLA_PLAYER_IS_NAPLES_AND_HAS_VILLA_REQUIREMENTS_1</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VILLA_SCIENCE_BUILDINGS_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_ENABLE_BUILDING_FAITH_PURCHASE</ModifierType>
+			<SubjectRequirementSetId>STR_NAPLES_VILLA_PLAYER_IS_NAPLES_AND_HAS_VILLA_REQUIREMENTS_1</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VILLA_CULTURE_BUILDINGS</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>STR_NAPLES_VILLA_PLAYER_IS_NAPLES_AND_HAS_VILLA_REQUIREMENTS_1</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VILLA_CULTURE_BUILDINGS_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_ENABLE_BUILDING_FAITH_PURCHASE</ModifierType>
+			<SubjectRequirementSetId>STR_NAPLES_VILLA_PLAYER_IS_NAPLES_AND_HAS_VILLA_REQUIREMENTS_1</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VILLA_FAITH_BUILDINGS</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>STR_NAPLES_VILLA_PLAYER_IS_NAPLES_AND_HAS_VILLA_REQUIREMENTS_1</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VILLA_FAITH_BUILDINGS_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_ENABLE_BUILDING_FAITH_PURCHASE</ModifierType>
+			<SubjectRequirementSetId>STR_NAPLES_VILLA_PLAYER_IS_NAPLES_AND_HAS_VILLA_REQUIREMENTS_1</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VILLA_CITY_CENTER_BUILDINGS</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>STR_NAPLES_VILLA_PLAYER_IS_NAPLES_AND_HAS_VILLA_REQUIREMENTS_1</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VILLA_CITY_CENTER_BUILDINGS_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_ENABLE_BUILDING_FAITH_PURCHASE</ModifierType>
+			<SubjectRequirementSetId>STR_NAPLES_VILLA_PLAYER_IS_NAPLES_AND_HAS_VILLA_REQUIREMENTS_1</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VILLA_PURCHASE_CIVILIAN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+			<SubjectRequirementSetId>STR_NAPLES_VILLA_PLAYER_IS_NAPLES_AND_HAS_VILLA_REQUIREMENTS_1</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>VILLA_FAITH_PURCHASE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GOVERNMENT_FLAT_BONUS</ModifierType>
+			<SubjectRequirementSetId>STR_NAPLES_VILLA_PLAYER_IS_NAPLES_AND_HAS_VILLA_REQUIREMENTS_1</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>VILLA_ADDCULTUREYIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>33</Value>
+		</Row>
+		<Row>
+			<ModifierId>VILLA_ADDCULTUREYIELD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>VILLA_ADDFAITHEYIELD</ModifierId>
+			<Name>Amount</Name>
+			<Value>66</Value>
+		</Row>
+		<Row>
+			<ModifierId>VILLA_ADDFAITHEYIELD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>VILLA_ADDGROWTH</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>VILLA_CULTUREBORDER</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>VILLA_SCIENCE_BUILDINGS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>VILLA_SCIENCE_BUILDINGS_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>VILLA_SCIENCE_BUILDINGS_MODIFIER</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CAMPUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>VILLA_CULTURE_BUILDINGS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>VILLA_CULTURE_BUILDINGS_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>VILLA_CULTURE_BUILDINGS_MODIFIER</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_THEATER</Value>
+		</Row>
+		<Row>
+			<ModifierId>VILLA_FAITH_BUILDINGS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>VILLA_FAITH_BUILDINGS_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>VILLA_FAITH_BUILDINGS_MODIFIER</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>VILLA_CITY_CENTER_BUILDINGS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>VILLA_CITY_CENTER_BUILDINGS_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>VILLA_CITY_CENTER_BUILDINGS_MODIFIER</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CITY_CENTER</Value>
+		</Row>
+		<Row>
+			<ModifierId>VILLA_PURCHASE_CIVILIAN</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_LANDCIVILIAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>VILLA_FAITH_PURCHASE</ModifierId>
+			<Name>BonusType</Name>
+			<Value>GOVERNMENTBONUS_FAITH_PURCHASES</Value>
+		</Row>
+		<Row>
+			<ModifierId>VILLA_FAITH_PURCHASE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_STR_NAPLES_VILLA</BuildingType>
+			<ModifierId>VILLA_ADDCULTUREYIELD</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STR_NAPLES_VILLA</BuildingType>
+			<ModifierId>VILLA_ADDFAITHEYIELD</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STR_NAPLES_VILLA</BuildingType>
+			<ModifierId>VILLA_ADDGROWTH</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STR_NAPLES_VILLA</BuildingType>
+			<ModifierId>VILLA_CULTUREBORDER</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STR_NAPLES_VILLA</BuildingType>
+			<ModifierId>VILLA_CULTURE_BUILDINGS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STR_NAPLES_VILLA</BuildingType>
+			<ModifierId>VILLA_SCIENCE_BUILDINGS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STR_NAPLES_VILLA</BuildingType>
+			<ModifierId>VILLA_FAITH_BUILDINGS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STR_NAPLES_VILLA</BuildingType>
+			<ModifierId>VILLA_CITY_CENTER_BUILDINGS</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STR_NAPLES_VILLA</BuildingType>
+			<ModifierId>VILLA_PURCHASE_CIVILIAN</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STR_NAPLES_VILLA</BuildingType>
+			<ModifierId>VILLA_FAITH_PURCHASE</ModifierId>
+		</Row>
+	</BuildingModifiers>
+
+	<!-- ARAGON/NAPLES | BUILDING REQUIREMENTS -->
+	<RequirementSets>
+		<!-- PLAYER IS NAPLES AND CITY HAS A VILLA -->
+		<Row>
+			<RequirementSetId>STR_NAPLES_VILLA_PLAYER_IS_NAPLES_AND_HAS_VILLA_REQUIREMENTS_1</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<!-- PLAYER IS NAPLES AND CITY HAS A VILLA -->
+		<Row>
+			<RequirementSetId>STR_NAPLES_VILLA_PLAYER_IS_NAPLES_AND_HAS_VILLA_REQUIREMENTS_1</RequirementSetId>
+			<RequirementId>STR_NAPLES_VILLA_REQUIRES_PLAYER_IS_NAPLES_1</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>STR_NAPLES_VILLA_PLAYER_IS_NAPLES_AND_HAS_VILLA_REQUIREMENTS_1</RequirementSetId>
+			<RequirementId>STR_NAPLES_VILLA_REQUIRES_VILLA_REQUIREMENTS_1</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<!-- PLAYER IS NAPLES AND CITY HAS A VILLA -->
+		<Row>
+			<RequirementId>STR_NAPLES_VILLA_REQUIRES_PLAYER_IS_NAPLES_1</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>STR_NAPLES_VILLA_REQUIRES_VILLA_REQUIREMENTS_1</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<!-- PLAYER IS NAPLES AND CITY HAS A VILLA -->
+		<Row>
+			<RequirementId>STR_NAPLES_VILLA_REQUIRES_PLAYER_IS_NAPLES_1</RequirementId>
+			<Name>CivilizationType</Name>
+			<Value>CIVILIZATION_STR_NAPLES</Value>
+		</Row>
+		<Row>
+			<RequirementId>STR_NAPLES_VILLA_REQUIRES_VILLA_REQUIREMENTS_1</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_STR_NAPLES_VILLA</Value>
+		</Row>
+		<Row>
+			<RequirementId>STR_NAPLES_VILLA_REQUIRES_VILLA_REQUIREMENTS_1</RequirementId>
+			<Name>MustBeFunctioning</Name>
+			<Value>true</Value>
+		</Row>
+	</RequirementArguments>
+
+</GameData>

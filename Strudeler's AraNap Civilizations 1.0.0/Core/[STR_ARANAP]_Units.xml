@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- [STR_ARANAP]_Units -->
+<!-- Author: Strudeler -->
+<!-- DateCreated: 5/9/2022 2:47:24 PM -->
+<GameData>
+
+	<!-- ARAGON ALMUGAVARES | UNIT -->
+	<Types>
+		<Row	Type="UNIT_STR_ARAGON_ALMUGAVARES"
+				Kind="KIND_UNIT"/>
+	</Types>
+	<Tags>
+		<Row	Tag="CLASS_STR_ARAGON_ALMUGAVARES"
+				Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<Row	Type="UNIT_STR_ARAGON_ALMUGAVARES"
+				Tag="CLASS_ANTI_CAVALRY"/>
+		<Row	Type="UNIT_STR_ARAGON_ALMUGAVARES"
+				Tag="CLASS_STR_ARAGON_ALMUGAVARES"/>
+	</TypeTags>
+	<UnitAiInfos>
+		<Row	UnitType="UNIT_STR_ARAGON_ALMUGAVARES" 
+				AiType="UNITAI_COMBAT"/>
+		<Row	UnitType="UNIT_STR_ARAGON_ALMUGAVARES" 
+				AiType="UNITAI_EXPLORE"/>
+		<Row	UnitType="UNIT_STR_ARAGON_ALMUGAVARES" 
+				AiType="UNITTYPE_MELEE"/>
+		<Row	UnitType="UNIT_STR_ARAGON_ALMUGAVARES" 
+				AiType="UNITTYPE_ANTI_CAVALRY"/>
+		<Row	UnitType="UNIT_STR_ARAGON_ALMUGAVARES" 
+				AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+	<Units>
+		<Row	UnitType="UNIT_STR_ARAGON_ALMUGAVARES"
+				Cost="160"
+				Maintenance="5"
+				BaseMoves="2"
+				BaseSightRange="2"
+				ZoneOfControl="true"
+				Domain="DOMAIN_LAND"
+				Combat="47"
+				FormationClass="FORMATION_CLASS_LAND_COMBAT"
+				PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY"
+				PopulationCost="1"
+				PrereqPopulation="2"
+				AdvisorType="ADVISOR_CONQUEST"
+				Name="LOC_UNIT_STR_ARAGON_ALMUGAVARES_NAME"
+				Description="LOC_UNIT_STR_ARAGON_ALMUGAVARES_DESCRIPTION"
+				PurchaseYield="YIELD_GOLD"
+				PrereqTech="TECH_MILITARY_TACTICS"
+				TraitType="TRAIT_CIVILIZATION_STR_ARAGON_ALMUGAVARES"/>
+	</Units>
+	<UnitReplaces>
+		<Row	CivUniqueUnitType="UNIT_STR_ARAGON_ALMUGAVARES"
+				ReplacesUnitType="UNIT_PIKEMAN"/>
+	</UnitReplaces>
+	<UnitUpgrades>
+		<Row	Unit="UNIT_STR_ARAGON_ALMUGAVARES"
+				UpgradeUnit="UNIT_AT_CREW"/>
+	</UnitUpgrades>
+
+	<!-- ARAGON ALMUGAVARES | UNIT ABILITY -->
+	<Types>
+		<!-- EMBARK AND DISEMBARK -->
+		<Row	Type="ABILITY_STR_ARAGON_ALMUGAVARES_EMBARK_1"
+				Kind="KIND_ABILITY"/>
+		<!-- STRENGTH FROM GUNPOWDER SCALING -->
+		<Row	Type="ABILITY_STR_ARAGON_ALMUGAVARES_STRENGTH_FROM_GUNPOWDER_1"
+				Kind="KIND_ABILITY"/>
+	</Types>
+	<TypeTags>
+		<!-- EMBARK AND DISEMBARK -->
+		<Row	Type="ABILITY_STR_ARAGON_ALMUGAVARES_EMBARK_1"
+				Tag="CLASS_STR_ARAGON_ALMUGAVARES"/>
+		<!-- STRENGTH FROM GUNPOWDER SCALING -->
+		<Row	Type="ABILITY_STR_ARAGON_ALMUGAVARES_STRENGTH_FROM_GUNPOWDER_1"
+				Tag="CLASS_STR_ARAGON_ALMUGAVARES"/>
+	</TypeTags>
+	<UnitAbilities>
+		<!-- EMBARK AND DISEMBARK -->
+		<Row	UnitAbilityType="ABILITY_STR_ARAGON_ALMUGAVARES_EMBARK_1"
+				Name="LOC_ABILITY_STR_ARAGON_ALMUGAVARES_EMBARK_1_NAME"
+				Description="LOC_ABILITY_STR_ARAGON_ALMUGAVARES_EMBARK_1_DESCRIPTION"/>
+		<!-- STRENGTH FROM GUNPOWDER SCALING -->
+		<Row	UnitAbilityType="ABILITY_STR_ARAGON_ALMUGAVARES_STRENGTH_FROM_GUNPOWDER_1"
+				Name="LOC_ABILITY_STR_ARAGON_ALMUGAVARES_STRENGTH_FROM_GUNPOWDER_1_NAME"
+				Description="LOC_ABILITY_STR_ARAGON_ALMUGAVARES_STRENGTH_FROM_GUNPOWDER_1_DESCRIPTION"/>
+	</UnitAbilities>
+	<Modifiers>
+		<!-- EMBARK AND DISEMBARK -->
+		<Row>
+			<ModifierId>STR_MOD_ARAGON_ALMUGAVARES_EMBARK_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_SHORES</ModifierType>
+		</Row>
+		<!-- STRENGTH FROM GUNPOWDER SCALING -->
+		<Row>
+			<ModifierId>STR_MOD_ARAGON_ALMUGAVARES_STRENGTH_FROM_GUNPOWDER_1</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<OwnerRequirementSetId>STR_ARAGON_ALMUGAVARES_SCALING_PLAYER_1</OwnerRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- EMBARK AND DISEMBARK -->
+		<Row>
+			<ModifierId>STR_MOD_ARAGON_ALMUGAVARES_EMBARK_1</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
+		</Row>
+		<!-- STRENGTH FROM GUNPOWDER SCALING -->
+		<Row>
+			<ModifierId>STR_MOD_ARAGON_ALMUGAVARES_STRENGTH_FROM_GUNPOWDER_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+	</ModifierArguments>
+	<UnitAbilityModifiers>
+		<!-- EMBARK AND DISEMBARK -->
+		<Row>
+			<UnitAbilityType>ABILITY_STR_ARAGON_ALMUGAVARES_EMBARK_1</UnitAbilityType>
+			<ModifierId>STR_MOD_ARAGON_ALMUGAVARES_EMBARK_1</ModifierId>
+		</Row>
+		<!-- STRENGTH FROM GUNPOWDER SCALING -->
+		<Row>
+			<UnitAbilityType>ABILITY_STR_ARAGON_ALMUGAVARES_STRENGTH_FROM_GUNPOWDER_1</UnitAbilityType>
+			<ModifierId>STR_MOD_ARAGON_ALMUGAVARES_STRENGTH_FROM_GUNPOWDER_1</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<ModifierStrings>
+		<!-- EMBARK AND DISEMBARK -->
+	<!--<Row	ModifierId="STR_MOD_ARAGON_ALMUGAVARES_EMBARK_1"
+				Context="Preview"
+				Text="LOC_ABILITY_STR_ARAGON_ALMUGAVARES_EMBARK_1_DESCRIPTION_BONUS"/>-->
+		<!-- STRENGTH FROM GUNPOWDER SCALING -->
+		<Row	ModifierId="STR_MOD_ARAGON_ALMUGAVARES_STRENGTH_FROM_GUNPOWDER_1"
+				Context="Preview"
+				Text="LOC_ABILITY_STR_ARAGON_ALMUGAVARES_STRENGTH_FROM_GUNPOWDER_1_DESCRIPTION_BONUS"/>
+	</ModifierStrings>
+
+	<!-- NAPLES SCHERMAGLIATORE | UNIT -->
+	<Types>
+		<Row	Type="UNIT_STR_NAPLES_SCHERMAGLIATORE"
+				Kind="KIND_UNIT"/>
+	</Types>
+	<Tags>
+		<Row	Tag="CLASS_STR_NAPLES_SCHERMAGLIATORE"
+				Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	<TypeTags>
+		<Row	Type="UNIT_STR_NAPLES_SCHERMAGLIATORE"
+				Tag="CLASS_NAVAL_RANGED"/>
+		<Row	Type="UNIT_STR_NAPLES_SCHERMAGLIATORE"
+				Tag="CLASS_STR_NAPLES_SCHERMAGLIATORE"/>
+	</TypeTags>
+	<UnitAiInfos>
+		<Row	UnitType="UNIT_STR_NAPLES_SCHERMAGLIATORE"
+				AiType="UNITAI_COMBAT"/>
+		<Row	UnitType="UNIT_STR_NAPLES_SCHERMAGLIATORE"
+				AiType="UNITAI_EXPLORE"/>
+		<Row	UnitType="UNIT_STR_NAPLES_SCHERMAGLIATORE"
+				AiType="UNITTYPE_MELEE"/>
+		<Row	UnitType="UNIT_STR_NAPLES_SCHERMAGLIATORE"
+				AiType="UNITTYPE_NAVAL"/>
+	</UnitAiInfos>
+	<Units>
+		<Row	UnitType="UNIT_STR_NAPLES_SCHERMAGLIATORE"
+				Cost="200"
+				Maintenance="7"
+				BaseMoves="2"
+				BaseSightRange="1"
+				ZoneOfControl="true"
+				Domain="DOMAIN_SEA"
+				Combat="40"
+				FormationClass="FORMATION_CLASS_NAVAL"
+				PromotionClass="PROMOTION_CLASS_NAVAL_MELEE"
+				AdvisorType="ADVISOR_CONQUEST"
+				Name="LOC_UNIT_STR_NAPLES_SCHERMAGLIATORE_NAME"
+				Description="LOC_UNIT_STR_NAPLES_SCHERMAGLIATORE_DESCRIPTION"
+				PurchaseYield="YIELD_GOLD"
+				PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT"
+				PrereqCivic="CIVIC_NAVAL_TRADITION"
+				TraitType="TRAIT_CIVILIZATION_STR_NAPLES_SCHERMAGLIATORE"/>
+	</Units>
+	<UnitReplaces>
+		<Row	CivUniqueUnitType="UNIT_STR_NAPLES_SCHERMAGLIATORE"
+				ReplacesUnitType="UNIT_CARAVEL"/>
+	</UnitReplaces>
+	<UnitUpgrades>
+		<Row	Unit="UNIT_STR_NAPLES_SCHERMAGLIATORE"
+				UpgradeUnit="UNIT_IRONCLAD"/>
+	</UnitUpgrades>
+
+	<!-- NAPLES SCHERMAGLIATORE | UNIT ABILITIES -->
+	<Types>
+		<!-- BONUS ON COASTAL TILES -->
+		<Row	Type="ABILITY_STR_NAPLES_SCHERMAGLIATORE_BONUS_ON_COAST_1"
+				Kind="KIND_ABILITY"/>
+		<!-- STRENGTH FROM CARTOGRAPHY -->
+		<Row	Type="ABILITY_STR_NAPLES_SCHERMAGLIATORE_STRENGTH_FROM_CARTOGRAPHY_1"
+				Kind="KIND_ABILITY"/>
+	</Types>
+	<TypeTags>
+		<!-- BONUS ON COASTAL TILES -->
+		<Row	Type="ABILITY_STR_NAPLES_SCHERMAGLIATORE_BONUS_ON_COAST_1"
+				Tag="CLASS_STR_NAPLES_SCHERMAGLIATORE"/>
+		<!-- STRENGTH FROM CARTOGRAPHY -->
+		<Row	Type="ABILITY_STR_NAPLES_SCHERMAGLIATORE_STRENGTH_FROM_CARTOGRAPHY_1"
+				Tag="CLASS_STR_NAPLES_SCHERMAGLIATORE"/>
+	</TypeTags>
+	<UnitAbilities>
+		<!-- BONUS ON COASTAL TILES -->
+		<Row	UnitAbilityType="ABILITY_STR_NAPLES_SCHERMAGLIATORE_BONUS_ON_COAST_1"
+				Name="LOC_ABILITY_STR_NAPLES_SCHERMAGLIATORE_BONUS_ON_COAST_1_NAME"
+				Description="LOC_ABILITY_STR_NAPLES_SCHERMAGLIATORE_BONUS_ON_COAST_1_DESCRIPTION"/>
+		<!-- STRENGTH FROM CARTOGRAPHY -->
+		<Row	UnitAbilityType="ABILITY_STR_NAPLES_SCHERMAGLIATORE_STRENGTH_FROM_CARTOGRAPHY_1"
+				Name="LOC_ABILITY_STR_NAPLES_SCHERMAGLIATORE_STRENGTH_FROM_CARTOGRAPHY_1_NAME"
+				Description="LOC_ABILITY_STR_NAPLES_SCHERMAGLIATORE_STRENGTH_FROM_CARTOGRAPHY_1_DESCRIPTION"/>
+	</UnitAbilities>
+	<Modifiers>
+		<!-- SIGHT ON COASTAL TILES -->
+		<Row>
+			<ModifierId>STR_MOD_NAPLES_SCHERMAGLIATORE_BONUS_ON_COAST_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_SIGHT</ModifierType>
+			<SubjectRequirementSetId>REQUIREMENTS_UNIT_IN_SHALLOW_WATER</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>STR_MOD_NAPLES_SCHERMAGLIATORE_BONUS_ON_COAST_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
+			<SubjectRequirementSetId>REQUIREMENTS_UNIT_IN_SHALLOW_WATER</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>STR_MOD_NAPLES_SCHERMAGLIATORE_BONUS_ON_COAST_3</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>REQUIREMENTS_UNIT_IN_SHALLOW_WATER</SubjectRequirementSetId>
+		</Row>
+		<!-- STRENGTH FROM CARTOGRAPHY -->
+		<Row>
+			<ModifierId>STR_MOD_NAPLES_SCHERMAGLIATORE_STRENGTH_FROM_CARTOGRAPHY_1</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>STR_NAPLES_SCHERMAGLIATORE_SCALING_PLAYER_1</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!-- SIGHT ON COASTAL TILES -->
+		<Row>
+			<ModifierId>STR_MOD_NAPLES_SCHERMAGLIATORE_BONUS_ON_COAST_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_MOD_NAPLES_SCHERMAGLIATORE_BONUS_ON_COAST_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>STR_MOD_NAPLES_SCHERMAGLIATORE_BONUS_ON_COAST_3</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+		<!-- STRENGTH FROM CARTOGRAPHY -->
+		<Row>
+			<ModifierId>STR_MOD_NAPLES_SCHERMAGLIATORE_STRENGTH_FROM_CARTOGRAPHY_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+	</ModifierArguments>
+	<UnitAbilityModifiers>
+		<!-- BONUS ON COASTAL TILES -->
+		<Row>
+			<UnitAbilityType>ABILITY_STR_NAPLES_SCHERMAGLIATORE_BONUS_ON_COAST_1</UnitAbilityType>
+			<ModifierId>STR_MOD_NAPLES_SCHERMAGLIATORE_BONUS_ON_COAST_1</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_STR_NAPLES_SCHERMAGLIATORE_BONUS_ON_COAST_1</UnitAbilityType>
+			<ModifierId>STR_MOD_NAPLES_SCHERMAGLIATORE_BONUS_ON_COAST_2</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_STR_NAPLES_SCHERMAGLIATORE_BONUS_ON_COAST_1</UnitAbilityType>
+			<ModifierId>STR_MOD_NAPLES_SCHERMAGLIATORE_BONUS_ON_COAST_3</ModifierId>
+		</Row>
+		<!-- STRENGTH FROM CARTOGRAPHY -->
+		<Row>
+			<UnitAbilityType>ABILITY_STR_NAPLES_SCHERMAGLIATORE_STRENGTH_FROM_CARTOGRAPHY_1</UnitAbilityType>
+			<ModifierId>STR_MOD_NAPLES_SCHERMAGLIATORE_STRENGTH_FROM_CARTOGRAPHY_1</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<ModifierStrings>
+		<!-- BONUS ON COASTAL TILES -->
+	<!--<Row	ModifierId="STR_MOD_NAPLES_SCHERMAGLIATORE_BONUS_ON_COAST_1"
+				Context="Preview"
+				Text="LOC_ABILITY_STR_NAPLES_SCHERMAGLIATORE_BONUS_ON_COAST_1_DESCRIPTION_BONUS"/>
+		<Row	ModifierId="STR_MOD_NAPLES_SCHERMAGLIATORE_BONUS_ON_COAST_2"
+				Context="Preview"
+				Text="LOC_ABILITY_STR_NAPLES_SCHERMAGLIATORE_BONUS_ON_COAST_1_DESCRIPTION_BONUS"/>-->
+		<Row	ModifierId="STR_MOD_NAPLES_SCHERMAGLIATORE_BONUS_ON_COAST_3"
+				Context="Preview"
+				Text="LOC_ABILITY_STR_NAPLES_SCHERMAGLIATORE_BONUS_ON_COAST_1_DESCRIPTION_BONUS"/>
+		<!-- STRENGTH FROM CARTOGRAPHY -->
+		<Row	ModifierId="STR_MOD_NAPLES_SCHERMAGLIATORE_STRENGTH_FROM_CARTOGRAPHY_1"
+				Context="Preview"
+				Text="LOC_ABILITY_STR_NAPLES_SCHERMAGLIATORE_STRENGTH_FROM_CARTOGRAPHY_1_DESCRIPTION_BONUS"/>
+	</ModifierStrings>
+
+	<!-- ARAGON/NAPLES ALMUGAVARES/SCHERMAGLIATORE | UNIT REQUIREMENTS -->
+	<RequirementSets>
+		<!-- ARAGON ALMUGAVARES SCALING REQUIREMENTS -->
+		<Row>
+			<RequirementSetId>STR_ARAGON_ALMUGAVARES_SCALING_PLAYER_1</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!-- NAPLES SCHERMAGLIATORE SCALING REQUIREMENTS -->
+		<Row>
+			<RequirementSetId>STR_NAPLES_SCHERMAGLIATORE_SCALING_PLAYER_1</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<!-- ARAGON ALMUGAVARES SCALING REQUIREMENTS -->
+		<Row>
+			<RequirementSetId>STR_ARAGON_ALMUGAVARES_SCALING_PLAYER_1</RequirementSetId>
+			<RequirementId>STR_ARAGON_ALMUGAVARES_REQUIREMENT_1</RequirementId>
+		</Row>
+		<!-- NAPLES SCHERMAGLIATORE SCALING REQUIREMENTS -->
+		<Row>
+			<RequirementSetId>STR_NAPLES_SCHERMAGLIATORE_SCALING_PLAYER_1</RequirementSetId>
+			<RequirementId>STR_NAPLES_SCHERMAGLIATORE_REQUIREMENT_1</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<!-- ARAGON ALMUGAVARES SCALING REQUIREMENTS -->
+		<Row>
+			<RequirementId>STR_ARAGON_ALMUGAVARES_REQUIREMENT_1</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<!-- NAPLES SCHERMAGLIATORE SCALING REQUIREMENTS -->
+		<Row>
+			<RequirementId>STR_NAPLES_SCHERMAGLIATORE_REQUIREMENT_1</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<!-- ARAGON ALMUGAVARES SCALING REQUIREMENTS -->
+		<Row>
+			<RequirementId>STR_ARAGON_ALMUGAVARES_REQUIREMENT_1</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_GUNPOWDER</Value>
+		</Row>
+		<!-- NAPLES SCHERMAGLIATORE SCALING REQUIREMENTS -->
+		<Row>
+			<RequirementId>STR_NAPLES_SCHERMAGLIATORE_REQUIREMENT_1</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_CARTOGRAPHY</Value>
+		</Row>
+	</RequirementArguments>
+
+</GameData>
