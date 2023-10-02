@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- THIS FILE WAS AUTOMATICALLY GENERATED. PLEASE DO NOT EDIT. -->
+<GameInfo>
+	<Units>
+		<Update>
+			<Where UnitType="UNIT_SETTLER"/>
+			<Set>
+				<Cost>100</Cost>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BUILDER"/>
+			<Set>
+				<Cost>60</Cost>
+				<CostProgressionParam1>0</CostProgressionParam1>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_TRADER"/>
+			<Set>
+				<Cost>50</Cost>
+				<CostProgressionParam1>0</CostProgressionParam1>
+			</Set>
+		</Update>
+	</Units>
+</GameInfo>

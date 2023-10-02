@@ -87,6 +87,10 @@
 	  <File>Core/ZZZPolicies.xml</File>
 	  <File>Core/ZZZProjects.xml</File>
 	  <File>Core/ZZZBeliefs.xml</File>
+	  <File>Core/ZZZGlobalParameters.xml</File>
+	  <File>Core/ZZZUnits.xml</File>
+	  <File>Core/ZZZDistricts.xml</File>
+	  <File>Core/Z.sql</File>
     </UpdateDatabase>
     <UpdateIcons id="UpdateIcons">
       <Properties>
@@ -109,6 +113,10 @@
 	<File>Core/ZZZPolicies.xml</File>
 	<File>Core/ZZZProjects.xml</File>
 	<File>Core/ZZZBeliefs.xml</File>
+	<File>Core/ZZZGlobalParameters.xml</File>
+	<File>Core/ZZZUnits.xml</File>
+	<File>Core/ZZZDistricts.xml</File>
+	<File>Core/Z.sql</File>
 	<File>ArtDefs/Buildings.artdef</File>
     <File>ArtDefs/Civilizations.artdef</File>
     <File>ArtDefs/Cultures.artdef</File>
