@@ -7,7 +7,5 @@
 	
 	<Replace Name="FAITH_PER_UNUSED_GREAT_PERSON_POINT" Value="1.5" />
 	
-	<Replace Name="CULTURE_COST_LATER_PLOT_EXPONENT" Value="1.2" />
-	
 	</GlobalParameters>
 </GameInfo>
