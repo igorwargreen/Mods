@@ -1,5 +1,5 @@
-UPDATE Districts SET Cost=120, CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" Where Cost=54;
-UPDATE Districts SET Cost=75, CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" Where Cost=27;
+UPDATE Districts SET Cost=120, CostProgressionParam1="400", CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" Where Cost=54;
+UPDATE Districts SET Cost=75, CostProgressionParam1=400, CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" Where Cost=27;
 UPDATE Districts SET Cost=75, CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" Where Cost=36;
 UPDATE Districts SET Cost=60, CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" Where Cost=18;
 UPDATE Districts SET Cost=70, CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" Where Cost=30;
