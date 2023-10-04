@@ -15,6 +15,6 @@
 		<Row ProjectType="PROJECT_ENHANCE_DISTRICT_HOLY_SITE" ReligiousPressureModifier="200"/>
 	</Projects_XP2>
 	<Project_YieldConversions>
-		<Row ProjectType="PROJECT_ENHANCE_DISTRICT_HOLY_SITE" YieldType="YIELD_FAITH" PercentOfProductionRate="50"/>
+		<Row ProjectType="PROJECT_ENHANCE_DISTRICT_HOLY_SITE" YieldType="YIELD_FAITH" PercentOfProductionRate="75"/>
 	</Project_YieldConversions>	
 </GameInfo>

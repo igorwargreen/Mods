@@ -22,7 +22,7 @@
 		<Row>
 			<ModifierId>IGOR_BUILDING_YIELDS_HIGH_ADJACENCY</ModifierId>
 			<Name>Amount</Name>
-			<Value>75</Value>
+			<Value>100</Value>
 		</Row>
 	</ModifierArguments>
 	<PolicyModifiers>
