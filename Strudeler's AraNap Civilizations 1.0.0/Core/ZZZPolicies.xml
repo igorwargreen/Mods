@@ -24,6 +24,54 @@
 			<Name>Amount</Name>
 			<Value>100</Value>
 		</Row>
+		<Update>
+			<Where ModifierId="CHIVALRY_MEDIEVAL_HEAVY_CAVALRY_PRODUCTION"/>
+			<Set>
+				<Value>100</Value>
+			</Set>
+		</Update>
+		<Update>
+			<Where ModifierId="CHIVALRY_RENAISSANCE_HEAVY_CAVALRY_PRODUCTION"/>
+			<Set>
+				<Value>100</Value>
+			</Set>
+		</Update>
+		<Update>
+			<Where ModifierId="CHIVALRY_INDUSTRIAL_HEAVY_CAVALRY_PRODUCTION"/>
+			<Set>
+				<Value>100</Value>
+			</Set>
+		</Update>
+		<Update>
+			<Where ModifierId="LIGHTNINGWARFARE_MODERN_HEAVY_CAVALRY_PRODUCTION"/>
+			<Set>
+				<Value>100</Value>
+			</Set>
+		</Update>
+		<Update>
+			<Where ModifierId="LIGHTNINGWARFARE_ATOMIC_HEAVY_CAVALRY_PRODUCTION"/>
+			<Set>
+				<Value>100</Value>
+			</Set>
+		</Update>
+		<Update>
+			<Where ModifierId="LIGHTNINGWARFARE_INFORMATION_HEAVY_CAVALRY_PRODUCTION"/>
+			<Set>
+				<Value>100</Value>
+			</Set>
+		</Update>
+		<Update>
+			<Where ModifierId="MANEUVER_ANCIENT_HEAVY_CAVALRY_PRODUCTION"/>
+			<Set>
+				<Value>100</Value>
+			</Set>
+		</Update>
+		<Update>
+			<Where ModifierId="MANEUVER_CLASSICAL_HEAVY_CAVALRY_PRODUCTION"/>
+			<Set>
+				<Value>100</Value>
+			</Set>
+		</Update>
 	</ModifierArguments>
 	<PolicyModifiers>
 		<Delete ModifierId="SIMULTANEUM_BUILDING_YIELDS_HIGH_ADJACENCY"/>

@@ -11,7 +11,7 @@
 		
 	<Replace Name="CIVIC_COST_PERCENT_CHANGE_BEFORE_GAME_ERA" Value="-15" />
 	
-	<Replace Name="TECH_COST_PERCENT_CHANGE_AFTER_GAME_ERA" Value="35" />
+	<Replace Name="TECH_COST_PERCENT_CHANGE_AFTER_GAME_ERA" Value="33" />
 		
 	<Replace Name="TECH_COST_PERCENT_CHANGE_BEFORE_GAME_ERA" Value="-20" />
 	

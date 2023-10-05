@@ -16,5 +16,83 @@
 				<CostProgressionParam1>0</CostProgressionParam1>
 			</Set>
 		</Update>
+		
+		<Update>
+			<Where UnitType="UNIT_HEAVY_CHARIOT"/>
+			<Set>
+				<Cost>60</Cost>
+				<Combat>30</Combat>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_SUMERIAN_WAR_CART"/>
+			<Set>
+				<Cost>50</Cost>
+				<Combat>30</Combat>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_KNIGHT"/>
+			<Set>
+				<Cost>200</Cost>
+				<Combat>50</Combat>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_ARABIAN_MAMLUK"/>
+			<Set>
+				<Cost>200</Cost>
+				<Combat>50</Combat>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_BYZANTINE_TAGMA"/>
+			<Set>
+				<Cost>200</Cost>
+				<Combat>50</Combat>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MALI_MANDEKALU_CAVALRY"/>
+			<Set>
+				<Cost>200</Cost>
+				<Combat>55</Combat>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_CUIRASSIER"/>
+			<Set>
+				<Cost>330</Cost>
+				<Combat>66</Combat>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_POLISH_HUSSAR"/>
+			<Set>
+				<Cost>330</Cost>
+				<Combat>66</Combat>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_AMERICAN_ROUGH_RIDER"/>
+			<Set>
+				<Cost>385</Cost>
+				<Combat>69</Combat>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_TANK"/>
+			<Set>
+				<Cost>480</Cost>
+				<Combat>85</Combat>
+			</Set>
+		</Update>
+		<Update>
+			<Where UnitType="UNIT_MODERN_ARMOR"/>
+			<Set>
+				<Cost>680</Cost>
+				<Combat>95</Combat>
+			</Set>
+		</Update>
 	</Units>
 </GameInfo>
