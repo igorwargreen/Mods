@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="19b831f3-544d-47d5-8468-99e3ea2a958f" version="1">
+  <Properties>
+    <Name>SPM Pantheon Beliefs</Name>
+    <Description>Add 14 new pantheons because why not. Balance is not garanteed.
+
+Spirit of Wealth - +1 Gold from pastures, camps, plantations and quarries.
+Spirit of Nature - +1 Faith for forest and jungle tiles.
+Spirit of Commerce - +1 Trade route and a free Trader.
+Spirit of Shelter - +2 Housing on cities without fresh water.
+Spirit of Craftsmanship - +1 Food and +1 Production for granaries and watermills.
+Spirit of Festival - +1 Amenity from monuments.
+Spirit of Animality - +1 Faith for horses, deer, furs, ivory and turtles.
+Spirit of the Deity - +1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith, +1 Housing and +1 Amenity for the palace.
+Spirit of Scriptures - +1 Great work of writing for temples.
+Spirit of Speech - +1 Envoy and +1 influence point per turn.
+Spirit of the Sun - +1 Food for bananas, rice, wheat, citrus and wine.
+Spirit of the Sea - +1 Faith and +1 Gold for fishing boats.
+Spirit of Domestication - +1 Production to districs adjacent to a pasture or a camp.
+Spirit of Curiosity - +1 Faith for tiles adjacent to a reef, an oasis or a geothermal fissure.</Description>
+    <Created>1656238638</Created>
+    <Teaser>Adds 14 new pantheons because why not.</Teaser>
+    <Authors>SuperPinkyMan</Authors>
+    <AffectsSavedGames>0</AffectsSavedGames>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
+  <FrontEndActions />
+  <InGameActions>
+    <UpdateDatabase id="SPM_Pantheon_Beliefs">
+      <File>SPM_Pantheon_Beliefs.xml</File>
+      <File>Domestication.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="SPM_Pantheon_Beliefs_Text">
+      <File>SPM_Pantheon_Beliefs_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="SPM_Pantheon_Beliefs_Icons">
+      <File>SPM_Pantheon_Beliefs_Icons.xml</File>
+    </UpdateIcons>
+  </InGameActions>
+  <Files>
+    <File>SPM_Pantheon_Beliefs.xml</File>
+    <File>SPM_Pantheon_Beliefs_Icons.xml</File>
+    <File>SPM_Pantheon_Beliefs_Text.xml</File>
+  </Files>
+</Mod>

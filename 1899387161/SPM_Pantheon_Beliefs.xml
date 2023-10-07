@@ -1,0 +1,1280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: Sev GUTRON -->
+<!-- DateCreated: 10/23/2019 4:48:03 PM -->
+<GameData>
+	
+	<!-- Spirit of Wealth - +1 Gold from pastures, camps, plantations and quarries -->
+	<Beliefs>
+		
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_WEALTH"
+             Name="LOC_BELIEF_SPM_SPIRIT_OF_WEALTH_NAME"
+             Description="LOC_BELIEF_SPM_SPIRIT_OF_WEALTH_DESCRIPTION"
+             BeliefClassType="BELIEF_CLASS_PANTHEON" />
+		
+	</Beliefs>
+	<Types>
+		
+		<Row Type="BELIEF_SPM_SPIRIT_OF_WEALTH"
+             Kind="KIND_BELIEF" />
+		
+	</Types>
+	<BeliefModifiers>
+		
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_WEALTH"
+             ModifierID="SPM_SPIRIT_OF_WEALTH_PASTURE_GOLD" />
+		
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_WEALTH"
+			 ModifierID="SPM_SPIRIT_OF_WEALTH_CAMP_GOLD" />
+		
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_WEALTH"
+			 ModifierID="SPM_SPIRIT_OF_WEALTH_PLANTATION_GOLD" />
+		
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_WEALTH"
+			 ModifierID="SPM_SPIRIT_OF_WEALTH_QUARRY_GOLD" />
+		
+	</BeliefModifiers>
+	<Modifiers>
+		
+		<Row ModifierId="SPM_SPIRIT_OF_WEALTH_PASTURE_GOLD"
+             ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
+             SubjectRequirementSetId="CITY_FOLLOWS_PANTHEON_REQUIREMENTS" />
+		<Row ModifierId="SPM_SPIRIT_OF_WEALTH_PASTURE_GOLD_MODIFIER"
+			 ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD"
+			 SubjectRequirementSetId="PLOT_HAS_PASTURE_REQUIREMENTS" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_WEALTH_CAMP_GOLD"
+			 ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
+			 SubjectRequirementSetId="CITY_FOLLOWS_PANTHEON_REQUIREMENTS" />
+		<Row ModifierId="SPM_SPIRIT_OF_WEALTH_CAMP_GOLD_MODIFIER"
+			 ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD"
+			 SubjectRequirementSetId="PLOT_HAS_CAMP_REQUIREMENTS" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_WEALTH_PLANTATION_GOLD"
+			 ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
+			 SubjectRequirementSetId="CITY_FOLLOWS_PANTHEON_REQUIREMENTS" />
+		<Row ModifierId="SPM_SPIRIT_OF_WEALTH_PLANTATION_GOLD_MODIFIER"
+			 ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD"
+			 SubjectRequirementSetId="PLOT_HAS_PLANTATION_REQUIREMENTS" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_WEALTH_QUARRY_GOLD"
+			 ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
+			 SubjectRequirementSetId="CITY_FOLLOWS_PANTHEON_REQUIREMENTS" />
+		<Row ModifierId="SPM_SPIRIT_OF_WEALTH_QUARRY_GOLD_MODIFIER"
+			 ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD"
+			 SubjectRequirementSetId="PLOT_HAS_QUARRY_REQUIREMENTS" />
+
+	</Modifiers>
+	<ModifierArguments>
+		
+		<Row ModifierId="SPM_SPIRIT_OF_WEALTH_PASTURE_GOLD"
+             Name="ModifierId"
+             Value="SPM_SPIRIT_OF_WEALTH_PASTURE_GOLD_MODIFIER" />
+		<Row ModifierId="SPM_SPIRIT_OF_WEALTH_PASTURE_GOLD_MODIFIER"
+             Name="Amount"
+             Value="1" />
+		<Row ModifierId="SPM_SPIRIT_OF_WEALTH_PASTURE_GOLD_MODIFIER"
+             Name="YieldType"
+             Value="YIELD_GOLD" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_WEALTH_CAMP_GOLD"
+			 Name="ModifierId"
+			 Value="SPM_SPIRIT_OF_WEALTH_CAMP_GOLD_MODIFIER" />
+		<Row ModifierId="SPM_SPIRIT_OF_WEALTH_CAMP_GOLD_MODIFIER"
+             Name="Amount"
+             Value="1" />
+		<Row ModifierId="SPM_SPIRIT_OF_WEALTH_CAMP_GOLD_MODIFIER"
+             Name="YieldType"
+             Value="YIELD_GOLD" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_WEALTH_PLANTATION_GOLD"
+			 Name="ModifierId"
+			 Value="SPM_SPIRIT_OF_WEALTH_PLANTATION_GOLD_MODIFIER" />
+		<Row ModifierId="SPM_SPIRIT_OF_WEALTH_PLANTATION_GOLD_MODIFIER"
+             Name="Amount"
+             Value="1" />
+		<Row ModifierId="SPM_SPIRIT_OF_WEALTH_PLANTATION_GOLD_MODIFIER"
+             Name="YieldType"
+             Value="YIELD_GOLD" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_WEALTH_QUARRY_GOLD"
+			 Name="ModifierId"
+			 Value="SPM_SPIRIT_OF_WEALTH_QUARRY_GOLD_MODIFIER" />
+		<Row ModifierId="SPM_SPIRIT_OF_WEALTH_QUARRY_GOLD_MODIFIER"
+             Name="Amount"
+             Value="1" />
+		<Row ModifierId="SPM_SPIRIT_OF_WEALTH_QUARRY_GOLD_MODIFIER"
+             Name="YieldType"
+             Value="YIELD_GOLD" />
+		
+	</ModifierArguments>
+
+	<!-- Spirit of Nature - +1 Faith from forest and jungle tiles -->
+
+	<Beliefs>
+
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_NATURE"
+             Name="LOC_BELIEF_SPM_SPIRIT_OF_NATURE_NAME"
+             Description="LOC_BELIEF_SPM_SPIRIT_OF_NATURE_DESCRIPTION"
+             BeliefClassType="BELIEF_CLASS_PANTHEON" />
+
+	</Beliefs>
+	<Types>
+
+		<Row Type="BELIEF_SPM_SPIRIT_OF_NATURE"
+             Kind="KIND_BELIEF" />
+
+	</Types>
+	<BeliefModifiers>
+
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_NATURE"
+			 ModifierID="SPM_SPIRIT_OF_NATURE_FOREST_FAITH" />
+
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_NATURE"
+			 ModifierID="SPM_SPIRIT_OF_NATURE_JUNGLE_FAITH" />
+
+	</BeliefModifiers>
+	<Modifiers>
+
+		<Row ModifierId="SPM_SPIRIT_OF_NATURE_FOREST_FAITH"
+			 ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
+			 SubjectRequirementSetId="CITY_FOLLOWS_PANTHEON_REQUIREMENTS" />
+		<Row ModifierId="SPM_SPIRIT_OF_NATURE_FOREST_FAITH_MODIFIER"
+			 ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD"
+			 SubjectRequirementSetId="SPM_PLOT_HAS_FOREST_REQUIREMENTS" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_NATURE_JUNGLE_FAITH"
+			 ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
+			 SubjectRequirementSetId="CITY_FOLLOWS_PANTHEON_REQUIREMENTS" />
+		<Row ModifierId="SPM_SPIRIT_OF_NATURE_JUNGLE_FAITH_MODIFIER"
+			 ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD"
+			 SubjectRequirementSetId="PLOT_HAS_JUNGLE_REQUIREMENTS" />
+
+	</Modifiers>
+	<ModifierArguments>
+
+		<Row ModifierId="SPM_SPIRIT_OF_NATURE_FOREST_FAITH"
+			 Name="ModifierId"
+			 Value="SPM_SPIRIT_OF_NATURE_FOREST_FAITH_MODIFIER" />
+		<Row ModifierId="SPM_SPIRIT_OF_NATURE_FOREST_FAITH_MODIFIER"
+             Name="Amount"
+             Value="1" />
+		<Row ModifierId="SPM_SPIRIT_OF_NATURE_FOREST_FAITH_MODIFIER"
+             Name="YieldType"
+             Value="YIELD_FAITH" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_NATURE_JUNGLE_FAITH"
+			 Name="ModifierId"
+			 Value="SPM_SPIRIT_OF_NATURE_JUNGLE_FAITH_MODIFIER" />
+		<Row ModifierId="SPM_SPIRIT_OF_NATURE_JUNGLE_FAITH_MODIFIER"
+             Name="Amount"
+             Value="1" />
+		<Row ModifierId="SPM_SPIRIT_OF_NATURE_JUNGLE_FAITH_MODIFIER"
+             Name="YieldType"
+             Value="YIELD_FAITH" />
+
+	</ModifierArguments>
+
+	<RequirementSets>
+
+		<Row RequirementSetId="SPM_PLOT_HAS_FOREST_REQUIREMENTS"
+             RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+
+	</RequirementSets>
+	<RequirementSetRequirements>
+
+		<Row RequirementSetId="SPM_PLOT_HAS_FOREST_REQUIREMENTS"
+			 RequirementId="PLOT_IS_FOREST_REQUIREMENT" />
+
+	</RequirementSetRequirements>
+	
+	<!-- Spirit of Commerce - +1 Trade Route and +1 Trader -->
+
+	<Beliefs>
+
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_COMMERCE"
+             Name="LOC_BELIEF_SPM_SPIRIT_OF_COMMERCE_NAME"
+             Description="LOC_BELIEF_SPM_SPIRIT_OF_COMMERCE_DESCRIPTION"
+             BeliefClassType="BELIEF_CLASS_PANTHEON" />
+
+	</Beliefs>
+	<Types>
+
+		<Row Type="BELIEF_SPM_SPIRIT_OF_COMMERCE"
+             Kind="KIND_BELIEF" />
+
+	</Types>
+	<BeliefModifiers>
+
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_COMMERCE"
+             ModifierID="SPM_SPIRIT_OF_COMMERCE_TRADE_ROUTE" />
+
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_COMMERCE"
+			 ModifierID="SPM_SPIRIT_OF_COMMERCE_TRADER" />
+
+	</BeliefModifiers>
+	<Modifiers>
+
+		<Row ModifierId="SPM_SPIRIT_OF_COMMERCE_TRADE_ROUTE"
+             ModifierType="MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER"
+             SubjectRequirementSetId="PLAYER_HAS_PANTHEON_REQUIREMENTS" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_COMMERCE_TRADE_ROUTE_MODIFIER"
+			 ModifierType="MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY" />
+			 
+		<Row ModifierId="SPM_SPIRIT_OF_COMMERCE_TRADER"
+             ModifierType="MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER"
+             SubjectRequirementSetId="PLAYER_HAS_PANTHEON_REQUIREMENTS" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_COMMERCE_TRADER_MODIFIER"
+			 ModifierType="MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL" />
+
+	</Modifiers>
+	<ModifierArguments>
+
+		<Row ModifierId="SPM_SPIRIT_OF_COMMERCE_TRADE_ROUTE"
+             Name="ModifierId"
+             Value="SPM_SPIRIT_OF_COMMERCE_TRADE_ROUTE_MODIFIER" />
+		
+		<Row ModifierId="SPM_SPIRIT_OF_COMMERCE_TRADE_ROUTE_MODIFIER"
+             Name="Amount"
+             Value="1" />
+		
+		<Row ModifierId="SPM_SPIRIT_OF_COMMERCE_TRADER"
+             Name="ModifierId"
+             Value="SPM_SPIRIT_OF_COMMERCE_TRADER_MODIFIER" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_COMMERCE_TRADER_MODIFIER"
+			 Name="Amount"
+			 Value="1" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_COMMERCE_TRADER_MODIFIER"
+			 Name="UnitType"
+			 Value="UNIT_TRADER" />
+
+	</ModifierArguments>
+
+	<!-- Spirit of Shelter - +2 Housing for cities with no fresh water. -->
+
+	<Beliefs>
+
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_SHELTER"
+             Name="LOC_BELIEF_SPM_SPIRIT_OF_SHELTER_NAME"
+             Description="LOC_BELIEF_SPM_SPIRIT_OF_SHELTER_DESCRIPTION"
+             BeliefClassType="BELIEF_CLASS_PANTHEON" />
+
+	</Beliefs>
+	<Types>
+
+		<Row Type="BELIEF_SPM_SPIRIT_OF_SHELTER"
+             Kind="KIND_BELIEF" />
+
+	</Types>
+	<BeliefModifiers>
+
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_SHELTER"
+             ModifierID="SPM_SPIRIT_OF_SHELTER_HOUSING" />
+
+	</BeliefModifiers>
+	<Modifiers>
+
+		<Row ModifierId="SPM_SPIRIT_OF_SHELTER_HOUSING"
+             ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
+             SubjectRequirementSetId="PLAYER_HAS_PANTHEON_REQUIREMENTS" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_SHELTER_HOUSING_MODIFIER"
+			 ModifierType="MODIFIER_CITY_DISTRICTS_ADJUST_DISTRICT_HOUSING"
+			 SubjectRequirementSetId="SPM_SPIRIT_OF_SHELTER_REQUIREMENTS" />
+
+
+	</Modifiers>
+	<ModifierArguments>
+
+		<Row ModifierId="SPM_SPIRIT_OF_SHELTER_HOUSING"
+             Name="ModifierId"
+             Value="SPM_SPIRIT_OF_SHELTER_HOUSING_MODIFIER" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_SHELTER_HOUSING_MODIFIER"
+             Name="Amount"
+             Value="2" />
+
+	</ModifierArguments>
+	<Requirements>
+		
+		<Row RequirementId="SPM_SHELTER_REQUIRES_DISTRICT_IS_CITY_CENTER"
+             RequirementType="REQUIREMENT_PLOT_DISTRICT_TYPE_MATCHES" />
+		
+	</Requirements>
+	<RequirementArguments>
+		
+		<Row RequirementId="SPM_SHELTER_REQUIRES_DISTRICT_IS_CITY_CENTER"
+             Name="DistrictType"
+             Value="DISTRICT_CITY_CENTER" />
+		
+	</RequirementArguments>
+	<Requirements>
+		
+		<Row RequirementId="SPM_SHELTER_REQUIRES_PLOT_HAS_NO_FRESH_WATER"
+             RequirementType="REQUIREMENT_PLOT_IS_FRESH_WATER"
+			 Inverse="true" />
+		
+	</Requirements>
+	<RequirementSets>
+		
+		<Row RequirementSetId="SPM_SPIRIT_OF_SHELTER_REQUIREMENTS"
+             RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+		
+	</RequirementSets>
+	<RequirementSetRequirements>
+
+		<Row RequirementSetId="SPM_SPIRIT_OF_SHELTER_REQUIREMENTS"
+			 RequirementId="SPM_SHELTER_REQUIRES_DISTRICT_IS_CITY_CENTER" />
+		<Row RequirementSetId="SPM_SPIRIT_OF_SHELTER_REQUIREMENTS"
+			 RequirementId="SPM_SHELTER_REQUIRES_PLOT_HAS_NO_FRESH_WATER" />
+
+	</RequirementSetRequirements>
+
+	<!-- Spirit of Craftsmanship - +25% Production towards building granaries and watermills. +2 Food and +2 Production for Granaries and Watermills. -->
+
+	<Beliefs>
+
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_CRAFTSMANSHIP"
+             Name="LOC_BELIEF_SPM_SPIRIT_OF_CRAFTSMANSHIP_NAME"
+             Description="LOC_BELIEF_SPM_SPIRIT_OF_CRAFTSMANSHIP_DESCRIPTION"
+             BeliefClassType="BELIEF_CLASS_PANTHEON" />
+
+	</Beliefs>
+	<Types>
+
+		<Row Type="BELIEF_SPM_SPIRIT_OF_CRAFTSMANSHIP"
+             Kind="KIND_BELIEF" />
+
+	</Types>
+	<BeliefModifiers>
+
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_CRAFTSMANSHIP"
+			 ModifierID="SPM_SPIRIT_OF_CRAFTSMANSHIP_GRANARY_PRODUCTION" />
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_CRAFTSMANSHIP"
+			 ModifierID="SPM_SPIRIT_OF_CRAFTSMANSHIP_WATERMILL_PRODUCTION" />
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_CRAFTSMANSHIP"
+             ModifierID="SPM_SPIRIT_OF_CRAFTSMANSHIP_FOOD_GRANARY" />
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_CRAFTSMANSHIP"
+             ModifierID="SPM_SPIRIT_OF_CRAFTSMANSHIP_PRODUCTION_GRANARY" />
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_CRAFTSMANSHIP"
+			 ModifierID="SPM_SPIRIT_OF_CRAFTSMANSHIP_FOOD_WATERMILL" />
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_CRAFTSMANSHIP"
+			 ModifierID="SPM_SPIRIT_OF_CRAFTSMANSHIP_PRODUCTION_WATERMILL" />
+
+	</BeliefModifiers>
+	<Modifiers>
+
+		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_GRANARY_PRODUCTION"
+			 ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
+			 SubjectRequirementSetId="PLAYER_HAS_PANTHEON_REQUIREMENTS" />
+		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_GRANARY_PRODUCTION_MODIFIER"
+			 ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_WATERMILL_PRODUCTION"
+			 ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
+			 SubjectRequirementSetId="PLAYER_HAS_PANTHEON_REQUIREMENTS" />
+		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_WATERMILL_PRODUCTION_MODIFIER"
+			 ModifierType="MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_FOOD_GRANARY"
+             ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
+             SubjectRequirementSetId="PLAYER_HAS_PANTHEON_REQUIREMENTS" />
+		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_FOOD_GRANARY_MODIFIER"
+			 ModifierType="MODIFIER_BUILDING_YIELD_CHANGE" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_PRODUCTION_GRANARY"
+             ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
+             SubjectRequirementSetId="PLAYER_HAS_PANTHEON_REQUIREMENTS" />
+		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_PRODUCTION_GRANARY_MODIFIER"
+			 ModifierType="MODIFIER_BUILDING_YIELD_CHANGE" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_FOOD_WATERMILL"
+			 ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
+			 SubjectRequirementSetId="PLAYER_HAS_PANTHEON_REQUIREMENTS" />
+		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_FOOD_WATERMILL_MODIFIER"
+			 ModifierType="MODIFIER_BUILDING_YIELD_CHANGE" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_PRODUCTION_WATERMILL"
+			 ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
+			 SubjectRequirementSetId="PLAYER_HAS_PANTHEON_REQUIREMENTS" />
+		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_PRODUCTION_WATERMILL_MODIFIER"
+			 ModifierType="MODIFIER_BUILDING_YIELD_CHANGE" />
+
+	</Modifiers>
+	<ModifierArguments>
+
+		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_GRANARY_PRODUCTION"
+			 Name="ModifierId"
+			 Value="SPM_SPIRIT_OF_CRAFTSMANSHIP_GRANARY_PRODUCTION_MODIFIER" />
+		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_GRANARY_PRODUCTION_MODIFIER"
+			 Name="BuildingType"
+			 Value="BUILDING_GRANARY" />
+		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_GRANARY_PRODUCTION_MODIFIER"
+			 Name="Amount"
+			 Value="25" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_WATERMILL_PRODUCTION"
+			 Name="ModifierId"
+			 Value="SPM_SPIRIT_OF_CRAFTSMANSHIP_WATERMILL_PRODUCTION_MODIFIER" />
+		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_WATERMILL_PRODUCTION_MODIFIER"
+			 Name="BuildingType"
+			 Value="BUILDING_WATER_MILL" />
+		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_WATERMILL_PRODUCTION_MODIFIER"
+			 Name="Amount"
+			 Value="25" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_FOOD_GRANARY"
+             Name="ModifierId"
+             Value="SPM_SPIRIT_OF_CRAFTSMANSHIP_FOOD_GRANARY_MODIFIER" />
+		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_FOOD_GRANARY_MODIFIER"
+			 Name="BuildingType"
+			 Value="BUILDING_GRANARY" />
+		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_FOOD_GRANARY_MODIFIER"
+			 Name="YieldType"
+			 Value="YIELD_FOOD" />
+		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_FOOD_GRANARY_MODIFIER"
+			 Name="Amount"
+			 Value="2" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_PRODUCTION_GRANARY"
+			 Name="ModifierId"
+			 Value="SPM_SPIRIT_OF_CRAFTSMANSHIP_PRODUCTION_GRANARY_MODIFIER" />
+		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_PRODUCTION_GRANARY_MODIFIER"
+			 Name="BuildingType"
+			 Value="BUILDING_GRANARY" />
+		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_PRODUCTION_GRANARY_MODIFIER"
+			 Name="YieldType"
+			 Value="YIELD_PRODUCTION" />
+		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_PRODUCTION_GRANARY_MODIFIER"
+			 Name="Amount"
+			 Value="2" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_FOOD_WATERMILL"
+			 Name="ModifierId"
+			 Value="SPM_SPIRIT_OF_CRAFTSMANSHIP_FOOD_WATERMILL_MODIFIER" />
+		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_FOOD_WATERMILL_MODIFIER"
+			 Name="BuildingType"
+			 Value="BUILDING_WATER_MILL" />
+		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_FOOD_WATERMILL_MODIFIER"
+			 Name="YieldType"
+			 Value="YIELD_FOOD" />
+		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_FOOD_WATERMILL_MODIFIER"
+			 Name="Amount"
+			 Value="2" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_PRODUCTION_WATERMILL"
+			 Name="ModifierId"
+			 Value="SPM_SPIRIT_OF_CRAFTSMANSHIP_PRODUCTION_WATERMILL_MODIFIER" />
+		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_PRODUCTION_WATERMILL_MODIFIER"
+			 Name="BuildingType"
+			 Value="BUILDING_WATER_MILL" />
+		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_PRODUCTION_WATERMILL_MODIFIER"
+			 Name="YieldType"
+			 Value="YIELD_PRODUCTION" />
+		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_PRODUCTION_WATERMILL_MODIFIER"
+			 Name="Amount"
+			 Value="2" />
+
+	</ModifierArguments>
+
+	<!-- Spirit of Festival - +1 Amenity from monuments -->
+
+	<Beliefs>
+
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_FESTIVAL"
+             Name="LOC_BELIEF_SPM_SPIRIT_OF_FESTIVAL_NAME"
+             Description="LOC_BELIEF_SPM_SPIRIT_OF_FESTIVAL_DESCRIPTION"
+             BeliefClassType="BELIEF_CLASS_PANTHEON" />
+
+	</Beliefs>
+	<Types>
+
+		<Row Type="BELIEF_SPM_SPIRIT_OF_FESTIVAL"
+             Kind="KIND_BELIEF" />
+
+	</Types>
+	<BeliefModifiers>
+
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_FESTIVAL"
+             ModifierID="SPM_SPIRIT_OF_FESTIVAL_MONUMENT" />
+
+	</BeliefModifiers>
+	<Modifiers>
+
+		<Row ModifierId="SPM_SPIRIT_OF_FESTIVAL_MONUMENT"
+             ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
+             SubjectRequirementSetId="PLAYER_HAS_PANTHEON_REQUIREMENTS" />
+		<Row ModifierId="SPM_SPIRIT_OF_FESTIVAL_MONUMENT_MODIFIER"
+			 ModifierType="MODIFIER_CITY_DISTRICTS_ADJUST_DISTRICT_AMENITY"
+			 SubjectRequirementSetId="SPM_SPIRIT_OF_FESTIVAL_MONUMENT_REQUIREMENTS" />
+
+	</Modifiers>
+	<ModifierArguments>
+
+		<Row ModifierId="SPM_SPIRIT_OF_FESTIVAL_MONUMENT"
+             Name="ModifierId"
+             Value="SPM_SPIRIT_OF_FESTIVAL_MONUMENT_MODIFIER" />
+		<Row ModifierId="SPM_SPIRIT_OF_FESTIVAL_MONUMENT_MODIFIER"
+             Name="Amount"
+             Value="1" />
+
+	</ModifierArguments>
+
+	<Requirements>
+
+		<Row RequirementId="SPM_SPIRIT_OF_FESTIVAL_REQUIRES_DISTRICT_IS_CITY_CENTER"
+             RequirementType="REQUIREMENT_PLOT_DISTRICT_TYPE_MATCHES" />
+
+	</Requirements>
+	<RequirementArguments>
+
+		<Row RequirementId="SPM_SPIRIT_OF_FESTIVAL_REQUIRES_DISTRICT_IS_CITY_CENTER"
+             Name="DistrictType"
+             Value="DISTRICT_CITY_CENTER" />
+
+	</RequirementArguments>
+	<Requirements>
+
+		<Row RequirementId="SPM_SPIRIT_OF_FESTIVAL_REQUIRES_HAS_MONUMENT"
+             RequirementType="REQUIREMENT_CITY_HAS_BUILDING" />
+
+	</Requirements>
+	<RequirementArguments>
+
+		<Row RequirementId="SPM_SPIRIT_OF_FESTIVAL_REQUIRES_HAS_MONUMENT"
+             Name="BuildingType"
+             Value="BUILDING_MONUMENT" />
+
+	</RequirementArguments>
+	<RequirementSets>
+
+		<Row RequirementSetId="SPM_SPIRIT_OF_FESTIVAL_MONUMENT_REQUIREMENTS"
+             RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+
+	</RequirementSets>
+	<RequirementSetRequirements>
+
+		<Row RequirementSetId="SPM_SPIRIT_OF_FESTIVAL_MONUMENT_REQUIREMENTS"
+			 RequirementId="SPM_SPIRIT_OF_FESTIVAL_REQUIRES_DISTRICT_IS_CITY_CENTER" />
+		<Row RequirementSetId="SPM_SPIRIT_OF_FESTIVAL_MONUMENT_REQUIREMENTS"
+			 RequirementId="SPM_SPIRIT_OF_FESTIVAL_REQUIRES_HAS_MONUMENT" />
+
+	</RequirementSetRequirements>
+	
+	<!-- Spirit of Animality - +1 Faith for Horses, Furs, Deer, Ivory and Turtles -->
+
+	<Beliefs>
+
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_ANIMALITY"
+             Name="LOC_BELIEF_SPM_SPIRIT_OF_ANIMALITY_NAME"
+             Description="LOC_BELIEF_SPM_SPIRIT_OF_ANIMALITY_DESCRIPTION"
+             BeliefClassType="BELIEF_CLASS_PANTHEON" />
+
+	</Beliefs>
+	<Types>
+
+		<Row Type="BELIEF_SPM_SPIRIT_OF_ANIMALITY"
+             Kind="KIND_BELIEF" />
+
+	</Types>
+	<BeliefModifiers>
+
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_ANIMALITY"
+             ModifierID="SPM_SPIRIT_OF_ANIMALITY_FAITH" />
+
+	</BeliefModifiers>
+	<Modifiers>
+
+		<Row ModifierId="SPM_SPIRIT_OF_ANIMALITY_FAITH"
+             ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
+             SubjectRequirementSetId="PLAYER_HAS_PANTHEON_REQUIREMENTS" />
+		<Row ModifierId="SPM_SPIRIT_OF_ANIMALITY_FAITH_MODIFIER"
+			 ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD"
+			 SubjectRequirementSetId="SPM_SPIRIT_OF_ANIMALITY_FAITH_REQUIREMENTS" />
+
+	</Modifiers>
+	<ModifierArguments>
+
+		<Row ModifierId="SPM_SPIRIT_OF_ANIMALITY_FAITH"
+             Name="ModifierId"
+             Value="SPM_SPIRIT_OF_ANIMALITY_FAITH_MODIFIER" />
+		<Row ModifierId="SPM_SPIRIT_OF_ANIMALITY_FAITH_MODIFIER"
+			 Name="YieldType"
+			 Value="YIELD_FAITH" />
+		<Row ModifierId="SPM_SPIRIT_OF_ANIMALITY_FAITH_MODIFIER"
+             Name="Amount"
+             Value="1" />
+
+	</ModifierArguments>
+
+	<Tags>
+		
+		<Row Tag="CLASS_SPM_SPIRIT_OF_ANIMALITY"
+             Vocabulary="RESOURCE_CLASS" />
+		
+	</Tags>
+	<TypeTags>
+		
+		<Row Type="RESOURCE_HORSES"
+             Tag="CLASS_SPM_SPIRIT_OF_ANIMALITY" />
+		<Row Type="RESOURCE_DEER"
+             Tag="CLASS_SPM_SPIRIT_OF_ANIMALITY" />
+		<Row Type="RESOURCE_FURS"
+             Tag="CLASS_SPM_SPIRIT_OF_ANIMALITY" />
+		<Row Type="RESOURCE_IVORY"
+			 Tag="CLASS_SPM_SPIRIT_OF_ANIMALITY" />
+		<Row Type="RESOURCE_TURTLES"
+			 Tag="CLASS_SPM_SPIRIT_OF_ANIMALITY" />
+		
+	</TypeTags>
+
+	<Requirements>
+		
+		<Row RequirementId="REQUIRES_PLOT_HAS_TAG_SPIRIT_OF_ANIMALITY"
+             RequirementType="REQUIREMENT_PLOT_RESOURCE_TAG_MATCHES" />
+
+	</Requirements>
+	<RequirementArguments>
+
+		<Row RequirementId="REQUIRES_PLOT_HAS_TAG_SPIRIT_OF_ANIMALITY"
+             Name="Tag"
+             Value="CLASS_SPM_SPIRIT_OF_ANIMALITY" />
+
+	</RequirementArguments>
+	<RequirementSets>
+		
+		<Row RequirementSetId="SPM_SPIRIT_OF_ANIMALITY_FAITH_REQUIREMENTS"
+             RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+		
+	</RequirementSets>
+	<RequirementSetRequirements>
+		
+		<Row RequirementSetId="SPM_SPIRIT_OF_ANIMALITY_FAITH_REQUIREMENTS"
+             RequirementId="REQUIRES_PLOT_HAS_TAG_SPIRIT_OF_ANIMALITY" />
+		
+	</RequirementSetRequirements>
+	
+	<!-- Spirit of the Deity - +1 Food, +1 Production, +1 Gold, +1 Science, +1 Culture, +1 Faith, +1 Housing, +1 Amenity for the Palace -->
+
+	<Beliefs>
+
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_THE_DEITY"
+             Name="LOC_BELIEF_SPM_SPIRIT_OF_THE_DEITY_NAME"
+             Description="LOC_BELIEF_SPM_SPIRIT_OF_THE_DEITY_DESCRIPTION"
+             BeliefClassType="BELIEF_CLASS_PANTHEON" />
+
+	</Beliefs>
+	<Types>
+
+		<Row Type="BELIEF_SPM_SPIRIT_OF_THE_DEITY"
+             Kind="KIND_BELIEF" />
+
+	</Types>
+	<BeliefModifiers>
+
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_THE_DEITY"
+             ModifierID="SPM_SPIRIT_OF_THE_DEITY_FOOD" />
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_THE_DEITY"
+			 ModifierID="SPM_SPIRIT_OF_THE_DEITY_PRODUCTION" />
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_THE_DEITY"
+			 ModifierID="SPM_SPIRIT_OF_THE_DEITY_GOLD" />
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_THE_DEITY"
+			 ModifierID="SPM_SPIRIT_OF_THE_DEITY_SCIENCE" />
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_THE_DEITY"
+			 ModifierID="SPM_SPIRIT_OF_THE_DEITY_CULTURE" />
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_THE_DEITY"
+			 ModifierID="SPM_SPIRIT_OF_THE_DEITY_FAITH" />
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_THE_DEITY"
+			 ModifierID="SPM_SPIRIT_OF_THE_DEITY_HOUSING" />
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_THE_DEITY"
+			 ModifierID="SPM_SPIRIT_OF_THE_DEITY_AMENITY" />
+
+	</BeliefModifiers>
+	<Modifiers>
+
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_FOOD"
+             ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
+             SubjectRequirementSetId="PLAYER_HAS_PANTHEON_REQUIREMENTS" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_FOOD_MODIFIER"
+			 ModifierType="MODIFIER_BUILDING_YIELD_CHANGE" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_PRODUCTION"
+			 ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
+			 SubjectRequirementSetId="PLAYER_HAS_PANTHEON_REQUIREMENTS" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_PRODUCTION_MODIFIER"
+			 ModifierType="MODIFIER_BUILDING_YIELD_CHANGE" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_GOLD"
+			 ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
+			 SubjectRequirementSetId="PLAYER_HAS_PANTHEON_REQUIREMENTS" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_GOLD_MODIFIER"
+			 ModifierType="MODIFIER_BUILDING_YIELD_CHANGE" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_SCIENCE"
+			 ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
+			 SubjectRequirementSetId="PLAYER_HAS_PANTHEON_REQUIREMENTS" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_SCIENCE_MODIFIER"
+			 ModifierType="MODIFIER_BUILDING_YIELD_CHANGE" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_CULTURE"
+			 ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
+			 SubjectRequirementSetId="PLAYER_HAS_PANTHEON_REQUIREMENTS" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_CULTURE_MODIFIER"
+			 ModifierType="MODIFIER_BUILDING_YIELD_CHANGE" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_FAITH"
+			 ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
+			 SubjectRequirementSetId="PLAYER_HAS_PANTHEON_REQUIREMENTS" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_FAITH_MODIFIER"
+			 ModifierType="MODIFIER_BUILDING_YIELD_CHANGE" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_HOUSING"
+			 ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
+			 SubjectRequirementSetId="PLAYER_HAS_PANTHEON_REQUIREMENTS" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_HOUSING_MODIFIER"
+			 ModifierType="MODIFIER_SINGLE_CITY_ADJUST_BUILDING_HOUSING" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_AMENITY"
+			 ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
+			 SubjectRequirementSetId="PLAYER_HAS_PANTHEON_REQUIREMENTS" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_AMENITY_MODIFIER"
+			 ModifierType="MODIFIER_CITY_DISTRICTS_ADJUST_DISTRICT_AMENITY"
+			 SubjectRequirementSetId="SPM_SPIRIT_OF_THE_DEITY_AMENITY_REQUIREMENTS" />
+
+	</Modifiers>
+	<ModifierArguments>
+
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_FOOD"
+             Name="ModifierId"
+             Value="SPM_SPIRIT_OF_THE_DEITY_FOOD_MODIFIER" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_FOOD_MODIFIER"
+			 Name="BuildingType"
+			 Value="BUILDING_PALACE" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_FOOD_MODIFIER"
+			 Name="YieldType"
+			 Value="YIELD_FOOD" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_FOOD_MODIFIER"
+             Name="Amount"
+             Value="1" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_PRODUCTION"
+			 Name="ModifierId"
+			 Value="SPM_SPIRIT_OF_THE_DEITY_PRODUCTION_MODIFIER" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_PRODUCTION_MODIFIER"
+			 Name="BuildingType"
+			 Value="BUILDING_PALACE" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_PRODUCTION_MODIFIER"
+			 Name="YieldType"
+			 Value="YIELD_PRODUCTION" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_PRODUCTION_MODIFIER"
+             Name="Amount"
+             Value="1" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_GOLD"
+			 Name="ModifierId"
+			 Value="SPM_SPIRIT_OF_THE_DEITY_GOLD_MODIFIER" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_GOLD_MODIFIER"
+			 Name="BuildingType"
+			 Value="BUILDING_PALACE" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_GOLD_MODIFIER"
+			 Name="YieldType"
+			 Value="YIELD_GOLD" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_GOLD_MODIFIER"
+             Name="Amount"
+             Value="1" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_SCIENCE"
+			 Name="ModifierId"
+			 Value="SPM_SPIRIT_OF_THE_DEITY_SCIENCE_MODIFIER" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_SCIENCE_MODIFIER"
+			 Name="BuildingType"
+			 Value="BUILDING_PALACE" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_SCIENCE_MODIFIER"
+			 Name="YieldType"
+			 Value="YIELD_SCIENCE" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_SCIENCE_MODIFIER"
+             Name="Amount"
+             Value="1" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_CULTURE"
+			 Name="ModifierId"
+			 Value="SPM_SPIRIT_OF_THE_DEITY_CULTURE_MODIFIER" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_CULTURE_MODIFIER"
+			 Name="BuildingType"
+			 Value="BUILDING_PALACE" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_CULTURE_MODIFIER"
+			 Name="YieldType"
+			 Value="YIELD_CULTURE" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_CULTURE_MODIFIER"
+             Name="Amount"
+             Value="1" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_FAITH"
+			 Name="ModifierId"
+			 Value="SPM_SPIRIT_OF_THE_DEITY_FAITH_MODIFIER" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_FAITH_MODIFIER"
+			 Name="BuildingType"
+			 Value="BUILDING_PALACE" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_FAITH_MODIFIER"
+			 Name="YieldType"
+			 Value="YIELD_FAITH" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_FAITH_MODIFIER"
+             Name="Amount"
+             Value="1" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_HOUSING"
+			 Name="ModifierId"
+			 Value="SPM_SPIRIT_OF_THE_DEITY_HOUSING_MODIFIER" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_HOUSING_MODIFIER"
+			 Name="BuildingType"
+			 Value="BUILDING_PALACE" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_HOUSING_MODIFIER"
+             Name="Amount"
+             Value="1" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_AMENITY"
+             Name="ModifierId"
+             Value="SPM_SPIRIT_OF_THE_DEITY_AMENITY_MODIFIER" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_DEITY_AMENITY_MODIFIER"
+             Name="Amount"
+             Value="1" />
+
+	</ModifierArguments>
+
+	<Requirements>
+
+		<Row RequirementId="SPM_SPIRIT_OF_THE_DEITY_REQUIRES_DISTRICT_IS_CITY_CENTER"
+             RequirementType="REQUIREMENT_PLOT_DISTRICT_TYPE_MATCHES" />
+
+	</Requirements>
+	<RequirementArguments>
+
+		<Row RequirementId="SPM_SPIRIT_OF_THE_DEITY_REQUIRES_DISTRICT_IS_CITY_CENTER"
+             Name="DistrictType"
+             Value="DISTRICT_CITY_CENTER" />
+
+	</RequirementArguments>
+	<RequirementSets>
+
+		<Row RequirementSetId="SPM_SPIRIT_OF_THE_DEITY_AMENITY_REQUIREMENTS"
+             RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+
+	</RequirementSets>
+	<RequirementSetRequirements>
+
+		<Row RequirementSetId="SPM_SPIRIT_OF_THE_DEITY_AMENITY_REQUIREMENTS"
+			 RequirementId="SPM_SPIRIT_OF_THE_DEITY_REQUIRES_DISTRICT_IS_CITY_CENTER" />
+		<Row RequirementSetId="SPM_SPIRIT_OF_THE_DEITY_AMENITY_REQUIREMENTS"
+			 RequirementId="REQUIRES_CITY_HAS_PALACE" />
+
+	</RequirementSetRequirements>
+
+	<!-- Spirit of Worship - +1 religious Great Work slot for shrines -->
+
+	<Beliefs>
+
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_WORSHIP"
+             Name="LOC_BELIEF_SPM_SPIRIT_OF_WORSHIP_NAME"
+             Description="LOC_BELIEF_SPM_SPIRIT_OF_WORSHIP_DESCRIPTION"
+             BeliefClassType="BELIEF_CLASS_PANTHEON" />
+
+	</Beliefs>
+	<Types>
+
+		<Row Type="BELIEF_SPM_SPIRIT_OF_WORSHIP"
+             Kind="KIND_BELIEF" />
+
+	</Types>
+	<BeliefModifiers>
+
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_WORSHIP"
+             ModifierID="SPM_SPIRIT_OF_WORSHIP_RELIGIOUS_SLOT" />
+
+	</BeliefModifiers>
+	<Modifiers>
+
+		<Row ModifierId="SPM_SPIRIT_OF_WORSHIP_RELIGIOUS_SLOT"
+             ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
+             SubjectRequirementSetId="PLAYER_HAS_PANTHEON_REQUIREMENTS" />
+		<Row ModifierId="SPM_SPIRIT_OF_WORSHIP_RELIGIOUS_SLOT_MODIFIER"
+			 ModifierType="MODIFIER_SINGLE_CITY_ADJUST_EXTRA_GREAT_WORK_SLOTS" />
+
+	</Modifiers>
+	<ModifierArguments>
+
+		<Row ModifierId="SPM_SPIRIT_OF_WORSHIP_RELIGIOUS_SLOT"
+             Name="ModifierId"
+             Value="SPM_SPIRIT_OF_WORSHIP_RELIGIOUS_SLOT_MODIFIER" />
+		<Row ModifierId="SPM_SPIRIT_OF_WORSHIP_RELIGIOUS_SLOT_MODIFIER"
+			 Name="BuildingType"
+			 Value="BUILDING_SHRINE" />
+		<Row ModifierId="SPM_SPIRIT_OF_WORSHIP_RELIGIOUS_SLOT_MODIFIER"
+			 Name="GreatWorkSlotType"
+			 Value="GREATWORKSLOT_CATHEDRAL" />
+		<Row ModifierId="SPM_SPIRIT_OF_WORSHIP_RELIGIOUS_SLOT_MODIFIER"
+             Name="Amount"
+             Value="1" />
+
+	</ModifierArguments>
+	
+	<!-- Spirit of Speech - +1 Envoy. +1 Influence point per turn -->
+
+	<Beliefs>
+
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_SPEECH"
+             Name="LOC_BELIEF_SPM_SPIRIT_OF_SPEECH_NAME"
+             Description="LOC_BELIEF_SPM_SPIRIT_OF_SPEECH_DESCRIPTION"
+             BeliefClassType="BELIEF_CLASS_PANTHEON" />
+
+	</Beliefs>
+	<Types>
+
+		<Row Type="BELIEF_SPM_SPIRIT_OF_SPEECH"
+             Kind="KIND_BELIEF" />
+
+	</Types>
+	<BeliefModifiers>
+
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_SPEECH"
+             ModifierID="SPM_SPIRIT_OF_SPEECH_GRANT_ENVOY" />
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_SPEECH"
+			 ModifierID="SPM_SPIRIT_OF_SPEECH_BONUS_INFLUENCE" />
+
+	</BeliefModifiers>
+	<Modifiers>
+
+		<Row ModifierId="SPM_SPIRIT_OF_SPEECH_GRANT_ENVOY"
+             ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
+             SubjectRequirementSetId="PLAYER_HAS_PANTHEON_REQUIREMENTS" />
+		<Row ModifierId="SPM_SPIRIT_OF_SPEECH_GRANT_ENVOY_MODIFIER"
+			 ModifierType="MODIFIER_PLAYER_GRANT_INFLUENCE_TOKEN" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_SPEECH_BONUS_INFLUENCE"
+             ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
+             SubjectRequirementSetId="PLAYER_HAS_PANTHEON_REQUIREMENTS" />
+		<Row ModifierId="SPM_SPIRIT_OF_SPEECH_BONUS_INFLUENCE_MODIFIER"
+			 ModifierType="MODIFIER_PLAYER_ADJUST_INFLUENCE_POINTS_PER_TURN" />
+
+	</Modifiers>
+	<ModifierArguments>
+
+		<Row ModifierId="SPM_SPIRIT_OF_SPEECH_GRANT_ENVOY"
+             Name="ModifierId"
+             Value="SPM_SPIRIT_OF_SPEECH_GRANT_ENVOY_MODIFIER" />
+		<Row ModifierId="SPM_SPIRIT_OF_SPEECH_GRANT_ENVOY_MODIFIER"
+             Name="Amount"
+             Value="1" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_SPEECH_BONUS_INFLUENCE"
+             Name="ModifierId"
+             Value="SPM_SPIRIT_OF_SPEECH_BONUS_INFLUENCE_MODIFIER" />
+		<Row ModifierId="SPM_SPIRIT_OF_SPEECH_BONUS_INFLUENCE_MODIFIER"
+             Name="Amount"
+             Value="1" />
+
+	</ModifierArguments>
+	
+	<!-- Spirit of the Sun - +1 Food to bananas, rice, wheat, citrus, wine -->
+
+	<Beliefs>
+
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_THE_SUN"
+             Name="LOC_BELIEF_SPM_SPIRIT_OF_THE_SUN_NAME"
+             Description="LOC_BELIEF_SPM_SPIRIT_OF_THE_SUN_DESCRIPTION"
+             BeliefClassType="BELIEF_CLASS_PANTHEON" />
+
+	</Beliefs>
+	<Types>
+
+		<Row Type="BELIEF_SPM_SPIRIT_OF_THE_SUN"
+             Kind="KIND_BELIEF" />
+
+	</Types>
+	<BeliefModifiers>
+
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_THE_SUN"
+             ModifierID="SPM_SPIRIT_OF_THE_SUN_FOOD" />
+
+	</BeliefModifiers>
+	<Modifiers>
+
+		<Row ModifierId="SPM_SPIRIT_OF_THE_SUN_FOOD"
+             ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
+             SubjectRequirementSetId="PLAYER_HAS_PANTHEON_REQUIREMENTS" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_SUN_FOOD_MODIFIER"
+			 ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD"
+			 SubjectRequirementSetId="SPM_SPIRIT_OF_THE_SUN_FOOD_REQUIREMENTS" />
+
+	</Modifiers>
+	<ModifierArguments>
+
+		<Row ModifierId="SPM_SPIRIT_OF_THE_SUN_FOOD"
+             Name="ModifierId"
+             Value="SPM_SPIRIT_OF_THE_SUN_FOOD_MODIFIER" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_SUN_FOOD_MODIFIER"
+			 Name="YieldType"
+			 Value="YIELD_FOOD" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_SUN_FOOD_MODIFIER"
+             Name="Amount"
+             Value="1" />
+
+	</ModifierArguments>
+
+	<Tags>
+
+		<Row Tag="CLASS_SPM_SPIRIT_OF_THE_SUN"
+             Vocabulary="RESOURCE_CLASS" />
+
+	</Tags>
+	<TypeTags>
+
+		<Row Type="RESOURCE_BANANAS"
+             Tag="CLASS_SPM_SPIRIT_OF_THE_SUN" />
+		<Row Type="RESOURCE_RICE"
+             Tag="CLASS_SPM_SPIRIT_OF_THE_SUN" />
+		<Row Type="RESOURCE_WHEAT"
+             Tag="CLASS_SPM_SPIRIT_OF_THE_SUN" />
+		<Row Type="RESOURCE_CITRUS"
+			 Tag="CLASS_SPM_SPIRIT_OF_THE_SUN" />
+		<Row Type="RESOURCE_WINE"
+			 Tag="CLASS_SPM_SPIRIT_OF_THE_SUN" />
+
+	</TypeTags>
+
+	<Requirements>
+
+		<Row RequirementId="REQUIRES_PLOT_HAS_TAG_SPM_SPIRIT_OF_THE_SUN"
+             RequirementType="REQUIREMENT_PLOT_RESOURCE_TAG_MATCHES" />
+
+	</Requirements>
+	<RequirementArguments>
+
+		<Row RequirementId="REQUIRES_PLOT_HAS_TAG_SPM_SPIRIT_OF_THE_SUN"
+             Name="Tag"
+             Value="CLASS_SPM_SPIRIT_OF_THE_SUN" />
+
+	</RequirementArguments>
+	<RequirementSets>
+
+		<Row RequirementSetId="SPM_SPIRIT_OF_THE_SUN_FOOD_REQUIREMENTS"
+             RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+
+	</RequirementSets>
+	<RequirementSetRequirements>
+
+		<Row RequirementSetId="SPM_SPIRIT_OF_THE_SUN_FOOD_REQUIREMENTS"
+             RequirementId="REQUIRES_PLOT_HAS_TAG_SPM_SPIRIT_OF_THE_SUN" />
+
+	</RequirementSetRequirements>
+
+	<!-- Spirit of the Sea - +1 Faith and +1 Gold for fishing boats -->
+	<Beliefs>
+
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_THE_SEA"
+             Name="LOC_BELIEF_SPM_SPIRIT_OF_THE_SEA_NAME"
+             Description="LOC_BELIEF_SPM_SPIRIT_OF_THE_SEA_DESCRIPTION"
+             BeliefClassType="BELIEF_CLASS_PANTHEON" />
+
+	</Beliefs>
+	<Types>
+
+		<Row Type="BELIEF_SPM_SPIRIT_OF_THE_SEA"
+             Kind="KIND_BELIEF" />
+
+	</Types>
+	<BeliefModifiers>
+
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_THE_SEA"
+             ModifierID="SPM_SPIRIT_OF_THE_SEA_FAITH" />
+
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_THE_SEA"
+			 ModifierID="SPM_SPIRIT_OF_THE_SEA_GOLD" />
+
+	</BeliefModifiers>
+	<Modifiers>
+
+		<Row ModifierId="SPM_SPIRIT_OF_THE_SEA_FAITH"
+             ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
+             SubjectRequirementSetId="CITY_FOLLOWS_PANTHEON_REQUIREMENTS" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_SEA_FAITH_MODIFIER"
+			 ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD"
+			 SubjectRequirementSetId="PLOT_HAS_FISHINGBOATS_REQUIREMENTS" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_THE_SEA_GOLD"
+			 ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
+			 SubjectRequirementSetId="CITY_FOLLOWS_PANTHEON_REQUIREMENTS" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_SEA_GOLD_MODIFIER"
+			 ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD"
+			 SubjectRequirementSetId="PLOT_HAS_FISHINGBOATS_REQUIREMENTS" />
+
+	</Modifiers>
+	<ModifierArguments>
+
+		<Row ModifierId="SPM_SPIRIT_OF_THE_SEA_FAITH"
+             Name="ModifierId"
+             Value="SPM_SPIRIT_OF_THE_SEA_FAITH_MODIFIER" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_SEA_FAITH_MODIFIER"
+             Name="Amount"
+             Value="1" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_SEA_FAITH_MODIFIER"
+             Name="YieldType"
+             Value="YIELD_FAITH" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_THE_SEA_GOLD"
+			 Name="ModifierId"
+			 Value="SPM_SPIRIT_OF_THE_SEA_GOLD_MODIFIER" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_SEA_GOLD_MODIFIER"
+             Name="Amount"
+             Value="1" />
+		<Row ModifierId="SPM_SPIRIT_OF_THE_SEA_GOLD_MODIFIER"
+             Name="YieldType"
+             Value="YIELD_GOLD" />
+
+	</ModifierArguments>
+
+	<!-- Spirit of Domestication - +1 Production for district adjacent to a pasture or a camp -->
+	<Beliefs>
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_DOMESTICATION" Name="LOC_BELIEF_SPM_SPIRIT_OF_DOMESTICATION_NAME" Description="LOC_BELIEF_SPM_SPIRIT_OF_DOMESTICATION_DESCRIPTION" BeliefClassType="BELIEF_CLASS_PANTHEON" />
+	</Beliefs>
+
+	<Types>
+		<Row Type="SPM_DOMESTICATION_MODIFIER_CITY_DISTRICTS_ADJUST_YIELD" Kind="KIND_MODIFIER" />
+		<Row Type="BELIEF_SPM_SPIRIT_OF_DOMESTICATION" Kind="KIND_BELIEF" />
+	</Types>
+
+	<BeliefModifiers>
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_DOMESTICATION" ModifierId="SPM_SPIRIT_OF_DOMESTICATION_PRODUCTION_DISTRICT" />
+	</BeliefModifiers>
+
+	<DynamicModifiers>
+		<Row ModifierType="SPM_DOMESTICATION_MODIFIER_CITY_DISTRICTS_ADJUST_YIELD" CollectionType="COLLECTION_CITY_DISTRICTS" EffectType="EFFECT_ADJUST_DISTRICT_YIELD_CHANGE" />
+	</DynamicModifiers>
+
+	<Modifiers>
+		<Row ModifierId="SPM_SPIRIT_OF_DOMESTICATION_PRODUCTION_DISTRICT" ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER" SubjectRequirementSetId="CITY_FOLLOWS_PANTHEON_REQUIREMENTS" />
+		<Row ModifierId="SPM_SPIRIT_OF_DOMESTICATION_PRODUCTION_DISTRICT_MODIFIER" ModifierType="SPM_DOMESTICATION_MODIFIER_CITY_DISTRICTS_ADJUST_YIELD" SubjectRequirementSetId="SPM_SPIRIT_OF_DOMESTICATION_PRODUCTION_DISTRICT_REQUIREMENTS" />
+	</Modifiers>
+
+	<ModifierArguments>
+		<Row ModifierId="SPM_SPIRIT_OF_DOMESTICATION_PRODUCTION_DISTRICT" Name="ModifierId" Value="SPM_SPIRIT_OF_DOMESTICATION_PRODUCTION_DISTRICT_MODIFIER" />
+		<Row ModifierId="SPM_SPIRIT_OF_DOMESTICATION_PRODUCTION_DISTRICT_MODIFIER" Name="YieldType" Value="YIELD_PRODUCTION" />
+		<Row ModifierId="SPM_SPIRIT_OF_DOMESTICATION_PRODUCTION_DISTRICT_MODIFIER" Name="Amount" Value="1" />
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row RequirementSetId="SPM_SPIRIT_OF_DOMESTICATION_PRODUCTION_DISTRICT_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+		<Row RequirementSetId="SPM_IMPROVEMENT_IS_PASTURE_OR_CAMP_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ANY" />
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<Row RequirementSetId="SPM_SPIRIT_OF_DOMESTICATION_PRODUCTION_DISTRICT_REQUIREMENTS" RequirementId="SPM_REQUIREMENT_MET_PASTURE_OR_CAMP_REQUIREMENTS" />
+		<Row RequirementSetId="SPM_IMPROVEMENT_IS_PASTURE_OR_CAMP_REQUIREMENTS" RequirementId="SPM_SPIRIT_OF_DOMESTICATION_REQUIRES_PLOT_ADJACENT_TO_PASTURE" />
+		<Row RequirementSetId="SPM_IMPROVEMENT_IS_PASTURE_OR_CAMP_REQUIREMENTS" RequirementId="SPM_SPIRIT_OF_DOMESTICATION_REQUIRES_PLOT_ADJACENT_TO_CAMP" />
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<Row RequirementId="SPM_REQUIREMENT_MET_PASTURE_OR_CAMP_REQUIREMENTS" RequirementType="REQUIREMENT_REQUIREMENTSET_IS_MET" />
+		<Row RequirementId="SPM_SPIRIT_OF_DOMESTICATION_REQUIRES_PLOT_ADJACENT_TO_PASTURE" RequirementType="REQUIREMENT_PLOT_ADJACENT_IMPROVEMENT_TYPE_MATCHES" />
+		<Row RequirementId="SPM_SPIRIT_OF_DOMESTICATION_REQUIRES_PLOT_ADJACENT_TO_CAMP" RequirementType="REQUIREMENT_PLOT_ADJACENT_IMPROVEMENT_TYPE_MATCHES" />
+	</Requirements>
+
+	<RequirementArguments>
+		<Row RequirementId="SPM_REQUIREMENT_MET_PASTURE_OR_CAMP_REQUIREMENTS" Name="RequirementSetId" Value="SPM_IMPROVEMENT_IS_PASTURE_OR_CAMP_REQUIREMENTS" />
+		<Row RequirementId="SPM_SPIRIT_OF_DOMESTICATION_REQUIRES_PLOT_ADJACENT_TO_PASTURE" Name="ImprovementType" Value="IMPROVEMENT_PASTURE" />
+		<Row RequirementId="SPM_SPIRIT_OF_DOMESTICATION_REQUIRES_PLOT_ADJACENT_TO_CAMP" Name="ImprovementType" Value="IMPROVEMENT_CAMP" />
+	</RequirementArguments>
+
+	<!-- Spirit of Curiosity - +1 Faith for tiles adjacent to Oases, Reefs and geothermal fissures -->
+	<Beliefs>
+
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_CURIOSITY"
+             Name="LOC_BELIEF_SPM_SPIRIT_OF_CURIOSITY_NAME"
+             Description="LOC_BELIEF_SPM_SPIRIT_OF_CURIOSITY_DESCRIPTION"
+             BeliefClassType="BELIEF_CLASS_PANTHEON" />
+
+	</Beliefs>
+	<Types>
+
+		<Row Type="BELIEF_SPM_SPIRIT_OF_CURIOSITY"
+             Kind="KIND_BELIEF" />
+
+	</Types>
+	<BeliefModifiers>
+
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_CURIOSITY" ModifierID="SPM_SPIRIT_OF_CURIOSITY_OASES" />
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_CURIOSITY" ModifierID="SPM_SPIRIT_OF_CURIOSITY_REEFS" />
+		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_CURIOSITY" ModifierID="SPM_SPIRIT_OF_CURIOSITY_FISSURES" />
+
+	</BeliefModifiers>
+	<Modifiers>
+
+		<Row ModifierId="SPM_SPIRIT_OF_CURIOSITY_OASES"
+             ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
+             SubjectRequirementSetId="CITY_FOLLOWS_PANTHEON_REQUIREMENTS" />
+		<Row ModifierId="SPM_SPIRIT_OF_CURIOSITY_OASES_MODIFIER"
+			 ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD"
+			 SubjectRequirementSetId="SPM_SPIRIT_OF_CURIOSITY_OASES_REQUIREMENTS" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_CURIOSITY_REEFS"
+             ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
+             SubjectRequirementSetId="CITY_FOLLOWS_PANTHEON_REQUIREMENTS" />
+		<Row ModifierId="SPM_SPIRIT_OF_CURIOSITY_REEFS_MODIFIER"
+			 ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD"
+			 SubjectRequirementSetId="SPM_SPIRIT_OF_CURIOSITY_REEFS_REQUIREMENTS" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_CURIOSITY_FISSURES"
+			 ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
+			 SubjectRequirementSetId="CITY_FOLLOWS_PANTHEON_REQUIREMENTS" />
+		<Row ModifierId="SPM_SPIRIT_OF_CURIOSITY_FISSURES_MODIFIER"
+			 ModifierType="MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD"
+			 SubjectRequirementSetId="SPM_SPIRIT_OF_CURIOSITY_FISSURES_REQUIREMENTS" />
+
+	</Modifiers>
+	<ModifierArguments>
+
+		<Row ModifierId="SPM_SPIRIT_OF_CURIOSITY_OASES" Name="ModifierId" Value="SPM_SPIRIT_OF_CURIOSITY_OASES_MODIFIER" />
+		<Row ModifierId="SPM_SPIRIT_OF_CURIOSITY_OASES_MODIFIER" Name="Amount" Value="1" />
+		<Row ModifierId="SPM_SPIRIT_OF_CURIOSITY_OASES_MODIFIER" Name="YieldType" Value="YIELD_FAITH" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_CURIOSITY_REEFS" Name="ModifierId" Value="SPM_SPIRIT_OF_CURIOSITY_REEFS_MODIFIER" />
+		<Row ModifierId="SPM_SPIRIT_OF_CURIOSITY_REEFS_MODIFIER" Name="Amount" Value="1" />
+		<Row ModifierId="SPM_SPIRIT_OF_CURIOSITY_REEFS_MODIFIER" Name="YieldType" Value="YIELD_FAITH" />
+
+		<Row ModifierId="SPM_SPIRIT_OF_CURIOSITY_FISSURES" Name="ModifierId" Value="SPM_SPIRIT_OF_CURIOSITY_FISSURES_MODIFIER" />
+		<Row ModifierId="SPM_SPIRIT_OF_CURIOSITY_FISSURES_MODIFIER" Name="Amount" Value="1" />
+		<Row ModifierId="SPM_SPIRIT_OF_CURIOSITY_FISSURES_MODIFIER" Name="YieldType" Value="YIELD_FAITH" />
+		
+	</ModifierArguments>
+	
+	<Requirements>
+
+		<Row RequirementId="SPM_CURIOSITY_PLOT_ADJACENT_TO_OASIS_REQUIREMENT" RequirementType="REQUIREMENT_PLOT_ADJACENT_FEATURE_TYPE_MATCHES" />
+		<Row RequirementId="SPM_CURIOSITY_PLOT_ADJACENT_TO_REEF_REQUIREMENT" RequirementType="REQUIREMENT_PLOT_ADJACENT_FEATURE_TYPE_MATCHES" />
+
+	</Requirements>
+	<RequirementArguments>
+
+		<Row RequirementId="SPM_CURIOSITY_PLOT_ADJACENT_TO_OASIS_REQUIREMENT" Name="FeatureType" Value="FEATURE_OASIS" />
+		<Row RequirementId="SPM_CURIOSITY_PLOT_ADJACENT_TO_REEF_REQUIREMENT" Name="FeatureType" Value="FEATURE_REEF" />
+
+	</RequirementArguments>
+	<RequirementSets>
+
+		<Row RequirementSetId="SPM_SPIRIT_OF_CURIOSITY_OASES_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+		<Row RequirementSetId="SPM_SPIRIT_OF_CURIOSITY_REEFS_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+		<Row RequirementSetId="SPM_SPIRIT_OF_CURIOSITY_FISSURES_REQUIREMENTS" RequirementSetType="REQUIREMENTSET_TEST_ALL" />
+
+	</RequirementSets>
+	<RequirementSetRequirements>
+
+		<Row RequirementSetId="SPM_SPIRIT_OF_CURIOSITY_OASES_REQUIREMENTS" RequirementId="SPM_CURIOSITY_PLOT_ADJACENT_TO_OASIS_REQUIREMENT" />
+		<Row RequirementSetId="SPM_SPIRIT_OF_CURIOSITY_REEFS_REQUIREMENTS" RequirementId="SPM_CURIOSITY_PLOT_ADJACENT_TO_REEF_REQUIREMENT" />
+		<Row RequirementSetId="SPM_SPIRIT_OF_CURIOSITY_FISSURES_REQUIREMENTS" RequirementId="PLOT_ADJACENT_TO_GEOTHERMAL_FISSURE_REQUIREMENT" />
+
+	</RequirementSetRequirements>
+
+</GameData>

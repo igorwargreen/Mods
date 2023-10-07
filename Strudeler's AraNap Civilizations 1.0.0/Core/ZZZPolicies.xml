@@ -25,49 +25,49 @@
 			<Value>100</Value>
 		</Row>
 		<Update>
-			<Where ModifierId="CHIVALRY_MEDIEVAL_HEAVY_CAVALRY_PRODUCTION"/>
+			<Where ModifierId="CHIVALRY_MEDIEVAL_HEAVY_CAVALRY_PRODUCTION" Name="Amount"/>
 			<Set>
 				<Value>100</Value>
 			</Set>
 		</Update>
 		<Update>
-			<Where ModifierId="CHIVALRY_RENAISSANCE_HEAVY_CAVALRY_PRODUCTION"/>
+			<Where ModifierId="CHIVALRY_RENAISSANCE_HEAVY_CAVALRY_PRODUCTION" Name="Amount"/>
 			<Set>
 				<Value>100</Value>
 			</Set>
 		</Update>
 		<Update>
-			<Where ModifierId="CHIVALRY_INDUSTRIAL_HEAVY_CAVALRY_PRODUCTION"/>
+			<Where ModifierId="CHIVALRY_INDUSTRIAL_HEAVY_CAVALRY_PRODUCTION" Name="Amount"/>
 			<Set>
 				<Value>100</Value>
 			</Set>
 		</Update>
 		<Update>
-			<Where ModifierId="LIGHTNINGWARFARE_MODERN_HEAVY_CAVALRY_PRODUCTION"/>
+			<Where ModifierId="LIGHTNINGWARFARE_MODERN_HEAVY_CAVALRY_PRODUCTION" Name="Amount"/>
 			<Set>
 				<Value>100</Value>
 			</Set>
 		</Update>
 		<Update>
-			<Where ModifierId="LIGHTNINGWARFARE_ATOMIC_HEAVY_CAVALRY_PRODUCTION"/>
+			<Where ModifierId="LIGHTNINGWARFARE_ATOMIC_HEAVY_CAVALRY_PRODUCTION" Name="Amount"/>
 			<Set>
 				<Value>100</Value>
 			</Set>
 		</Update>
 		<Update>
-			<Where ModifierId="LIGHTNINGWARFARE_INFORMATION_HEAVY_CAVALRY_PRODUCTION"/>
+			<Where ModifierId="LIGHTNINGWARFARE_INFORMATION_HEAVY_CAVALRY_PRODUCTION" Name="Amount"/>
 			<Set>
 				<Value>100</Value>
 			</Set>
 		</Update>
 		<Update>
-			<Where ModifierId="MANEUVER_ANCIENT_HEAVY_CAVALRY_PRODUCTION"/>
+			<Where ModifierId="MANEUVER_ANCIENT_HEAVY_CAVALRY_PRODUCTION" Name="Amount"/>
 			<Set>
 				<Value>100</Value>
 			</Set>
 		</Update>
 		<Update>
-			<Where ModifierId="MANEUVER_CLASSICAL_HEAVY_CAVALRY_PRODUCTION"/>
+			<Where ModifierId="MANEUVER_CLASSICAL_HEAVY_CAVALRY_PRODUCTION" Name="Amount"/>
 			<Set>
 				<Value>100</Value>
 			</Set>
@@ -112,7 +112,7 @@
 		<Row>
 			<RequirementId>IGOR_REQUIRES_HOLY_SITE_HAS_HIGH_ADJACENCY</RequirementId>
 			<Name>Amount</Name>
-			<Value>0</Value>
+			<Value>1</Value>
 		</Row>
 	</RequirementArguments>
 </GameInfo>

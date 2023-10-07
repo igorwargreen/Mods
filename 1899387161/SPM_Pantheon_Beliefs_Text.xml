@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: SuperPinkyMan -->
+<!-- DateCreated: 11/13/2019 10:49:25 AM -->
+<GameData>
+	<LocalizedText>
+		<!-- Spirit of Wealth -->
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_WEALTH_NAME" Language="en_US" >
+			<Text>Spirit of Wealth</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_WEALTH_DESCRIPTION" Language="en_US" >
+			<Text>+1 [ICON_Gold] for the pasture, camp, plantation and quarry improvements.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_WEALTH_NAME" Language="fr_FR" >
+			<Text>Esprit de la Fortune</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_WEALTH_DESCRIPTION" Language="fr_FR" >
+			<Text>+1 [ICON_Gold] pour les pâturages, les camps, les plantations et les carrières.</Text>
+		</Row>
+
+		<!-- Spirit of Nature -->
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_NATURE_NAME" Language="en_US" >
+			<Text>Spirit of Nature</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_NATURE_DESCRIPTION" Language="en_US" >
+			<Text>+1 [ICON_Faith] for forest and jungle tiles.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_NATURE_NAME" Language="fr_FR" >
+			<Text>Esprit de la Nature</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_NATURE_DESCRIPTION" Language="fr_FR" >
+			<Text>+1 [ICON_Faith] pour les cases de forêts et de jungles.</Text>
+		</Row>
+
+		<!-- Spirit of Commerce -->
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_COMMERCE_NAME" Language="en_US" >
+			<Text>Spirit of Commerce</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_COMMERCE_DESCRIPTION" Language="en_US" >
+			<Text>+1 [ICON_TradeRoute] and a free Trader.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_COMMERCE_NAME" Language="fr_FR" >
+			<Text>Esprit du Commerce</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_COMMERCE_DESCRIPTION" Language="fr_FR" >
+			<Text>+1 [ICON_TradeRoute] et un Marchand gratuit.</Text>
+		</Row>
+
+		<!-- Spirit of Shelter -->
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_SHELTER_NAME" Language="en_US" >
+			<Text>Spirit of Shelter</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_SHELTER_DESCRIPTION" Language="en_US" >
+			<Text>+2 [ICON_Housing] for cities with no fresh water.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_SHELTER_NAME" Language="fr_FR" >
+			<Text>Esprit du Refuge</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_SHELTER_DESCRIPTION" Language="fr_FR" >
+			<Text>+2 [ICON_Housing] pour les villes sans eau douce.</Text>
+		</Row>
+
+		<!-- Spirit of Craftsmanship -->
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_CRAFTSMANSHIP_NAME" Language="en_US" >
+			<Text>Spirit of Craftsmanship</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_CRAFTSMANSHIP_DESCRIPTION" Language="en_US" >
+			<Text>+25% [ICON_Production] towards building granaries and watermills. +2 [ICON_Food] and +2 [ICON_Production] for granaries and watermills.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_CRAFTSMANSHIP_NAME" Language="fr_FR" >
+			<Text>Esprit de l'Artisanat</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_CRAFTSMANSHIP_DESCRIPTION" Language="fr_FR" >
+			<Text>+25% [ICON_Production] pour la construction des greniers et des moulins à eau. +2 [ICON_Food] et +2 [ICON_Production] pour les greniers et les moulins à eau.</Text>
+		</Row>
+
+
+		<!-- Spirit of Festival -->
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_FESTIVAL_NAME" Language="en_US" >
+			<Text>Spirit of Festival</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_FESTIVAL_DESCRIPTION" Language="en_US" >
+			<Text>+1 [ICON_Amenities] for monuments.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_FESTIVAL_NAME" Language="fr_FR" >
+			<Text>Esprit du Festival</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_FESTIVAL_DESCRIPTION" Language="fr_FR" >
+			<Text>+1 [ICON_Amenities] pour les monuments.</Text>
+		</Row>
+
+		<!-- Spirit of Animality -->
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_ANIMALITY_NAME" Language="en_US" >
+			<Text>Spirit of Animality</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_ANIMALITY_DESCRIPTION" Language="en_US" >
+			<Text>+1 [ICON_Faith] for [ICON_RESOURCE_HORSES], [ICON_RESOURCE_DEER], [ICON_RESOURCE_FURS], [ICON_RESOURCE_IVORY] and [ICON_RESOURCE_TURTLES] tiles.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_ANIMALITY_NAME" Language="fr_FR" >
+			<Text>Esprit de l'Animalité</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_ANIMALITY_DESCRIPTION" Language="fr_FR" >
+			<Text>+1 [ICON_Faith] pour les cases de [ICON_RESOURCE_HORSES], [ICON_RESOURCE_DEER], [ICON_RESOURCE_FURS], [ICON_RESOURCE_IVORY] et [ICON_RESOURCE_TURTLES].</Text>
+		</Row>
+
+		<!-- Spirit of the Deity -->
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_THE_DEITY_NAME" Language="en_US" >
+			<Text>Spirit of the Deity</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_THE_DEITY_DESCRIPTION" Language="en_US" >
+			<Text>+1 [ICON_Food], +1 [ICON_Production], +1 [ICON_Gold], +1 [ICON_Science], +1 [ICON_Culture], +1 [ICON_Faith], +1 [ICON_Housing] and +1 [ICON_Amenities] for the Palace.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_THE_DEITY_NAME" Language="fr_FR" >
+			<Text>Esprit de la Déesse</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_THE_DEITY_DESCRIPTION" Language="fr_FR" >
+			<Text>+1 [ICON_Food], +1 [ICON_Production], +1 [ICON_Gold], +1 [ICON_Science], +1 [ICON_Culture], +1 [ICON_Faith], +1 [ICON_Housing] et +1 [ICON_Amenities] pour le Palace.</Text>
+		</Row>
+
+		<!-- Spirit of Worship -->
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_WORSHIP_NAME" Language="en_US" >
+			<Text>Spirit of Worship</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_WORSHIP_DESCRIPTION" Language="en_US" >
+			<Text>+1 religious Great Work slot for shrines.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_WORSHIP_NAME" Language="fr_FR" >
+			<Text>Esprit de l'Adoration</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_WORSHIP_DESCRIPTION" Language="fr_FR" >
+			<Text>+1 emplacement de chef d'œuvre religieux pour les autels.</Text>
+		</Row>
+
+		<!-- Spirit of Speech -->
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_SPEECH_NAME" Language="en_US" >
+			<Text>Spirit of Speech</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_SPEECH_DESCRIPTION" Language="en_US" >
+			<Text>+1 [ICON_Envoy]. +1 influence point per turn.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_SPEECH_NAME" Language="fr_FR" >
+			<Text>Esprit du Discours</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_SPEECH_DESCRIPTION" Language="fr_FR" >
+			<Text>+1 [ICON_Envoy]. +1 point d'influence par tour.</Text>
+		</Row>
+
+		<!-- Spirit of the Sun -->
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_THE_SUN_NAME" Language="en_US" >
+			<Text>Spirit of the Sun</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_THE_SUN_DESCRIPTION" Language="en_US" >
+			<Text>+1 [ICON_Food] for [ICON_RESOURCE_BANANAS], [ICON_RESOURCE_RICE], [ICON_RESOURCE_WHEAT], [ICON_RESOURCE_CITRUS] and [ICON_RESOURCE_WINE] tiles.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_THE_SUN_NAME" Language="fr_FR" >
+			<Text>Esprit du Soleil</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_THE_SUN_DESCRIPTION" Language="fr_FR" >
+			<Text>+1 [ICON_Food] pour les cases [ICON_RESOURCE_BANANAS], [ICON_RESOURCE_RICE], [ICON_RESOURCE_WHEAT], [ICON_RESOURCE_CITRUS] et [ICON_RESOURCE_WINE].</Text>
+		</Row>
+
+		<!-- Spirit of the Sea -->
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_THE_SEA_NAME" Language="en_US" >
+			<Text>Spirit of the Sea</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_THE_SEA_DESCRIPTION" Language="en_US" >
+			<Text>+1 [ICON_Faith] and +1 [ICON_Gold] for the fishing boat improvement.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_THE_SEA_NAME" Language="fr_FR" >
+			<Text>Esprit de la mer</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_THE_SEA_DESCRIPTION" Language="fr_FR" >
+			<Text>+1 [ICON_Faith] et +1 [ICON_Gold] pour les bateaux de pêche.</Text>
+		</Row>
+
+		<!-- Spirit of Domestication -->
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_DOMESTICATION_NAME" Language="en_US" >
+			<Text>Spirit of Domestication</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_DOMESTICATION_DESCRIPTION" Language="en_US" >
+			<Text>+1 [Icon_Production] for districts adjacent to a pasture or a camp.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_DOMESTICATION_NAME" Language="fr_FR" >
+			<Text>Esprit de la Domestication</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_DOMESTICATION_DESCRIPTION" Language="fr_FR" >
+			<Text>+1 [Icon_Production] pour les districts adjacents à un pâturage ou un camp.</Text>
+		</Row>
+
+		<!-- Spirit of Curiosity -->
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_CURIOSITY_NAME" Language="en_US" >
+			<Text>Spirit of Curiosity</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_CURIOSITY_DESCRIPTION" Language="en_US" >
+			<Text>+1 [Icon_Faith] for tiles around oases, reefs and geothermal fissures.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_CURIOSITY_NAME" Language="fr_FR" >
+			<Text>Esprit de la Curiosité</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_CURIOSITY_DESCRIPTION" Language="fr_FR" >
+			<Text>+1 [Icon_Faith] pour les cases autour des oasis, des coraux et des fissures geothermiques.</Text>
+		</Row>
+		
+<!--
+
+	adjacency for pastures and camps
+-->
+
+	</LocalizedText>
+</GameData>
