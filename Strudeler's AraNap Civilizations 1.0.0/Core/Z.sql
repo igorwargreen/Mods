@@ -6,3 +6,8 @@ UPDATE Districts SET Cost=70, CostProgressionModel="NO_COST_PROGRESSION" Where C
 UPDATE Districts SET Cost=150, CostProgressionModel="NO_COST_PROGRESSION" Where Cost=81;
 UPDATE Districts SET Cost=1800, CostProgressionModel="NO_COST_PROGRESSION" Where Cost=1800;
 UPDATE Districts SET Cost=70, CostProgressionModel="NO_COST_PROGRESSION" Where Cost=30;
+UPDATE Districts SET Entertainment="2", RequiresPopulation="false" Where DistrictType="DISTRICT_HIPPODROME";
+UPDATE Districts SET Entertainment="2", RequiresPopulation="false" Where DistrictType="DISTRICT_STREET_CARNIVAL";
+UPDATE Districts SET Entertainment="2", RequiresPopulation="false" Where DistrictType="DISTRICT_WATER_STREET_CARNIVAL";
+UPDATE Districts SET Entertainment="1", RequiresPopulation="false" Where DistrictType="DISTRICT_WATER_ENTERTAINMENT_COMPLEX";
+UPDATE Districts SET Entertainment="1", RequiresPopulation="false" Where DistrictType="DISTRICT_ENTERTAINMENT_COMPLEX";

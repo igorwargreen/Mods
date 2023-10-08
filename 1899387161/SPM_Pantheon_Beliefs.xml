@@ -334,7 +334,7 @@
 
 	</RequirementSetRequirements>
 
-	<!-- Spirit of Craftsmanship - +25% Production towards building granaries and watermills. +2 Food and +2 Production for Granaries and Watermills. -->
+	<!-- Spirit of Craftsmanship - +50% Production towards building granaries and watermills. +1 Food for Granaries and and +1 Production for Watermills. -->
 
 	<Beliefs>
 
@@ -386,18 +386,6 @@
 		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_FOOD_GRANARY_MODIFIER"
 			 ModifierType="MODIFIER_BUILDING_YIELD_CHANGE" />
 
-		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_PRODUCTION_GRANARY"
-             ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
-             SubjectRequirementSetId="PLAYER_HAS_PANTHEON_REQUIREMENTS" />
-		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_PRODUCTION_GRANARY_MODIFIER"
-			 ModifierType="MODIFIER_BUILDING_YIELD_CHANGE" />
-
-		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_FOOD_WATERMILL"
-			 ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
-			 SubjectRequirementSetId="PLAYER_HAS_PANTHEON_REQUIREMENTS" />
-		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_FOOD_WATERMILL_MODIFIER"
-			 ModifierType="MODIFIER_BUILDING_YIELD_CHANGE" />
-
 		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_PRODUCTION_WATERMILL"
 			 ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
 			 SubjectRequirementSetId="PLAYER_HAS_PANTHEON_REQUIREMENTS" />
@@ -415,7 +403,7 @@
 			 Value="BUILDING_GRANARY" />
 		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_GRANARY_PRODUCTION_MODIFIER"
 			 Name="Amount"
-			 Value="25" />
+			 Value="50" />
 
 		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_WATERMILL_PRODUCTION"
 			 Name="ModifierId"
@@ -425,7 +413,7 @@
 			 Value="BUILDING_WATER_MILL" />
 		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_WATERMILL_PRODUCTION_MODIFIER"
 			 Name="Amount"
-			 Value="25" />
+			 Value="50" />
 
 		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_FOOD_GRANARY"
              Name="ModifierId"
@@ -438,33 +426,7 @@
 			 Value="YIELD_FOOD" />
 		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_FOOD_GRANARY_MODIFIER"
 			 Name="Amount"
-			 Value="2" />
-
-		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_PRODUCTION_GRANARY"
-			 Name="ModifierId"
-			 Value="SPM_SPIRIT_OF_CRAFTSMANSHIP_PRODUCTION_GRANARY_MODIFIER" />
-		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_PRODUCTION_GRANARY_MODIFIER"
-			 Name="BuildingType"
-			 Value="BUILDING_GRANARY" />
-		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_PRODUCTION_GRANARY_MODIFIER"
-			 Name="YieldType"
-			 Value="YIELD_PRODUCTION" />
-		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_PRODUCTION_GRANARY_MODIFIER"
-			 Name="Amount"
-			 Value="2" />
-
-		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_FOOD_WATERMILL"
-			 Name="ModifierId"
-			 Value="SPM_SPIRIT_OF_CRAFTSMANSHIP_FOOD_WATERMILL_MODIFIER" />
-		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_FOOD_WATERMILL_MODIFIER"
-			 Name="BuildingType"
-			 Value="BUILDING_WATER_MILL" />
-		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_FOOD_WATERMILL_MODIFIER"
-			 Name="YieldType"
-			 Value="YIELD_FOOD" />
-		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_FOOD_WATERMILL_MODIFIER"
-			 Name="Amount"
-			 Value="2" />
+			 Value="1" />
 
 		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_PRODUCTION_WATERMILL"
 			 Name="ModifierId"
@@ -477,7 +439,7 @@
 			 Value="YIELD_PRODUCTION" />
 		<Row ModifierId="SPM_SPIRIT_OF_CRAFTSMANSHIP_PRODUCTION_WATERMILL_MODIFIER"
 			 Name="Amount"
-			 Value="2" />
+			 Value="1" />
 
 	</ModifierArguments>
 

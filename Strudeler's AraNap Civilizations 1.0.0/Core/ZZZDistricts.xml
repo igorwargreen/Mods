@@ -4,4 +4,30 @@
 	<Districts>
 	<!-- Unique Districts. -->
 	</Districts>
+	<Adjacency_YieldChanges>
+		<Update>
+			<Where ID="EntertainmentComplex_Culture"/>
+			<Set>
+				<YieldChange>1</YieldChange>
+			</Set>
+		</Update>
+		<Update>
+			<Where ID="WaterPark_Culture"/>
+			<Set>
+				<YieldChange>1</YieldChange>
+			</Set>
+		</Update>
+		<Update>
+			<Where ID="StreetCarnival_Culture"/>
+			<Set>
+				<YieldChange>1</YieldChange>
+			</Set>
+		</Update>
+		<Update>
+			<Where ID="Copacabana_Culture"/>
+			<Set>
+				<YieldChange>1</YieldChange>
+			</Set>
+		</Update>
+	</Adjacency_YieldChanges>
 </GameInfo>

@@ -65,7 +65,7 @@
 			<Text>Spirit of Craftsmanship</Text>
 		</Row>
 		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_CRAFTSMANSHIP_DESCRIPTION" Language="en_US" >
-			<Text>+25% [ICON_Production] towards building granaries and watermills. +2 [ICON_Food] and +2 [ICON_Production] for granaries and watermills.</Text>
+			<Text>+50% [ICON_Production] towards building granaries and watermills. +1 [ICON_Food] for granaries and +1 [ICON_Production] for watermills.</Text>
 		</Row>
 		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_CRAFTSMANSHIP_NAME" Language="fr_FR" >
 			<Text>Esprit de l'Artisanat</Text>
