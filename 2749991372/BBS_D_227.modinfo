@@ -149,8 +149,19 @@
       <File>sql/bbs_icons_wonders.sql</File>
     </UpdateIcons>
   </FrontEndActions>
-  
-	<InGameActions>
+ 
+    <InGameActions>
+	<UpdateIcons id="BBS_ICONS">
+      <File>sql/bbs_icons_wonders.sql</File>
+    </UpdateIcons>
+	
+	    <UpdateArt id="ArtDep">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
+      <File>NaturalWondersMod.dep</File>
+    </UpdateArt>
+	
 	<UpdateDatabase id="UpdateDatabase">
       <Properties>
         <LoadOrder>500</LoadOrder>
@@ -164,20 +175,6 @@
 	  <File>Core/ZZZBuildings.xml</File>
 	  <File>Core/Z.sql</File>
 	</UpdateDatabase>
-	</InGameActions>
-
-    <InGameActions>
-	<UpdateIcons id="BBS_ICONS">
-      <File>sql/bbs_icons_wonders.sql</File>
-    </UpdateIcons>
-	
-	    <UpdateArt id="ArtDep">
-      <Properties>
-        <LoadOrder>10</LoadOrder>
-      </Properties>
-      <File>NaturalWondersMod.dep</File>
-    </UpdateArt>
-	
 	
     <ImportFiles id="Map_BBS">
 		<Properties>
