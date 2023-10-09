@@ -149,6 +149,22 @@
       <File>sql/bbs_icons_wonders.sql</File>
     </UpdateIcons>
   </FrontEndActions>
+  
+	<InGameActions>
+	<UpdateDatabase id="UpdateDatabase">
+      <Properties>
+        <LoadOrder>500</LoadOrder>
+      </Properties>
+	  <File>Core/ZZZPolicies.xml</File>
+	  <File>Core/ZZZProjects.xml</File>
+	  <File>Core/ZZZBeliefs.xml</File>
+	  <File>Core/ZZZGlobalParameters.xml</File>
+	  <File>Core/ZZZUnits.xml</File>
+	  <File>Core/ZZZDistricts.xml</File>
+	  <File>Core/ZZZBuildings.xml</File>
+	  <File>Core/Z.sql</File>
+	</UpdateDatabase>
+	</InGameActions>
 
     <InGameActions>
 	<UpdateIcons id="BBS_ICONS">
@@ -345,6 +361,14 @@
 
         
     <Files>
+	<File>Core/ZZZPolicies.xml</File>
+	<File>Core/ZZZProjects.xml</File>
+	<File>Core/ZZZBeliefs.xml</File>
+	<File>Core/ZZZGlobalParameters.xml</File>
+	<File>Core/ZZZUnits.xml</File>
+	<File>Core/ZZZDistricts.xml</File>
+	<File>Core/ZZZBuildings.xml</File>
+	<File>Core/Z.sql</File>
 	<File>UI/BBS_UI.lua</File>
 	<File>UI/BBS_UI.xml</File>
     <File>Data/BBS_D.lua</File>

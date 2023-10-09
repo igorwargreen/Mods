@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- THIS FILE WAS AUTOMATICALLY GENERATED. PLEASE DO NOT EDIT. -->
+<GameInfo>
+	<Districts>
+		<Update>
+			<Where DistrictType="DISTRICT_HIPPODROME"/>
+			<Set>
+				<Entertainment>2</Entertainment>
+				<RequiresPopulation>false</RequiresPopulation>
+			</Set>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_STREET_CARNIVAL"/>
+			<Set>
+				<Entertainment>2</Entertainment>
+				<RequiresPopulation>false</RequiresPopulation>
+			</Set>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_WATER_STREET_CARNIVAL"/>
+			<Set>
+				<Entertainment>2</Entertainment>
+				<RequiresPopulation>false</RequiresPopulation>
+			</Set>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_WATER_ENTERTAINMENT_COMPLEX"/>
+			<Set>
+				<Entertainment>1</Entertainment>
+				<RequiresPopulation>false</RequiresPopulation>
+			</Set>
+		</Update>
+		<Update>
+			<Where DistrictType="DISTRICT_ENTERTAINMENT_COMPLEX"/>
+			<Set>
+				<Entertainment>1</Entertainment>
+				<RequiresPopulation>false</RequiresPopulation>
+			</Set>
+		</Update>
+	</Districts>
+	<Adjacency_YieldChanges>
+		<Update>
+			<Where ID="EntertainmentComplex_Culture"/>
+			<Set>
+				<YieldChange>1</YieldChange>
+			</Set>
+		</Update>
+		<Update>
+			<Where ID="WaterPark_Culture"/>
+			<Set>
+				<YieldChange>1</YieldChange>
+			</Set>
+		</Update>
+		<Update>
+			<Where ID="StreetCarnival_Culture"/>
+			<Set>
+				<YieldChange>1</YieldChange>
+			</Set>
+		</Update>
+		<Update>
+			<Where ID="Copacabana_Culture"/>
+			<Set>
+				<YieldChange>1</YieldChange>
+			</Set>
+		</Update>
+	</Adjacency_YieldChanges>
+</GameInfo>

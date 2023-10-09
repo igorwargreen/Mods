@@ -1,4 +1,0 @@
--- [STR_ARANAP]_ModSupport
--- Author: Strudeler
--- DateCreated: 1/10/2023 1:01:42 AM
---------------------------------------------------------------

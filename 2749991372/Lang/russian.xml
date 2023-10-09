@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 
-	<LocalizedText>		
+	<LocalizedText>
+	<Replace Tag="LOC_BUILDING_GOV_WIDE_DESCRIPTION" Language="ru_RU">
+		<Text>Города получают 1 [ICON_Amenities] Довольство. Новые города получают бесплатного строителя.</Text>
+	</Replace>
 	<!-- Map Sizes -->
 	<!-- == Map features == -->
 	<Replace Tag="LOC_MAPSIZE_ENORMOUS_NAME" Language="ru_RU">

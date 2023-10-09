@@ -834,55 +834,6 @@
 			 RequirementId="REQUIRES_CITY_HAS_PALACE" />
 
 	</RequirementSetRequirements>
-
-	<!-- Spirit of Worship - +1 religious Great Work slot for shrines -->
-
-	<Beliefs>
-
-		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_WORSHIP"
-             Name="LOC_BELIEF_SPM_SPIRIT_OF_WORSHIP_NAME"
-             Description="LOC_BELIEF_SPM_SPIRIT_OF_WORSHIP_DESCRIPTION"
-             BeliefClassType="BELIEF_CLASS_PANTHEON" />
-
-	</Beliefs>
-	<Types>
-
-		<Row Type="BELIEF_SPM_SPIRIT_OF_WORSHIP"
-             Kind="KIND_BELIEF" />
-
-	</Types>
-	<BeliefModifiers>
-
-		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_WORSHIP"
-             ModifierID="SPM_SPIRIT_OF_WORSHIP_RELIGIOUS_SLOT" />
-
-	</BeliefModifiers>
-	<Modifiers>
-
-		<Row ModifierId="SPM_SPIRIT_OF_WORSHIP_RELIGIOUS_SLOT"
-             ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
-             SubjectRequirementSetId="PLAYER_HAS_PANTHEON_REQUIREMENTS" />
-		<Row ModifierId="SPM_SPIRIT_OF_WORSHIP_RELIGIOUS_SLOT_MODIFIER"
-			 ModifierType="MODIFIER_SINGLE_CITY_ADJUST_EXTRA_GREAT_WORK_SLOTS" />
-
-	</Modifiers>
-	<ModifierArguments>
-
-		<Row ModifierId="SPM_SPIRIT_OF_WORSHIP_RELIGIOUS_SLOT"
-             Name="ModifierId"
-             Value="SPM_SPIRIT_OF_WORSHIP_RELIGIOUS_SLOT_MODIFIER" />
-		<Row ModifierId="SPM_SPIRIT_OF_WORSHIP_RELIGIOUS_SLOT_MODIFIER"
-			 Name="BuildingType"
-			 Value="BUILDING_SHRINE" />
-		<Row ModifierId="SPM_SPIRIT_OF_WORSHIP_RELIGIOUS_SLOT_MODIFIER"
-			 Name="GreatWorkSlotType"
-			 Value="GREATWORKSLOT_CATHEDRAL" />
-		<Row ModifierId="SPM_SPIRIT_OF_WORSHIP_RELIGIOUS_SLOT_MODIFIER"
-             Name="Amount"
-             Value="1" />
-
-	</ModifierArguments>
-	
 	<!-- Spirit of Speech - +1 Envoy. +1 Influence point per turn -->
 
 	<Beliefs>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- THIS FILE WAS AUTOMATICALLY GENERATED. PLEASE DO NOT EDIT. -->
+<GameInfo>
+	<Buildings>
+		<Update>
+			<Where BuildingType="BUILDING_SEWER"/>
+			<Set>
+				<Entertainment>1</Entertainment>
+			</Set>
+		</Update>
+	</Buildings>
+	<Building_YieldChanges>
+		<Update>
+			<Where BuildingType="BUILDING_BANK"/>
+			<Set>
+				<YieldChange>7</YieldChange>
+			</Set>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_GRAND_BAZAAR"/>
+			<Set>
+				<YieldChange>9</YieldChange>
+			</Set>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_STOCK_EXCHANGE"/>
+			<Set>
+				<YieldChange>9</YieldChange>
+			</Set>
+		</Update>
+	</Building_YieldChanges>
+	<Building_YieldChangesBonusWithPower>
+		<Update>
+			<Where BuildingType="BUILDING_STOCK_EXCHANGE"/>
+			<Set>
+				<YieldChange>14</YieldChange>
+			</Set>
+		</Update>
+	</Building_YieldChangesBonusWithPower>
+	<BuildingModifiers>
+		<Update>
+			<Where ModifierId="GOV_SETTLER_COST_REDUCTION"/>
+			<Set>
+				<ModifierId>GOV_WIDE_AMENITY_BUFF</ModifierId>
+			</Set>
+		</Update>
+	</BuildingModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>GOV_WIDE_AMENITY_BUFF</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_AMENITIES_FROM_GOVERNORS</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="GOV_BUILDING_WIDE_GRANT_GOVERNOR_POINTS" Name="Delta"/>
+			<Set>
+				<Value>0</Value>
+			</Set>
+		</Update>
+		<Row>
+			<ModifierId>GOV_WIDE_AMENITY_BUFF</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+<GameInfo>
