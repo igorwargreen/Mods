@@ -8,12 +8,27 @@
 			<Name>Amount</Name>
 			<Value>5</Value>
 		</Row>
-		<Update>
-			<Where ModifierId="TITHE_GOLD_CITY_MODIFIER" Name="Amount"/>
-			<Set>
-				<Value>4</Value>
-			</Set>
-		</Update>
+		<Delete ModifierId="TITHE_GOLD_CITY_MODIFIER"/>
+		<Row>
+			<ModifierId>TITHE_GOLD_CITY_MODIFIER</ModifierId>
+			<Name>BeliefYieldType</Name>
+			<Value>BELIEF_YIELD_PER_CITY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TITHE_GOLD_CITY_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TITHE_GOLD_CITY_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>TITHE_GOLD_CITY_MODIFIER</ModifierId>
+			<Name>PerXItems</Name>
+			<Value>1</Value>
+		</Row>
 	</ModifierArguments>
 	</Modifiers>
 		<Row>
