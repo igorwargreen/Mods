@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Edward Beach (Firaxis Games) -->
 <GameInfo>
+	<Government_SlotCounts>
+		<Update>
+			<Where GovernmentType="GOVERNMENT_MERCHANT_REPUBLIC" GovernmentSlotType="SLOT_DIPLOMATIC"/>
+			<Set>
+				<NumSlots>1</NumSlots>
+			</Set>
+		</Update>
+		<Update>
+			<Where GovernmentType="GOVERNMENT_MERCHANT_REPUBLIC" GovernmentSlotType="SLOT_WILDCARD"/>
+			<Set>
+				<NumSlots>2</NumSlots>
+			</Set>
+		</Update>
+	</Government_SlotCounts>
 	<Modifiers>
 		<Row>
 			<ModifierId>IGOR_BUILDING_YIELDS_HIGH_ADJACENCY</ModifierId>
@@ -24,6 +38,12 @@
 			<Name>Amount</Name>
 			<Value>100</Value>
 		</Row>
+		<Update>
+			<Where ModifierId="DISCIPLINE_BARBARIANCOMBAT" Name="Amount"/>
+			<Set>
+				<Value>10</Value>
+			</Set>
+		</Update>
 		<Update>
 			<Where ModifierId="CHIVALRY_MEDIEVAL_HEAVY_CAVALRY_PRODUCTION" Name="Amount"/>
 			<Set>
