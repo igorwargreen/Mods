@@ -29,6 +29,36 @@
 			<Name>PerXItems</Name>
 			<Value>1</Value>
 		</Row>
+		<Update>
+			<Where ModifierId="SUGUBA_CHEAPER_BUILDING_PURCHASE" Name="Amount"/>
+			<Set>
+				<Value>30</Value>
+			</Set>
+		</Update>
+		<Update>
+			<Where ModifierId="SUGUBA_CHEAPER_DISTRICT_PURCHASE" Name="Amount"/>
+			<Set>
+				<Value>30</Value>
+			</Set>
+		</Update>
+		<Update>
+			<Where ModifierId="SUGUBA_CHEAPER_UNIT_PURCHASE" Name="Amount"/>
+			<Set>
+				<Value>30</Value>
+			</Set>
+		</Update>
+		<Update>
+			<Where ModifierId="COTHON_SETTLER_PRODUCTION" Name="Amount"/>
+			<Set>
+				<Value>100</Value>
+			</Set>
+		</Update>
+		<Update>
+			<Where ModifierId="COTHON_NAVAL_UNIT_PRODUCTION" Name="Amount"/>
+			<Set>
+				<Value>100</Value>
+			</Set>
+		</Update>
 	</ModifierArguments>
 	</Modifiers>
 		<Row>
