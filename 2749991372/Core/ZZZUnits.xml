@@ -6,7 +6,7 @@
 			<Where UnitType="UNIT_Settler"/>
 			<Set>
 				<Cost>80</Cost>
-				<CostProgressionParam1>15</CostProgressionParam1>
+				<CostProgressionParam1>10</CostProgressionParam1>
 			</Set>
 		</Update>
 		<Update>

@@ -5,7 +5,7 @@
 		<Update>
 			<Where DistrictType="DISTRICT_HIPPODROME"/>
 			<Set>
-				<Entertainment>2</Entertainment>
+				<Entertainment>3</Entertainment>
 				<RequiresPopulation>false</RequiresPopulation>
 			</Set>
 		</Update>
