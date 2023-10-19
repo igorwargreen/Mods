@@ -72,12 +72,12 @@
 		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="LIBRARIAN_CULTURE_YIELD_BONUS"/>
 		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="EDUCATOR_INCREASE_CITY_GREAT_PERSON_POINT_BONUS"/>
 	</DistrictModifiers>
-	</Modifiers>
+	<Modifiers>
 		<Row>
 			<ModifierId>JUST_WAR_COMBAT_BONUS_MODIFIER</ModifierId>
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 		</Row>
-	<Modifiers>
+	</Modifiers>
 	<ModifierStrings>
 		<Row ModifierId="JUST_WAR_COMBAT_BONUS_MODIFIER" Context="Preview" Text="LOC_PROMOTION_JUST_WAR_DESCRIPTION"/>
 	</ModifierStrings>
