@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
 <GameInfo>
+	<DistrictModifiers>
+		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZZZ_EXTRA_GROWTH"/>
+		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="COTHON_NAVAL_UNIT_PRODUCTION"/>
+		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="COTHON_SETTLER_PRODUCTION"/>
+		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="IKANDA_TRAINED_CORPS_ARMY_DISCOUNT"/>
+		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="FILMSTUDIO_ENHANCEDLATETOURISM"/>
+		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="BASILIKOI_PAIDES_SCIENCE_TRAINED_UNIT"/>
+		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZZZ_FASTER_DISTRICT_CONSTRUCTION"/>
+		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="LIBRARIAN_CULTURE_YIELD_BONUS"/>
+		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="GROUNDBREAKER_BONUS_HARVEST_YIELDS"/>
+		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="DEFENSE_LOGISTICS_BONUS_STRATEGICS"/>
+		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="EDUCATOR_INCREASE_CITY_GREAT_PERSON_POINT_BONUS"/>
+		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZZZ_FASTER_PLOT_ANNEXING"/>
+	</DistrictModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>ZZZ_EXTRA_GROWTH</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_GROWTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_FASTER_DISTRICT_CONSTRUCTION</ModifierId>
+			<ModifierType>MODIFIER_CITY_INCREASE_DISTRICT_PRODUCTION_RATE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_FASTER_PLOT_ANNEXING</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_CULTURE_BORDER_EXPANSION</ModifierType>
+		</Row>
+	</Modifiers>
 	<ModifierArguments>
 		<Delete ModifierId="JUST_WAR_COMBAT_BONUS_MODIFIER"/>
 		<Row>
@@ -59,26 +87,26 @@
 				<Value>100</Value>
 			</Set>
 		</Update>
+		<Row>
+			<ModifierId>ZZZ_EXTRA_GROWTH</ModifierId>
+			<Name>Amount</Name>
+			<Value>60</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_FASTER_DISTRICT_CONSTRUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>70</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_FASTER_PLOT_ANNEXING</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
 	</ModifierArguments>
-	<DistrictModifiers>
-		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="COTHON_NAVAL_UNIT_PRODUCTION"/>
-		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="COTHON_SETTLER_PRODUCTION"/>
-		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="IKANDA_TRAINED_CORPS_ARMY_DISCOUNT"/>
-		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="FILMSTUDIO_ENHANCEDLATETOURISM"/>
-		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="BASILIKOI_PAIDES_SCIENCE_TRAINED_UNIT"/>
-		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="GROUNDBREAKER_BONUS_HARVEST_YIELDS"/>
-		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="SURPLUS_LOGISTICS_EXTRA_GROWTH"/>
-		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZONING_COMMISSIONER_FASTER_DISTRICT_CONSTRUCTION"/>
-		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="LIBRARIAN_CULTURE_YIELD_BONUS"/>
-		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="EDUCATOR_INCREASE_CITY_GREAT_PERSON_POINT_BONUS"/>
-	</DistrictModifiers>
 	<Modifiers>
 		<Row>
 			<ModifierId>JUST_WAR_COMBAT_BONUS_MODIFIER</ModifierId>
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 		</Row>
 	</Modifiers>
-	<ModifierStrings>
-		<Row ModifierId="JUST_WAR_COMBAT_BONUS_MODIFIER" Context="Preview" Text="LOC_PROMOTION_JUST_WAR_DESCRIPTION"/>
-	</ModifierStrings>
 </GameInfo>

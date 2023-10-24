@@ -92,37 +92,4 @@
 			</Set>
 		</Update>
 	</Units>
-	<CommemorationModifiers>
-		<Row CommemorationType="COMMEMORATION_INFRASTRUCTURE" ModifierId="COMMEMORATION_INFRASTRUCTURE_GA_PURCHASE_Builder"/>
-		<Update>
-			<Where ModifierId="COMMEMORATION_INFRASTRUCTURE_GA_PURCHASE_CIVILIAN"/>
-			<Set>
-				<ModifierId>COMMEMORATION_INFRASTRUCTURE_GA_PURCHASE_Trader</ModifierId>
-			</Set>
-		</Update>
-	</CommemorationModifiers>
-	<Modifiers>
-		<Row>
-			<ModifierId>COMMEMORATION_INFRASTRUCTURE_GA_PURCHASE_Trader</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
-			<OwnerRequirementSetId>PLAYER_HAS_GOLDEN_AGE</OwnerRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>COMMEMORATION_INFRASTRUCTURE_GA_PURCHASE_Builder</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
-			<OwnerRequirementSetId>PLAYER_HAS_GOLDEN_AGE</OwnerRequirementSetId>
-		</Row>
-	</Modifiers>
-	<ModifierArguments>
-		<Row>
-			<ModifierId>COMMEMORATION_INFRASTRUCTURE_GA_PURCHASE_Trader</ModifierId>
-			<Name>UnitType</Name>
-			<Value>UNIT_TRADER</Value>
-		</Row>
-		<Row>
-			<ModifierId>COMMEMORATION_INFRASTRUCTURE_GA_PURCHASE_Builder</ModifierId>
-			<Name>UnitType</Name>
-			<Value>UNIT_BUILDER</Value>
-		</Row>
-	</ModifierArguments>
 </GameInfo>

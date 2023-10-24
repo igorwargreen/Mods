@@ -164,7 +164,7 @@
 	
 	<UpdateDatabase id="UpdateDatabase">
       <Properties>
-        <LoadOrder>500</LoadOrder>
+        <LoadOrder>50000</LoadOrder>
       </Properties>
 	  <File>Core/ZZZPolicies.xml</File>
 	  <File>Core/ZZZProjects.xml</File>
