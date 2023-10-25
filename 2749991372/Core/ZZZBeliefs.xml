@@ -12,8 +12,19 @@
 		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="LIBRARIAN_CULTURE_YIELD_BONUS"/>
 		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="GROUNDBREAKER_BONUS_HARVEST_YIELDS"/>
 		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="DEFENSE_LOGISTICS_BONUS_STRATEGICS"/>
-		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="EDUCATOR_INCREASE_CITY_GREAT_PERSON_POINT_BONUS"/>
+		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZZZ_INCREASE_CITY_GREAT_PERSON_POINT_BONUS"/>
 		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZZZ_FASTER_PLOT_ANNEXING"/>
+		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZZZ_FASTER_INDUSTRIAL_ZONE_BUILDING_CONSTRUCTION"/>
+		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZZZ_FASTER_AERODROME_BUILDING_CONSTRUCTION"/>
+		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZZZ_FASTER_THEATER_BUILDING_CONSTRUCTION"/>
+		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZZZ_FASTER_ENTERTAINMENT_COMPLEX_BUILDING_CONSTRUCTION"/>
+		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZZZ_FASTER_COMMERCIAL_HUB_BUILDING_CONSTRUCTION"/>
+		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZZZ_FASTER_ENCAMPMENT_BUILDING_CONSTRUCTION"/>
+		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZZZ_FASTER_HOLY_SITE_BUILDING_CONSTRUCTION"/>
+		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZZZ_FASTER_CAMPUS_BUILDING_CONSTRUCTION"/>
+		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZZZ_FASTER_CITY_CENTER_BUILDING_CONSTRUCTION"/>
+		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZZZ_FASTER_GOVERNMENT_BUILDING_CONSTRUCTION"/>
+		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZZZ_FASTER_HARBOR_BUILDING_CONSTRUCTION"/>
 	</DistrictModifiers>
 	<Modifiers>
 		<Row>
@@ -27,6 +38,54 @@
 		<Row>
 			<ModifierId>ZZZ_FASTER_PLOT_ANNEXING</ModifierId>
 			<ModifierType>MODIFIER_SINGLE_CITY_CULTURE_BORDER_EXPANSION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_FASTER_HARBOR_BUILDING_CONSTRUCTION</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_FASTER_GOVERNMENT_BUILDING_CONSTRUCTION</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_FASTER_CITY_CENTER_BUILDING_CONSTRUCTION</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_FASTER_CAMPUS_BUILDING_CONSTRUCTION</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_FASTER_HOLY_SITE_BUILDING_CONSTRUCTION</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_FASTER_ENCAMPMENT_BUILDING_CONSTRUCTION</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_FASTER_COMMERCIAL_HUB_BUILDING_CONSTRUCTION</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_FASTER_ENTERTAINMENT_COMPLEX_BUILDING_CONSTRUCTION</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_FASTER_THEATER_BUILDING_CONSTRUCTION</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_FASTER_AERODROME_BUILDING_CONSTRUCTION</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_FASTER_INDUSTRIAL_ZONE_BUILDING_CONSTRUCTION</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_INCREASE_CITY_GREAT_PERSON_POINT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_CITY_INCREASE_GREAT_PERSON_POINT_BONUS</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -101,6 +160,121 @@
 			<ModifierId>ZZZ_FASTER_PLOT_ANNEXING</ModifierId>
 			<Name>Amount</Name>
 			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_FASTER_GOVERNMENT_BUILDING_CONSTRUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_GOVERNMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_FASTER_GOVERNMENT_BUILDING_CONSTRUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_FASTER_HARBOR_BUILDING_CONSTRUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HARBOR</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_FASTER_HARBOR_BUILDING_CONSTRUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_FASTER_CITY_CENTER_BUILDING_CONSTRUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CITY_CENTER</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_FASTER_CITY_CENTER_BUILDING_CONSTRUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_FASTER_CAMPUS_BUILDING_CONSTRUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CAMPUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_FASTER_CAMPUS_BUILDING_CONSTRUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_FASTER_HOLY_SITE_BUILDING_CONSTRUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_FASTER_HOLY_SITE_BUILDING_CONSTRUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_FASTER_ENCAMPMENT_BUILDING_CONSTRUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_ENCAMPMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_FASTER_ENCAMPMENT_BUILDING_CONSTRUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_FASTER_COMMERCIAL_HUB_BUILDING_CONSTRUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_COMMERCIAL_HUB</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_FASTER_COMMERCIAL_HUB_BUILDING_CONSTRUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_FASTER_ENTERTAINMENT_COMPLEX_BUILDING_CONSTRUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_ENTERTAINMENT_COMPLEX</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_FASTER_ENTERTAINMENT_COMPLEX_BUILDING_CONSTRUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_FASTER_THEATER_BUILDING_CONSTRUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_THEATER</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_FASTER_THEATER_BUILDING_CONSTRUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_FASTER_AERODROME_BUILDING_CONSTRUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_AERODROME</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_FASTER_AERODROME_BUILDING_CONSTRUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_FASTER_INDUSTRIAL_ZONE_BUILDING_CONSTRUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_FASTER_INDUSTRIAL_ZONE_BUILDING_CONSTRUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_INCREASE_CITY_GREAT_PERSON_POINT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
 		</Row>
 	</ModifierArguments>
 	<Modifiers>
