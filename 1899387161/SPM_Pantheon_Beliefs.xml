@@ -861,8 +861,6 @@
 		<Row ModifierId="SPM_SPIRIT_OF_SPEECH_GRANT_ENVOY"
              ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
              SubjectRequirementSetId="PLAYER_HAS_PANTHEON_REQUIREMENTS" />
-		<Row ModifierId="SPM_SPIRIT_OF_SPEECH_GRANT_ENVOY_MODIFIER"
-			 ModifierType="MODIFIER_PLAYER_GRANT_INFLUENCE_TOKEN" />
 
 	</Modifiers>
 	<ModifierArguments>
