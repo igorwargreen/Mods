@@ -274,7 +274,7 @@
 		<Row>
 			<ModifierId>ZZZ_INCREASE_CITY_GREAT_PERSON_POINT_BONUS</ModifierId>
 			<Name>Amount</Name>
-			<Value>50</Value>
+			<Value>75</Value>
 		</Row>
 	</ModifierArguments>
 	<Modifiers>

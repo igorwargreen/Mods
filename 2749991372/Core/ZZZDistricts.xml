@@ -5,7 +5,7 @@
 		<Update>
 			<Where DistrictType="DISTRICT_HIPPODROME"/>
 			<Set>
-				<Entertainment>3</Entertainment>
+				<Entertainment>2</Entertainment>
 				<RequiresPopulation>false</RequiresPopulation>
 			</Set>
 		</Update>
@@ -59,6 +59,12 @@
 		</Update>
 		<Update>
 			<Where ID="Copacabana_Culture"/>
+			<Set>
+				<YieldChange>1</YieldChange>
+			</Set>
+		</Update>
+		<Update>
+			<Where ID="Hippodrome_Culture"/>
 			<Set>
 				<YieldChange>1</YieldChange>
 			</Set>

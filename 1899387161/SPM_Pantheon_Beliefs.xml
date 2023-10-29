@@ -854,8 +854,6 @@
 
 		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_SPEECH"
              ModifierID="SPM_SPIRIT_OF_SPEECH_GRANT_ENVOY" />
-		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_SPEECH"
-			 ModifierID="SPM_SPIRIT_OF_SPEECH_BONUS_INFLUENCE" />
 
 	</BeliefModifiers>
 	<Modifiers>
@@ -866,12 +864,6 @@
 		<Row ModifierId="SPM_SPIRIT_OF_SPEECH_GRANT_ENVOY_MODIFIER"
 			 ModifierType="MODIFIER_PLAYER_GRANT_INFLUENCE_TOKEN" />
 
-		<Row ModifierId="SPM_SPIRIT_OF_SPEECH_BONUS_INFLUENCE"
-             ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
-             SubjectRequirementSetId="PLAYER_HAS_PANTHEON_REQUIREMENTS" />
-		<Row ModifierId="SPM_SPIRIT_OF_SPEECH_BONUS_INFLUENCE_MODIFIER"
-			 ModifierType="MODIFIER_PLAYER_ADJUST_INFLUENCE_POINTS_PER_TURN" />
-
 	</Modifiers>
 	<ModifierArguments>
 
@@ -880,14 +872,7 @@
              Value="SPM_SPIRIT_OF_SPEECH_GRANT_ENVOY_MODIFIER" />
 		<Row ModifierId="SPM_SPIRIT_OF_SPEECH_GRANT_ENVOY_MODIFIER"
              Name="Amount"
-             Value="1" />
-
-		<Row ModifierId="SPM_SPIRIT_OF_SPEECH_BONUS_INFLUENCE"
-             Name="ModifierId"
-             Value="SPM_SPIRIT_OF_SPEECH_BONUS_INFLUENCE_MODIFIER" />
-		<Row ModifierId="SPM_SPIRIT_OF_SPEECH_BONUS_INFLUENCE_MODIFIER"
-             Name="Amount"
-             Value="1" />
+             Value="3" />
 
 	</ModifierArguments>
 	

@@ -133,10 +133,10 @@
 
 		<!-- Spirit of Speech -->
 		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_SPEECH_NAME" Language="en_US" >
-			<Text>Spirit of Speech</Text>
+			<Text>Духи осликов</Text>
 		</Row>
 		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_SPEECH_DESCRIPTION" Language="en_US" >
-			<Text>+1 [ICON_Envoy]. +1 influence point per turn.</Text>
+			<Text>+3 [ICON_Envoy]осла.</Text>
 		</Row>
 		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_SPEECH_NAME" Language="fr_FR" >
 			<Text>Esprit du Discours</Text>
