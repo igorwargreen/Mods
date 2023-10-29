@@ -834,46 +834,7 @@
 			 RequirementId="REQUIRES_CITY_HAS_PALACE" />
 
 	</RequirementSetRequirements>
-	<!-- Spirit of Speech - +1 Envoy. +1 Influence point per turn -->
 
-	<Beliefs>
-
-		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_SPEECH"
-             Name="LOC_BELIEF_SPM_SPIRIT_OF_SPEECH_NAME"
-             Description="LOC_BELIEF_SPM_SPIRIT_OF_SPEECH_DESCRIPTION"
-             BeliefClassType="BELIEF_CLASS_PANTHEON" />
-
-	</Beliefs>
-	<Types>
-
-		<Row Type="BELIEF_SPM_SPIRIT_OF_SPEECH"
-             Kind="KIND_BELIEF" />
-
-	</Types>
-	<BeliefModifiers>
-
-		<Row BeliefType="BELIEF_SPM_SPIRIT_OF_SPEECH"
-             ModifierID="SPM_SPIRIT_OF_SPEECH_GRANT_ENVOY" />
-
-	</BeliefModifiers>
-	<Modifiers>
-
-		<Row ModifierId="SPM_SPIRIT_OF_SPEECH_GRANT_ENVOY"
-             ModifierType="MODIFIER_ALL_CITIES_ATTACH_MODIFIER"
-             SubjectRequirementSetId="PLAYER_HAS_PANTHEON_REQUIREMENTS" />
-
-	</Modifiers>
-	<ModifierArguments>
-
-		<Row ModifierId="SPM_SPIRIT_OF_SPEECH_GRANT_ENVOY"
-             Name="ModifierId"
-             Value="SPM_SPIRIT_OF_SPEECH_GRANT_ENVOY_MODIFIER" />
-		<Row ModifierId="SPM_SPIRIT_OF_SPEECH_GRANT_ENVOY_MODIFIER"
-             Name="Amount"
-             Value="3" />
-
-	</ModifierArguments>
-	
 	<!-- Spirit of the Sun - +1 Food to bananas, rice, wheat, citrus, wine -->
 
 	<Beliefs>
