@@ -45,6 +45,7 @@
 		</Row>
 	</ModifierArguments>
 	<Modifiers>
+		<Delete ModifierId="TRAIT_CREATE_HIPPODROME_HEAVY_CAVALRY"/>
 		<Row>
 			<ModifierId>ZZZ_EXTRA_GROWTH</ModifierId>
 			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_GROWTH</ModifierType>
