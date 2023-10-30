@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="5d3a19ec-d7a2-4ace-8c76-cba8c7981f4c" version="2">
+  <Properties>
+    <Name>LOC_PHANTA_PAVILION_PRINCE_TENG_MOD_NAME</Name>
+    <Description>LOC_PHANTA_PAVILION_PRINCE_TENG_MOD_DESCRIPTION</Description>
+    <Created>1698243732</Created>
+    <Teaser>LOC_PHANTA_PAVILION_PRINCE_TENG_MOD_DESCRIPTION</Teaser>
+    <Authors>Phantagonist, IthildinX</Authors>
+    <SpecialThanks>严凉鹏</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+    <Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall" />
+  </Dependencies>
+  <FrontEndActions>
+    <UpdateText id="NewAction">
+      <File>Localization/Localization.xml</File>
+    </UpdateText>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="NewAction">
+      <File>GameData/GameData_Core.sql</File>
+    </UpdateDatabase>
+    <UpdateArt id="NewAction">
+      <File>LOC_PHANTA_PRINCE_TENG_PAVILION_MOD_NAME.dep</File>
+    </UpdateArt>
+    <UpdateIcons id="NewAction">
+      <File>GameData/GameData_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateText id="NewAction">
+      <File>Localization/Localization.xml</File>
+    </UpdateText>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/Buildings.artdef</File>
+    <File>ArtDefs/StrategicView.artdef</File>
+    <File>ArtDefs/Units_Great_People.artdef</File>
+    <File>ArtDefs/WonderMovie.artdef</File>
+    <File>GameData/GameData_Core.sql</File>
+    <File>GameData/GameData_Icons.sql</File>
+    <File>Localization/Localization.xml</File>
+    <File>LOC_PHANTA_PRINCE_TENG_PAVILION_MOD_NAME.dep</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_TWG_JZ_TengWangGe_01_BaseColor_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_TWG_JZ_TengWangGe_02_BaseColor_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RC_Palace_A</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TWG_JZ_TengWangGe_01_LightMap</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TWG_JZ_TengWangGe_01_Metallic</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TWG_JZ_TengWangGe_01_Normal0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TWG_JZ_TengWangGe_01_Normal1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TWG_JZ_TengWangGe_02_LightMap</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TWG_JZ_TengWangGe_02_Metallic</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TWG_JZ_TengWangGe_02_Normal0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TWG_JZ_TengWangGe_02_Normal1</File>
+    <File>Platforms/MacOS/BLPs/StrategicView_Sprite.blp</File>
+    <File>Platforms/MacOS/BLPs/TileBase.blp</File>
+    <File>Platforms/MacOS/BLPs/UITexture.blp</File>
+    <File>Platforms/MacOS/BLPs/WonderMovie.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_TWG_JZ_TengWangGe_01_BaseColor_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_TWG_JZ_TengWangGe_02_BaseColor_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DIS_CTY_RC_Palace_A</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TWG_JZ_TengWangGe_01_LightMap</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TWG_JZ_TengWangGe_01_Metallic</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TWG_JZ_TengWangGe_01_Normal0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TWG_JZ_TengWangGe_01_Normal1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TWG_JZ_TengWangGe_02_LightMap</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TWG_JZ_TengWangGe_02_Metallic</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TWG_JZ_TengWangGe_02_Normal0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TWG_JZ_TengWangGe_02_Normal1</File>
+    <File>Platforms/Windows/BLPs/StrategicView_Sprite.blp</File>
+    <File>Platforms/Windows/BLPs/TileBase.blp</File>
+    <File>Platforms/Windows/BLPs/UITexture.blp</File>
+    <File>Platforms/Windows/BLPs/WonderMovie.blp</File>
+  </Files>
+</Mod>

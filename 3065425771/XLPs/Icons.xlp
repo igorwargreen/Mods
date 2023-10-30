@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Lokanta128"/>
+			<m_ObjectName text="Lokanta128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lokanta256"/>
+			<m_ObjectName text="Lokanta256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lokanta32"/>
+			<m_ObjectName text="Lokanta32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lokanta38"/>
+			<m_ObjectName text="Lokanta38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lokanta50"/>
+			<m_ObjectName text="Lokanta50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lokanta80"/>
+			<m_ObjectName text="Lokanta80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lime_TurkeyEmblem22"/>
+			<m_ObjectName text="Lime_TurkeyEmblem22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lime_TurkeyEmblem256"/>
+			<m_ObjectName text="Lime_TurkeyEmblem256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lime_TurkeyEmblem30"/>
+			<m_ObjectName text="Lime_TurkeyEmblem30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lime_TurkeyEmblem36"/>
+			<m_ObjectName text="Lime_TurkeyEmblem36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lime_TurkeyEmblem44"/>
+			<m_ObjectName text="Lime_TurkeyEmblem44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lime_TurkeyEmblem45"/>
+			<m_ObjectName text="Lime_TurkeyEmblem45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lime_TurkeyEmblem48"/>
+			<m_ObjectName text="Lime_TurkeyEmblem48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lime_TurkeyEmblem50"/>
+			<m_ObjectName text="Lime_TurkeyEmblem50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lime_TurkeyEmblem64"/>
+			<m_ObjectName text="Lime_TurkeyEmblem64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lime_TurkeyEmblem80"/>
+			<m_ObjectName text="Lime_TurkeyEmblem80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lime_DuzenliFlag22"/>
+			<m_ObjectName text="Lime_DuzenliFlag22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lime_DuzenliFlag256"/>
+			<m_ObjectName text="Lime_DuzenliFlag256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lime_DuzenliFlag32"/>
+			<m_ObjectName text="Lime_DuzenliFlag32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lime_DuzenliFlag38"/>
+			<m_ObjectName text="Lime_DuzenliFlag38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lime_DuzenliFlag50"/>
+			<m_ObjectName text="Lime_DuzenliFlag50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lime_DuzenliFlag80"/>
+			<m_ObjectName text="Lime_DuzenliFlag80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lime_DuzenliPortrait38"/>
+			<m_ObjectName text="Lime_DuzenliPortrait38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lime_DuzenliPortrait200"/>
+			<m_ObjectName text="Lime_DuzenliPortrait200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lime_DuzenliPortrait256"/>
+			<m_ObjectName text="Lime_DuzenliPortrait256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lime_DuzenliPortrait50"/>
+			<m_ObjectName text="Lime_DuzenliPortrait50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lime_DuzenliPortrait70"/>
+			<m_ObjectName text="Lime_DuzenliPortrait70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lime_DuzenliPortrait95"/>
+			<m_ObjectName text="Lime_DuzenliPortrait95"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

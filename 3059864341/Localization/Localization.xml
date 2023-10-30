@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+		
+		
+		<Row Tag="LOC_PHANTA_PAVILION_PRINCE_TENG_MOD_NAME" Language="en_US">
+			<Text>Pavilion of Prince Teng (World Wonder)</Text>
+		</Row>
+		<Row Tag="LOC_PHANTA_PAVILION_PRINCE_TENG_MOD_TEASER" Language="en_US">
+			<Text>Adds the Pavilion of Prince Teng wonder.</Text>
+		</Row>
+		<Row Tag="LOC_PHANTA_PAVILION_PRINCE_TENG_MOD_DESCRIPTION" Language="en_US">
+			<Text>Adds the Pavilion of Prince Teng wonder.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_PAVILION_PRINCE_TENG_NAME" Language="en_US">
+			<Text>Pavilion of Prince Teng</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_PAVILION_PRINCE_TENG_DESCRIPTION" Language="en_US">
+			<Text>Grants a free [ICON_GreatWriter] Great Writer. Provides +1 [ICON_GreatEngineer] Great Engineer point and +3 [ICON_Production] Production for each [ICON_GreatWriter] Great Writer earned. Must be built next to a River adjacent to a Theater Square district.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_PAVILION_PRINCE_TENG_QUOTE" Language="en_US">
+			<Text>“The sunset is flying together with lonely wild goose, and the autumn water connected the sky at the horizon forming a unity.”[NEWLINE]– Wang Bo</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_PAVILION_PRINCE_TENG_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Located on the east bank of the Gan River in Nanchang, the Pavilion of Prince Teng earned its namesake from its builder Li Yuanying, Emperor Gaozu of Tang’s twenty-second son enfeoffed as Prince Teng. The wooden pavilion was vulnerable to fire and thus rebuilt many times, and earned its fame from the many literary works that describe its spectacular architecture and stunning scenery. When Pavilion of Prince Teng was rebuilt for the first time, twenty years after its construction, the rebuilder Yan Boyu celebrated the event with a banquet for the literati. Wang Bo, a poet traveling through this region at that time, wrote the famous “Preface to Pavilion of Prince Teng” during the banquet. Thanks to his masterpiece, the Pavilion has since become a renowned landmark in Jiangxi region. The last reconstruction of Pavilion of Prince Teng was completed in 1989, according to the design plan of architect Liang Sicheng to reproduce the archaic pavilion structure of “three floors exposed outside, seven stories actually inside”.</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_CHEN_ZIANG_NAME" Language="en_US">
+			<Text>Chen Zi’ang</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CHEN_ZIANG_1_NAME" Language="en_US">
+			<Text>Thirty Eight Poems Occasioned by Encounters</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CHEN_ZIANG_1_QUOTE" Language="en_US">
+			<Text>The saint never cares for his part,[NEWLINE]For he is dedicated to save the humankind.[NEWLINE]Yao seeks not the imperial cart,[NEWLINE]Nor the jade terrace came to his mind.</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CHEN_ZIANG_2_NAME" Language="en_US">
+			<Text>Song on Ascending the Youzhou Terrace</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CHEN_ZIANG_2_QUOTE" Language="en_US">
+			<Text>Ahead, I see no sages of the past,[NEWLINE]Behind, I see no sages yet unborn.[NEWLINE]Reflecting on heaven and earth eternal,[NEWLINE]Lamenting in tears, I am forlorn.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_CHEN_ZIANG_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Chen Zi’ang was a pioneer of the Tang Dynasty‘s literary renewal movement, and is praised as the ”Bone of Poetry“ and the ”Ancestor of Tang Poetry“. Born in 661, Chen Zi’ang spent his early years indulging in entertainments, but later aspired to strive for excellence and attained a government position through imperial examination.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_CHEN_ZIANG_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>Chen Zi’ang was recognized by Wu Zetian for his honest advice, but he was also demoted as his advice was too blunt. He had followed the army on campaign to the north, and wrote “Song on Ascending the Youzhou Terrace” in the journey. He rejected the flamboyant writing style of the Southern Dynasties, and in the name of restoring Han and Wei poetry, he revolutionized poetry of the Tang Dynasty.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_CHEN_ZIANG_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>Chen Zi’ang later resigned his position and returned to his hometown to look after his father of old age, but he was falsely accused died in prison in 700.</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_HE_ZHIZHANG_NAME" Language="en_US">
+			<Text>He Zhizhang</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_HE_ZHIZHANG_1_NAME" Language="en_US">
+			<Text>Ode to the Willow</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_HE_ZHIZHANG_1_QUOTE" Language="en_US">
+			<Text>The tall tree dressed in the green of jades,[NEWLINE]The myriad twigs drooped like silken braids.[NEWLINE]The leaves are fine yet none knows the tailor,[NEWLINE]For the vernal winds are sharp as scissors‘ blades.</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_HE_ZHIZHANG_2_NAME" Language="en_US">
+			<Text>On Homecoming</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_HE_ZHIZHANG_2_QUOTE" Language="en_US">
+			<Text>I left home young, now old, I return care free;[NEWLINE]My tongue unchanged, my hair though thinner be.[NEWLINE]Unknown am I to the boys and girls I meet;[NEWLINE]Smiling they ask, “Sir, from whence come thee?”</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_HE_ZHIZHANG_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>He Zhizhang was a poet of the Tang Dynasty. He was born in 659. His talents in literature were well-known since his youth, and he was granted a position in the court.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_HE_ZHIZHANG_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>Though he held a high government position, he was actually a passionate man who loved drinking and befriending talented people. At the age of 84, he met Li Bai who came to Chang‘an seeking a position. After reading the poems of Li Bai, He Zhizhang befriended Li Bai despite their difference of ages and social status.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_HE_ZHIZHANG_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>As He Zhizhang grew old, he donated his estates for Taoist monasteries, resigned his position and returned his hometown. On his journey, he wrote well-known poems like Ode to the Willow and On Homecoming. He died of sickness in 744.</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_LUO_BINWANG_NAME" Language="en_US">
+			<Text>Luo Binwang</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_LUO_BINWANG_1_NAME" Language="en_US">
+			<Text>Ode to Geese</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_LUO_BINWANG_1_QUOTE" Language="en_US">
+			<Text>Goose, goose, goose,[NEWLINE]You bend your neck towards the sky and sing.[NEWLINE]Your white feathers float on the emerald water,[NEWLINE]Your red feet push the clear waves.</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_LUO_BINWANG_2_NAME" Language="en_US">
+			<Text>Proclaimation against Wu Zhao On Behalf of Xu Jingye</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_LUO_BINWANG_2_QUOTE" Language="en_US">
+			<Text>Once she got in the palace, she would not yield even in her brows; She falsely implicated others, and she used her fox-like charms to delude the emperor.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_LUO_BINWANG_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Luo Binwang was one of the Four Paragons of the Early Tang. He was a child prodigy who could write the Ode to Geese at the age of seven.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_LUO_BINWANG_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>Luo Binwang was once an official at the court, but he was falsely accused and imprisoned, later demoted as a local official. When Xu Jingye rebeled against Wu Zetian, Luo Binwang wrote the Proclaimation against Wu Zhao On Behalf of Xu Jingye. It was said that when Wu Zetian read the proclaimation, she was displeased - not because of Luo Binwang’s offence, but because Luo Binwang was talented and the chancellors failed to keep him in the court.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_LUO_BINWANG_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>When Xu Jingye was defeated, Luo Binwang fled and disappeared. Some claimed that he committed suicide by drowning himself, while other claimed he became a Buddhist monk and journey among the mountains.</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_LU_ZHAOLIN_NAME" Language="en_US">
+			<Text>Lu Zhaolin</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_LU_ZHAOLIN_1_NAME" Language="en_US">
+			<Text>Chang’an, in Ancient Style</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_LU_ZHAOLIN_1_QUOTE" Language="en_US">
+			<Text>They fear not death if they can form couples like flatfish,[NEWLINE]They envy not the immortals if they can be bonded like mandarin ducks.</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_LU_ZHAOLIN_2_NAME" Language="en_US">
+			<Text>Lotus in a Curved Lake</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_LU_ZHAOLIN_2_QUOTE" Language="en_US">
+			<Text>Floating fragrance wraps around the curved shore,[NEWLINE]Round leaves covers over the flowery lake.[NEWLINE]I always fear the autumn wind comes too early,[NEWLINE]As you would see no flower but flake.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_LU_ZHAOLIN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Lu Zhaolin was one of the Four Paragons of the Early Tang. He was once the Dianqian of Prince Teng, and his talents were praised by Prince Teng as ”my Xiangru (Xiangru was a renowned writer of the Han Dynasty)“. Later, he moved to Sichuan Basin.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_LU_ZHAOLIN_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>Lu Zhaolin later suffered a crippling disease. Even the great physician Sun Simiao could not fully cure him. His poetry style turned from a passionate one to a gravely pessimistic one.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_LU_ZHAOLIN_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>In 689, Lu Zhaolin ended his life by drowning himself in the Ying River.</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_WANG_BO_NAME" Language="en_US">
+			<Text>Wang Bo</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_WANG_BO_1_NAME" Language="en_US">
+			<Text>Preface to the Pavilion of Prince Teng</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_WANG_BO_1_QUOTE" Language="en_US">
+			<Text>The sunset is flying together with lonely wild goose, and the autumn water connected the sky at the horizon forming a unity.</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_WANG_BO_2_NAME" Language="en_US">
+			<Text>Farewell to Prefect Du</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_WANG_BO_2_QUOTE" Language="en_US">
+			<Text>Watching over the Three Qin protected by tall walls,[NEWLINE]Gazing over the Five Crossings shrouded by misty squalls.[NEWLINE]I feel on parting sad and drear,[NEWLINE]For both of us are strangers here.[NEWLINE]If you have friends who know your heart,[NEWLINE]Distance cannot keep us apart.[NEWLINE]At crossroads where we bid adieu,[NEWLINE]Let us not shed tears as children do!</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_WANG_BO_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Wang Bo was one of the Four Paragons of the Early Tang. He was born in 650, and was known as a child prodigy in literature. He was an official without actual power, but a crime caused him to lose his position. His father was collectively punished and demoted to Jiaozhi.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_WANG_BO_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>He traveled to meet with his father, and visited Hongzhou on his journey. At that time, Yan Boyu rebuilt the Pavilion of Prince Teng, and invited poets for a banquet of celebration. Yan Boyu intended to have his son-in-law to write a preface for the celebration, but to show he was fair and open-minded, he pretended to invite the guests to write the preface. While other guests knew his intention and turned down the offer, Wang Bo ignored and wrote the Preface to the Pavilion of Prince Teng without preparation. This great work was considered his masterpiece.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_WANG_BO_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>Wang Bo continued his journey to meet with his father, but he fell into water on his way back. He died in 676.</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_YANG_JIONG_NAME" Language="en_US">
+			<Text>Yang Jiong</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_YANG_JIONG_1_NAME" Language="en_US">
+			<Text>Marching with the Armies</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_YANG_JIONG_1_QUOTE" Language="en_US">
+			<Text>A string of bright beacon fires lights up the Capital;[NEWLINE]My blood's boiling, my heart's crying out for battle.[NEWLINE]Leaving Chang‘an with royal warrant hastily,[NEWLINE]Armored cavalries aim to besiege the Longcheng city.[NEWLINE]Painted banners are dimmed by the heavy snows pelting,[NEWLINE]Thundering war drums are heard amidst the gusts howling.[NEWLINE]O, To be a fighting centurion I'd be most willing,[NEWLINE]Rather than a verse-reciting scholarly weakling!</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_YANG_JIONG_2_NAME" Language="en_US">
+			<Text>Farewell to Zhao Zong at Night</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_YANG_JIONG_2_QUOTE" Language="en_US">
+			<Text>Seeing Zhao‘s jade disc of renown,[NEWLINE]Of fame wide spread reaching Heaven’s seams.[NEWLINE]I see you off to your home town;[NEWLINE]You shine with the moon on all streams.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_YANG_JIONG_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Yang Jiong was one of the Four Paragons of the Early Tang. He was born in 650. Though he had displayed his literary talents and entered the Hongwen College as a kid, he only earned the lowest position in the court at the age of 30.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_YANG_JIONG_CHAPTER_HISTORY_PARA_2" Language="en_US">
+			<Text>Later, he was promoted to serve as a scholar in Chongwen College, but as his relative joined the uprising of Xu Jingye, he was collectively punished and demoted to Sichuan. The up-and-downs in his careers even exerted influence in his poetry style.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_YANG_JIONG_CHAPTER_HISTORY_PARA_3" Language="en_US">
+			<Text>Yang Jiong later became the Magistrate of Yingchuan Country, and died while in office.</Text>
+		</Row>
+
+		<Row Tag="LOC_PHANTA_PAVILION_PRINCE_TENG_MOD_NAME" Language="zh_Hans_CN">
+			<Text>滕王阁（世界奇观）</Text>
+		</Row>
+		<Row Tag="LOC_PHANTA_PAVILION_PRINCE_TENG_MOD_TEASER" Language="zh_Hans_CN">
+			<Text>加入滕王阁世界奇观。</Text>
+		</Row>
+		<Row Tag="LOC_PHANTA_PAVILION_PRINCE_TENG_MOD_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>加入滕王阁世界奇观。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_PAVILION_PRINCE_TENG_NAME" Language="zh_Hans_CN">
+			<Text>滕王阁</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_PAVILION_PRINCE_TENG_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>免费获得一个 [ICON_GreatWriter] 大作家。每获得一个 [ICON_GreatWriter] 大作家，此奇观提供+1 [ICON_GreatEngineer] 大工程师点数和+3 [ICON_Production] 生产力。必须建造在邻近剧院广场区域的河流旁边。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_PAVILION_PRINCE_TENG_QUOTE" Language="zh_Hans_CN">
+			<Text>落霞与孤鹜齐飞，秋水共长天一色。[NEWLINE]——王勃</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_PAVILION_PRINCE_TENG_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>滕王阁位于南昌赣江东岸，得名于其建造者滕王李元婴（唐高祖二十二子）。这座木制楼阁多次毁于火灾，经历多次重建，因众多记述其壮观建筑和绝美景色的文学巨作而闻名。滕王阁在建造二十年后首次重修时，重修者阎伯屿宴请文人雅士庆祝此事，当时途径此地的诗人王勃即在宴会中写下千古名篇《滕王阁序》，滕王阁自此成为名扬天下的江西地标。滕王阁的最后一次重建于1989年完成，按照建筑师梁思成的设计方案，重现「明三暗七」的古风楼阁结构。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_CHEN_ZIANG_NAME" Language="zh_Hans_CN">
+			<Text>陈子昂</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CHEN_ZIANG_1_NAME" Language="zh_Hans_CN">
+			<Text>《感遇诗三十八首》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CHEN_ZIANG_1_QUOTE" Language="zh_Hans_CN">
+			<Text>圣人不利己，[NEWLINE]忧济在元元。[NEWLINE]黄屋非尧意，[NEWLINE]瑶台安可论。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CHEN_ZIANG_2_NAME" Language="zh_Hans_CN">
+			<Text>《登幽州台诗》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CHEN_ZIANG_2_QUOTE" Language="zh_Hans_CN">
+			<Text>前不见古人，[NEWLINE]后不见来者。[NEWLINE]念天地之悠悠，[NEWLINE]独怆然而涕下。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_CHEN_ZIANG_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>陈子昂是唐朝文学革新运动的先驱者，有“诗骨”和“唐诗诗祖”之称。他生于661年，早年耽于逸乐，后来立志奋发图强，登进士第。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_CHEN_ZIANG_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>获得官职的陈子昂因谏言得到武则天的赏识，却也因犯颜直谏怀才不遇。他曾经跟随军队出征北方，在幽州台写下《登幽州台诗》。他摒弃南朝华而不实的文风，以复古汉魏行革新诗文，影响了后世唐代的诗歌风格。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_CHEN_ZIANG_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>陈子昂后来以父亲老迈解官回乡，却遭受诬告下狱，在700年冤死狱中。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_HE_ZHIZHANG_NAME" Language="zh_Hans_CN">
+			<Text>贺知章</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_HE_ZHIZHANG_1_NAME" Language="zh_Hans_CN">
+			<Text>《咏柳》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_HE_ZHIZHANG_1_QUOTE" Language="zh_Hans_CN">
+			<Text>碧玉妆成一树高，[NEWLINE]万条垂下绿丝绦。[NEWLINE]不知细叶谁裁出，[NEWLINE]二月春风似剪刀。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_HE_ZHIZHANG_2_NAME" Language="zh_Hans_CN">
+			<Text>《回乡偶书》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_HE_ZHIZHANG_2_QUOTE" Language="zh_Hans_CN">
+			<Text>少小离家老大回，[NEWLINE]乡音无改鬓毛衰。[NEWLINE]儿童相见不相识，[NEWLINE]笑问客从何处来。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_HE_ZHIZHANG_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>贺知章是唐代的诗人。他生于659年，年少时便以文才知名，被授予官职。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_HE_ZHIZHANG_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>贺知章位高权重，却是热爱喝酒与结识才士的性情中人。贺知章八十四岁时，遇到前往长安求官的李白，在读过李白作品后结为忘年好友。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_HE_ZHIZHANG_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>年迈的贺知章将宅地舍为道观，告老还乡，途中写下《咏柳》和《回乡偶书二首》等名篇，未几病逝于744年。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_LUO_BINWANG_NAME" Language="zh_Hans_CN">
+			<Text>骆宾王</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_LUO_BINWANG_1_NAME" Language="zh_Hans_CN">
+			<Text>《咏鹅》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_LUO_BINWANG_1_QUOTE" Language="zh_Hans_CN">
+			<Text>鹅，鹅，鹅，[NEWLINE]曲项向天歌。[NEWLINE]白毛浮绿水，[NEWLINE]红掌拨清波。 </Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_LUO_BINWANG_2_NAME" Language="zh_Hans_CN">
+			<Text>《为徐敬业讨武曌檄》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_LUO_BINWANG_2_QUOTE" Language="zh_Hans_CN">
+			<Text>入门见嫉，蛾眉不肯让人。[NEWLINE]掩袖工谗，狐媚偏能惑主。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_LUO_BINWANG_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>骆宾王是初唐四杰之一。他是诗歌的神童，七岁便写下《咏鹅》一诗。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_LUO_BINWANG_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>骆宾王曾任官职，却被人诬陷入狱，后被贬官。当徐敬业起兵讨伐武则天，骆宾王写下《为徐敬业讨武曌檄》，根据记载，当武则天阅读檄文后不悦——不是因为檄文中伤，而是因为骆宾王的文采出众而宰相没有重用。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_LUO_BINWANG_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>徐敬业兵败后，骆宾王逃亡不知所终，有说是投水自尽，也有说是出家为僧遍游名山。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_LU_ZHAOLIN_NAME" Language="zh_Hans_CN">
+			<Text>卢照邻</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_LU_ZHAOLIN_1_NAME" Language="zh_Hans_CN">
+			<Text>《长安古意》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_LU_ZHAOLIN_1_QUOTE" Language="zh_Hans_CN">
+			<Text>得成比目何辞死，愿作鸳鸯不羡仙。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_LU_ZHAOLIN_2_NAME" Language="zh_Hans_CN">
+			<Text>《曲池荷》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_LU_ZHAOLIN_2_QUOTE" Language="zh_Hans_CN">
+			<Text>浮香绕曲岸，[NEWLINE]圆影覆华池。[NEWLINE]常恐秋风早，[NEWLINE]飘零君不知。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_LU_ZHAOLIN_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>卢照邻是初唐四杰之一。他曾任邓王府典签，被邓王称为“吾之相如”，后来调至蜀地。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_LU_ZHAOLIN_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>卢照邻后来染上风疾，尽管得到名医孙思邈的医治，亦无法痊癒，诗歌的风格也由早年的激昂慷慨变得悲凉厌世。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_LU_ZHAOLIN_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>在689年，卢照邻不堪病痛折磨，于颖河投水自尽。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_WANG_BO_NAME" Language="zh_Hans_CN">
+			<Text>王勃</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_WANG_BO_1_NAME" Language="zh_Hans_CN">
+			<Text>《滕王阁序》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_WANG_BO_1_QUOTE" Language="zh_Hans_CN">
+			<Text>落霞与孤鹜齐飞，秋水共长天一色。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_WANG_BO_2_NAME" Language="zh_Hans_CN">
+			<Text>《送杜少府之任蜀州》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_WANG_BO_2_QUOTE" Language="zh_Hans_CN">
+			<Text>城阙辅三秦，风烟望五津。[NEWLINE]与君离别意，同是宦游人。[NEWLINE]海内存知己，天涯若比邻。[NEWLINE]无为在歧路，儿女共沾巾。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_WANG_BO_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>王勃是初唐四杰之一。他生于650年，少时已能写诗作赋。他曾为朝散郎，后来获罪失去官职，父亲亦受牵连贬官交趾。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_WANG_BO_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>当王勃前往交趾探望父亲路过洪州时，正值洪州都督阎伯屿重修滕王阁，设宴款待文人雅士。阎伯屿想让女婿为文会作序夸耀，又假意邀请宾客作序以示谦让。当其他宾客推辞之际，王勃却提笔就作，写下千古名篇《滕王阁序》。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_WANG_BO_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>王勃继续旅程探望父亲，却在回程时不慎落水，于676年去世。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_YANG_JIONG_NAME" Language="zh_Hans_CN">
+			<Text>杨炯</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_YANG_JIONG_1_NAME" Language="zh_Hans_CN">
+			<Text>《从军行》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_YANG_JIONG_1_QUOTE" Language="zh_Hans_CN">
+			<Text>烽火照西京，心中自不平。[NEWLINE]牙璋辞凤阙，铁骑绕龙城。[NEWLINE]雪暗凋旗画，风多杂鼓声。[NEWLINE]宁为百夫长，胜作一书生。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_YANG_JIONG_2_NAME" Language="zh_Hans_CN">
+			<Text>《夜送赵纵》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_YANG_JIONG_2_QUOTE" Language="zh_Hans_CN">
+			<Text>赵氏连城璧，[NEWLINE]由来天下传。[NEWLINE]送君还旧府，[NEWLINE]明月满前川。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_YANG_JIONG_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>杨炯是初唐四杰之一。他生于650年，少有文才，待制弘文馆却官运坎坷，三十岁才获得九品下的校书郎一职。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_YANG_JIONG_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>杨炯后来被推荐为崇文馆学士，官运有所起色，后来却因亲戚跟随徐敬业起兵而受牵连被贬官至四川。官运的高低起落甚至影响了杨炯不同时期的诗风。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_YANG_JIONG_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>其后，杨炯出任盈川县令，卒于任上。</Text>
+		</Row>
+		
+		<Row Tag="LOC_PHANTA_PAVILION_PRINCE_TENG_MOD_NAME" Language="zh_Hant_HK">
+			<Text>滕王閣（世界奇觀）</Text>
+		</Row>
+		<Row Tag="LOC_PHANTA_PAVILION_PRINCE_TENG_MOD_TEASER" Language="zh_Hant_HK">
+			<Text>加入滕王閣世界奇觀。</Text>
+		</Row>
+		<Row Tag="LOC_PHANTA_PAVILION_PRINCE_TENG_MOD_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>加入滕王閣世界奇觀。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_PAVILION_PRINCE_TENG_NAME" Language="zh_Hant_HK">
+			<Text>滕王閣</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_PAVILION_PRINCE_TENG_DESCRIPTION" Language="zh_Hant_HK">
+			<Text>免費獲得一個 [ICON_GreatWriter] 大作家。每獲得一個 [ICON_GreatWriter] 大作家，此奇觀提供+1 [ICON_GreatEngineer] 大工程師點數和+3 [ICON_Production] 生產力。必須建造在鄰近劇院廣場區域的河流旁邊。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_PAVILION_PRINCE_TENG_QUOTE" Language="zh_Hant_HK">
+			<Text>「落霞與孤鶩齊飛，秋水共長天一色。」[NEWLINE]——王勃</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_PAVILION_PRINCE_TENG_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>滕王閣位於南昌贛江東岸，得名於其建造者滕王李元嬰（唐高祖二十二子）。這座木製樓閣多次毀於火災，經歷多次重建，因眾多記述其壯觀建築和絕美景色的文學巨作而聞名。滕王閣在建造二十年後首次重修時，重修者閻伯嶼宴請文人雅士慶祝此事，當時途徑此地的詩人王勃即在宴會中寫下千古名篇《滕王閣序》，滕王閣自此成為名揚天下的江西地標。滕王閣的最後一次重建於1989年完成，按照建築師梁思成的設計方案，重現「明三暗七」的古風樓閣結構。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_CHEN_ZIANG_NAME" Language="zh_Hant_HK">
+			<Text>陳子昂</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CHEN_ZIANG_1_NAME" Language="zh_Hant_HK">
+			<Text>《感遇詩三十八首》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CHEN_ZIANG_1_QUOTE" Language="zh_Hant_HK">
+			<Text>聖人不利己，[NEWLINE]憂濟在元元。[NEWLINE]黃屋非堯意，[NEWLINE]瑤台安可論。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CHEN_ZIANG_2_NAME" Language="zh_Hant_HK">
+			<Text>《登幽州臺詩》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CHEN_ZIANG_2_QUOTE" Language="zh_Hant_HK">
+			<Text>前不見古人，[NEWLINE]後不見來者。[NEWLINE]念天地之悠悠，[NEWLINE]獨愴然而涕下。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_CHEN_ZIANG_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>陳子昂是唐朝文學革新運動的先驅者，有「詩骨」和「唐詩詩祖」之稱。他生於661年，早年耽於逸樂，後來立志奮發圖強，登進士第。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_CHEN_ZIANG_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>獲得官職的陳子昂因諫言得到武則天的賞識，卻也因犯顏直諫懷才不遇。他曾經跟隨軍隊出征北方，在幽州臺寫下《登幽州臺詩》。他摒棄南朝華而不實的文風，以復古漢魏行革新詩文，影響了後世唐代的詩歌風格。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_CHEN_ZIANG_CHAPTER_HISTORY_PARA_3" Language="zh_Hant_HK">
+			<Text>陳子昂後來以父親老邁解官回鄉，卻遭受誣告下獄，在700年冤死獄中。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_HE_ZHIZHANG_NAME" Language="zh_Hant_HK">
+			<Text>賀知章</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_HE_ZHIZHANG_1_NAME" Language="zh_Hant_HK">
+			<Text>《詠柳》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_HE_ZHIZHANG_1_QUOTE" Language="zh_Hant_HK">
+			<Text>碧玉妝成一樹高，[NEWLINE]萬條垂下綠絲絛。[NEWLINE]不知細葉誰裁出，[NEWLINE]二月春風似剪刀。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_HE_ZHIZHANG_2_NAME" Language="zh_Hant_HK">
+			<Text>《回鄉偶書》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_HE_ZHIZHANG_2_QUOTE" Language="zh_Hant_HK">
+			<Text>少小離家老大回，[NEWLINE]鄉音無改鬢毛衰。[NEWLINE]兒童相見不相識，[NEWLINE]笑問客從何處來。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_HE_ZHIZHANG_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>賀知章是唐代的詩人。他生於659年，年少時便以文才知名，被授予官職。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_HE_ZHIZHANG_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>賀知章位高權重，卻是熱愛喝酒與結識才士的性情中人。賀知章八十四歲時，遇到前往長安求官的李白，在讀過李白作品後結為忘年好友。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_HE_ZHIZHANG_CHAPTER_HISTORY_PARA_3" Language="zh_Hant_HK">
+			<Text>年邁的賀知章將宅地捨為道觀，告老還鄉，途中寫下《詠柳》和《回鄉偶書二首》等名篇，未幾病逝於744年。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_LUO_BINWANG_NAME" Language="zh_Hant_HK">
+			<Text>駱賓王</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_LUO_BINWANG_1_NAME" Language="zh_Hant_HK">
+			<Text>《詠鵝》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_LUO_BINWANG_1_QUOTE" Language="zh_Hant_HK">
+			<Text>鵝，鵝，鵝，[NEWLINE]曲項向天歌。[NEWLINE]白毛浮綠水，[NEWLINE]紅掌撥清波。 </Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_LUO_BINWANG_2_NAME" Language="zh_Hant_HK">
+			<Text>《為徐敬業討武曌檄》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_LUO_BINWANG_2_QUOTE" Language="zh_Hant_HK">
+			<Text>入門見嫉，蛾眉不肯讓人。[NEWLINE]掩袖工讒，狐媚偏能惑主。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_LUO_BINWANG_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>駱賓王是初唐四傑之一。他是詩歌的神童，七歲便寫下《詠鵝》一詩。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_LUO_BINWANG_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>駱賓王曾任官職，卻被人誣陷入獄，後被貶官。當徐敬業起兵討伐武則天，駱賓王寫下《為徐敬業討武曌檄》，根據記載，當武則天閱讀檄文後不悅——不是因為檄文中傷，而是因為駱賓王的文采出眾而宰相沒有重用。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_LUO_BINWANG_CHAPTER_HISTORY_PARA_3" Language="zh_Hant_HK">
+			<Text>徐敬業兵敗後，駱賓王逃亡不知所終，有說是投水自盡，也有說是出家為僧遍遊名山。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_LU_ZHAOLIN_NAME" Language="zh_Hant_HK">
+			<Text>盧照鄰</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_LU_ZHAOLIN_1_NAME" Language="zh_Hant_HK">
+			<Text>《長安古意》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_LU_ZHAOLIN_1_QUOTE" Language="zh_Hant_HK">
+			<Text>得成比目何辭死，願作鴛鴦不羨仙。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_LU_ZHAOLIN_2_NAME" Language="zh_Hant_HK">
+			<Text>《曲池荷》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_LU_ZHAOLIN_2_QUOTE" Language="zh_Hant_HK">
+			<Text>浮香繞曲岸，[NEWLINE]圓影覆華池。[NEWLINE]常恐秋風早，[NEWLINE]飄零君不知。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_LU_ZHAOLIN_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>盧照鄰是初唐四傑之一。他曾任鄧王府典籤，被鄧王稱為「吾之相如」，後來調至蜀地。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_LU_ZHAOLIN_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>盧照鄰後來染上風疾，儘管得到名醫孫思邈的醫治，亦無法痊癒，詩歌的風格也由早年的激昂慷慨變得悲涼厭世。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_LU_ZHAOLIN_CHAPTER_HISTORY_PARA_3" Language="zh_Hant_HK">
+			<Text>在689年，盧照鄰不堪病痛折磨，於穎河投水自盡。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_WANG_BO_NAME" Language="zh_Hant_HK">
+			<Text>王勃</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_WANG_BO_1_NAME" Language="zh_Hant_HK">
+			<Text>《滕王閣序》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_WANG_BO_1_QUOTE" Language="zh_Hant_HK">
+			<Text>落霞與孤鶩齊飛，秋水共長天一色。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_WANG_BO_2_NAME" Language="zh_Hant_HK">
+			<Text>《送杜少府之任蜀州》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_WANG_BO_2_QUOTE" Language="zh_Hant_HK">
+			<Text>城闕輔三秦，風煙望五津。[NEWLINE]與君離別意，同是宦遊人。[NEWLINE]海內存知己，天涯若比鄰。[NEWLINE]無為在歧路，兒女共沾巾。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_WANG_BO_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>王勃是初唐四傑之一。他生於650年，少時已能寫詩作賦。他曾為朝散郎，後來獲罪失去官職，父親亦受牽連貶官交趾。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_WANG_BO_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>當王勃前往交趾探望父親路過洪州時，正值洪州都督閻伯嶼重修滕王閣，設宴款待文人雅士。閻伯嶼想讓女婿為文會作序誇耀，又假意邀請賓客作序以示謙讓。當其他賓客推辭之際，王勃卻提筆就作，寫下千古名篇《滕王閣序》。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_WANG_BO_CHAPTER_HISTORY_PARA_3" Language="zh_Hant_HK">
+			<Text>王勃繼續旅程探望父親，卻在回程時不慎落水，於676年去世。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_YANG_JIONG_NAME" Language="zh_Hant_HK">
+			<Text>楊炯</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_YANG_JIONG_1_NAME" Language="zh_Hant_HK">
+			<Text>《從軍行》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_YANG_JIONG_1_QUOTE" Language="zh_Hant_HK">
+			<Text>烽火照西京，心中自不平。[NEWLINE]牙璋辭鳳闕，鐵騎繞龍城。[NEWLINE]雪暗凋旗畫，風多雜鼓聲。[NEWLINE]寧爲百夫長，勝作一書生。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_YANG_JIONG_2_NAME" Language="zh_Hant_HK">
+			<Text>《夜送趙縱》</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_YANG_JIONG_2_QUOTE" Language="zh_Hant_HK">
+			<Text>趙氏連城璧，[NEWLINE]由來天下傳。[NEWLINE]送君還舊府，[NEWLINE]明月滿前川。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_YANG_JIONG_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
+			<Text>楊炯是初唐四傑之一。他生於650年，少有文才，待制弘文館卻官運坎坷，三十歲才獲得九品下的校書郎一職。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_YANG_JIONG_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
+			<Text>楊炯後來被推薦為崇文館學士，官運有所起色，後來卻因親戚跟隨徐敬業起兵而受牽連被貶官至四川。官運的高低起落甚至影響了楊炯不同時期的詩風。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_YANG_JIONG_CHAPTER_HISTORY_PARA_3" Language="zh_Hant_HK">
+			<Text>其後，楊炯出任盈川縣令，卒於任上。</Text>
+		</Row>
+		
+		<Row Tag="LOC_PHANTA_PAVILION_PRINCE_TENG_MOD_NAME" Language="ja_JP">
+			<Text>滕王閣（世界遺産）</Text>
+		</Row>
+		<Row Tag="LOC_PHANTA_PAVILION_PRINCE_TENG_MOD_TEASER" Language="ja_JP">
+			<Text>世界遺産である滕王閣を導入する。</Text>
+		</Row>
+		<Row Tag="LOC_PHANTA_PAVILION_PRINCE_TENG_MOD_DESCRIPTION" Language="ja_JP">
+			<Text>世界遺産である滕王閣を導入する。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_PAVILION_PRINCE_TENG_NAME" Language="ja_JP">
+			<Text>滕王閣</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_PAVILION_PRINCE_TENG_DESCRIPTION" Language="ja_JP">
+			<Text>[ICON_GreatWriter] 大著述家を無料で1人得る。獲得した [ICON_GreatWriter] 大著述家1つにつき [ICON_GreatEngineer] 大技術者ポイント+1、 [ICON_Production] 生産力+3。劇場広場区域に隣接した川の隣にのみ建設可能。</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_PHANTA_PAVILION_PRINCE_TENG_QUOTE" Language="ja_JP">
+			<Text>「落霞、孤鶩と齊しく飛び、[NEWLINE]秋水長天と共に一色。」[NEWLINE]– 王勃</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_PHANTA_PAVILION_PRINCE_TENG_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>南昌の贛江東岸に位置する滕王閣は、建設者である滕王李元嬰（唐の高祖皇帝の22番目の息子）にちなんで名づけられた。この木造の楼閣は度重なる火災に見舞われ、何度も再建され、その壮麗な建築と見事な景色を描写した多くの文学的名作で名を馳せている。滕王閣が20年の歳月を経て初めて再建されたとき、再建者の閻伯嶼は文人たちを招いて祝宴を開き、当時この地を旅行していた詩人の王勃がその宴の席で有名な『滕王閣序』を書き、以来、滕王閣は江西の名所として知られる。最後の再建は1989年に完成され、建築家梁思成の設計計画に従って、「三明七暗」の古風な楼閣構造を再現した。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_CHEN_ZIANG_NAME" Language="ja_JP">
+			<Text>陳子昂</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CHEN_ZIANG_1_NAME" Language="ja_JP">
+			<Text>『感遇詩三十八首』</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CHEN_ZIANG_1_QUOTE" Language="ja_JP">
+			<Text>聖人は己を利せず、[NEWLINE]憂濟は元元に在り。[NEWLINE]黃屋は堯の意に非ず、[NEWLINE]瑤台安んぞ論する可けんや。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CHEN_ZIANG_2_NAME" Language="ja_JP">
+			<Text>『登幽州台歌』</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_CHEN_ZIANG_2_QUOTE" Language="ja_JP">
+			<Text>前に古人を見ず、[NEWLINE]後に来者を見ず。[NEWLINE]天地の悠悠たるを念いて、[NEWLINE]獨り愴然として涕下る。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_CHEN_ZIANG_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>陳子安は唐の文学再興運動の先駆者であり、「詩骨」「唐詩の祖」として知られる。 661年に生まれた陳子安は、幼少期を享楽にふけっていたが、後に努力を志し、進士の位を得た。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_CHEN_ZIANG_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>陳子昂が官職に就くと、武則天から諫言を評価されたが、その一方で、直接すぎる諫言のため、その才能を発揮できずにいた。北方遠征に同行し、「登幽州台歌」を書いたこともある。南朝の華やかで非実用的な詩風を否定し、漢や魏の詩風を復興させて詩の革命を起こし、唐の詩風にも影響を与えた。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_CHEN_ZIANG_CHAPTER_HISTORY_PARA_3" Language="ja_JP">
+			<Text>陳子安はその後、父が高齢であることを理由に故郷に戻ったが、誣告を受け、700年に不当な獄死した。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_HE_ZHIZHANG_NAME" Language="ja_JP">
+			<Text>賀知章</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_HE_ZHIZHANG_1_NAME" Language="ja_JP">
+			<Text>『詠柳』</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_HE_ZHIZHANG_1_QUOTE" Language="ja_JP">
+			<Text>碧玉の粧ひを成す、一樹の高き、[NEWLINE]万条の垂れ下る、緑絲の絛。[NEWLINE]知らず、細葉は誰が裁ち出づるを、[NEWLINE]二月の春風は剪刀に似たり。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_HE_ZHIZHANG_2_NAME" Language="ja_JP">
+			<Text>『回郷偶書』</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_HE_ZHIZHANG_2_QUOTE" Language="ja_JP">
+			<Text>少小家を離れて 老大にして回る、鄕音改まるなく 鬢毛衰う。[NEWLINE]児童相見るも 相識らず、笑って問とう 客何処より来ると。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_HE_ZHIZHANG_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>賀知章は唐代の詩人。659年生まれ。若い頃から文学の才能が高く評価され、宮廷での地位も与えられた。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_HE_ZHIZHANG_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>賀知章は地位も権力も高かったが、酒と才能ある人々との出会いを愛する気性の人だった。 賀知章は84歳のとき、官職を求めて長安に向かう途中の李白と出会い、李白の著作を読んで歳の離れた友となった。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_HE_ZHIZHANG_CHAPTER_HISTORY_PARA_3" Language="ja_JP">
+			<Text>賀知章は老齢になると、道教の僧院に别莊を寄付し、官職を辞して故郷に戻った。旅の途中、『詠柳』や『回郷偶書』などの有名な詩を書いた。744年に病死した。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_LUO_BINWANG_NAME" Language="ja_JP">
+			<Text>駱賓王</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_LUO_BINWANG_1_NAME" Language="ja_JP">
+			<Text>『詠鵝』</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_LUO_BINWANG_1_QUOTE" Language="ja_JP">
+			<Text>鵝、鵝、鵝、[NEWLINE]曲項 天に向ひて歌ふ。[NEWLINE]白毛 綠水に浮き，[NEWLINE]紅掌 淸波を撥く。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_LUO_BINWANG_2_NAME" Language="ja_JP">
+			<Text>『為徐敬業討武曌檄』</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_LUO_BINWANG_2_QUOTE" Language="ja_JP">
+			<Text>門を入れば嫉を見せる、蛾眉敢えて人に譲らず。[NEWLINE]袖を掩うて讒を工む、狐媚偏に能く主を惑わす。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_LUO_BINWANG_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>駱賓王は「初唐の四傑」の一人。 詩の神童で、7歳で「詠鵝」という詩を書いた。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_LUO_BINWANG_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>駱賓王はかつて宮廷の官僚であったが、濡れ衣を着せられて投獄され、後に地方官吏に降格された。徐敬業が武則天に対して反旗を翻したとき、駱賓王は『為徐敬業討武曌檄』を書いた。武則天がこの檄文を読んだとき、彼女は不愉快に思ったという。駱賓王の不埒な檄のためではなく、丞相が彼のような才ある者を宮廷に引き留められなかったからである。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_LUO_BINWANG_CHAPTER_HISTORY_PARA_3" Language="ja_JP">
+			<Text>徐敬業が敗れると、駱賓王は逃亡して姿を消した。水死したという説もある一方、出家して山中を旅したという説もある。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_LU_ZHAOLIN_NAME" Language="ja_JP">
+			<Text>盧照鄰</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_LU_ZHAOLIN_1_NAME" Language="ja_JP">
+			<Text>『長安古意』</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_LU_ZHAOLIN_1_QUOTE" Language="ja_JP">
+			<Text>比目と成るを得ば何ぞ死を辭せん、願わくは鴛鴦とならん仙を羨まず。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_LU_ZHAOLIN_2_NAME" Language="ja_JP">
+			<Text>『曲池荷』</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_LU_ZHAOLIN_2_QUOTE" Language="ja_JP">
+			<Text>浮香 曲岸を繞り、[NEWLINE]円影 華池を覆う。[NEWLINE]常に恐る秋風の早くして、[NEWLINE]飄零君の知らざらんことを。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_LU_ZHAOLIN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>盧照鄰は「初唐の四傑」の一人。 かつては鄧王府の典簽であり、鄧王から「我が相如（漢の文章家）」と評され、後に蜀に移された。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_LU_ZHAOLIN_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>盧照鄰は後に病にかかり、名医孫思邈にも治すことができず、詩の文体もそれまでの熱情的で豪放なものから、悲しく厭世的へと変わっていった。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_LU_ZHAOLIN_CHAPTER_HISTORY_PARA_3" Language="ja_JP">
+			<Text>689年、病に耐えかねた盧昭林は、穎河に身を投じて死んだ。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_WANG_BO_NAME" Language="ja_JP">
+			<Text>王勃</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_WANG_BO_1_NAME" Language="ja_JP">
+			<Text>『滕王閣序』</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_WANG_BO_1_QUOTE" Language="ja_JP">
+			<Text>落霞、孤鶩と齊しく飛び、[NEWLINE]秋水長天と共に一色。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_WANG_BO_2_NAME" Language="ja_JP">
+			<Text>『送杜少府之任蜀州』</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_WANG_BO_2_QUOTE" Language="ja_JP">
+			<Text>城闕 三秦を輔とし、[NEWLINE]風烟 五津を望む。[NEWLINE]君と 離別の意、[NEWLINE]同じく是れ 宦遊の人。[NEWLINE]海内 知己を存し、[NEWLINE]天涯 比鄰の若し。[NEWLINE]爲す無かれ 岐路に在りて、[NEWLINE]兒女と 共に巾を沾すを。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_WANG_BO_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>王勃は「初唐の四傑」の一人。650年に生まれ、文学の神童として知られた。実権を持たない朝散郎であったが、ある罪によりその地位を失う。父親も連座して交趾に左遷された。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_WANG_BO_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>彼は父に会うために旅し、その途中で洪州を訪れた。その頃、閻伯嶼は滕王閣を再建し、詩人たちを招いて祝宴を開いていた。閻伯嶼は婿に祝宴の序文を書かせるつもりだったが、自分が公平で心が広いことを示すため、客に序文を書かせるふりをした。他の招待客は彼の意図を知り、その申し出を断ったのだが、王勃はそれを無視し、準備もせずに『滕王閣序』を書き上げた。この傑作は彼の最高傑作と見なされた。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_WANG_BO_CHAPTER_HISTORY_PARA_3" Language="ja_JP">
+			<Text>王勃は父に会うために旅を続けたが、戻る途中で水に落ちた。676年に亡くなった。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_PHANTA_YANG_JIONG_NAME" Language="ja_JP">
+			<Text>楊炯</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_YANG_JIONG_1_NAME" Language="ja_JP">
+			<Text>『従軍行』</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_YANG_JIONG_1_QUOTE" Language="ja_JP">
+			<Text>烽火は西京を照らし、[NEWLINE]心中 自ら平らかならず。[NEWLINE]牙璋 鳳闕を辞し、[NEWLINE]鉄騎 竜城を繞る[NEWLINE]雪暗くして旗画は凋し、[NEWLINE]風多くして鼓声みだる。[NEWLINE]寧ろ百夫の長たらん、[NEWLINE]一書生となるに勝れり。</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_YANG_JIONG_2_NAME" Language="ja_JP">
+			<Text>『夜送趙縦』</Text>
+		</Row>
+		<Row Tag="LOC_GREATWORK_PHANTA_YANG_JIONG_2_QUOTE" Language="ja_JP">
+			<Text>趙氏連城の璧、[NEWLINE]由来天下に伝う。[NEWLINE]君が旧府に還るを送れば、[NEWLINE]明月は前川に満つ。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_YANG_JIONG_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
+			<Text>楊炯は「初唐の四傑」の一人。650年生まれ。文才を発揮し、幼少の頃に弘文館に入学したが、30歳の時に宮廷で最下位の地位を得たに過ぎなかった。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_YANG_JIONG_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
+			<Text>その後、昇進して崇文館の学士になったが、親戚が徐敬業の反乱に加わったため連帯処罰を受け、四川に左遷された。彼の経歴の盛衰は、詩の作風にまで影響を及ぼした。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_GREATPEOPLE_PAGE_GREAT_PERSON_INDIVIDUAL_PHANTA_YANG_JIONG_CHAPTER_HISTORY_PARA_3" Language="ja_JP">
+			<Text>楊炯は後に盈川県の県令となり、在任中に死去した。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

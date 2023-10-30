@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="TileBase"/>
+	<m_PackageName text="landmarks/tilebases"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="DIS_NBH_LIME_TURKEY_LOKANTA"/>
+			<m_ObjectName text="DIS_NBH_LIME_TURKEY_LOKANTA"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_NBH_LIME_TURKEY_LOKANTA_Bld1"/>
+			<m_ObjectName text="DIS_NBH_LIME_TURKEY_LOKANTA_Bld1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_NBH_LIME_TURKEY_LokantaAsset2"/>
+			<m_ObjectName text="DIS_NBH_LIME_TURKEY_LokantaAsset2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_NBH_LIME_TURKEY_LokantaHotelAsset1"/>
+			<m_ObjectName text="DIS_NBH_LIME_TURKEY_LokantaHotelAsset1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_NBH_LIME_TURKEY_LOKANTA_Bld2"/>
+			<m_ObjectName text="DIS_NBH_LIME_TURKEY_LOKANTA_Bld2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_NBH_LIME_TURKEY_LokantaBld4"/>
+			<m_ObjectName text="DIS_NBH_LIME_TURKEY_LokantaBld4"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_NBH_LIME_TURKEY_LokantaBld5"/>
+			<m_ObjectName text="DIS_NBH_LIME_TURKEY_LokantaBld5"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_NBH_LIME_TURKEY_LokantaBldTower"/>
+			<m_ObjectName text="DIS_NBH_LIME_TURKEY_LokantaBldTower"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_NBH_LIME_TURKEY_LokantaFoundation"/>
+			<m_ObjectName text="DIS_NBH_LIME_TURKEY_LokantaFoundation"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_NBH_LIME_TURKEY_LOKANTA_Sidewalks"/>
+			<m_ObjectName text="DIS_NBH_LIME_TURKEY_LOKANTA_Sidewalks"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

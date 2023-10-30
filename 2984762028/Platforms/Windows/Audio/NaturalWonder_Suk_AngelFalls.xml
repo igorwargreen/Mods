@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>D:\WwiseProjects\NaturalWonder_Suk_AngelFalls\</ProjectRoot>
+		<SourceFilesRoot>D:\WwiseProjects\NaturalWonder_Suk_AngelFalls\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\WwiseProjects\NaturalWonder_Suk_AngelFalls\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\WwiseProjects\NaturalWonder_Suk_AngelFalls\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="7402297" Language="SFX">
+			<ShortName>NaturalWonder_Suk_AngelFalls</ShortName>
+			<Path>NaturalWonder_Suk_AngelFalls.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3347234406" Name="NaturalWonder_Suk_AngelFalls_Loop"/>
+				<Event Id="4130199244" Name="NaturalWonder_Suk_AngelFalls_Stop"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="159966362" Language="SFX">
+					<ShortName>NaturalWonder_Suk_AngelFalls_Jungle.wav</ShortName>
+					<Path>SFX\NaturalWonder_Suk_AngelFalls_Jungle_EE79F7FB.wem</Path>
+				</File>
+				<File Id="539749265" Language="SFX">
+					<ShortName>NaturalWonder_Suk_AngelFalls.wav</ShortName>
+					<Path>SFX\NaturalWonder_Suk_AngelFalls_EE79F7FB.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

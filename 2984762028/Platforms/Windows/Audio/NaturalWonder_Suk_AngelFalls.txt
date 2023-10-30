@@ -1,0 +1,25 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3347234406	NaturalWonder_Suk_AngelFalls_Loop			\Default Work Unit\NaturalWonder_Suk_AngelFalls_Loop	
+	4130199244	NaturalWonder_Suk_AngelFalls_Stop			\Default Work Unit\NaturalWonder_Suk_AngelFalls_Stop	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3441926412	Game_Views			\Default Work Unit\Game_Views	
+
+State	ID	Name	State Group			Notes
+	138330285	Lens	Game_Views			
+	319258907	Paused	Game_Views			
+	706390200	Normal_View	Game_Views			
+	748895195	None	Game_Views			
+	2005704188	Main_Menu	Game_Views			
+	2664707777	Leader_Screen	Game_Views			
+	4264815106	Endgame	Game_Views			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	645462844	Endgame	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\NaturalWonder_Suk_AngelFalls_Mixer		
+	671743750	Main_Menu	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\NaturalWonder_Suk_AngelFalls_Mixer		
+	902608842	Leader_Screen	Game_Views	\Actor-Mixer Hierarchy\Default Work Unit\NaturalWonder_Suk_AngelFalls_Mixer		
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	159966362	NaturalWonder_Suk_AngelFalls_Jungle	D:\WwiseProjects\NaturalWonder_Suk_AngelFalls\.cache\Windows\SFX\NaturalWonder_Suk_AngelFalls_Jungle_EE79F7FB.wem		\Actor-Mixer Hierarchy\Default Work Unit\NaturalWonder_Suk_AngelFalls_Mixer\NaturalWonder_Suk_AngelFalls_Jungle		697310
+	539749265	NaturalWonder_Suk_AngelFalls	D:\WwiseProjects\NaturalWonder_Suk_AngelFalls\.cache\Windows\SFX\NaturalWonder_Suk_AngelFalls_EE79F7FB.wem		\Actor-Mixer Hierarchy\Default Work Unit\NaturalWonder_Suk_AngelFalls_Mixer\NaturalWonder_Suk_AngelFalls		472299
+

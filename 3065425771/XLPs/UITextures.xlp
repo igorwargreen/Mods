@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UITextures"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="DIS_NBH_LimeLokanta_INDRH_BaseB"/>
+			<m_ObjectName text="DIS_NBH_LimeLokanta_INDRH_BaseB"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_NBH_LimeLokanta_INDRH_BaseB2"/>
+			<m_ObjectName text="DIS_NBH_LimeLokanta_INDRH_BaseB2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_NBH_LimeLokanta_INDRH_BaseB3"/>
+			<m_ObjectName text="DIS_NBH_LimeLokanta_INDRH_BaseB3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_NBH_LimeLokanta_INDRH_BaseT"/>
+			<m_ObjectName text="DIS_NBH_LimeLokanta_INDRH_BaseT"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_NBH_LimeLokanta_INDRH_BaseT2"/>
+			<m_ObjectName text="DIS_NBH_LimeLokanta_INDRH_BaseT2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_NBH_LimeLokanta_INDRH_BaseT3"/>
+			<m_ObjectName text="DIS_NBH_LimeLokanta_INDRH_BaseT3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_NBH_LimeLokanta_INDRH_BaseT4"/>
+			<m_ObjectName text="DIS_NBH_LimeLokanta_INDRH_BaseT4"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_NBH_LimeLokanta_IU_Base_B"/>
+			<m_ObjectName text="DIS_NBH_LimeLokanta_IU_Base_B"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_NBH_LimeLokanta_IU_Base_T"/>
+			<m_ObjectName text="DIS_NBH_LimeLokanta_IU_Base_T"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_NBH_LimeLokanta_RMUG_BaseB"/>
+			<m_ObjectName text="DIS_NBH_LimeLokanta_RMUG_BaseB"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_NBH_LimeLokanta_RMUG_BaseT"/>
+			<m_ObjectName text="DIS_NBH_LimeLokanta_RMUG_BaseT"/>
+		</Element>
+		<Element>
+			<m_EntryID text="KYM_a2"/>
+			<m_ObjectName text="KYM_a2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Brigadier_a2"/>
+			<m_ObjectName text="Brigadier_a2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Brigadier_T"/>
+			<m_ObjectName text="Brigadier_T"/>
+		</Element>
+		<Element>
+			<m_EntryID text="kuvayimilliye_hm"/>
+			<m_ObjectName text="kuvayimilliye_hm"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LIME_TURKEY_K_ATATURK_4"/>
+			<m_ObjectName text="LIME_TURKEY_K_ATATURK_4"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LokantaHM"/>
+			<m_ObjectName text="LokantaHM"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LIME_TURKEY_K_ATATURK_1"/>
+			<m_ObjectName text="LIME_TURKEY_K_ATATURK_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lime_Lokanta128"/>
+			<m_ObjectName text="Lime_Lokanta128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lime_Lokanta256"/>
+			<m_ObjectName text="Lime_Lokanta256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lime_Lokanta38"/>
+			<m_ObjectName text="Lime_Lokanta38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lime_Lokanta50"/>
+			<m_ObjectName text="Lime_Lokanta50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lime_Lokanta80"/>
+			<m_ObjectName text="Lime_Lokanta80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lime_Lokanta32"/>
+			<m_ObjectName text="Lime_Lokanta32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lime_KAtaturk64"/>
+			<m_ObjectName text="Lime_KAtaturk64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lime_KAtaturk256"/>
+			<m_ObjectName text="Lime_KAtaturk256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lime_KAtaturk32"/>
+			<m_ObjectName text="Lime_KAtaturk32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lime_KAtaturk45"/>
+			<m_ObjectName text="Lime_KAtaturk45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lime_KAtaturk50"/>
+			<m_ObjectName text="Lime_KAtaturk50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lime_KAtaturk55"/>
+			<m_ObjectName text="Lime_KAtaturk55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lime_KAtaturk80"/>
+			<m_ObjectName text="Lime_KAtaturk80"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+
