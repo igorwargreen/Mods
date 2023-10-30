@@ -5,7 +5,7 @@
 		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZZZ_EXTRA_GROWTH"/>
 		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="COTHON_NAVAL_UNIT_PRODUCTION"/>
 		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="COTHON_SETTLER_PRODUCTION"/>
-		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="IKANDA_TRAINED_CORPS_ARMY_DISCOUNT"/>
+		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZZZ_TRAINED_CORPS_ARMY_DISCOUNT"/>
 		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="FILMSTUDIO_ENHANCEDLATETOURISM"/>
 		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="BASILIKOI_PAIDES_SCIENCE_TRAINED_UNIT"/>
 		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZZZ_FASTER_DISTRICT_CONSTRUCTION"/>
@@ -26,6 +26,24 @@
 		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZZZ_FASTER_GOVERNMENT_BUILDING_CONSTRUCTION"/>
 		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZZZ_FASTER_HARBOR_BUILDING_CONSTRUCTION"/>
 	</DistrictModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>ZZZ_TRAINED_CORPS_ARMY_DISCOUNT</ModifierId>
+			<ModifierType>MODIFIER_CITY_CORPS_ARMY_ADJUST_DISCOUNT</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>ZZZ_TRAINED_CORPS_ARMY_DISCOUNT</ModifierId>
+			<Name>UnitDomain</Name>
+			<Value>DOMAIN_LAND</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_TRAINED_CORPS_ARMY_DISCOUNT</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+	</ModifierArguments>
 	<Modifiers>
 		<Row>
 			<ModifierId>ZZZ_EXTRA_GROWTH</ModifierId>
@@ -154,7 +172,7 @@
 		<Row>
 			<ModifierId>ZZZ_FASTER_DISTRICT_CONSTRUCTION</ModifierId>
 			<Name>Amount</Name>
-			<Value>70</Value>
+			<Value>100</Value>
 		</Row>
 		<Row>
 			<ModifierId>ZZZ_FASTER_PLOT_ANNEXING</ModifierId>

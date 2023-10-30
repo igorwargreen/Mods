@@ -17,4 +17,60 @@
 	<Project_YieldConversions>
 		<Row ProjectType="PROJECT_ENHANCE_DISTRICT_HOLY_SITE" YieldType="YIELD_FAITH" PercentOfProductionRate="75"/>
 	</Project_YieldConversions>	
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="HIGH_DIFFICULTY_SCIENCE_SCALING" Name="Amount"/>
+			<Set>
+				<Extra>12</Extra>
+			</Set>
+		</Update>	
+		<Update>
+			<Where ModifierId="HIGH_DIFFICULTY_CULTURE_SCALING" Name="Amount"/>
+			<Set>
+				<Extra>10</Extra>
+			</Set>
+		</Update>
+		<Update>
+			<Where ModifierId="HIGH_DIFFICULTY_PRODUCTION_SCALING" Name="Amount"/>
+			<Set>
+				<Extra>28</Extra>
+			</Set>
+		</Update>
+		<Update>
+			<Where ModifierId="HIGH_DIFFICULTY_GOLD_SCALING" Name="Amount"/>
+			<Set>
+				<Extra>28</Extra>
+			</Set>
+		</Update>
+		<Update>
+			<Where ModifierId="HIGH_DIFFICULTY_FAITH_SCALING" Name="Amount"/>
+			<Set>
+				<Extra>1</Extra>
+			</Set>
+		</Update>
+		<Update>
+			<Where ModifierId="HIGH_DIFFICULTY_COMBAT_SCALING" Name="Amount"/>
+			<Set>
+				<Extra>0</Extra>
+			</Set>
+		</Update>
+		<Update>
+			<Where ModifierId="HIGH_DIFFICULTY_UNIT_XP_SCALING" Name="Amount"/>
+			<Set>
+				<Extra>0</Extra>
+			</Set>
+		</Update>
+		<Update>
+			<Where ModifierId="HIGH_DIFFICULTY_FREE_CIVIC_BOOSTS" Name="Amount"/>
+			<Set>
+				<Extra>1</Extra>
+			</Set>
+		</Update>
+		<Update>
+			<Where ModifierId="HIGH_DIFFICULTY_FREE_TECH_BOOSTS" Name="Amount"/>
+			<Set>
+				<Extra>1</Extra>
+			</Set>
+		</Update>
+	</ModifierArguments>
 </GameInfo>
