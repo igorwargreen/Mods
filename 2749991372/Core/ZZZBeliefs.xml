@@ -1,31 +1,177 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
 <GameInfo>
+	<Types>
+		<Row Type="ZZZ_MODIFIER_PLAYER_SINGLE_CITY_ADJUST_UNIT_TAG_ERA_PRODUCTION" Kind="KIND_MODIFIER"/>
+	</Types>
+	<DynamicModifiers>
+		<Row>
+			<ModifierType>ZZZ_MODIFIER_PLAYER_SINGLE_CITY_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADJUST_UNIT_TAG_ERA_PRODUCTION</EffectType>
+		</Row>
+	</DynamicModifiers>
 	<DistrictModifiers>
-		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZZZ_EXTRA_GROWTH"/>
-		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="COTHON_NAVAL_UNIT_PRODUCTION"/>
-		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="COTHON_SETTLER_PRODUCTION"/>
-		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZZZ_TRAINED_CORPS_ARMY_DISCOUNT"/>
-		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="FILMSTUDIO_ENHANCEDLATETOURISM"/>
-		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="BASILIKOI_PAIDES_SCIENCE_TRAINED_UNIT"/>
-		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZZZ_FASTER_DISTRICT_CONSTRUCTION"/>
-		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="LIBRARIAN_CULTURE_YIELD_BONUS"/>
-		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="GROUNDBREAKER_BONUS_HARVEST_YIELDS"/>
-		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="DEFENSE_LOGISTICS_BONUS_STRATEGICS"/>
-		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZZZ_INCREASE_CITY_GREAT_PERSON_POINT_BONUS"/>
-		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZZZ_FASTER_PLOT_ANNEXING"/>
-		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZZZ_FASTER_INDUSTRIAL_ZONE_BUILDING_CONSTRUCTION"/>
-		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZZZ_FASTER_AERODROME_BUILDING_CONSTRUCTION"/>
-		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZZZ_FASTER_THEATER_BUILDING_CONSTRUCTION"/>
-		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZZZ_FASTER_ENTERTAINMENT_COMPLEX_BUILDING_CONSTRUCTION"/>
-		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZZZ_FASTER_COMMERCIAL_HUB_BUILDING_CONSTRUCTION"/>
-		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZZZ_FASTER_ENCAMPMENT_BUILDING_CONSTRUCTION"/>
-		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZZZ_FASTER_HOLY_SITE_BUILDING_CONSTRUCTION"/>
-		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZZZ_FASTER_CAMPUS_BUILDING_CONSTRUCTION"/>
-		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZZZ_FASTER_CITY_CENTER_BUILDING_CONSTRUCTION"/>
-		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZZZ_FASTER_GOVERNMENT_BUILDING_CONSTRUCTION"/>
-		<Row DistrictType="DISTRICT_HIPPODROME" ModifierId="ZZZ_FASTER_HARBOR_BUILDING_CONSTRUCTION"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" ModifierId="ZZZ_EXTRA_GROWTH"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" ModifierId="COTHON_NAVAL_UNIT_PRODUCTION"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" ModifierId="COTHON_SETTLER_PRODUCTION"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" ModifierId="ZZZ_MEELE_PRODUCTION"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" ModifierId="ZZZ_SIEGE_PRODUCTION"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" ModifierId="ZZZ_SUPPORT_PRODUCTION"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" ModifierId="ZZZ_RANGED_PRODUCTION"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" ModifierId="ZZZ_ANTI_CAVALRY_PRODUCTION"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" ModifierId="ZZZ_TRAINED_CORPS_ARMY_DISCOUNT"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" ModifierId="FILMSTUDIO_ENHANCEDLATETOURISM"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" ModifierId="BASILIKOI_PAIDES_SCIENCE_TRAINED_UNIT"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" ModifierId="ZZZ_FASTER_DISTRICT_CONSTRUCTION"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" ModifierId="LIBRARIAN_CULTURE_YIELD_BONUS"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" ModifierId="GROUNDBREAKER_BONUS_HARVEST_YIELDS"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" ModifierId="DEFENSE_LOGISTICS_BONUS_STRATEGICS"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" ModifierId="ZZZ_INCREASE_CITY_GREAT_PERSON_POINT_BONUS"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" ModifierId="ZZZ_FASTER_PLOT_ANNEXING"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" ModifierId="ZZZ_FASTER_INDUSTRIAL_ZONE_BUILDING_CONSTRUCTION"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" ModifierId="ZZZ_FASTER_AERODROME_BUILDING_CONSTRUCTION"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" ModifierId="ZZZ_FASTER_THEATER_BUILDING_CONSTRUCTION"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" ModifierId="ZZZ_FASTER_ENTERTAINMENT_COMPLEX_BUILDING_CONSTRUCTION"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" ModifierId="ZZZ_FASTER_COMMERCIAL_HUB_BUILDING_CONSTRUCTION"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" ModifierId="ZZZ_FASTER_ENCAMPMENT_BUILDING_CONSTRUCTION"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" ModifierId="ZZZ_FASTER_HOLY_SITE_BUILDING_CONSTRUCTION"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" ModifierId="ZZZ_FASTER_CAMPUS_BUILDING_CONSTRUCTION"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" ModifierId="ZZZ_FASTER_CITY_CENTER_BUILDING_CONSTRUCTION"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" ModifierId="ZZZ_FASTER_GOVERNMENT_BUILDING_CONSTRUCTION"/>
+		<Row DistrictType="DISTRICT_OPPIDUM" ModifierId="ZZZ_FASTER_HARBOR_BUILDING_CONSTRUCTION"/>
 	</DistrictModifiers>
+	
+	<ModifierArguments>
+		<Update>
+			<Where ModifierId="COMMEMORATION_INFRASTRUCTURE_GA_PURCHASE_CIVILIAN" Name="Tag" Value="CLASS_LANDCIVILIAN"/>
+			<Set>
+				<Name>UnitType</Name>
+				<Value>UNIT_BUILDER</Value>
+			</Set>
+		</Update>
+	</ModifierArguments>
+	
+	<Modifiers>
+		<Row>
+			<ModifierId>ZZZ_MEELE_PRODUCTION</ModifierId>
+			<ModifierType>ZZZ_MODIFIER_PLAYER_SINGLE_CITY_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>ZZZ_MEELE_PRODUCTION</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_MELEE</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_MEELE_PRODUCTION</ModifierId>
+			<Name>EraType</Name>
+			<Value>NO_ERA</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_MEELE_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+	</ModifierArguments>
+	
+	<Modifiers>
+		<Row>
+			<ModifierId>ZZZ_SIEGE_PRODUCTION</ModifierId>
+			<ModifierType>ZZZ_MODIFIER_PLAYER_SINGLE_CITY_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>ZZZ_SIEGE_PRODUCTION</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_SIEGE</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_SIEGE_PRODUCTION</ModifierId>
+			<Name>EraType</Name>
+			<Value>NO_ERA</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_SIEGE_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+	</ModifierArguments>
+	
+	<Modifiers>
+		<Row>
+			<ModifierId>ZZZ_SUPPORT_PRODUCTION</ModifierId>
+			<ModifierType>ZZZ_MODIFIER_PLAYER_SINGLE_CITY_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>ZZZ_SUPPORT_PRODUCTION</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_SUPPORT</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_SUPPORT_PRODUCTION</ModifierId>
+			<Name>EraType</Name>
+			<Value>NO_ERA</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_SUPPORT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+	</ModifierArguments>
+	
+	<Modifiers>
+		<Row>
+			<ModifierId>ZZZ_RANGED_PRODUCTION</ModifierId>
+			<ModifierType>ZZZ_MODIFIER_PLAYER_SINGLE_CITY_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>ZZZ_RANGED_PRODUCTION</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_RANGED</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_RANGED_PRODUCTION</ModifierId>
+			<Name>EraType</Name>
+			<Value>NO_ERA</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_RANGED_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+	</ModifierArguments>
+	
+	<Modifiers>
+		<Row>
+			<ModifierId>ZZZ_ANTI_CAVALRY_PRODUCTION</ModifierId>
+			<ModifierType>ZZZ_MODIFIER_PLAYER_SINGLE_CITY_ADJUST_UNIT_TAG_ERA_PRODUCTION</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>ZZZ_ANTI_CAVALRY_PRODUCTION</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_ANTI_CAVALRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_ANTI_CAVALRY_PRODUCTION</ModifierId>
+			<Name>EraType</Name>
+			<Value>NO_ERA</Value>
+		</Row>
+		<Row>
+			<ModifierId>ZZZ_ANTI_CAVALRY_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>50</Value>
+		</Row>
+	</ModifierArguments>
+	
 	<Modifiers>
 		<Row>
 			<ModifierId>ZZZ_TRAINED_CORPS_ARMY_DISCOUNT</ModifierId>
@@ -41,7 +187,7 @@
 		<Row>
 			<ModifierId>ZZZ_TRAINED_CORPS_ARMY_DISCOUNT</ModifierId>
 			<Name>Amount</Name>
-			<Value>50</Value>
+			<Value>30</Value>
 		</Row>
 	</ModifierArguments>
 	<Modifiers>

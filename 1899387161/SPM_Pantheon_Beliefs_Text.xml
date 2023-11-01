@@ -17,6 +17,21 @@
 		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_WEALTH_DESCRIPTION" Language="fr_FR" >
 			<Text>+1 [ICON_Gold] pour les pâturages, les camps, les plantations et les carrières.</Text>
 		</Row>
+		
+		<!-- Spirit of Speech -->
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_SPEECH_NAME" Language="en_US" >
+			<Text>Spirit of Speech</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_SPEECH_DESCRIPTION" Language="en_US" >
+			<Text>+3 [ICON_Envoy]envoy.</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_SPEECH_NAME" Language="ru_RU" >
+			<Text>Духи осликов</Text>
+		</Row>
+		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_SPEECH_DESCRIPTION" Language="ru_RU" >
+			<Text>+3 [ICON_Envoy]осла.</Text>
+		</Row>
+
 
 		<!-- Spirit of Nature -->
 		<Row Tag="LOC_BELIEF_SPM_SPIRIT_OF_NATURE_NAME" Language="en_US" >
