@@ -44,10 +44,9 @@
 	
 	<ModifierArguments>
 		<Update>
-			<Where ModifierId="COMMEMORATION_INFRASTRUCTURE_GA_PURCHASE_CIVILIAN" Name="Tag" Value="CLASS_LANDCIVILIAN"/>
+			<Where ModifierId="COMMEMORATION_INFRASTRUCTURE_SETTLER_DISCOUNT_MODIFIER" Name="Amount"/>
 			<Set>
-				<Name>UnitType</Name>
-				<Value>UNIT_BUILDER</Value>
+				<Value>-1000</Value>
 			</Set>
 		</Update>
 	</ModifierArguments>
