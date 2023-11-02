@@ -42,6 +42,27 @@
 		<Row DistrictType="DISTRICT_OPPIDUM" ModifierId="ZZZ_FASTER_HARBOR_BUILDING_CONSTRUCTION"/>
 	</DistrictModifiers>
 	
+	<Routes_XP2>
+		<Update>
+			<Where RouteType="ROUTE_MEDIEVAL_ROAD"/>
+			<Set>
+				<BuildWithUnitChargeCost>0</BuildWithUnitChargeCost>
+			</Set>
+		</Update>
+		<Update>
+			<Where RouteType="ROUTE_INDUSTRIAL_ROAD"/>
+			<Set>
+				<BuildWithUnitChargeCost>0</BuildWithUnitChargeCost>
+			</Set>
+		</Update>
+		<Update>
+			<Where RouteType="ROUTE_MODERN_ROAD"/>
+			<Set>
+				<BuildWithUnitChargeCost>0</BuildWithUnitChargeCost>
+			</Set>
+		</Update>
+	</Routes_XP2>
+	
 	<ModifierArguments>
 		<Update>
 			<Where ModifierId="COMMEMORATION_INFRASTRUCTURE_SETTLER_DISCOUNT_MODIFIER" Name="Amount"/>
